@@ -3060,51 +3060,51 @@
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-2 {
-  width: 210px;
+  width: 230px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-2 {
-  height: 210px;
+  height: 230px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-2 > .app-header.app-icon {
-  line-height: 210px;
+  line-height: 230px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-3 {
-  width: 320px;
+  width: 360px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-3 {
-  height: 320px;
+  height: 360px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-3 > .app-header.app-icon {
-  line-height: 320px;
+  line-height: 360px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-4 {
-  width: 430px;
+  width: 490px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-4 {
-  height: 430px;
+  height: 490px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-4 > .app-header.app-icon {
-  line-height: 430px;
+  line-height: 490px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-5 {
-  width: 540px;
+  width: 620px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-5 {
-  height: 540px;
+  height: 620px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-5 > .app-header.app-icon {
-  line-height: 540px;
+  line-height: 620px;
 }
 
 .app-tray.transition-50,
