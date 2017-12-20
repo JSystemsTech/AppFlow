@@ -12,7 +12,7 @@
 <div>
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
 </div>
-<div class="app-tray spacing-2 bg-warning blured blured-dark" id="myAppTray">
+<div class="app-tray bg-warning blured blured-dark" id="myAppTray">
   <div class="app scale-with-screen glass active-size-70">
     <div class="app-header app-icon">
       <i class="fa fa-home"></i>
