@@ -12,7 +12,7 @@
 <div>
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
 </div>
-<div class="app-tray bg-warning blured blured-dark" id="myAppTray">
+<div class="app-tray tray-cayamn" id="myAppTray">
   <div class="app">
     <div class="app-header app-icon">
       <i class="fa fa-home"></i>
