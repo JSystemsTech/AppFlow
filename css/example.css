@@ -1,5 +1,6 @@
 html,
-body {
+body, 
+.main-content {
   height: 100%;
 }
 .app:not(.active) {
