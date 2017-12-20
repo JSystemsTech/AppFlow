@@ -578,74 +578,74 @@
   border-top-right-radius: 22px !important;
 }
 
-.app:not(.active).app-span-2.app-size-25 {
+.app:not(.active).app-span-2.app-size-1 {
   border-radius: 6.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-25.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-1.glass:after {
   border-top-left-radius: 4.25px !important;
   border-top-right-radius: 4.25px !important;
 }
 
-.app:not(.active).app-span-2.app-size-50 {
+.app:not(.active).app-span-2.app-size-2 {
   border-radius: 12.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-50.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-2.glass:after {
   border-top-left-radius: 10.5px !important;
   border-top-right-radius: 10.5px !important;
 }
 
-.app:not(.active).app-span-2.app-size-75 {
+.app:not(.active).app-span-2.app-size-3 {
   border-radius: 18.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-75.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-3.glass:after {
   border-top-left-radius: 16.75px !important;
   border-top-right-radius: 16.75px !important;
 }
 
-.app:not(.active).app-span-2.app-size-100 {
+.app:not(.active).app-span-2.app-size-4 {
   border-radius: 25px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-100.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-4.glass:after {
   border-top-left-radius: 23px !important;
   border-top-right-radius: 23px !important;
 }
 
-.app:not(.active).app-span-2.app-size-125 {
+.app:not(.active).app-span-2.app-size-5 {
   border-radius: 31.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-125.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-5.glass:after {
   border-top-left-radius: 29.25px !important;
   border-top-right-radius: 29.25px !important;
 }
 
-.app:not(.active).app-span-2.app-size-150 {
+.app:not(.active).app-span-2.app-size-6 {
   border-radius: 37.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-150.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-6.glass:after {
   border-top-left-radius: 35.5px !important;
   border-top-right-radius: 35.5px !important;
 }
 
-.app:not(.active).app-span-2.app-size-175 {
+.app:not(.active).app-span-2.app-size-7 {
   border-radius: 43.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-175.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-7.glass:after {
   border-top-left-radius: 41.75px !important;
   border-top-right-radius: 41.75px !important;
 }
 
-.app:not(.active).app-span-2.app-size-200 {
+.app:not(.active).app-span-2.app-size-8 {
   border-radius: 50px;
 }
 
-.app:not(.active):not(.app-square).app-span-2.app-size-200.glass:after {
+.app:not(.active):not(.app-square).app-span-2.app-size-8.glass:after {
   border-top-left-radius: 48px !important;
   border-top-right-radius: 48px !important;
 }
@@ -661,74 +661,74 @@
   border-top-right-radius: 22px !important;
 }
 
-.app:not(.active).app-span-3.app-size-25 {
+.app:not(.active).app-span-3.app-size-1 {
   border-radius: 6.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-25.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-1.glass:after {
   border-top-left-radius: 4.25px !important;
   border-top-right-radius: 4.25px !important;
 }
 
-.app:not(.active).app-span-3.app-size-50 {
+.app:not(.active).app-span-3.app-size-2 {
   border-radius: 12.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-50.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-2.glass:after {
   border-top-left-radius: 10.5px !important;
   border-top-right-radius: 10.5px !important;
 }
 
-.app:not(.active).app-span-3.app-size-75 {
+.app:not(.active).app-span-3.app-size-3 {
   border-radius: 18.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-75.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-3.glass:after {
   border-top-left-radius: 16.75px !important;
   border-top-right-radius: 16.75px !important;
 }
 
-.app:not(.active).app-span-3.app-size-100 {
+.app:not(.active).app-span-3.app-size-4 {
   border-radius: 25px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-100.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-4.glass:after {
   border-top-left-radius: 23px !important;
   border-top-right-radius: 23px !important;
 }
 
-.app:not(.active).app-span-3.app-size-125 {
+.app:not(.active).app-span-3.app-size-5 {
   border-radius: 31.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-125.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-5.glass:after {
   border-top-left-radius: 29.25px !important;
   border-top-right-radius: 29.25px !important;
 }
 
-.app:not(.active).app-span-3.app-size-150 {
+.app:not(.active).app-span-3.app-size-6 {
   border-radius: 37.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-150.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-6.glass:after {
   border-top-left-radius: 35.5px !important;
   border-top-right-radius: 35.5px !important;
 }
 
-.app:not(.active).app-span-3.app-size-175 {
+.app:not(.active).app-span-3.app-size-7 {
   border-radius: 43.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-175.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-7.glass:after {
   border-top-left-radius: 41.75px !important;
   border-top-right-radius: 41.75px !important;
 }
 
-.app:not(.active).app-span-3.app-size-200 {
+.app:not(.active).app-span-3.app-size-8 {
   border-radius: 50px;
 }
 
-.app:not(.active):not(.app-square).app-span-3.app-size-200.glass:after {
+.app:not(.active):not(.app-square).app-span-3.app-size-8.glass:after {
   border-top-left-radius: 48px !important;
   border-top-right-radius: 48px !important;
 }
@@ -744,74 +744,74 @@
   border-top-right-radius: 22px !important;
 }
 
-.app:not(.active).app-span-4.app-size-25 {
+.app:not(.active).app-span-4.app-size-1 {
   border-radius: 6.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-25.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-1.glass:after {
   border-top-left-radius: 4.25px !important;
   border-top-right-radius: 4.25px !important;
 }
 
-.app:not(.active).app-span-4.app-size-50 {
+.app:not(.active).app-span-4.app-size-2 {
   border-radius: 12.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-50.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-2.glass:after {
   border-top-left-radius: 10.5px !important;
   border-top-right-radius: 10.5px !important;
 }
 
-.app:not(.active).app-span-4.app-size-75 {
+.app:not(.active).app-span-4.app-size-3 {
   border-radius: 18.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-75.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-3.glass:after {
   border-top-left-radius: 16.75px !important;
   border-top-right-radius: 16.75px !important;
 }
 
-.app:not(.active).app-span-4.app-size-100 {
+.app:not(.active).app-span-4.app-size-4 {
   border-radius: 25px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-100.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-4.glass:after {
   border-top-left-radius: 23px !important;
   border-top-right-radius: 23px !important;
 }
 
-.app:not(.active).app-span-4.app-size-125 {
+.app:not(.active).app-span-4.app-size-5 {
   border-radius: 31.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-125.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-5.glass:after {
   border-top-left-radius: 29.25px !important;
   border-top-right-radius: 29.25px !important;
 }
 
-.app:not(.active).app-span-4.app-size-150 {
+.app:not(.active).app-span-4.app-size-6 {
   border-radius: 37.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-150.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-6.glass:after {
   border-top-left-radius: 35.5px !important;
   border-top-right-radius: 35.5px !important;
 }
 
-.app:not(.active).app-span-4.app-size-175 {
+.app:not(.active).app-span-4.app-size-7 {
   border-radius: 43.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-175.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-7.glass:after {
   border-top-left-radius: 41.75px !important;
   border-top-right-radius: 41.75px !important;
 }
 
-.app:not(.active).app-span-4.app-size-200 {
+.app:not(.active).app-span-4.app-size-8 {
   border-radius: 50px;
 }
 
-.app:not(.active):not(.app-square).app-span-4.app-size-200.glass:after {
+.app:not(.active):not(.app-square).app-span-4.app-size-8.glass:after {
   border-top-left-radius: 48px !important;
   border-top-right-radius: 48px !important;
 }
@@ -827,1995 +827,1995 @@
   border-top-right-radius: 22px !important;
 }
 
-.app:not(.active).app-span-5.app-size-25 {
+.app:not(.active).app-span-5.app-size-1 {
   border-radius: 6.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-25.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-1.glass:after {
   border-top-left-radius: 4.25px !important;
   border-top-right-radius: 4.25px !important;
 }
 
-.app:not(.active).app-span-5.app-size-50 {
+.app:not(.active).app-span-5.app-size-2 {
   border-radius: 12.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-50.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-2.glass:after {
   border-top-left-radius: 10.5px !important;
   border-top-right-radius: 10.5px !important;
 }
 
-.app:not(.active).app-span-5.app-size-75 {
+.app:not(.active).app-span-5.app-size-3 {
   border-radius: 18.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-75.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-3.glass:after {
   border-top-left-radius: 16.75px !important;
   border-top-right-radius: 16.75px !important;
 }
 
-.app:not(.active).app-span-5.app-size-100 {
+.app:not(.active).app-span-5.app-size-4 {
   border-radius: 25px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-100.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-4.glass:after {
   border-top-left-radius: 23px !important;
   border-top-right-radius: 23px !important;
 }
 
-.app:not(.active).app-span-5.app-size-125 {
+.app:not(.active).app-span-5.app-size-5 {
   border-radius: 31.25px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-125.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-5.glass:after {
   border-top-left-radius: 29.25px !important;
   border-top-right-radius: 29.25px !important;
 }
 
-.app:not(.active).app-span-5.app-size-150 {
+.app:not(.active).app-span-5.app-size-6 {
   border-radius: 37.5px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-150.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-6.glass:after {
   border-top-left-radius: 35.5px !important;
   border-top-right-radius: 35.5px !important;
 }
 
-.app:not(.active).app-span-5.app-size-175 {
+.app:not(.active).app-span-5.app-size-7 {
   border-radius: 43.75px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-175.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-7.glass:after {
   border-top-left-radius: 41.75px !important;
   border-top-right-radius: 41.75px !important;
 }
 
-.app:not(.active).app-span-5.app-size-200 {
+.app:not(.active).app-span-5.app-size-8 {
   border-radius: 50px;
 }
 
-.app:not(.active):not(.app-square).app-span-5.app-size-200.glass:after {
+.app:not(.active):not(.app-square).app-span-5.app-size-8.glass:after {
   border-top-left-radius: 48px !important;
   border-top-right-radius: 48px !important;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-span-2 {
   width: 80px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-2 {
   height: 80px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-2 > .app-header.app-icon {
   line-height: 80px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-span-3 {
   width: 135px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-3 {
   height: 135px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-3 > .app-header.app-icon {
   line-height: 135px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-span-4 {
   width: 190px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-4 {
   height: 190px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-4 > .app-header.app-icon {
   line-height: 190px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-span-5 {
   width: 245px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-5 {
   height: 245px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-25.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-1.app-height-span-5 > .app-header.app-icon {
   line-height: 245px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-span-2 {
   width: 90px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-2 {
   height: 90px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-2 > .app-header.app-icon {
   line-height: 90px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-span-3 {
   width: 155px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-3 {
   height: 155px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-3 > .app-header.app-icon {
   line-height: 155px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-span-4 {
   width: 220px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-4 {
   height: 220px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-4 > .app-header.app-icon {
   line-height: 220px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-span-5 {
   width: 285px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-5 {
   height: 285px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-25.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-1.app-height-span-5 > .app-header.app-icon {
   line-height: 285px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-span-2 {
   width: 100px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-2 {
   height: 100px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-2 > .app-header.app-icon {
   line-height: 100px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-span-3 {
   width: 175px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-3 {
   height: 175px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-3 > .app-header.app-icon {
   line-height: 175px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-span-4 {
   width: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-4 {
   height: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-4 > .app-header.app-icon {
   line-height: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-span-5 {
   width: 325px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-5 {
   height: 325px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-25.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-1.app-height-span-5 > .app-header.app-icon {
   line-height: 325px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-span-2 {
   width: 110px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-2 {
   height: 110px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-2 > .app-header.app-icon {
   line-height: 110px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-span-3 {
   width: 195px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-3 {
   height: 195px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-3 > .app-header.app-icon {
   line-height: 195px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-span-4 {
   width: 280px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-4 {
   height: 280px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-4 > .app-header.app-icon {
   line-height: 280px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-span-5 {
   width: 365px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-5 {
   height: 365px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-25.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-1.app-height-span-5 > .app-header.app-icon {
   line-height: 365px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-span-2 {
   width: 120px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-2 {
   height: 120px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-2 > .app-header.app-icon {
   line-height: 120px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-span-3 {
   width: 215px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-3 {
   height: 215px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-3 > .app-header.app-icon {
   line-height: 215px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-span-4 {
   width: 310px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-4 {
   height: 310px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-4 > .app-header.app-icon {
   line-height: 310px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-span-5 {
   width: 405px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-5 {
   height: 405px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-25.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-1.app-height-span-5 > .app-header.app-icon {
   line-height: 405px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-span-2 {
   width: 130px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-2 {
   height: 130px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-2 > .app-header.app-icon {
   line-height: 130px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-span-3 {
   width: 210px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-3 {
   height: 210px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-3 > .app-header.app-icon {
   line-height: 210px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-span-4 {
   width: 290px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-4 {
   height: 290px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-4 > .app-header.app-icon {
   line-height: 290px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-span-5 {
   width: 370px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-5 {
   height: 370px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-50.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-2.app-height-span-5 > .app-header.app-icon {
   line-height: 370px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-span-2 {
   width: 140px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-2 {
   height: 140px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-2 > .app-header.app-icon {
   line-height: 140px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-span-3 {
   width: 230px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-3 {
   height: 230px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-3 > .app-header.app-icon {
   line-height: 230px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-span-4 {
   width: 320px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-4 {
   height: 320px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-4 > .app-header.app-icon {
   line-height: 320px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-span-5 {
   width: 410px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-5 {
   height: 410px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-50.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-2.app-height-span-5 > .app-header.app-icon {
   line-height: 410px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-span-2 {
   width: 150px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-2 {
   height: 150px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-2 > .app-header.app-icon {
   line-height: 150px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-span-3 {
   width: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-3 {
   height: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-3 > .app-header.app-icon {
   line-height: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-span-4 {
   width: 350px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-4 {
   height: 350px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-4 > .app-header.app-icon {
   line-height: 350px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-span-5 {
   width: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-5 {
   height: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-50.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-2.app-height-span-5 > .app-header.app-icon {
   line-height: 450px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-span-2 {
   width: 160px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-2 {
   height: 160px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-2 > .app-header.app-icon {
   line-height: 160px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-span-3 {
   width: 270px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-3 {
   height: 270px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-3 > .app-header.app-icon {
   line-height: 270px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-span-4 {
   width: 380px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-4 {
   height: 380px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-4 > .app-header.app-icon {
   line-height: 380px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-span-5 {
   width: 490px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-5 {
   height: 490px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-50.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-2.app-height-span-5 > .app-header.app-icon {
   line-height: 490px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-span-2 {
   width: 170px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-2 {
   height: 170px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-2 > .app-header.app-icon {
   line-height: 170px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-span-3 {
   width: 290px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-3 {
   height: 290px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-3 > .app-header.app-icon {
   line-height: 290px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-span-4 {
   width: 410px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-4 {
   height: 410px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-4 > .app-header.app-icon {
   line-height: 410px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-span-5 {
   width: 530px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-5 {
   height: 530px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-50.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-2.app-height-span-5 > .app-header.app-icon {
   line-height: 530px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-span-2 {
   width: 180px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-2 {
   height: 180px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-2 > .app-header.app-icon {
   line-height: 180px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-span-3 {
   width: 285px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-3 {
   height: 285px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-3 > .app-header.app-icon {
   line-height: 285px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-span-4 {
   width: 390px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-4 {
   height: 390px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-4 > .app-header.app-icon {
   line-height: 390px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-span-5 {
   width: 495px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-5 {
   height: 495px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-75.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-3.app-height-span-5 > .app-header.app-icon {
   line-height: 495px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-span-2 {
   width: 190px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-2 {
   height: 190px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-2 > .app-header.app-icon {
   line-height: 190px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-span-3 {
   width: 305px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-3 {
   height: 305px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-3 > .app-header.app-icon {
   line-height: 305px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-span-4 {
   width: 420px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-4 {
   height: 420px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-4 > .app-header.app-icon {
   line-height: 420px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-span-5 {
   width: 535px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-5 {
   height: 535px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-75.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-3.app-height-span-5 > .app-header.app-icon {
   line-height: 535px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-span-2 {
   width: 200px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-2 {
   height: 200px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-2 > .app-header.app-icon {
   line-height: 200px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-span-3 {
   width: 325px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-3 {
   height: 325px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-3 > .app-header.app-icon {
   line-height: 325px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-span-4 {
   width: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-4 {
   height: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-4 > .app-header.app-icon {
   line-height: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-span-5 {
   width: 575px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-5 {
   height: 575px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-75.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-3.app-height-span-5 > .app-header.app-icon {
   line-height: 575px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-span-2 {
   width: 210px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-2 {
   height: 210px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-2 > .app-header.app-icon {
   line-height: 210px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-span-3 {
   width: 345px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-3 {
   height: 345px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-3 > .app-header.app-icon {
   line-height: 345px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-span-4 {
   width: 480px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-4 {
   height: 480px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-4 > .app-header.app-icon {
   line-height: 480px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-span-5 {
   width: 615px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-5 {
   height: 615px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-75.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-3.app-height-span-5 > .app-header.app-icon {
   line-height: 615px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-span-2 {
   width: 220px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-2 {
   height: 220px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-2 > .app-header.app-icon {
   line-height: 220px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-span-3 {
   width: 365px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-3 {
   height: 365px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-3 > .app-header.app-icon {
   line-height: 365px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-span-4 {
   width: 510px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-4 {
   height: 510px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-4 > .app-header.app-icon {
   line-height: 510px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-span-5 {
   width: 655px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-5 {
   height: 655px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-75.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-3.app-height-span-5 > .app-header.app-icon {
   line-height: 655px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-span-2 {
   width: 230px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-2 {
   height: 230px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-2 > .app-header.app-icon {
   line-height: 230px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-span-3 {
   width: 360px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-3 {
   height: 360px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-3 > .app-header.app-icon {
   line-height: 360px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-span-4 {
   width: 490px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-4 {
   height: 490px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-4 > .app-header.app-icon {
   line-height: 490px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-span-5 {
   width: 620px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-5 {
   height: 620px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-100.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-4.app-height-span-5 > .app-header.app-icon {
   line-height: 620px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-span-2 {
   width: 240px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-2 {
   height: 240px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-2 > .app-header.app-icon {
   line-height: 240px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-span-3 {
   width: 380px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-3 {
   height: 380px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-3 > .app-header.app-icon {
   line-height: 380px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-span-4 {
   width: 520px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-4 {
   height: 520px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-4 > .app-header.app-icon {
   line-height: 520px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-span-5 {
   width: 660px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-5 {
   height: 660px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-100.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-4.app-height-span-5 > .app-header.app-icon {
   line-height: 660px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-span-2 {
   width: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-2 {
   height: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-2 > .app-header.app-icon {
   line-height: 250px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-span-3 {
   width: 400px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-3 {
   height: 400px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-3 > .app-header.app-icon {
   line-height: 400px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-span-4 {
   width: 550px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-4 {
   height: 550px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-4 > .app-header.app-icon {
   line-height: 550px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-span-5 {
   width: 700px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-5 {
   height: 700px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-100.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-4.app-height-span-5 > .app-header.app-icon {
   line-height: 700px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-span-2 {
   width: 260px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-2 {
   height: 260px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-2 > .app-header.app-icon {
   line-height: 260px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-span-3 {
   width: 420px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-3 {
   height: 420px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-3 > .app-header.app-icon {
   line-height: 420px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-span-4 {
   width: 580px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-4 {
   height: 580px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-4 > .app-header.app-icon {
   line-height: 580px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-span-5 {
   width: 740px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-5 {
   height: 740px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-100.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-4.app-height-span-5 > .app-header.app-icon {
   line-height: 740px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-span-2 {
   width: 270px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-2 {
   height: 270px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-2 > .app-header.app-icon {
   line-height: 270px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-span-3 {
   width: 440px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-3 {
   height: 440px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-3 > .app-header.app-icon {
   line-height: 440px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-span-4 {
   width: 610px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-4 {
   height: 610px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-4 > .app-header.app-icon {
   line-height: 610px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-span-5 {
   width: 780px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-5 {
   height: 780px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-100.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-4.app-height-span-5 > .app-header.app-icon {
   line-height: 780px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-span-2 {
   width: 280px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-2 {
   height: 280px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-2 > .app-header.app-icon {
   line-height: 280px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-span-3 {
   width: 435px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-3 {
   height: 435px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-3 > .app-header.app-icon {
   line-height: 435px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-span-4 {
   width: 590px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-4 {
   height: 590px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-4 > .app-header.app-icon {
   line-height: 590px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-span-5 {
   width: 745px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-5 {
   height: 745px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-125.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-5.app-height-span-5 > .app-header.app-icon {
   line-height: 745px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-span-2 {
   width: 290px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-2 {
   height: 290px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-2 > .app-header.app-icon {
   line-height: 290px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-span-3 {
   width: 455px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-3 {
   height: 455px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-3 > .app-header.app-icon {
   line-height: 455px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-span-4 {
   width: 620px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-4 {
   height: 620px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-4 > .app-header.app-icon {
   line-height: 620px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-span-5 {
   width: 785px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-5 {
   height: 785px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-125.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-5.app-height-span-5 > .app-header.app-icon {
   line-height: 785px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-span-2 {
   width: 300px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-2 {
   height: 300px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-2 > .app-header.app-icon {
   line-height: 300px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-span-3 {
   width: 475px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-3 {
   height: 475px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-3 > .app-header.app-icon {
   line-height: 475px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-span-4 {
   width: 650px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-4 {
   height: 650px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-4 > .app-header.app-icon {
   line-height: 650px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-span-5 {
   width: 825px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-5 {
   height: 825px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-125.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-5.app-height-span-5 > .app-header.app-icon {
   line-height: 825px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-span-2 {
   width: 310px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-2 {
   height: 310px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-2 > .app-header.app-icon {
   line-height: 310px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-span-3 {
   width: 495px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-3 {
   height: 495px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-3 > .app-header.app-icon {
   line-height: 495px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-span-4 {
   width: 680px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-4 {
   height: 680px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-4 > .app-header.app-icon {
   line-height: 680px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-span-5 {
   width: 865px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-5 {
   height: 865px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-125.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-5.app-height-span-5 > .app-header.app-icon {
   line-height: 865px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-span-2 {
   width: 320px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-2 {
   height: 320px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-2 > .app-header.app-icon {
   line-height: 320px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-span-3 {
   width: 515px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-3 {
   height: 515px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-3 > .app-header.app-icon {
   line-height: 515px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-span-4 {
   width: 710px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-4 {
   height: 710px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-4 > .app-header.app-icon {
   line-height: 710px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-span-5 {
   width: 905px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-5 {
   height: 905px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-125.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-5.app-height-span-5 > .app-header.app-icon {
   line-height: 905px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-span-2 {
   width: 330px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-2 {
   height: 330px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-2 > .app-header.app-icon {
   line-height: 330px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-span-3 {
   width: 510px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-3 {
   height: 510px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-3 > .app-header.app-icon {
   line-height: 510px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-span-4 {
   width: 690px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-4 {
   height: 690px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-4 > .app-header.app-icon {
   line-height: 690px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-span-5 {
   width: 870px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-5 {
   height: 870px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-150.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-6.app-height-span-5 > .app-header.app-icon {
   line-height: 870px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-span-2 {
   width: 340px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-2 {
   height: 340px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-2 > .app-header.app-icon {
   line-height: 340px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-span-3 {
   width: 530px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-3 {
   height: 530px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-3 > .app-header.app-icon {
   line-height: 530px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-span-4 {
   width: 720px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-4 {
   height: 720px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-4 > .app-header.app-icon {
   line-height: 720px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-span-5 {
   width: 910px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-5 {
   height: 910px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-150.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-6.app-height-span-5 > .app-header.app-icon {
   line-height: 910px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-span-2 {
   width: 350px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-2 {
   height: 350px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-2 > .app-header.app-icon {
   line-height: 350px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-span-3 {
   width: 550px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-3 {
   height: 550px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-3 > .app-header.app-icon {
   line-height: 550px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-span-4 {
   width: 750px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-4 {
   height: 750px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-4 > .app-header.app-icon {
   line-height: 750px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-span-5 {
   width: 950px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-5 {
   height: 950px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-150.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-6.app-height-span-5 > .app-header.app-icon {
   line-height: 950px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-span-2 {
   width: 360px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-2 {
   height: 360px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-2 > .app-header.app-icon {
   line-height: 360px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-span-3 {
   width: 570px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-3 {
   height: 570px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-3 > .app-header.app-icon {
   line-height: 570px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-span-4 {
   width: 780px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-4 {
   height: 780px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-4 > .app-header.app-icon {
   line-height: 780px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-span-5 {
   width: 990px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-5 {
   height: 990px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-150.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-6.app-height-span-5 > .app-header.app-icon {
   line-height: 990px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-span-2 {
   width: 370px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-2 {
   height: 370px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-2 > .app-header.app-icon {
   line-height: 370px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-span-3 {
   width: 590px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-3 {
   height: 590px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-3 > .app-header.app-icon {
   line-height: 590px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-span-4 {
   width: 810px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-4 {
   height: 810px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-4 > .app-header.app-icon {
   line-height: 810px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-span-5 {
   width: 1030px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-5 {
   height: 1030px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-150.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-6.app-height-span-5 > .app-header.app-icon {
   line-height: 1030px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-span-2 {
   width: 380px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-2 {
   height: 380px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-2 > .app-header.app-icon {
   line-height: 380px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-span-3 {
   width: 585px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-3 {
   height: 585px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-3 > .app-header.app-icon {
   line-height: 585px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-span-4 {
   width: 790px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-4 {
   height: 790px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-4 > .app-header.app-icon {
   line-height: 790px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-span-5 {
   width: 995px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-5 {
   height: 995px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-175.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-7.app-height-span-5 > .app-header.app-icon {
   line-height: 995px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-span-2 {
   width: 390px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-2 {
   height: 390px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-2 > .app-header.app-icon {
   line-height: 390px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-span-3 {
   width: 605px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-3 {
   height: 605px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-3 > .app-header.app-icon {
   line-height: 605px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-span-4 {
   width: 820px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-4 {
   height: 820px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-4 > .app-header.app-icon {
   line-height: 820px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-span-5 {
   width: 1035px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-5 {
   height: 1035px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-175.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-7.app-height-span-5 > .app-header.app-icon {
   line-height: 1035px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-span-2 {
   width: 400px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-2 {
   height: 400px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-2 > .app-header.app-icon {
   line-height: 400px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-span-3 {
   width: 625px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-3 {
   height: 625px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-3 > .app-header.app-icon {
   line-height: 625px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-span-4 {
   width: 850px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-4 {
   height: 850px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-4 > .app-header.app-icon {
   line-height: 850px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-span-5 {
   width: 1075px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-5 {
   height: 1075px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-175.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-7.app-height-span-5 > .app-header.app-icon {
   line-height: 1075px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-span-2 {
   width: 410px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-2 {
   height: 410px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-2 > .app-header.app-icon {
   line-height: 410px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-span-3 {
   width: 645px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-3 {
   height: 645px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-3 > .app-header.app-icon {
   line-height: 645px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-span-4 {
   width: 880px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-4 {
   height: 880px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-4 > .app-header.app-icon {
   line-height: 880px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-span-5 {
   width: 1115px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-5 {
   height: 1115px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-175.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-7.app-height-span-5 > .app-header.app-icon {
   line-height: 1115px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-span-2 {
   width: 420px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-2 {
   height: 420px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-2 > .app-header.app-icon {
   line-height: 420px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-span-3 {
   width: 665px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-3 {
   height: 665px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-3 > .app-header.app-icon {
   line-height: 665px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-span-4 {
   width: 910px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-4 {
   height: 910px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-4 > .app-header.app-icon {
   line-height: 910px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-span-5 {
   width: 1155px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-5 {
   height: 1155px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-175.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-7.app-height-span-5 > .app-header.app-icon {
   line-height: 1155px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-span-2 {
   width: 430px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-2 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-2 {
   height: 430px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-2 > .app-header.app-icon {
   line-height: 430px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-span-3 {
   width: 660px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-3 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-3 {
   height: 660px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-3 > .app-header.app-icon {
   line-height: 660px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-span-4 {
   width: 890px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-4 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-4 {
   height: 890px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-4 > .app-header.app-icon {
   line-height: 890px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-span-5 {
   width: 1120px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-5 {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-5 {
   height: 1120px;
 }
 
-.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-200.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-1 > .app:not(.active).app-size-8.app-height-span-5 > .app-header.app-icon {
   line-height: 1120px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-span-2 {
   width: 440px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-2 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-2 {
   height: 440px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-2 > .app-header.app-icon {
   line-height: 440px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-span-3 {
   width: 680px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-3 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-3 {
   height: 680px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-3 > .app-header.app-icon {
   line-height: 680px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-span-4 {
   width: 920px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-4 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-4 {
   height: 920px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-4 > .app-header.app-icon {
   line-height: 920px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-span-5 {
   width: 1160px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-5 {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-5 {
   height: 1160px;
 }
 
-.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-200.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-2 > .app:not(.active).app-size-8.app-height-span-5 > .app-header.app-icon {
   line-height: 1160px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-span-2 {
   width: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-2 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-2 {
   height: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-2 > .app-header.app-icon {
   line-height: 450px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-span-3 {
   width: 700px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-3 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-3 {
   height: 700px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-3 > .app-header.app-icon {
   line-height: 700px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-span-4 {
   width: 950px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-4 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-4 {
   height: 950px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-4 > .app-header.app-icon {
   line-height: 950px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-span-5 {
   width: 1200px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-5 {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-5 {
   height: 1200px;
 }
 
-.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-200.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-3 > .app:not(.active).app-size-8.app-height-span-5 > .app-header.app-icon {
   line-height: 1200px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-span-2 {
   width: 460px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-2 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-2 {
   height: 460px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-2 > .app-header.app-icon {
   line-height: 460px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-span-3 {
   width: 720px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-3 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-3 {
   height: 720px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-3 > .app-header.app-icon {
   line-height: 720px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-span-4 {
   width: 980px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-4 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-4 {
   height: 980px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-4 > .app-header.app-icon {
   line-height: 980px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-span-5 {
   width: 1240px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-5 {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-5 {
   height: 1240px;
 }
 
-.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-200.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-4 > .app:not(.active).app-size-8.app-height-span-5 > .app-header.app-icon {
   line-height: 1240px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-span-2 {
   width: 470px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-2 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-2 {
   height: 470px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-2 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-2 > .app-header.app-icon {
   line-height: 470px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-span-3 {
   width: 740px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-3 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-3 {
   height: 740px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-3 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-3 > .app-header.app-icon {
   line-height: 740px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-span-4 {
   width: 1010px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-4 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-4 {
   height: 1010px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-4 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-4 > .app-header.app-icon {
   line-height: 1010px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-span-5 {
   width: 1280px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-5 {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-5 {
   height: 1280px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-200.app-height-span-5 > .app-header.app-icon {
+.app-tray:not(.app-open).spacing-5 > .app:not(.active).app-size-8.app-height-span-5 > .app-header.app-icon {
   line-height: 1280px;
 }
 
@@ -3307,171 +3307,171 @@
   transition: 1000ms;
 }
 
-.app:not(.active).app-size-25 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-1 > .app-header.app-icon.app-icon-xl {
   font-size: 22.5px;
 }
 
-.app:not(.active).app-size-25 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-1 > .app-header.app-icon.app-icon-lg {
   font-size: 20px;
 }
 
-.app:not(.active).app-size-25 > .app-header.app-icon,
-.app:not(.active).app-size-25 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-1 > .app-header.app-icon,
+.app:not(.active).app-size-1 > .app-header.app-icon.app-icon-md {
   font-size: 17.5px;
 }
 
-.app:not(.active).app-size-25 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-1 > .app-header.app-icon.app-icon-sm {
   font-size: 15px;
 }
 
-.app:not(.active).app-size-25 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-1 > .app-header.app-icon.app-icon-xs {
   font-size: 12.5px;
 }
 
-.app:not(.active).app-size-50 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-2 > .app-header.app-icon.app-icon-xl {
   font-size: 45px;
 }
 
-.app:not(.active).app-size-50 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-2 > .app-header.app-icon.app-icon-lg {
   font-size: 40px;
 }
 
-.app:not(.active).app-size-50 > .app-header.app-icon,
-.app:not(.active).app-size-50 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-2 > .app-header.app-icon,
+.app:not(.active).app-size-2 > .app-header.app-icon.app-icon-md {
   font-size: 35px;
 }
 
-.app:not(.active).app-size-50 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-2 > .app-header.app-icon.app-icon-sm {
   font-size: 30px;
 }
 
-.app:not(.active).app-size-50 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-2 > .app-header.app-icon.app-icon-xs {
   font-size: 25px;
 }
 
-.app:not(.active).app-size-75 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-3 > .app-header.app-icon.app-icon-xl {
   font-size: 67.5px;
 }
 
-.app:not(.active).app-size-75 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-3 > .app-header.app-icon.app-icon-lg {
   font-size: 60px;
 }
 
-.app:not(.active).app-size-75 > .app-header.app-icon,
-.app:not(.active).app-size-75 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-3 > .app-header.app-icon,
+.app:not(.active).app-size-3 > .app-header.app-icon.app-icon-md {
   font-size: 52.5px;
 }
 
-.app:not(.active).app-size-75 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-3 > .app-header.app-icon.app-icon-sm {
   font-size: 45px;
 }
 
-.app:not(.active).app-size-75 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-3 > .app-header.app-icon.app-icon-xs {
   font-size: 37.5px;
 }
 
-.app:not(.active).app-size-100 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-4 > .app-header.app-icon.app-icon-xl {
   font-size: 90px;
 }
 
-.app:not(.active).app-size-100 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-4 > .app-header.app-icon.app-icon-lg {
   font-size: 80px;
 }
 
-.app:not(.active).app-size-100 > .app-header.app-icon,
-.app:not(.active).app-size-100 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-4 > .app-header.app-icon,
+.app:not(.active).app-size-4 > .app-header.app-icon.app-icon-md {
   font-size: 70px;
 }
 
-.app:not(.active).app-size-100 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-4 > .app-header.app-icon.app-icon-sm {
   font-size: 60px;
 }
 
-.app:not(.active).app-size-100 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-4 > .app-header.app-icon.app-icon-xs {
   font-size: 50px;
 }
 
-.app:not(.active).app-size-125 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-5 > .app-header.app-icon.app-icon-xl {
   font-size: 112.5px;
 }
 
-.app:not(.active).app-size-125 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-5 > .app-header.app-icon.app-icon-lg {
   font-size: 100px;
 }
 
-.app:not(.active).app-size-125 > .app-header.app-icon,
-.app:not(.active).app-size-125 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-5 > .app-header.app-icon,
+.app:not(.active).app-size-5 > .app-header.app-icon.app-icon-md {
   font-size: 87.5px;
 }
 
-.app:not(.active).app-size-125 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-5 > .app-header.app-icon.app-icon-sm {
   font-size: 75px;
 }
 
-.app:not(.active).app-size-125 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-5 > .app-header.app-icon.app-icon-xs {
   font-size: 62.5px;
 }
 
-.app:not(.active).app-size-150 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-6 > .app-header.app-icon.app-icon-xl {
   font-size: 135px;
 }
 
-.app:not(.active).app-size-150 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-6 > .app-header.app-icon.app-icon-lg {
   font-size: 120px;
 }
 
-.app:not(.active).app-size-150 > .app-header.app-icon,
-.app:not(.active).app-size-150 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-6 > .app-header.app-icon,
+.app:not(.active).app-size-6 > .app-header.app-icon.app-icon-md {
   font-size: 105px;
 }
 
-.app:not(.active).app-size-150 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-6 > .app-header.app-icon.app-icon-sm {
   font-size: 90px;
 }
 
-.app:not(.active).app-size-150 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-6 > .app-header.app-icon.app-icon-xs {
   font-size: 75px;
 }
 
-.app:not(.active).app-size-175 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-7 > .app-header.app-icon.app-icon-xl {
   font-size: 157.5px;
 }
 
-.app:not(.active).app-size-175 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-7 > .app-header.app-icon.app-icon-lg {
   font-size: 140px;
 }
 
-.app:not(.active).app-size-175 > .app-header.app-icon,
-.app:not(.active).app-size-175 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-7 > .app-header.app-icon,
+.app:not(.active).app-size-7 > .app-header.app-icon.app-icon-md {
   font-size: 122.5px;
 }
 
-.app:not(.active).app-size-175 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-7 > .app-header.app-icon.app-icon-sm {
   font-size: 105px;
 }
 
-.app:not(.active).app-size-175 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-7 > .app-header.app-icon.app-icon-xs {
   font-size: 87.5px;
 }
 
-.app:not(.active).app-size-200 > .app-header.app-icon.app-icon-xl {
+.app:not(.active).app-size-8 > .app-header.app-icon.app-icon-xl {
   font-size: 180px;
 }
 
-.app:not(.active).app-size-200 > .app-header.app-icon.app-icon-lg {
+.app:not(.active).app-size-8 > .app-header.app-icon.app-icon-lg {
   font-size: 160px;
 }
 
-.app:not(.active).app-size-200 > .app-header.app-icon,
-.app:not(.active).app-size-200 > .app-header.app-icon.app-icon-md {
+.app:not(.active).app-size-8 > .app-header.app-icon,
+.app:not(.active).app-size-8 > .app-header.app-icon.app-icon-md {
   font-size: 140px;
 }
 
-.app:not(.active).app-size-200 > .app-header.app-icon.app-icon-sm {
+.app:not(.active).app-size-8 > .app-header.app-icon.app-icon-sm {
   font-size: 120px;
 }
 
-.app:not(.active).app-size-200 > .app-header.app-icon.app-icon-xs {
+.app:not(.active).app-size-8 > .app-header.app-icon.app-icon-xs {
   font-size: 100px;
 }
 
