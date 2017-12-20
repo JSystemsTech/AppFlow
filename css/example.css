@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+.app:not(.active) {
+  background-color: #f2dede;
+}
+
+.app.active {
+  background-color: #428bca;
+
+}
