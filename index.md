@@ -1,8 +1,4 @@
-<html>
-<head>
-<title>Page Title</title>
-  <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  <script  type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -11,9 +7,6 @@
   
   <script type="text/javascript" src="{{ site.baseurl }}/AppFlow.js"></script>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/AppFlow.css">
-  
-</head>
-<body>
 
 <div>
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
@@ -84,7 +77,3 @@
   <div class="app"></div>
   <div class="app"></div>
 </div>
-
-
-</body>
-</html>
