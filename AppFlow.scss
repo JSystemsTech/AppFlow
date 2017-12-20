@@ -175,19 +175,19 @@ $i: index($app-size-list, $app-size);
 }
 }
 .app-tray:not(.app-open){
-         padding: 25px;
+         padding: 10px;
     }
     .app-tray:not(.app-open) .app{
-        margin: 25px;
+        margin: 15px;
     }
     .app-tray:not(.app-open)> .app > .app-title{
-  margin-left: -25px;
-  margin-right: -25px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 @each $space-size in $app-spacing-list {
     $i: index($app-spacing-list, $space-size);
     .app-tray.spacing-#{$i}:not(.app-open){
-         padding: $space-size + px;
+         padding: ($space-size - 5) + px;
     }
     .app-tray:not(.app-open).spacing-#{$i} .app{
         margin: $space-size + px;
@@ -209,11 +209,11 @@ $i: index($app-size-list, $app-size);
         border-top-right-radius: 22px !important;
     }
     @each $app-size in $app-size-list {
-    
-        .app:not(.active).app-span-#{$span-size}.app-size-#{$app-size} { 
+    $i: index($app-size-list, $app-size);
+        .app:not(.active).app-span-#{$span-size}.app-size-#{$i} { 
         border-radius: ($app-size /4) + px;
     }
-    .app:not(.active):not(.app-square).app-span-#{$span-size}.app-size-#{$app-size}.glass:after { 
+    .app:not(.active):not(.app-square).app-span-#{$span-size}.app-size-#{$i}.glass:after { 
         border-top-left-radius: (($app-size - 8) /4) + px !important;
         border-top-right-radius: (($app-size - 8) /4) + px !important;
     }
@@ -221,7 +221,7 @@ $i: index($app-size-list, $app-size);
 }
 
 @each $app-size in $app-size-list {
-
+$a: index($app-size-list, $app-size);
 @each $space-size in $app-spacing-list {
     $i: index($app-spacing-list, $space-size);
     
@@ -233,12 +233,12 @@ $i: index($app-size-list, $app-size);
     
     
     
-     .app-tray:not(.app-open).spacing-#{$i} >.app:not(.active).app-size-#{$app-size}.app-span-#{$span-size} { 
+     .app-tray:not(.app-open).spacing-#{$i} >.app:not(.active).app-size-#{$a}.app-span-#{$span-size} { 
              width: #{$gap-fill-width + $app-width} + px;
-         } .app-tray:not(.app-open).spacing-#{$i} >.app:not(.active).app-size-#{$app-size}.app-height-span-#{$span-size} { 
+         } .app-tray:not(.app-open).spacing-#{$i} >.app:not(.active).app-size-#{$a}.app-height-span-#{$span-size} { 
              height: #{$gap-fill-width + $app-width} + px;
          }
-         .app-tray:not(.app-open).spacing-#{$i} >.app:not(.active).app-size-#{$app-size}.app-height-span-#{$span-size}> .app-header.app-icon { 
+         .app-tray:not(.app-open).spacing-#{$i} >.app:not(.active).app-size-#{$a}.app-height-span-#{$span-size}> .app-header.app-icon { 
              line-height: #{$gap-fill-width + $app-width} + px;
          }
      }
@@ -274,7 +274,7 @@ $i: index($app-size-list, $app-size);
 
 @each $span-size in $app-span-list {
     $app-size: 100;
-    $space-size: 5;
+    $space-size: 15;
         $gaps-to-fill: $span-size - 1;
         $gap-fill-width: 2 * $space-size * $gaps-to-fill;
         $app-width: $app-size * $span-size;
@@ -306,8 +306,8 @@ $i: index($app-size-list, $app-size);
      }
   
      @each $app-size in $app-size-list {
-    
-        .app:not(.active).app-size-#{$app-size} { 
+        $i: index($app-size-list, $app-size);
+        .app:not(.active).app-size-#{$i} { 
             >.app-header.app-icon.app-icon-xl {
                 
                 font-size: #{$app-size * 0.9} + px;
