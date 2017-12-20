@@ -13,67 +13,54 @@
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
 </div>
 <div class="app-tray bg-warning blured blured-dark" id="myAppTray">
-  <div class="app scale-with-screen glass active-size-70">
+  <div class="app">
     <div class="app-header app-icon">
       <i class="fa fa-home"></i>
     </div>
     <div class="app-content">
       <div>
-        <span>this is my content</span>
-        <span class="app-close pull-right"><i class="fa fa-close"></i></span>
+        <div>About</div>
+        <div class="app-close pull-right btn btn-danger"><i class="fa fa-help"></i></div>
         <div>
-          <table class="table table-striped table-bordered">
-            <thead>
-              <tr>
-                <th>Col 1</th>
-                <th>Col 2</th>
-                <th>Col 3</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>value 1a</td>
-                <td>value 2a</td>
-                <td>value 3a</td>
-              </tr>
-              <tr>
-                <td>value 1b</td>
-                <td>value 2b</td>
-                <td>value 3b</td>
-              </tr>
-              <tr>
-                <td>value 1c</td>
-                <td>value 2c</td>
-                <td>value 3c</td>
-              </tr>
-            </tbody>
-          </table>
+          page content goes here
         </div>
       </div>
 
     </div>
-    <div class="app-title">Home and other stuff</div>
+    <div class="app-title">About</div>
   </div>
   <div class="app">
     <div class="app-header app-icon">
       <i class="fa fa-phone"></i>
     </div>
     <div class="app-content">
-      <span class="app-close pull-right"><i class="fa fa-close"></i></span>
+      <div>Contact</div>
+      <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
+      <div>
+          page content goes here
+        </div>
     </div>
-    <div class="app-title">Phone and other stuff</div>
+    <div class="app-title">Contact</div>
+  
   </div>
   <div class="app"></div>
   <div class="app"></div>
-  <div class="app app-span-2 app-height-span-2">
-    <div class="app-header app-icon"><i class="fa fa-phone"></i></div>
-    <div class="app-content">Home and other stuff</div>
-    <div class="app-title">Home and other stuff</div>
+  <div class="app">
+    <div class="app-header app-icon"><i class="fa fa-user"></i></div>
+    <div class="app-content"><div>
+        <div>Search</div>
+        <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
+        <div>
+           page content goes here 
+        </div>
+      </div>
   </div>
-  <div class="app app-span-2"></div>
-  <div class="app app-span-2"></div>
-  <div class="app app-height-span-2"></div>
-  <div class="app app-height-span-2"></div>
+    <div class="app-title">Search</div>
+  </div>
+  <div class="app"></div>
+  <div class="app"></div>
+  <div class="app"></div>
+  <div class="app"></div>
   <div class="app"></div>
   <div class="app"></div>
   <div class="app"></div>
