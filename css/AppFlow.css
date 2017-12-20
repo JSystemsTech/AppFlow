@@ -490,7 +490,7 @@
 }
 
 .app-tray:not(.app-open) {
-  padding: 15px;
+  padding: 10px;
 }
 
 .app-tray:not(.app-open) .app {
@@ -503,7 +503,7 @@
 }
 
 .app-tray.spacing-1:not(.app-open) {
-  padding: 15px;
+  padding: 10px;
 }
 
 .app-tray:not(.app-open).spacing-1 .app {
@@ -516,7 +516,7 @@
 }
 
 .app-tray.spacing-2:not(.app-open) {
-  padding: 20px;
+  padding: 15px;
 }
 
 .app-tray:not(.app-open).spacing-2 .app {
@@ -529,7 +529,7 @@
 }
 
 .app-tray.spacing-3:not(.app-open) {
-  padding: 25px;
+  padding: 20px;
 }
 
 .app-tray:not(.app-open).spacing-3 .app {
@@ -542,7 +542,7 @@
 }
 
 .app-tray.spacing-4:not(.app-open) {
-  padding: 30px;
+  padding: 25px;
 }
 
 .app-tray:not(.app-open).spacing-4 .app {
@@ -555,7 +555,7 @@
 }
 
 .app-tray.spacing-5:not(.app-open) {
-  padding: 35px;
+  padding: 30px;
 }
 
 .app-tray:not(.app-open).spacing-5 .app {
