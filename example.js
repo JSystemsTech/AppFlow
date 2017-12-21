@@ -19,7 +19,7 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
     $('#MyAppTrayControls input[name="app-size"]').bind('change',function(){
     changeElClass($('#myAppTray'), 'app-size', $('#MyAppTrayControls input[name="app-size"]:checked').val());
 });
-    $('#myAppTray').find('> .app).each(function(){
+    $('#myAppTray').find('> .app').each(function(){
           var app = $(this);
           var appSettingsForm = app.find('> app-content form.app-settings');
           var glassCheckbox = appSettingsForm.find('input[name="glass"]');
