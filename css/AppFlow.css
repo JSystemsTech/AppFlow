@@ -3307,6 +3307,10 @@
   transition: 1000ms;
 }
 
+.app-tray:not(.open).app-size-1 > .app:not(.active) > .app-header.app-icon {
+  line-height: 25px;
+}
+
 .app-tray:not(.open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 22.5px;
 }
@@ -3326,6 +3330,10 @@
 
 .app-tray:not(.open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 12.5px;
+}
+
+.app-tray:not(.open).app-size-2 > .app:not(.active) > .app-header.app-icon {
+  line-height: 50px;
 }
 
 .app-tray:not(.open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
@@ -3349,6 +3357,10 @@
   font-size: 25px;
 }
 
+.app-tray:not(.open).app-size-3 > .app:not(.active) > .app-header.app-icon {
+  line-height: 75px;
+}
+
 .app-tray:not(.open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 67.5px;
 }
@@ -3368,6 +3380,10 @@
 
 .app-tray:not(.open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 37.5px;
+}
+
+.app-tray:not(.open).app-size-4 > .app:not(.active) > .app-header.app-icon {
+  line-height: 100px;
 }
 
 .app-tray:not(.open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
@@ -3391,6 +3407,10 @@
   font-size: 50px;
 }
 
+.app-tray:not(.open).app-size-5 > .app:not(.active) > .app-header.app-icon {
+  line-height: 125px;
+}
+
 .app-tray:not(.open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 112.5px;
 }
@@ -3410,6 +3430,10 @@
 
 .app-tray:not(.open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 62.5px;
+}
+
+.app-tray:not(.open).app-size-6 > .app:not(.active) > .app-header.app-icon {
+  line-height: 150px;
 }
 
 .app-tray:not(.open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
@@ -3433,6 +3457,10 @@
   font-size: 75px;
 }
 
+.app-tray:not(.open).app-size-7 > .app:not(.active) > .app-header.app-icon {
+  line-height: 175px;
+}
+
 .app-tray:not(.open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 157.5px;
 }
@@ -3454,6 +3482,10 @@
   font-size: 87.5px;
 }
 
+.app-tray:not(.open).app-size-8 > .app:not(.active) > .app-header.app-icon {
+  line-height: 200px;
+}
+
 .app-tray:not(.open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 180px;
 }
@@ -3473,6 +3505,10 @@
 
 .app-tray:not(.open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 100px;
+}
+
+.app-tray:not(.open) > .app:not(.active) > .app-header.app-icon {
+  line-height: 100px;
 }
 
 .app-tray:not(.open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
@@ -3500,6 +3536,9 @@
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen {
     width: 100px;
     height: 100px;
+  }
+  .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon {
+    line-height: 100px;
   }
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon.app-icon-xl {
     font-size: 90px;
@@ -3740,6 +3779,9 @@
     width: 125px;
     height: 125px;
   }
+  .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon {
+    line-height: 125px;
+  }
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon.app-icon-xl {
     font-size: 112.5px;
   }
@@ -3978,6 +4020,9 @@
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen {
     width: 150px;
     height: 150px;
+  }
+  .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon {
+    line-height: 150px;
   }
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon.app-icon-xl {
     font-size: 135px;
@@ -4218,6 +4263,9 @@
     width: 175px;
     height: 175px;
   }
+  .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon {
+    line-height: 175px;
+  }
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon.app-icon-xl {
     font-size: 157.5px;
   }
@@ -4456,6 +4504,9 @@
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen {
     width: 200px;
     height: 200px;
+  }
+  .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon {
+    line-height: 200px;
   }
   .app-tray:not(.app-open) > .app:not(.active).scale-with-screen > .app-header.app-icon.app-icon-xl {
     font-size: 180px;
