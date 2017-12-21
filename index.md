@@ -17,7 +17,7 @@
 <div class="app-tray tray-cayamn" id="myAppTray">
   <div class="app">
     <div class="app-header app-icon">
-      <i class="fa fa-help"></i>
+      <i class="fa fa-question-circle"></i>
     </div>
     <div class="app-content">
       <div class="row">
