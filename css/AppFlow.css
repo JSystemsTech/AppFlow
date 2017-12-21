@@ -27,7 +27,7 @@
   vertical-align: bottom;
 }
 
-.app-tray.app-open {
+.app-tray {
   width: 100%;
   height: 100%;
 }
