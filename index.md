@@ -13,7 +13,7 @@
 <div>
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
 </div>
-<div class=".app-tray-example-container">
+<div class="app-tray-example-container">
 <div class="app-tray tray-cayamn" id="myAppTray">
   <div class="app">
     <div class="app-header app-icon">
