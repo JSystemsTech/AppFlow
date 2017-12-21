@@ -5,15 +5,17 @@ $( document ).ready(function() {
   'app-size': 'app-size-1 app-size-2 app-size-3 app-size-4 app-size-5 app-size-6 app-size-7 app-size-8'
  }
     var changeTrayClass = function(tray, type, added){
-  tray.removeClass(TRAY_CLASSES[type]).addClass(added);
+        console.log(tray);
+        console.log(type + ' : ' + TRAY_CLASSES[type]);
+        console.log(added);
+        tray.removeClass(TRAY_CLASSES[type]).addClass(added);
  }
-    console.log($('#MyAppTrayControls input[name="spacing"]'));
+    
 $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
-    console.log('change');
-    changeTrayClass($('#myAppTray'), 'spacing', $('#form1 input[name="spacing"]:checked').val());
+    changeTrayClass($('#myAppTray'), 'spacing', $('#MyAppTrayControls input[name="spacing"]:checked').val());
 });
     $('#MyAppTrayControls input[name="app-size"]').bind('change',function(){
-    changeTrayClass($('#myAppTray'), 'app-size', $('#form1 input[name="app-size"]:checked').val());
+    changeTrayClass($('#myAppTray'), 'app-size', $('#MyAppTrayControls input[name="app-size"]:checked').val());
 });
  
  });
