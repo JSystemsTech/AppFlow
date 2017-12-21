@@ -65,3 +65,53 @@
   <div class="app"></div>
   <div class="app"></div>
 </div>
+
+<form id="MyAppTrayControls">
+  <div class="radio spacing-control">
+      <label><input type="radio" value="" name="spacing" checked>Default</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="spacing-1" name="spacing">Spacing 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="spacing-2" name="spacing">Spacing 2</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="spacing-3" name="spacing" >Spacing 3</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="spacing-4" name="spacing" >Spacing 4</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="spacing-5" name="spacing" >Spacing 5</label>
+    </div>
+
+    <div class="radio app-size-control">
+      <label><input type="radio" value="" name="appsize" checked>Default</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-size-1" name="app-size">App Size 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-size-2" name="app-size">App Size 2</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-3" name="app-size" >App Size 3</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-4" name="app-size" >App Size 4</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-5" name="app-size" >App Size 5</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-6" name="app-size" >App Size 6</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-7" name="app-size" >App Size 7</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-8" name="app-size" >App Size 8</label>
+    </div>
+
+  </form>
