@@ -13,6 +13,7 @@
 <div>
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
 </div>
+<div class=".app-tray-example-container">
 <div class="app-tray tray-cayamn" id="myAppTray">
   <div class="app">
     <div class="app-header app-icon">
@@ -66,7 +67,7 @@
   <div class="app"></div>
   <div class="app"></div>
 </div>
-
+</div>
 <form id="MyAppTrayControls">
   <div class="radio spacing-control">
       <label><input type="radio" value="" name="spacing" checked>Default</label>
