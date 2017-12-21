@@ -5,9 +5,6 @@ $( document ).ready(function() {
   'app-size': 'app-size-1 app-size-2 app-size-3 app-size-4 app-size-5 app-size-6 app-size-7 app-size-8'
  }
     var changeTrayClass = function(tray, type, added){
-        console.log(tray);
-        console.log(type + ' : ' + TRAY_CLASSES[type]);
-        console.log(added);
         tray.removeClass(TRAY_CLASSES[type]).addClass(added);
  }
     
