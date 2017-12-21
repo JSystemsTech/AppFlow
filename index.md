@@ -17,16 +17,93 @@
 <div class="app-tray tray-cayamn" id="myAppTray">
   <div class="app">
     <div class="app-header app-icon">
-      <i class="fa fa-home"></i>
+      <i class="fa fa-help"></i>
     </div>
     <div class="app-content">
-      <div>
-        <div>About</div>
-        <div class="app-close pull-right btn btn-danger"><i class="fa fa-help"></i></div>
-        <div>
-          page content goes here
-        </div>
+      <div class="row">
+        <div class="pull-left">About</div>
+        <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
       </div>
+      <form  class="app-settings">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<p><strong>App Span Settings</strong></p>
+  <div class="radio">
+      <label><input type="radio" value="" name="app-span" checked>Default</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-1" name="app-span">App Span 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-2" name="app-span">App Span 2</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-3" name="app-span" >App Span 3</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-4" name="app-span" >App Span 4</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-5" name="app-span" >App Span 5</label>
+    </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Height Span Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="app-height-span" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-1" name="app-height-span">App Span 1</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-2" name="app-height-span">App Span 2</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-3" name="app-height-span" >App Span 3</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-4" name="app-height-span" >App Span 4</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-5" name="app-height-span" >App Span 5</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Icon Size Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="icon-size" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-xs" name="icon-size">Icon Size Xs</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-sm" name="icon-size">Icon Size Sm</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-md" name="icon-size" >Icon Size Md</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-lg" name="icon-size" >Icon Size Lg</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-xl" name="icon-size" >Icon Size Xl</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>Other App Settings</strong></p>
+      <div class="checkbox">
+        <label><input type="checkbox" name="glass">Glass Effect</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="square">Square Corners</label>
+      </div>
+    </div>
+
+    </div>
+  </form>
 
     </div>
     <div class="app-title">About</div>
@@ -36,36 +113,274 @@
       <i class="fa fa-phone"></i>
     </div>
     <div class="app-content">
-      <div>Contact</div>
-      <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
-      <div>
-          page content goes here
-        </div>
+      <div class="row">
+        <div class="pull-left">Contact</div>
+        <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
+      </div>
+      <form  class="app-settings">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<p><strong>App Span Settings</strong></p>
+  <div class="radio">
+      <label><input type="radio" value="" name="app-span" checked>Default</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-1" name="app-span">App Span 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-2" name="app-span">App Span 2</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-3" name="app-span" >App Span 3</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-4" name="app-span" >App Span 4</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-5" name="app-span" >App Span 5</label>
+    </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Height Span Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="app-height-span" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-1" name="app-height-span">App Span 1</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-2" name="app-height-span">App Span 2</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-3" name="app-height-span" >App Span 3</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-4" name="app-height-span" >App Span 4</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-5" name="app-height-span" >App Span 5</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Icon Size Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="icon-size" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-xs" name="icon-size">Icon Size Xs</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-sm" name="icon-size">Icon Size Sm</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-md" name="icon-size" >Icon Size Md</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-lg" name="icon-size" >Icon Size Lg</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-xl" name="icon-size" >Icon Size Xl</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>Other App Settings</strong></p>
+      <div class="checkbox">
+        <label><input type="checkbox" name="glass">Glass Effect</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="square">Square Corners</label>
+      </div>
+    </div>
+
+    </div>
+  </form>
     </div>
     <div class="app-title">Contact</div>
   
   </div>
-  <div class="app"></div>
-  <div class="app"></div>
   <div class="app">
-    <div class="app-header app-icon"><i class="fa fa-user"></i></div>
-    <div class="app-content"><div>
-        <div>Search</div>
+    <div class="app-header app-icon"><i class="fa fa-search"></i></div>
+    <div class="app-content">
+    <div class="row">
+        <div class="pull-left">Search</div>
         <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
-        <div>
-           page content goes here 
-        </div>
       </div>
+      <form  class="app-settings">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<p><strong>App Span Settings</strong></p>
+  <div class="radio">
+      <label><input type="radio" value="" name="app-span" checked>Default</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-1" name="app-span">App Span 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-2" name="app-span">App Span 2</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-3" name="app-span" >App Span 3</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-4" name="app-span" >App Span 4</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-5" name="app-span" >App Span 5</label>
+    </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Height Span Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="app-height-span" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-1" name="app-height-span">App Span 1</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-2" name="app-height-span">App Span 2</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-3" name="app-height-span" >App Span 3</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-4" name="app-height-span" >App Span 4</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-5" name="app-height-span" >App Span 5</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Icon Size Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="icon-size" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-xs" name="icon-size">Icon Size Xs</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-sm" name="icon-size">Icon Size Sm</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-md" name="icon-size" >Icon Size Md</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-lg" name="icon-size" >Icon Size Lg</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-xl" name="icon-size" >Icon Size Xl</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>Other App Settings</strong></p>
+      <div class="checkbox">
+        <label><input type="checkbox" name="glass">Glass Effect</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="square">Square Corners</label>
+      </div>
+    </div>
+
+    </div>
+  </form>
   </div>
     <div class="app-title">Search</div>
   </div>
-  <div class="app"></div>
-  <div class="app"></div>
-  <div class="app"></div>
-  <div class="app"></div>
-  <div class="app"></div>
-  <div class="app"></div>
-  <div class="app"></div>
+  <div class="app">
+    <div class="app-header app-icon"><i class="fa fa-user"></i></div>
+    <div class="app-content">
+    <div class="row">
+        <div class="pull-left">My Stuff</div>
+        <div class="app-close pull-right btn btn-danger"><i class="fa fa-close"></i></div>
+      </div>
+      <form  class="app-settings">
+<div class="row">
+<div class="col-sm-12 col-md-3">
+<p><strong>App Span Settings</strong></p>
+  <div class="radio">
+      <label><input type="radio" value="" name="app-span" checked>Default</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-1" name="app-span">App Span 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="app-span-2" name="app-span">App Span 2</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-3" name="app-span" >App Span 3</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-4" name="app-span" >App Span 4</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-span-5" name="app-span" >App Span 5</label>
+    </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Height Span Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="app-height-span" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-1" name="app-height-span">App Span 1</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="app-height-span-2" name="app-height-span">App Span 2</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-3" name="app-height-span" >App Span 3</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-4" name="app-height-span" >App Span 4</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="app-height-span-5" name="app-height-span" >App Span 5</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>App Icon Size Settings</strong></p>
+      <div class="radio">
+        <label><input type="radio" value="" name="icon-size" checked>Default</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-xs" name="icon-size">Icon Size Xs</label>
+      </div>
+      <div class="radio">
+      <label><input type="radio" value="icon-size-sm" name="icon-size">Icon Size Sm</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-md" name="icon-size" >Icon Size Md</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-lg" name="icon-size" >Icon Size Lg</label>
+      </div>
+      <div class="radio ">
+      <label><input type="radio" value="icon-size-xl" name="icon-size" >Icon Size Xl</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3">
+      <p><strong>Other App Settings</strong></p>
+      <div class="checkbox">
+        <label><input type="checkbox" name="glass">Glass Effect</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="square">Square Corners</label>
+      </div>
+    </div>
+
+    </div>
+  </form>
+  </div>
+    <div class="app-title">My Stuff</div>
+  </div>
 </div>
 
 <form id="MyAppTrayControls" class="container">
