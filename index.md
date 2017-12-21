@@ -9,7 +9,7 @@
   <script type="text/javascript" src="{{ site.baseurl }}/example.js"></script>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/AppFlow.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/example.css">
-
+<div class="emulated-device-container">
 <div>
 <button class="close-all-apps btn btn-info" data-target="#myAppTray">Home</button>
 </div>
@@ -66,7 +66,7 @@
   <div class="app"></div>
   <div class="app"></div>
 </div>
-
+</div>
 <form id="MyAppTrayControls">
   <div class="radio spacing-control">
       <label><input type="radio" value="" name="spacing" checked>Default</label>
