@@ -9,6 +9,10 @@ body,
     margin: 0;
     padding: 0;
 }
+
+.app-tray.app-open > .app.active > .app-content > .row{
+ margin:0;
+}
 .app-tray-example-container {
   height: 400px;
   overflow-y: auto;
