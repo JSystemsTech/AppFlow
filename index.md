@@ -88,7 +88,7 @@
     </div>
 
     <div class="radio app-size-control">
-      <label><input type="radio" value="" name="appsize" checked>Default</label>
+      <label><input type="radio" value="" name="app-size" checked>Default</label>
     </div>
     <div class="radio">
       <label><input type="radio" value="app-size-1" name="app-size">App Size 1</label>
