@@ -1,7 +1,6 @@
 html,
 body, 
-.main-content,
-.emulated-device-container{
+.main-content{
   height: 100%;
 }
 .main-content{
