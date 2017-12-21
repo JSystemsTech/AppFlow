@@ -9,7 +9,11 @@ body,
     margin: 0;
     padding: 0;
 }
-
+.app-tray-example-container {
+  height: 100%;
+  max-height: 800px;
+  width: 100%
+}
 .app-tray.tray-cayamn{
     color: rgba(255,255,255,0.7);
     text-align: center;
