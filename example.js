@@ -38,18 +38,18 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
             changeElClass(app, 'app-height-span', appSettingsForm.find('input[name="app-height-span"]:checked').val());
         });
         glassCheckbox.bind('change',function(){
-            var class = '';
+            var changeClass = '';
             if(appSettingsForm.find('input[name="glass"]').prop('checked')){
-            class = 'glass';
+            changeClass = 'glass';
                }
-            changeElClass(app, 'glass', class);
+            changeElClass(app, 'glass', changeClass);
         });
         squareCheckbox.bind('change',function(){
-            var class = '';
+            var changeClass = '';
             if(appSettingsForm.find('input[name="square"]').prop('checked')){
-            class = 'square';
+            changeClass = 'square';
                }
-            changeElClass(app, 'square', class);
+            changeElClass(app, 'square', changeClass);
         });
         
     });
