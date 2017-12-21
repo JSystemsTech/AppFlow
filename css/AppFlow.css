@@ -27,9 +27,9 @@
 }
 .app-tray{
   width: 100%;
-  height: 100%;
+  display: inline-block;
 }
-.app-tray.open {
+.app-tray.app-open {
   height: 100%;
 }
 
