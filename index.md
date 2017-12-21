@@ -91,7 +91,7 @@
       <label><input type="radio" value="spacing-5" name="spacing" >Spacing 5</label>
     </div>
     </div>
-    <div class="col-md-3>
+    <div class="col-md-3">
     <p><strong>App Size Settings</strong></p>
     <div class="radio app-size-control">
       <label><input type="radio" value="" name="app-size" checked>Default</label>
