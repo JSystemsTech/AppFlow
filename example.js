@@ -22,6 +22,7 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
     $('#myAppTray').find('> .app').each(function(){
           var app = $(this);
           var appSettingsForm = app.find('> app-content form.app-settings');
+        console.log(appSettingsForm);
           var glassCheckbox = appSettingsForm.find('input[name="glass"]');
           var squareCheckbox = appSettingsForm.find('input[name="square"]');
           var iconSizeRadio = appSettingsForm.find('input[name="icon-size"]');
