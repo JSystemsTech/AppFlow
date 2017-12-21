@@ -10,9 +10,8 @@ body,
     padding: 0;
 }
 .app-tray-example-container {
-  height: 800px;
-  max-height: 800px;
-  min-height: 800px;
+  height: 400px;
+  overflow-y: auto;
   width: 100%
 }
 .app-tray.tray-cayamn{
