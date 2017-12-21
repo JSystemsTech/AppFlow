@@ -114,5 +114,8 @@
     <div class="radio ">
       <label><input type="radio" value="app-size-8" name="app-size" >App Size 8</label>
     </div>
+    <div class="radio ">
+      <label><input type="radio" value="app-size-auto" name="app-size" >App Size Auto</label>
+    </div>
 
   </form>
