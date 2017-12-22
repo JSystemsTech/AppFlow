@@ -7,7 +7,6 @@
 
 .app {
   border: 1px solid #ccc !important;
-  border-radius: 25%;
   display: block;
   vertical-align: top;
   float: left;
@@ -3789,8 +3788,8 @@
 }
 
 .app-tray:not(.app-open) > .app:not(.active):not(.app-square).glass:after {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon {
