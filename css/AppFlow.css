@@ -3725,7 +3725,11 @@
   margin: 15px;
 }
 
-.app-tray:not(.app-open).spacing-5 > .app:not(.active) > .app-title {
+.app-tray.spacing-5:not(.app-open) {
+  padding: 10px;
+}
+
+.app-tray:not(.app-open) > .app:not(.active) > .app-title {
   margin-left: -15px;
   margin-right: -15px;
 }
