@@ -30,7 +30,7 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
           var appHeightSpanRadio = appSettingsForm.find('input[name="app-height-span"]');
             
         iconSizeRadio.bind('change',function(){
-            changeElClass(app.find('>app-header'), 'icon-size', appSettingsForm.find('input[name="icon-size"]:checked').val());
+            changeElClass(app.find('>.app-header.app-icon'), 'icon-size', appSettingsForm.find('input[name="icon-size"]:checked').val());
         });
         appSpanRadio.bind('change',function(){
             changeElClass(app, 'app-span', appSettingsForm.find('input[name="app-span"]:checked').val());
