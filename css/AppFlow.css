@@ -3725,7 +3725,7 @@
   margin: 15px;
 }
 
-.app-tray.spacing-5:not(.app-open) {
+.app-tray:not(.app-open) {
   padding: 10px;
 }
 
