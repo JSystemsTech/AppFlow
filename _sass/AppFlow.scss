@@ -224,7 +224,19 @@ $i: index($app-size-list, $app-size);
 $a: index($app-size-list, $app-size);
 @each $space-size in $app-spacing-list {
     $i: index($app-spacing-list, $space-size);
-    
+   $space-size: 15;
+    $gaps-to-fill: $span-size - 1;
+        $gap-fill-width: 2 * $space-size * $gaps-to-fill;
+        $app-width: $app-size * $span-size;
+  .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active).app-span-#{$span-size} { 
+             width: #{$gap-fill-width + $app-width} + px;
+         } .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active).app-height-span-#{$span-size} { 
+             height: #{$gap-fill-width + $app-width} + px;
+         }
+         .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active).app-height-span-#{$span-size}> .app-header.app-icon { 
+             line-height: #{$gap-fill-width + $app-width} + px;
+         }
+     }
     @each $span-size in $app-span-list {
         $gaps-to-fill: $span-size - 1;
         $gap-fill-width: 2 * $space-size * $gaps-to-fill;
