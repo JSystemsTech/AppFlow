@@ -4,7 +4,7 @@ $( document ).ready(function() {
   'spacing': 'spacing-1 spacing-2 spacing-3 spacing-4 spacing-5',
   'app-size': 'app-size-1 app-size-2 app-size-3 app-size-4 app-size-5 app-size-6 app-size-7 app-size-8 app-size-auto',
   'app-span': 'app-span-1 app-span-2 app-span-3 app-span-4 app-span-5',
-  'app-height-span': 'app-height-span-1 app-height-span-2 app-height-span-3 app-span-height-4 app-span-height-5',
+  'app-height-span': 'app-height-span-2 app-height-span-3 app-height-span-4 app-height-span-5',
   'icon-size':'icon-size-xs icon-size-sm icon-size-md icon-size-lg icon-size-xl',
         'glass': 'glass',
         'square': 'square'
