@@ -398,23 +398,23 @@
   font-size: 17.5px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 22.5px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 20px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 17.5px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 15px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 12.5px;
 }
 
@@ -767,23 +767,23 @@
   font-size: 35px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 45px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 40px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 35px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 30px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 25px;
 }
 
@@ -1136,23 +1136,23 @@
   font-size: 52.5px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 67.5px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 60px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 52.5px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 45px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 37.5px;
 }
 
@@ -1505,23 +1505,23 @@
   font-size: 70px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 90px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 80px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 70px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 60px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 50px;
 }
 
@@ -1874,23 +1874,23 @@
   font-size: 87.5px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 112.5px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 100px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 87.5px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 75px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 62.5px;
 }
 
@@ -2243,23 +2243,23 @@
   font-size: 105px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 135px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 120px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 105px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 90px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 75px;
 }
 
@@ -2612,23 +2612,23 @@
   font-size: 122.5px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 157.5px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 140px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 122.5px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 105px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 87.5px;
 }
 
@@ -2981,23 +2981,23 @@
   font-size: 140px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 180px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 160px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 140px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 120px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 100px;
 }
 
@@ -3754,23 +3754,23 @@
   font-size: 70px;
 }
 
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon .app-icon-xl {
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
   font-size: 90px;
 }
 
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon .app-icon-lg {
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-lg {
   font-size: 80px;
 }
 
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon .app-icon-md {
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-md {
   font-size: 70px;
 }
 
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon .app-icon-sm {
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-sm {
   font-size: 60px;
 }
 
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon .app-icon-xs {
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 50px;
 }
 
