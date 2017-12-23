@@ -95,14 +95,6 @@
         <label><input type="checkbox" name="square">Square Corners</label>
       </div>
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-3">
-      <div class="form-group">
-        <label for="appOpenSelect">App Open Size Percent Select list:</label>
-        <select class="form-control" id="appOpenSelect">
-          <option value="">100</option>
-        </select>
-      </div>
-    </div>
     </div>
   </form>
 
@@ -425,6 +417,15 @@
     <div class="radio ">
       <label><input type="radio" value="app-size-auto" name="app-size" >App Size Auto</label>
     </div>
+    </div>
+    
+    <div class="col-xs-6 col-sm-6 col-md-3">
+      <div class="form-group">
+        <label for="appOpenSelect">App Open Size Percent Select list:</label>
+        <select class="form-control" id="appOpenSelect">
+          <option value="">100</option>
+        </select>
+      </div>
     </div>
     </div>
   </form>
