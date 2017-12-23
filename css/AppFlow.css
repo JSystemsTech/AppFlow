@@ -38,6 +38,10 @@
   height: -ms-fill-available;
 }
 
+.app-tray:not(.app-open) {
+  overflow: auto;
+}
+
 .app-tray.app-open.blured > .app.active {
   position: relative;
 }
@@ -78,6 +82,7 @@
 .app.active .app-content {
   width: 100%;
   height: 100%;
+  overflow: auto;
   height: -moz-fill-available;
   height: -webkit-fill-available;
   height: -o-fill-available;
@@ -139,7 +144,11 @@
   position: relative;
 }
 
-.app-tray.app-open[class*="app-open-"].app-shadowed > .app.active {
+.app-tray.app-open[class*="app-open-"].blured.app-shadowed > .app.active {
+  box-shadow: #333 0 3px 15px 0;
+}
+
+.app-tray.app-open[class*="app-open-"].blured.bluerd-dark.app-shadowed > .app.active {
   box-shadow: #ddd 0 3px 15px 0;
 }
 
