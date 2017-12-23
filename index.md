@@ -427,5 +427,18 @@
         </select>
       </div>
     </div>
+    <div class="col-xs-6 col-sm-6 col-md-3">
+    <p><strong>Tray Background Blur on Open App Settings</strong></p>
+    <div class="radio">
+      <label><input type="radio" value="" name="blured" checked>None (Default)</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="blured" name="blured">Light Blur</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="blured blured-dark" name="blured">Dark Blur</label>
+    </div>
+    </div>
+    
     </div>
   </form>
