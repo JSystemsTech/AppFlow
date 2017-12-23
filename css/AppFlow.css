@@ -1,5 +1,6 @@
 .app-tray {
   display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
