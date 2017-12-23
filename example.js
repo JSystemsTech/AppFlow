@@ -11,11 +11,10 @@ $( document ).ready(function() {
         'app-open': ''
  };
     var AppOpenSelect = $('#appOpenSelect');
-    for(var percent = 99; percent <= 50; percent --){
+    for(var percent = 99; percent >= 50; percent --){
      El_CLASSES['app-open'] = El_CLASSES['app-open'] + 'app-open-' + percent + ' ';
        AppOpenSelect.append('<option value="app-open-' + percent+ '">'+percent+'</option>'); 
     }
-    console.log(AppOpenSelect);
     
     var changeElClass = function(el, type, added){
         el.removeClass(El_CLASSES[type]).addClass(added);
