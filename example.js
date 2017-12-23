@@ -8,7 +8,8 @@ $( document ).ready(function() {
   'icon-size':'app-icon-xs app-icon-sm app-icon-md app-icon-lg app-icon-xl',
         'glass': 'glass',
         'square': 'app-square',
-        'app-open': ''
+        'app-open': '',
+        'blured': 'blured blured-dark'
  };
     var AppOpenSelect = $('#appOpenSelect');
     for(var percent = 99; percent >= 50; percent --){
@@ -21,7 +22,10 @@ $( document ).ready(function() {
  }
 AppOpenSelect.bind('change',function(){
     changeElClass($('#myAppTray'), 'app-open', $('#appOpenSelect').val());
-});   
+});
+    $('#MyAppTrayControls input[name="blured"]').bind('change',function(){
+    changeElClass($('#myAppTray'), 'blured', $('#MyAppTrayControls input[name="blured"]:checked').val());
+});
 $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
     changeElClass($('#myAppTray'), 'spacing', $('#MyAppTrayControls input[name="spacing"]:checked').val());
 });
