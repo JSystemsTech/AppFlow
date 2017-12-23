@@ -56,11 +56,6 @@
   display: block;
   width: 100%;
   height: 100%;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
 }
 
 .app-tray.app-open.blured.blured-dark:before {
@@ -401,6 +396,10 @@
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) {
   width: 25px;
   height: 25px;
+  min-width: 25px;
+  /*flex fix for smaller devices*/
+  min-height: 25px;
+  /*flex fix for smaller devices*/
   border-radius: 6.25px;
 }
 
@@ -437,6 +436,10 @@
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active) {
   width: 25px;
   height: 25px;
+  min-width: 25px;
+  /*flex fix for smaller devices*/
+  min-height: 25px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -445,10 +448,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-span-2 {
   width: 80px;
+  min-width: 80px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 80px;
+  min-height: 80px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -457,10 +464,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-span-3 {
   width: 135px;
+  min-width: 135px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 135px;
+  min-height: 135px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -469,10 +480,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-span-4 {
   width: 190px;
+  min-width: 190px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 190px;
+  min-height: 190px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -481,10 +496,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-span-5 {
   width: 245px;
+  min-width: 245px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 245px;
+  min-height: 245px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -494,6 +513,10 @@
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active) {
   width: 25px;
   height: 25px;
+  min-width: 25px;
+  /*flex fix for smaller devices*/
+  min-height: 25px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -502,10 +525,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-span-2 {
   width: 90px;
+  min-width: 90px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 90px;
+  min-height: 90px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -514,10 +541,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-span-3 {
   width: 155px;
+  min-width: 155px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 155px;
+  min-height: 155px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -526,10 +557,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-span-4 {
   width: 220px;
+  min-width: 220px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 220px;
+  min-height: 220px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -538,10 +573,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-span-5 {
   width: 285px;
+  min-width: 285px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 285px;
+  min-height: 285px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -551,6 +590,10 @@
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active) {
   width: 25px;
   height: 25px;
+  min-width: 25px;
+  /*flex fix for smaller devices*/
+  min-height: 25px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -559,10 +602,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-span-2 {
   width: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 100px;
+  min-height: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -571,10 +618,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-span-3 {
   width: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 175px;
+  min-height: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -583,10 +634,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-span-4 {
   width: 250px;
+  min-width: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 250px;
+  min-height: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -595,10 +650,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-span-5 {
   width: 325px;
+  min-width: 325px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 325px;
+  min-height: 325px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -608,6 +667,10 @@
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active) {
   width: 25px;
   height: 25px;
+  min-width: 25px;
+  /*flex fix for smaller devices*/
+  min-height: 25px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -616,10 +679,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-span-2 {
   width: 110px;
+  min-width: 110px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 110px;
+  min-height: 110px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -628,10 +695,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-span-3 {
   width: 195px;
+  min-width: 195px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 195px;
+  min-height: 195px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -640,10 +711,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-span-4 {
   width: 280px;
+  min-width: 280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 280px;
+  min-height: 280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -652,10 +727,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-span-5 {
   width: 365px;
+  min-width: 365px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 365px;
+  min-height: 365px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -665,6 +744,10 @@
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active) {
   width: 25px;
   height: 25px;
+  min-width: 25px;
+  /*flex fix for smaller devices*/
+  min-height: 25px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -673,10 +756,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-span-2 {
   width: 120px;
+  min-width: 120px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 120px;
+  min-height: 120px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -685,10 +772,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-span-3 {
   width: 215px;
+  min-width: 215px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 215px;
+  min-height: 215px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -697,10 +788,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-span-4 {
   width: 310px;
+  min-width: 310px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 310px;
+  min-height: 310px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -709,10 +804,14 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-span-5 {
   width: 405px;
+  min-width: 405px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 405px;
+  min-height: 405px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -721,10 +820,14 @@
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-span-2 {
   width: 80px;
+  min-width: 80px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-2 {
   height: 80px;
+  min-height: 80px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -733,10 +836,14 @@
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-span-3 {
   width: 135px;
+  min-width: 135px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-3 {
   height: 135px;
+  min-height: 135px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -745,10 +852,14 @@
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-span-4 {
   width: 190px;
+  min-width: 190px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-4 {
   height: 190px;
+  min-height: 190px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -757,10 +868,14 @@
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-span-5 {
   width: 245px;
+  min-width: 245px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-5 {
   height: 245px;
+  min-height: 245px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -770,6 +885,10 @@
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  /*flex fix for smaller devices*/
+  min-height: 50px;
+  /*flex fix for smaller devices*/
   border-radius: 12.5px;
 }
 
@@ -806,6 +925,10 @@
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active) {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  /*flex fix for smaller devices*/
+  min-height: 50px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -814,10 +937,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-span-2 {
   width: 130px;
+  min-width: 130px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 130px;
+  min-height: 130px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -826,10 +953,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-span-3 {
   width: 210px;
+  min-width: 210px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 210px;
+  min-height: 210px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -838,10 +969,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-span-4 {
   width: 290px;
+  min-width: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 290px;
+  min-height: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -850,10 +985,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-span-5 {
   width: 370px;
+  min-width: 370px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 370px;
+  min-height: 370px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -863,6 +1002,10 @@
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active) {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  /*flex fix for smaller devices*/
+  min-height: 50px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -871,10 +1014,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-span-2 {
   width: 140px;
+  min-width: 140px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 140px;
+  min-height: 140px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -883,10 +1030,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-span-3 {
   width: 230px;
+  min-width: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 230px;
+  min-height: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -895,10 +1046,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-span-4 {
   width: 320px;
+  min-width: 320px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 320px;
+  min-height: 320px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -907,10 +1062,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-span-5 {
   width: 410px;
+  min-width: 410px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 410px;
+  min-height: 410px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -920,6 +1079,10 @@
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active) {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  /*flex fix for smaller devices*/
+  min-height: 50px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -928,10 +1091,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-span-2 {
   width: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 150px;
+  min-height: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -940,10 +1107,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-span-3 {
   width: 250px;
+  min-width: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 250px;
+  min-height: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -952,10 +1123,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-span-4 {
   width: 350px;
+  min-width: 350px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 350px;
+  min-height: 350px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -964,10 +1139,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-span-5 {
   width: 450px;
+  min-width: 450px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 450px;
+  min-height: 450px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -977,6 +1156,10 @@
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active) {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  /*flex fix for smaller devices*/
+  min-height: 50px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -985,10 +1168,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-span-2 {
   width: 160px;
+  min-width: 160px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 160px;
+  min-height: 160px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -997,10 +1184,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-span-3 {
   width: 270px;
+  min-width: 270px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 270px;
+  min-height: 270px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1009,10 +1200,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-span-4 {
   width: 380px;
+  min-width: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 380px;
+  min-height: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1021,10 +1216,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-span-5 {
   width: 490px;
+  min-width: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 490px;
+  min-height: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1034,6 +1233,10 @@
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active) {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  /*flex fix for smaller devices*/
+  min-height: 50px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -1042,10 +1245,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-span-2 {
   width: 170px;
+  min-width: 170px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 170px;
+  min-height: 170px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1054,10 +1261,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-span-3 {
   width: 290px;
+  min-width: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 290px;
+  min-height: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1066,10 +1277,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-span-4 {
   width: 410px;
+  min-width: 410px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 410px;
+  min-height: 410px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1078,10 +1293,14 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-span-5 {
   width: 530px;
+  min-width: 530px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 530px;
+  min-height: 530px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1090,10 +1309,14 @@
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-span-2 {
   width: 130px;
+  min-width: 130px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-2 {
   height: 130px;
+  min-height: 130px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1102,10 +1325,14 @@
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-span-3 {
   width: 210px;
+  min-width: 210px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-3 {
   height: 210px;
+  min-height: 210px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1114,10 +1341,14 @@
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-span-4 {
   width: 290px;
+  min-width: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-4 {
   height: 290px;
+  min-height: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1126,10 +1357,14 @@
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-span-5 {
   width: 370px;
+  min-width: 370px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-5 {
   height: 370px;
+  min-height: 370px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1139,6 +1374,10 @@
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) {
   width: 75px;
   height: 75px;
+  min-width: 75px;
+  /*flex fix for smaller devices*/
+  min-height: 75px;
+  /*flex fix for smaller devices*/
   border-radius: 18.75px;
 }
 
@@ -1175,6 +1414,10 @@
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active) {
   width: 75px;
   height: 75px;
+  min-width: 75px;
+  /*flex fix for smaller devices*/
+  min-height: 75px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -1183,10 +1426,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-span-2 {
   width: 180px;
+  min-width: 180px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 180px;
+  min-height: 180px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1195,10 +1442,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-span-3 {
   width: 285px;
+  min-width: 285px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 285px;
+  min-height: 285px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1207,10 +1458,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-span-4 {
   width: 390px;
+  min-width: 390px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 390px;
+  min-height: 390px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1219,10 +1474,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-span-5 {
   width: 495px;
+  min-width: 495px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 495px;
+  min-height: 495px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1232,6 +1491,10 @@
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active) {
   width: 75px;
   height: 75px;
+  min-width: 75px;
+  /*flex fix for smaller devices*/
+  min-height: 75px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -1240,10 +1503,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-span-2 {
   width: 190px;
+  min-width: 190px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 190px;
+  min-height: 190px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1252,10 +1519,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-span-3 {
   width: 305px;
+  min-width: 305px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 305px;
+  min-height: 305px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1264,10 +1535,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-span-4 {
   width: 420px;
+  min-width: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 420px;
+  min-height: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1276,10 +1551,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-span-5 {
   width: 535px;
+  min-width: 535px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 535px;
+  min-height: 535px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1289,6 +1568,10 @@
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active) {
   width: 75px;
   height: 75px;
+  min-width: 75px;
+  /*flex fix for smaller devices*/
+  min-height: 75px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -1297,10 +1580,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-span-2 {
   width: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 200px;
+  min-height: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1309,10 +1596,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-span-3 {
   width: 325px;
+  min-width: 325px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 325px;
+  min-height: 325px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1321,10 +1612,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-span-4 {
   width: 450px;
+  min-width: 450px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 450px;
+  min-height: 450px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1333,10 +1628,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-span-5 {
   width: 575px;
+  min-width: 575px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 575px;
+  min-height: 575px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1346,6 +1645,10 @@
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active) {
   width: 75px;
   height: 75px;
+  min-width: 75px;
+  /*flex fix for smaller devices*/
+  min-height: 75px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -1354,10 +1657,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-span-2 {
   width: 210px;
+  min-width: 210px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 210px;
+  min-height: 210px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1366,10 +1673,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-span-3 {
   width: 345px;
+  min-width: 345px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 345px;
+  min-height: 345px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1378,10 +1689,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-span-4 {
   width: 480px;
+  min-width: 480px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 480px;
+  min-height: 480px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1390,10 +1705,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-span-5 {
   width: 615px;
+  min-width: 615px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 615px;
+  min-height: 615px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1403,6 +1722,10 @@
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active) {
   width: 75px;
   height: 75px;
+  min-width: 75px;
+  /*flex fix for smaller devices*/
+  min-height: 75px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -1411,10 +1734,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-span-2 {
   width: 220px;
+  min-width: 220px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 220px;
+  min-height: 220px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1423,10 +1750,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-span-3 {
   width: 365px;
+  min-width: 365px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 365px;
+  min-height: 365px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1435,10 +1766,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-span-4 {
   width: 510px;
+  min-width: 510px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 510px;
+  min-height: 510px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1447,10 +1782,14 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-span-5 {
   width: 655px;
+  min-width: 655px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 655px;
+  min-height: 655px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1459,10 +1798,14 @@
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-span-2 {
   width: 180px;
+  min-width: 180px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-2 {
   height: 180px;
+  min-height: 180px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1471,10 +1814,14 @@
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-span-3 {
   width: 285px;
+  min-width: 285px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-3 {
   height: 285px;
+  min-height: 285px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1483,10 +1830,14 @@
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-span-4 {
   width: 390px;
+  min-width: 390px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-4 {
   height: 390px;
+  min-height: 390px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1495,10 +1846,14 @@
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-span-5 {
   width: 495px;
+  min-width: 495px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-5 {
   height: 495px;
+  min-height: 495px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1508,6 +1863,10 @@
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   border-radius: 25px;
 }
 
@@ -1544,6 +1903,10 @@
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -1552,10 +1915,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-span-2 {
   width: 230px;
+  min-width: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 230px;
+  min-height: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1564,10 +1931,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-span-3 {
   width: 360px;
+  min-width: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 360px;
+  min-height: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1576,10 +1947,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-span-4 {
   width: 490px;
+  min-width: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 490px;
+  min-height: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1588,10 +1963,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-span-5 {
   width: 620px;
+  min-width: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 620px;
+  min-height: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1601,6 +1980,10 @@
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -1609,10 +1992,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-span-2 {
   width: 240px;
+  min-width: 240px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 240px;
+  min-height: 240px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1621,10 +2008,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-span-3 {
   width: 380px;
+  min-width: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 380px;
+  min-height: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1633,10 +2024,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-span-4 {
   width: 520px;
+  min-width: 520px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 520px;
+  min-height: 520px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1645,10 +2040,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-span-5 {
   width: 660px;
+  min-width: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 660px;
+  min-height: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1658,6 +2057,10 @@
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -1666,10 +2069,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-span-2 {
   width: 250px;
+  min-width: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 250px;
+  min-height: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1678,10 +2085,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-span-3 {
   width: 400px;
+  min-width: 400px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 400px;
+  min-height: 400px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1690,10 +2101,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-span-4 {
   width: 550px;
+  min-width: 550px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 550px;
+  min-height: 550px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1702,10 +2117,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-span-5 {
   width: 700px;
+  min-width: 700px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 700px;
+  min-height: 700px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1715,6 +2134,10 @@
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -1723,10 +2146,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-span-2 {
   width: 260px;
+  min-width: 260px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 260px;
+  min-height: 260px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1735,10 +2162,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-span-3 {
   width: 420px;
+  min-width: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 420px;
+  min-height: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1747,10 +2178,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-span-4 {
   width: 580px;
+  min-width: 580px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 580px;
+  min-height: 580px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1759,10 +2194,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-span-5 {
   width: 740px;
+  min-width: 740px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 740px;
+  min-height: 740px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1772,6 +2211,10 @@
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -1780,10 +2223,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-span-2 {
   width: 270px;
+  min-width: 270px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 270px;
+  min-height: 270px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1792,10 +2239,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-span-3 {
   width: 440px;
+  min-width: 440px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 440px;
+  min-height: 440px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1804,10 +2255,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-span-4 {
   width: 610px;
+  min-width: 610px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 610px;
+  min-height: 610px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1816,10 +2271,14 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-span-5 {
   width: 780px;
+  min-width: 780px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 780px;
+  min-height: 780px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1828,10 +2287,14 @@
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-span-2 {
   width: 230px;
+  min-width: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-2 {
   height: 230px;
+  min-height: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1840,10 +2303,14 @@
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-span-3 {
   width: 360px;
+  min-width: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-3 {
   height: 360px;
+  min-height: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1852,10 +2319,14 @@
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-span-4 {
   width: 490px;
+  min-width: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-4 {
   height: 490px;
+  min-height: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1864,10 +2335,14 @@
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-span-5 {
   width: 620px;
+  min-width: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-5 {
   height: 620px;
+  min-height: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1877,6 +2352,10 @@
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) {
   width: 125px;
   height: 125px;
+  min-width: 125px;
+  /*flex fix for smaller devices*/
+  min-height: 125px;
+  /*flex fix for smaller devices*/
   border-radius: 31.25px;
 }
 
@@ -1913,6 +2392,10 @@
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active) {
   width: 125px;
   height: 125px;
+  min-width: 125px;
+  /*flex fix for smaller devices*/
+  min-height: 125px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -1921,10 +2404,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-span-2 {
   width: 280px;
+  min-width: 280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 280px;
+  min-height: 280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1933,10 +2420,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-span-3 {
   width: 435px;
+  min-width: 435px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 435px;
+  min-height: 435px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -1945,10 +2436,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-span-4 {
   width: 590px;
+  min-width: 590px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 590px;
+  min-height: 590px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -1957,10 +2452,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-span-5 {
   width: 745px;
+  min-width: 745px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 745px;
+  min-height: 745px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -1970,6 +2469,10 @@
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active) {
   width: 125px;
   height: 125px;
+  min-width: 125px;
+  /*flex fix for smaller devices*/
+  min-height: 125px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -1978,10 +2481,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-span-2 {
   width: 290px;
+  min-width: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 290px;
+  min-height: 290px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -1990,10 +2497,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-span-3 {
   width: 455px;
+  min-width: 455px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 455px;
+  min-height: 455px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2002,10 +2513,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-span-4 {
   width: 620px;
+  min-width: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 620px;
+  min-height: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2014,10 +2529,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-span-5 {
   width: 785px;
+  min-width: 785px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 785px;
+  min-height: 785px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2027,6 +2546,10 @@
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active) {
   width: 125px;
   height: 125px;
+  min-width: 125px;
+  /*flex fix for smaller devices*/
+  min-height: 125px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -2035,10 +2558,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-span-2 {
   width: 300px;
+  min-width: 300px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 300px;
+  min-height: 300px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2047,10 +2574,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-span-3 {
   width: 475px;
+  min-width: 475px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 475px;
+  min-height: 475px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2059,10 +2590,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-span-4 {
   width: 650px;
+  min-width: 650px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 650px;
+  min-height: 650px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2071,10 +2606,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-span-5 {
   width: 825px;
+  min-width: 825px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 825px;
+  min-height: 825px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2084,6 +2623,10 @@
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active) {
   width: 125px;
   height: 125px;
+  min-width: 125px;
+  /*flex fix for smaller devices*/
+  min-height: 125px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -2092,10 +2635,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-span-2 {
   width: 310px;
+  min-width: 310px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 310px;
+  min-height: 310px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2104,10 +2651,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-span-3 {
   width: 495px;
+  min-width: 495px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 495px;
+  min-height: 495px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2116,10 +2667,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-span-4 {
   width: 680px;
+  min-width: 680px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 680px;
+  min-height: 680px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2128,10 +2683,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-span-5 {
   width: 865px;
+  min-width: 865px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 865px;
+  min-height: 865px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2141,6 +2700,10 @@
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active) {
   width: 125px;
   height: 125px;
+  min-width: 125px;
+  /*flex fix for smaller devices*/
+  min-height: 125px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -2149,10 +2712,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-span-2 {
   width: 320px;
+  min-width: 320px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 320px;
+  min-height: 320px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2161,10 +2728,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-span-3 {
   width: 515px;
+  min-width: 515px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 515px;
+  min-height: 515px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2173,10 +2744,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-span-4 {
   width: 710px;
+  min-width: 710px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 710px;
+  min-height: 710px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2185,10 +2760,14 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-span-5 {
   width: 905px;
+  min-width: 905px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 905px;
+  min-height: 905px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2197,10 +2776,14 @@
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-span-2 {
   width: 280px;
+  min-width: 280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-2 {
   height: 280px;
+  min-height: 280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2209,10 +2792,14 @@
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-span-3 {
   width: 435px;
+  min-width: 435px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-3 {
   height: 435px;
+  min-height: 435px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2221,10 +2808,14 @@
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-span-4 {
   width: 590px;
+  min-width: 590px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-4 {
   height: 590px;
+  min-height: 590px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2233,10 +2824,14 @@
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-span-5 {
   width: 745px;
+  min-width: 745px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-5 {
   height: 745px;
+  min-height: 745px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2246,6 +2841,10 @@
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
+  min-height: 150px;
+  /*flex fix for smaller devices*/
   border-radius: 37.5px;
 }
 
@@ -2282,6 +2881,10 @@
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active) {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
+  min-height: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -2290,10 +2893,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-span-2 {
   width: 330px;
+  min-width: 330px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 330px;
+  min-height: 330px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2302,10 +2909,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-span-3 {
   width: 510px;
+  min-width: 510px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 510px;
+  min-height: 510px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2314,10 +2925,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-span-4 {
   width: 690px;
+  min-width: 690px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 690px;
+  min-height: 690px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2326,10 +2941,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-span-5 {
   width: 870px;
+  min-width: 870px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 870px;
+  min-height: 870px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2339,6 +2958,10 @@
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active) {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
+  min-height: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -2347,10 +2970,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-span-2 {
   width: 340px;
+  min-width: 340px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 340px;
+  min-height: 340px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2359,10 +2986,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-span-3 {
   width: 530px;
+  min-width: 530px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 530px;
+  min-height: 530px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2371,10 +3002,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-span-4 {
   width: 720px;
+  min-width: 720px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 720px;
+  min-height: 720px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2383,10 +3018,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-span-5 {
   width: 910px;
+  min-width: 910px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 910px;
+  min-height: 910px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2396,6 +3035,10 @@
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active) {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
+  min-height: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -2404,10 +3047,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-span-2 {
   width: 350px;
+  min-width: 350px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 350px;
+  min-height: 350px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2416,10 +3063,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-span-3 {
   width: 550px;
+  min-width: 550px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 550px;
+  min-height: 550px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2428,10 +3079,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-span-4 {
   width: 750px;
+  min-width: 750px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 750px;
+  min-height: 750px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2440,10 +3095,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-span-5 {
   width: 950px;
+  min-width: 950px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 950px;
+  min-height: 950px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2453,6 +3112,10 @@
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active) {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
+  min-height: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -2461,10 +3124,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-span-2 {
   width: 360px;
+  min-width: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 360px;
+  min-height: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2473,10 +3140,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-span-3 {
   width: 570px;
+  min-width: 570px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 570px;
+  min-height: 570px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2485,10 +3156,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-span-4 {
   width: 780px;
+  min-width: 780px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 780px;
+  min-height: 780px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2497,10 +3172,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-span-5 {
   width: 990px;
+  min-width: 990px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 990px;
+  min-height: 990px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2510,6 +3189,10 @@
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active) {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  /*flex fix for smaller devices*/
+  min-height: 150px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -2518,10 +3201,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-span-2 {
   width: 370px;
+  min-width: 370px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 370px;
+  min-height: 370px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2530,10 +3217,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-span-3 {
   width: 590px;
+  min-width: 590px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 590px;
+  min-height: 590px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2542,10 +3233,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-span-4 {
   width: 810px;
+  min-width: 810px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 810px;
+  min-height: 810px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2554,10 +3249,14 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-span-5 {
   width: 1030px;
+  min-width: 1030px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 1030px;
+  min-height: 1030px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2566,10 +3265,14 @@
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-span-2 {
   width: 330px;
+  min-width: 330px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-2 {
   height: 330px;
+  min-height: 330px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2578,10 +3281,14 @@
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-span-3 {
   width: 510px;
+  min-width: 510px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-3 {
   height: 510px;
+  min-height: 510px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2590,10 +3297,14 @@
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-span-4 {
   width: 690px;
+  min-width: 690px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-4 {
   height: 690px;
+  min-height: 690px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2602,10 +3313,14 @@
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-span-5 {
   width: 870px;
+  min-width: 870px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-5 {
   height: 870px;
+  min-height: 870px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2615,6 +3330,10 @@
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) {
   width: 175px;
   height: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
+  min-height: 175px;
+  /*flex fix for smaller devices*/
   border-radius: 43.75px;
 }
 
@@ -2651,6 +3370,10 @@
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active) {
   width: 175px;
   height: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
+  min-height: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -2659,10 +3382,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-span-2 {
   width: 380px;
+  min-width: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 380px;
+  min-height: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2671,10 +3398,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-span-3 {
   width: 585px;
+  min-width: 585px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 585px;
+  min-height: 585px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2683,10 +3414,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-span-4 {
   width: 790px;
+  min-width: 790px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 790px;
+  min-height: 790px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2695,10 +3430,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-span-5 {
   width: 995px;
+  min-width: 995px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 995px;
+  min-height: 995px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2708,6 +3447,10 @@
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active) {
   width: 175px;
   height: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
+  min-height: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -2716,10 +3459,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-span-2 {
   width: 390px;
+  min-width: 390px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 390px;
+  min-height: 390px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2728,10 +3475,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-span-3 {
   width: 605px;
+  min-width: 605px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 605px;
+  min-height: 605px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2740,10 +3491,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-span-4 {
   width: 820px;
+  min-width: 820px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 820px;
+  min-height: 820px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2752,10 +3507,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-span-5 {
   width: 1035px;
+  min-width: 1035px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 1035px;
+  min-height: 1035px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2765,6 +3524,10 @@
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active) {
   width: 175px;
   height: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
+  min-height: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -2773,10 +3536,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-span-2 {
   width: 400px;
+  min-width: 400px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 400px;
+  min-height: 400px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2785,10 +3552,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-span-3 {
   width: 625px;
+  min-width: 625px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 625px;
+  min-height: 625px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2797,10 +3568,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-span-4 {
   width: 850px;
+  min-width: 850px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 850px;
+  min-height: 850px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2809,10 +3584,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-span-5 {
   width: 1075px;
+  min-width: 1075px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 1075px;
+  min-height: 1075px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2822,6 +3601,10 @@
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active) {
   width: 175px;
   height: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
+  min-height: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -2830,10 +3613,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-span-2 {
   width: 410px;
+  min-width: 410px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 410px;
+  min-height: 410px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2842,10 +3629,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-span-3 {
   width: 645px;
+  min-width: 645px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 645px;
+  min-height: 645px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2854,10 +3645,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-span-4 {
   width: 880px;
+  min-width: 880px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 880px;
+  min-height: 880px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2866,10 +3661,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-span-5 {
   width: 1115px;
+  min-width: 1115px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 1115px;
+  min-height: 1115px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2879,6 +3678,10 @@
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active) {
   width: 175px;
   height: 175px;
+  min-width: 175px;
+  /*flex fix for smaller devices*/
+  min-height: 175px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -2887,10 +3690,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-span-2 {
   width: 420px;
+  min-width: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 420px;
+  min-height: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2899,10 +3706,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-span-3 {
   width: 665px;
+  min-width: 665px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 665px;
+  min-height: 665px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2911,10 +3722,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-span-4 {
   width: 910px;
+  min-width: 910px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 910px;
+  min-height: 910px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2923,10 +3738,14 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-span-5 {
   width: 1155px;
+  min-width: 1155px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 1155px;
+  min-height: 1155px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2935,10 +3754,14 @@
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-span-2 {
   width: 380px;
+  min-width: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-2 {
   height: 380px;
+  min-height: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -2947,10 +3770,14 @@
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-span-3 {
   width: 585px;
+  min-width: 585px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-3 {
   height: 585px;
+  min-height: 585px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -2959,10 +3786,14 @@
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-span-4 {
   width: 790px;
+  min-width: 790px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-4 {
   height: 790px;
+  min-height: 790px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -2971,10 +3802,14 @@
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-span-5 {
   width: 995px;
+  min-width: 995px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-5 {
   height: 995px;
+  min-height: 995px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -2984,6 +3819,10 @@
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
+  min-height: 200px;
+  /*flex fix for smaller devices*/
   border-radius: 50px;
 }
 
@@ -3020,6 +3859,10 @@
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active) {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
+  min-height: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active) > .app-header.app-icon {
@@ -3028,10 +3871,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-span-2 {
   width: 430px;
+  min-width: 430px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-2 {
   height: 430px;
+  min-height: 430px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3040,10 +3887,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-span-3 {
   width: 660px;
+  min-width: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-3 {
   height: 660px;
+  min-height: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3052,10 +3903,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-span-4 {
   width: 890px;
+  min-width: 890px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-4 {
   height: 890px;
+  min-height: 890px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3064,10 +3919,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-span-5 {
   width: 1120px;
+  min-width: 1120px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-5 {
   height: 1120px;
+  min-height: 1120px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3077,6 +3936,10 @@
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active) {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
+  min-height: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active) > .app-header.app-icon {
@@ -3085,10 +3948,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-span-2 {
   width: 440px;
+  min-width: 440px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-2 {
   height: 440px;
+  min-height: 440px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3097,10 +3964,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-span-3 {
   width: 680px;
+  min-width: 680px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-3 {
   height: 680px;
+  min-height: 680px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3109,10 +3980,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-span-4 {
   width: 920px;
+  min-width: 920px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-4 {
   height: 920px;
+  min-height: 920px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3121,10 +3996,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-span-5 {
   width: 1160px;
+  min-width: 1160px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-5 {
   height: 1160px;
+  min-height: 1160px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3134,6 +4013,10 @@
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active) {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
+  min-height: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active) > .app-header.app-icon {
@@ -3142,10 +4025,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-span-2 {
   width: 450px;
+  min-width: 450px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-2 {
   height: 450px;
+  min-height: 450px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3154,10 +4041,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-span-3 {
   width: 700px;
+  min-width: 700px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-3 {
   height: 700px;
+  min-height: 700px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3166,10 +4057,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-span-4 {
   width: 950px;
+  min-width: 950px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-4 {
   height: 950px;
+  min-height: 950px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3178,10 +4073,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-span-5 {
   width: 1200px;
+  min-width: 1200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-5 {
   height: 1200px;
+  min-height: 1200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3191,6 +4090,10 @@
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active) {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
+  min-height: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active) > .app-header.app-icon {
@@ -3199,10 +4102,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-span-2 {
   width: 460px;
+  min-width: 460px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-2 {
   height: 460px;
+  min-height: 460px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3211,10 +4118,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-span-3 {
   width: 720px;
+  min-width: 720px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-3 {
   height: 720px;
+  min-height: 720px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3223,10 +4134,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-span-4 {
   width: 980px;
+  min-width: 980px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-4 {
   height: 980px;
+  min-height: 980px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3235,10 +4150,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-span-5 {
   width: 1240px;
+  min-width: 1240px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-5 {
   height: 1240px;
+  min-height: 1240px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3248,6 +4167,10 @@
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active) {
   width: 200px;
   height: 200px;
+  min-width: 200px;
+  /*flex fix for smaller devices*/
+  min-height: 200px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active) > .app-header.app-icon {
@@ -3256,10 +4179,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-span-2 {
   width: 470px;
+  min-width: 470px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-2 {
   height: 470px;
+  min-height: 470px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3268,10 +4195,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-span-3 {
   width: 740px;
+  min-width: 740px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-3 {
   height: 740px;
+  min-height: 740px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3280,10 +4211,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-span-4 {
   width: 1010px;
+  min-width: 1010px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-4 {
   height: 1010px;
+  min-height: 1010px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3292,10 +4227,14 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-span-5 {
   width: 1280px;
+  min-width: 1280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-5 {
   height: 1280px;
+  min-height: 1280px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3304,10 +4243,14 @@
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-span-2 {
   width: 430px;
+  min-width: 430px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-2 {
   height: 430px;
+  min-height: 430px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3316,10 +4259,14 @@
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-span-3 {
   width: 660px;
+  min-width: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-3 {
   height: 660px;
+  min-height: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3328,10 +4275,14 @@
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-span-4 {
   width: 890px;
+  min-width: 890px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-4 {
   height: 890px;
+  min-height: 890px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3340,10 +4291,14 @@
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-span-5 {
   width: 1120px;
+  min-width: 1120px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-5 {
   height: 1120px;
+  min-height: 1120px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3357,6 +4312,10 @@
 .app-tray:not(.app-open).spacing-1 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   margin: 15px;
 }
 
@@ -3371,10 +4330,14 @@
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-span-2 {
   width: 230px;
+  min-width: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-2 {
   height: 230px;
+  min-height: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3383,10 +4346,14 @@
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-span-3 {
   width: 360px;
+  min-width: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-3 {
   height: 360px;
+  min-height: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3395,10 +4362,14 @@
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-span-4 {
   width: 490px;
+  min-width: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-4 {
   height: 490px;
+  min-height: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3407,10 +4378,14 @@
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-span-5 {
   width: 620px;
+  min-width: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-5 {
   height: 620px;
+  min-height: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3424,6 +4399,10 @@
 .app-tray:not(.app-open).spacing-2 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   margin: 20px;
 }
 
@@ -3438,10 +4417,14 @@
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-span-2 {
   width: 240px;
+  min-width: 240px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-2 {
   height: 240px;
+  min-height: 240px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3450,10 +4433,14 @@
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-span-3 {
   width: 380px;
+  min-width: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-3 {
   height: 380px;
+  min-height: 380px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3462,10 +4449,14 @@
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-span-4 {
   width: 520px;
+  min-width: 520px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-4 {
   height: 520px;
+  min-height: 520px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3474,10 +4465,14 @@
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-span-5 {
   width: 660px;
+  min-width: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-5 {
   height: 660px;
+  min-height: 660px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3491,6 +4486,10 @@
 .app-tray:not(.app-open).spacing-3 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   margin: 25px;
 }
 
@@ -3505,10 +4504,14 @@
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-span-2 {
   width: 250px;
+  min-width: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-2 {
   height: 250px;
+  min-height: 250px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3517,10 +4520,14 @@
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-span-3 {
   width: 400px;
+  min-width: 400px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-3 {
   height: 400px;
+  min-height: 400px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3529,10 +4536,14 @@
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-span-4 {
   width: 550px;
+  min-width: 550px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-4 {
   height: 550px;
+  min-height: 550px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3541,10 +4552,14 @@
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-span-5 {
   width: 700px;
+  min-width: 700px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-5 {
   height: 700px;
+  min-height: 700px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3558,6 +4573,10 @@
 .app-tray:not(.app-open).spacing-4 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   margin: 30px;
 }
 
@@ -3572,10 +4591,14 @@
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-span-2 {
   width: 260px;
+  min-width: 260px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-2 {
   height: 260px;
+  min-height: 260px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3584,10 +4607,14 @@
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-span-3 {
   width: 420px;
+  min-width: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-3 {
   height: 420px;
+  min-height: 420px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3596,10 +4623,14 @@
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-span-4 {
   width: 580px;
+  min-width: 580px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-4 {
   height: 580px;
+  min-height: 580px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3608,10 +4639,14 @@
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-span-5 {
   width: 740px;
+  min-width: 740px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-5 {
   height: 740px;
+  min-height: 740px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3625,6 +4660,10 @@
 .app-tray:not(.app-open).spacing-5 > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   margin: 35px;
 }
 
@@ -3639,10 +4678,14 @@
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-span-2 {
   width: 270px;
+  min-width: 270px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-2 {
   height: 270px;
+  min-height: 270px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3651,10 +4694,14 @@
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-span-3 {
   width: 440px;
+  min-width: 440px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-3 {
   height: 440px;
+  min-height: 440px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3663,10 +4710,14 @@
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-span-4 {
   width: 610px;
+  min-width: 610px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-4 {
   height: 610px;
+  min-height: 610px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3675,10 +4726,14 @@
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-span-5 {
   width: 780px;
+  min-width: 780px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-5 {
   height: 780px;
+  min-height: 780px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3687,10 +4742,14 @@
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-2 {
   width: 230px;
+  min-width: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-2 {
   height: 230px;
+  min-height: 230px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-2 > .app-header.app-icon {
@@ -3699,10 +4758,14 @@
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-3 {
   width: 360px;
+  min-width: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-3 {
   height: 360px;
+  min-height: 360px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-3 > .app-header.app-icon {
@@ -3711,10 +4774,14 @@
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-4 {
   width: 490px;
+  min-width: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-4 {
   height: 490px;
+  min-height: 490px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-4 > .app-header.app-icon {
@@ -3723,10 +4790,14 @@
 
 .app-tray:not(.app-open) > .app:not(.active).app-span-5 {
   width: 620px;
+  min-width: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-5 {
   height: 620px;
+  min-height: 620px;
+  /*flex fix for smaller devices*/
 }
 
 .app-tray:not(.app-open) > .app:not(.active).app-height-span-5 > .app-header.app-icon {
@@ -3736,6 +4807,10 @@
 .app-tray:not(.app-open) > .app:not(.active) {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  /*flex fix for smaller devices*/
+  min-height: 100px;
+  /*flex fix for smaller devices*/
   border-radius: 25px;
   position: relative;
   margin: 15px;
