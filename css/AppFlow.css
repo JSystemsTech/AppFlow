@@ -126,7 +126,11 @@
   display: none;
 }
 
-.app-tray.app-open > .app.active[class*="active-size-"] {
+.app-tray.app-open[class*="active-size-"] {
+  height: 100%;
+}
+
+.app-tray.app-open[class*="active-size-"] > .app.active {
   margin-right: auto;
   margin-left: auto;
   float: none;
@@ -135,260 +139,260 @@
   position: relative;
 }
 
-.app-tray.app-open.blured > .app.active:not([class*="active-size-"]) {
+.app-tray.app-open.blured:not([class*="active-size-"]) > .app.active {
   top: -100%;
 }
 
-.app-tray.app-open:not(.blured) > .app.active[class*="active-size-"] {
+.app-tray.app-open:not(.blured)[class*="active-size-"] > .app.active {
   top: 50%;
 }
 
-.app-tray.app-open > .app.active.active-size-50 {
+.app-tray.app-open.active-size-50 > .app.active {
   width: 50%;
   height: 50%;
 }
 
-.app-tray.app-open > .app.active.active-size-51 {
+.app-tray.app-open.active-size-51 > .app.active {
   width: 51%;
   height: 51%;
 }
 
-.app-tray.app-open > .app.active.active-size-52 {
+.app-tray.app-open.active-size-52 > .app.active {
   width: 52%;
   height: 52%;
 }
 
-.app-tray.app-open > .app.active.active-size-53 {
+.app-tray.app-open.active-size-53 > .app.active {
   width: 53%;
   height: 53%;
 }
 
-.app-tray.app-open > .app.active.active-size-54 {
+.app-tray.app-open.active-size-54 > .app.active {
   width: 54%;
   height: 54%;
 }
 
-.app-tray.app-open > .app.active.active-size-55 {
+.app-tray.app-open.active-size-55 > .app.active {
   width: 55%;
   height: 55%;
 }
 
-.app-tray.app-open > .app.active.active-size-56 {
+.app-tray.app-open.active-size-56 > .app.active {
   width: 56%;
   height: 56%;
 }
 
-.app-tray.app-open > .app.active.active-size-57 {
+.app-tray.app-open.active-size-57 > .app.active {
   width: 57%;
   height: 57%;
 }
 
-.app-tray.app-open > .app.active.active-size-58 {
+.app-tray.app-open.active-size-58 > .app.active {
   width: 58%;
   height: 58%;
 }
 
-.app-tray.app-open > .app.active.active-size-59 {
+.app-tray.app-open.active-size-59 > .app.active {
   width: 59%;
   height: 59%;
 }
 
-.app-tray.app-open > .app.active.active-size-60 {
+.app-tray.app-open.active-size-60 > .app.active {
   width: 60%;
   height: 60%;
 }
 
-.app-tray.app-open > .app.active.active-size-61 {
+.app-tray.app-open.active-size-61 > .app.active {
   width: 61%;
   height: 61%;
 }
 
-.app-tray.app-open > .app.active.active-size-62 {
+.app-tray.app-open.active-size-62 > .app.active {
   width: 62%;
   height: 62%;
 }
 
-.app-tray.app-open > .app.active.active-size-63 {
+.app-tray.app-open.active-size-63 > .app.active {
   width: 63%;
   height: 63%;
 }
 
-.app-tray.app-open > .app.active.active-size-64 {
+.app-tray.app-open.active-size-64 > .app.active {
   width: 64%;
   height: 64%;
 }
 
-.app-tray.app-open > .app.active.active-size-65 {
+.app-tray.app-open.active-size-65 > .app.active {
   width: 65%;
   height: 65%;
 }
 
-.app-tray.app-open > .app.active.active-size-66 {
+.app-tray.app-open.active-size-66 > .app.active {
   width: 66%;
   height: 66%;
 }
 
-.app-tray.app-open > .app.active.active-size-67 {
+.app-tray.app-open.active-size-67 > .app.active {
   width: 67%;
   height: 67%;
 }
 
-.app-tray.app-open > .app.active.active-size-68 {
+.app-tray.app-open.active-size-68 > .app.active {
   width: 68%;
   height: 68%;
 }
 
-.app-tray.app-open > .app.active.active-size-69 {
+.app-tray.app-open.active-size-69 > .app.active {
   width: 69%;
   height: 69%;
 }
 
-.app-tray.app-open > .app.active.active-size-70 {
+.app-tray.app-open.active-size-70 > .app.active {
   width: 70%;
   height: 70%;
 }
 
-.app-tray.app-open > .app.active.active-size-71 {
+.app-tray.app-open.active-size-71 > .app.active {
   width: 71%;
   height: 71%;
 }
 
-.app-tray.app-open > .app.active.active-size-72 {
+.app-tray.app-open.active-size-72 > .app.active {
   width: 72%;
   height: 72%;
 }
 
-.app-tray.app-open > .app.active.active-size-73 {
+.app-tray.app-open.active-size-73 > .app.active {
   width: 73%;
   height: 73%;
 }
 
-.app-tray.app-open > .app.active.active-size-74 {
+.app-tray.app-open.active-size-74 > .app.active {
   width: 74%;
   height: 74%;
 }
 
-.app-tray.app-open > .app.active.active-size-75 {
+.app-tray.app-open.active-size-75 > .app.active {
   width: 75%;
   height: 75%;
 }
 
-.app-tray.app-open > .app.active.active-size-76 {
+.app-tray.app-open.active-size-76 > .app.active {
   width: 76%;
   height: 76%;
 }
 
-.app-tray.app-open > .app.active.active-size-77 {
+.app-tray.app-open.active-size-77 > .app.active {
   width: 77%;
   height: 77%;
 }
 
-.app-tray.app-open > .app.active.active-size-78 {
+.app-tray.app-open.active-size-78 > .app.active {
   width: 78%;
   height: 78%;
 }
 
-.app-tray.app-open > .app.active.active-size-79 {
+.app-tray.app-open.active-size-79 > .app.active {
   width: 79%;
   height: 79%;
 }
 
-.app-tray.app-open > .app.active.active-size-80 {
+.app-tray.app-open.active-size-80 > .app.active {
   width: 80%;
   height: 80%;
 }
 
-.app-tray.app-open > .app.active.active-size-81 {
+.app-tray.app-open.active-size-81 > .app.active {
   width: 81%;
   height: 81%;
 }
 
-.app-tray.app-open > .app.active.active-size-82 {
+.app-tray.app-open.active-size-82 > .app.active {
   width: 82%;
   height: 82%;
 }
 
-.app-tray.app-open > .app.active.active-size-83 {
+.app-tray.app-open.active-size-83 > .app.active {
   width: 83%;
   height: 83%;
 }
 
-.app-tray.app-open > .app.active.active-size-84 {
+.app-tray.app-open.active-size-84 > .app.active {
   width: 84%;
   height: 84%;
 }
 
-.app-tray.app-open > .app.active.active-size-85 {
+.app-tray.app-open.active-size-85 > .app.active {
   width: 85%;
   height: 85%;
 }
 
-.app-tray.app-open > .app.active.active-size-86 {
+.app-tray.app-open.active-size-86 > .app.active {
   width: 86%;
   height: 86%;
 }
 
-.app-tray.app-open > .app.active.active-size-87 {
+.app-tray.app-open.active-size-87 > .app.active {
   width: 87%;
   height: 87%;
 }
 
-.app-tray.app-open > .app.active.active-size-88 {
+.app-tray.app-open.active-size-88 > .app.active {
   width: 88%;
   height: 88%;
 }
 
-.app-tray.app-open > .app.active.active-size-89 {
+.app-tray.app-open.active-size-89 > .app.active {
   width: 89%;
   height: 89%;
 }
 
-.app-tray.app-open > .app.active.active-size-90 {
+.app-tray.app-open.active-size-90 > .app.active {
   width: 90%;
   height: 90%;
 }
 
-.app-tray.app-open > .app.active.active-size-91 {
+.app-tray.app-open.active-size-91 > .app.active {
   width: 91%;
   height: 91%;
 }
 
-.app-tray.app-open > .app.active.active-size-92 {
+.app-tray.app-open.active-size-92 > .app.active {
   width: 92%;
   height: 92%;
 }
 
-.app-tray.app-open > .app.active.active-size-93 {
+.app-tray.app-open.active-size-93 > .app.active {
   width: 93%;
   height: 93%;
 }
 
-.app-tray.app-open > .app.active.active-size-94 {
+.app-tray.app-open.active-size-94 > .app.active {
   width: 94%;
   height: 94%;
 }
 
-.app-tray.app-open > .app.active.active-size-95 {
+.app-tray.app-open.active-size-95 > .app.active {
   width: 95%;
   height: 95%;
 }
 
-.app-tray.app-open > .app.active.active-size-96 {
+.app-tray.app-open.active-size-96 > .app.active {
   width: 96%;
   height: 96%;
 }
 
-.app-tray.app-open > .app.active.active-size-97 {
+.app-tray.app-open.active-size-97 > .app.active {
   width: 97%;
   height: 97%;
 }
 
-.app-tray.app-open > .app.active.active-size-98 {
+.app-tray.app-open.active-size-98 > .app.active {
   width: 98%;
   height: 98%;
 }
 
-.app-tray.app-open > .app.active.active-size-99 {
+.app-tray.app-open.active-size-99 > .app.active {
   width: 99%;
   height: 99%;
 }
