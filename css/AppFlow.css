@@ -46,7 +46,7 @@
   position: relative;
 }
 
-.app-tray.app-open.blured:before {
+.app-tray.app-open.blured:after {
   content: "";
   position: relative;
   left: 0;
@@ -63,7 +63,7 @@
   filter: blur(5px);
 }
 
-.app-tray.app-open.blured.blured-dark:before {
+.app-tray.app-open.blured.blured-dark:after {
   background-color: black;
   opacity: 0.3;
 }
