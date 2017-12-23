@@ -10,7 +10,8 @@ body,
     padding: 0;
 }
 
-.app-tray.app-open > .app.active > .app-content > .row{
+.app-tray.app-open > .app.active > .app-content > .row,
+.app-tray.app-open > .app.active > .app-content > form > .row{
  margin:0;
 }
 .app-tray-example-container {
