@@ -7,8 +7,12 @@ $( document ).ready(function() {
   'app-height-span': 'app-height-span-2 app-height-span-3 app-height-span-4 app-height-span-5',
   'icon-size':'app-icon-xs app-icon-sm app-icon-md app-icon-lg app-icon-xl',
         'glass': 'glass',
-        'square': 'app-square'
+        'square': 'app-square',
+        'app-open': ''
  }
+    for(var percent = 50; percent <= 99; percent ++){
+     El_CLASSES['app-open'] = El_CLASSES['app-open'] + 'app-open-' + percent + ' ';
+    }
     var changeElClass = function(el, type, added){
         el.removeClass(El_CLASSES[type]).addClass(added);
  }
