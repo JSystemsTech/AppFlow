@@ -28,7 +28,14 @@
 
 .app-tray {
   width: 100%;
+}
+
+.app-tray.app-open {
   height: 100%;
+  height: -moz-fill-available;
+  height: -webkit-fill-available;
+  height: -o-fill-available;
+  height: -ms-fill-available;
 }
 
 .app-tray.app-open.blured > .app.active {
@@ -71,6 +78,10 @@
 .app.active .app-content {
   width: 100%;
   height: 100%;
+  height: -moz-fill-available;
+  height: -webkit-fill-available;
+  height: -o-fill-available;
+  height: -ms-fill-available;
 }
 
 .app:not(.active):hover,
@@ -99,12 +110,12 @@
 .app.active {
   border-radius: 0 !important;
   height: 100%;
+  height: -moz-fill-available;
+  height: -webkit-fill-available;
+  height: -o-fill-available;
+  height: -ms-fill-available;
   width: 100%;
   opacity: 1;
-}
-
-.app.app-open {
-  padding: 0;
 }
 
 .app-tray.app-open .app {
