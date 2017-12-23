@@ -9,11 +9,13 @@ $( document ).ready(function() {
         'glass': 'glass',
         'square': 'app-square',
         'app-open': ''
- }
+ };
+    var AppOpenSelect = $('#MyAppTrayControls > #appOpenSelect');
     for(var percent = 50; percent <= 99; percent ++){
      El_CLASSES['app-open'] = El_CLASSES['app-open'] + 'app-open-' + percent + ' ';
+       AppOpenSelect.append('<option value="app-open-' + percent+ '">'+percent+'</option>'); 
     }
-    console.log(El_CLASSES['app-open']);
+    
     var changeElClass = function(el, type, added){
         el.removeClass(El_CLASSES[type]).addClass(added);
  }
