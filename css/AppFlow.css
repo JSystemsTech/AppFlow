@@ -1,5 +1,5 @@
 .app-tray {
-  display: inline-block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -48,7 +48,7 @@
 
 .app-tray.app-open.blured:before {
   content: "";
-  position: relative;
+  position: absolute;
   left: 0;
   right: 0;
   background-color: white;
@@ -133,7 +133,6 @@
 
 .app-tray.app-open[class*="app-open-"] {
   height: 100%;
-  display: flex;
 }
 
 .app-tray.app-open[class*="app-open-"] > .app.active {
