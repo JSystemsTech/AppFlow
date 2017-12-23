@@ -48,20 +48,23 @@
 
 .app-tray.app-open.blured:before {
     position: absolute;
-    display: block;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 2;
-    content:"";                 /*adjust brightness here */
-    background: hsla(0, 0%, 0%,     0.7);
+    z-index: 1;
+    content:"";                 
+    opacity: 0.3;
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -.25em; /* Adjusts for spacing */
      background-color: white;
 }
 
 .app-tray.app-open.blured.blured-dark:before{
   background-color: black;
-  background: hsla(0, 0%, 0%,     0.7);
+  opacity: 0.7;
 }
 
 .app-tray:not(.app-open) > .app > .app-title {
@@ -129,15 +132,13 @@
 
 .app-tray.app-open[class*="app-open-"] {
   height: 100%;
+  position:relative;
+  text-align: center;
 }
 
 .app-tray.app-open[class*="app-open-"] > .app.active {
-  margin-right: auto;
-  margin-left: auto;
-  float: none;
-  top: -50%;
-  transform: translateY(-50%);
-  position: relative;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .app-tray.app-open[class*="app-open-"].blured.app-shadowed > .app.active {
@@ -146,14 +147,6 @@
 
 .app-tray.app-open[class*="app-open-"].blured.bluerd-dark.app-shadowed > .app.active {
   box-shadow: #ddd 0 3px 15px 0;
-}
-
-.app-tray.app-open.blured:not([class*="app-open-"]) > .app.active {
-  top: -100%;
-}
-
-.app-tray.app-open:not(.blured)[class*="app-open-"] > .app.active {
-  top: 50%;
 }
 
 .app-tray.app-open.app-open-50 > .app.active {
