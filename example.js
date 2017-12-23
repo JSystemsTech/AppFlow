@@ -11,7 +11,7 @@ $( document ).ready(function() {
         'app-open': ''
  };
     var AppOpenSelect = $('#appOpenSelect');
-    for(var percent = 50; percent <= 99; percent ++){
+    for(var percent = 99; percent <= 50; percent --){
      El_CLASSES['app-open'] = El_CLASSES['app-open'] + 'app-open-' + percent + ' ';
        AppOpenSelect.append('<option value="app-open-' + percent+ '">'+percent+'</option>'); 
     }
@@ -20,7 +20,9 @@ $( document ).ready(function() {
     var changeElClass = function(el, type, added){
         el.removeClass(El_CLASSES[type]).addClass(added);
  }
-    
+AppOpenSelect.bind('change',function(){
+    changeElClass($('#myAppTray'), 'app-open', $('#appOpenSelect').val());
+});   
 $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
     changeElClass($('#myAppTray'), 'spacing', $('#MyAppTrayControls input[name="spacing"]:checked').val());
 });
