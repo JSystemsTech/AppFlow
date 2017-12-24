@@ -5074,6 +5074,7 @@
     /*flex fix for smaller devices*/
     min-height: 25px;
     /*flex fix for smaller devices*/
+    border-radius: 6.25px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 25px;
@@ -5459,6 +5460,7 @@
     /*flex fix for smaller devices*/
     min-height: 50px;
     /*flex fix for smaller devices*/
+    border-radius: 12.5px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
@@ -5844,6 +5846,7 @@
     /*flex fix for smaller devices*/
     min-height: 75px;
     /*flex fix for smaller devices*/
+    border-radius: 18.75px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
@@ -6229,6 +6232,7 @@
     /*flex fix for smaller devices*/
     min-height: 100px;
     /*flex fix for smaller devices*/
+    border-radius: 25px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
@@ -6614,6 +6618,7 @@
     /*flex fix for smaller devices*/
     min-height: 125px;
     /*flex fix for smaller devices*/
+    border-radius: 31.25px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -6999,6 +7004,7 @@
     /*flex fix for smaller devices*/
     min-height: 150px;
     /*flex fix for smaller devices*/
+    border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -7384,6 +7390,7 @@
     /*flex fix for smaller devices*/
     min-height: 175px;
     /*flex fix for smaller devices*/
+    border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -7769,6 +7776,7 @@
     /*flex fix for smaller devices*/
     min-height: 200px;
     /*flex fix for smaller devices*/
+    border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
