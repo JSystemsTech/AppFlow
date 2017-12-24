@@ -4814,7 +4814,7 @@
   /*flex fix for smaller devices*/
   border-radius: 25px;
   position: relative;
-  margin: 15px;
+  margin: 10px;
 }
 
 .app-tray:not(.app-open) {
