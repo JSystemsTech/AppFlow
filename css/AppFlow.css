@@ -4910,7 +4910,7 @@
 }
 
 .app-tray:not(.app-open) {
-  font-size: 10px;
+  font-size: 10em;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
