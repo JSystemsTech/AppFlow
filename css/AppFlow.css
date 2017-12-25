@@ -140,7 +140,7 @@
   box-shadow: #333 0 3px 15px 0;
 }
 
-.app-tray.app-open[class*="app-open-"].blured.bluerd-dark.app-shadowed > .app.active {
+.app-tray.app-open[class*="app-open-"].blured.blured-dark.app-shadowed > .app.active {
   box-shadow: #ddd 0 3px 15px 0;
 }
 
@@ -4839,6 +4839,10 @@
 .app-tray:not(.app-open) > .app:not(.active):not(.app-square).glass:after {
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
+}
+
+.app-tray:not(.app-open) > .app:not(.active) > .app-header {
+  height: 100%;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon {
