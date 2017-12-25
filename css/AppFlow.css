@@ -41,16 +41,7 @@
 
 .app-tray:not(.app-open) {
   overflow: auto;
-}
-
-.app-tray:not(.app-open):before {
-  content: "";
-  margin-left: auto;
-}
-
-.app-tray:not(.app-open):after {
-  content: "";
-  margin-right: auto;
+  justify-content: center;
 }
 
 .app-tray.app-open.blured > .app.active {
