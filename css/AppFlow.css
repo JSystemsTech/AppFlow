@@ -396,6 +396,10 @@
   height: 99%;
 }
 
+.app-tray:not(.app-open).app-size-1 {
+  padding-bottom: 4px;
+}
+
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) {
   width: 25px;
   height: 25px;
@@ -438,6 +442,10 @@
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 12.5px;
+}
+
+.app-tray:not(.app-open).app-size-1.spacing-1 {
+  padding-bottom: 7px;
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 > .app:not(.active) {
@@ -517,6 +525,10 @@
   line-height: 205px;
 }
 
+.app-tray:not(.app-open).app-size-1.spacing-2 {
+  padding-bottom: 12px;
+}
+
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active) {
   width: 25px;
   height: 25px;
@@ -592,6 +604,10 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 245px;
+}
+
+.app-tray:not(.app-open).app-size-1.spacing-3 {
+  padding-bottom: 17px;
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-3 > .app:not(.active) {
@@ -671,6 +687,10 @@
   line-height: 285px;
 }
 
+.app-tray:not(.app-open).app-size-1.spacing-4 {
+  padding-bottom: 22px;
+}
+
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active) {
   width: 25px;
   height: 25px;
@@ -746,6 +766,10 @@
 
 .app-tray:not(.app-open).app-size-1.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 325px;
+}
+
+.app-tray:not(.app-open).app-size-1.spacing-5 {
+  padding-bottom: 27px;
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-5 > .app:not(.active) {
@@ -889,6 +913,10 @@
   line-height: 205px;
 }
 
+.app-tray:not(.app-open).app-size-2 {
+  padding-bottom: 6px;
+}
+
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) {
   width: 50px;
   height: 50px;
@@ -931,6 +959,10 @@
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 25px;
+}
+
+.app-tray:not(.app-open).app-size-2.spacing-1 {
+  padding-bottom: 9px;
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 > .app:not(.active) {
@@ -1010,6 +1042,10 @@
   line-height: 330px;
 }
 
+.app-tray:not(.app-open).app-size-2.spacing-2 {
+  padding-bottom: 14px;
+}
+
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active) {
   width: 50px;
   height: 50px;
@@ -1085,6 +1121,10 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 370px;
+}
+
+.app-tray:not(.app-open).app-size-2.spacing-3 {
+  padding-bottom: 19px;
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-3 > .app:not(.active) {
@@ -1164,6 +1204,10 @@
   line-height: 410px;
 }
 
+.app-tray:not(.app-open).app-size-2.spacing-4 {
+  padding-bottom: 24px;
+}
+
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active) {
   width: 50px;
   height: 50px;
@@ -1239,6 +1283,10 @@
 
 .app-tray:not(.app-open).app-size-2.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 450px;
+}
+
+.app-tray:not(.app-open).app-size-2.spacing-5 {
+  padding-bottom: 29px;
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-5 > .app:not(.active) {
@@ -1382,6 +1430,10 @@
   line-height: 330px;
 }
 
+.app-tray:not(.app-open).app-size-3 {
+  padding-bottom: 8px;
+}
+
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) {
   width: 75px;
   height: 75px;
@@ -1424,6 +1476,10 @@
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 37.5px;
+}
+
+.app-tray:not(.app-open).app-size-3.spacing-1 {
+  padding-bottom: 11px;
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 > .app:not(.active) {
@@ -1503,6 +1559,10 @@
   line-height: 455px;
 }
 
+.app-tray:not(.app-open).app-size-3.spacing-2 {
+  padding-bottom: 16px;
+}
+
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active) {
   width: 75px;
   height: 75px;
@@ -1578,6 +1638,10 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 495px;
+}
+
+.app-tray:not(.app-open).app-size-3.spacing-3 {
+  padding-bottom: 21px;
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-3 > .app:not(.active) {
@@ -1657,6 +1721,10 @@
   line-height: 535px;
 }
 
+.app-tray:not(.app-open).app-size-3.spacing-4 {
+  padding-bottom: 26px;
+}
+
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active) {
   width: 75px;
   height: 75px;
@@ -1732,6 +1800,10 @@
 
 .app-tray:not(.app-open).app-size-3.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 575px;
+}
+
+.app-tray:not(.app-open).app-size-3.spacing-5 {
+  padding-bottom: 31px;
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-5 > .app:not(.active) {
@@ -1875,6 +1947,10 @@
   line-height: 455px;
 }
 
+.app-tray:not(.app-open).app-size-4 {
+  padding-bottom: 10px;
+}
+
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) {
   width: 100px;
   height: 100px;
@@ -1917,6 +1993,10 @@
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 50px;
+}
+
+.app-tray:not(.app-open).app-size-4.spacing-1 {
+  padding-bottom: 13px;
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 > .app:not(.active) {
@@ -1996,6 +2076,10 @@
   line-height: 580px;
 }
 
+.app-tray:not(.app-open).app-size-4.spacing-2 {
+  padding-bottom: 18px;
+}
+
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active) {
   width: 100px;
   height: 100px;
@@ -2071,6 +2155,10 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 620px;
+}
+
+.app-tray:not(.app-open).app-size-4.spacing-3 {
+  padding-bottom: 23px;
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-3 > .app:not(.active) {
@@ -2150,6 +2238,10 @@
   line-height: 660px;
 }
 
+.app-tray:not(.app-open).app-size-4.spacing-4 {
+  padding-bottom: 28px;
+}
+
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active) {
   width: 100px;
   height: 100px;
@@ -2225,6 +2317,10 @@
 
 .app-tray:not(.app-open).app-size-4.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 700px;
+}
+
+.app-tray:not(.app-open).app-size-4.spacing-5 {
+  padding-bottom: 33px;
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-5 > .app:not(.active) {
@@ -2368,6 +2464,10 @@
   line-height: 580px;
 }
 
+.app-tray:not(.app-open).app-size-5 {
+  padding-bottom: 12px;
+}
+
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) {
   width: 125px;
   height: 125px;
@@ -2410,6 +2510,10 @@
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 62.5px;
+}
+
+.app-tray:not(.app-open).app-size-5.spacing-1 {
+  padding-bottom: 15px;
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 > .app:not(.active) {
@@ -2489,6 +2593,10 @@
   line-height: 705px;
 }
 
+.app-tray:not(.app-open).app-size-5.spacing-2 {
+  padding-bottom: 20px;
+}
+
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active) {
   width: 125px;
   height: 125px;
@@ -2564,6 +2672,10 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 745px;
+}
+
+.app-tray:not(.app-open).app-size-5.spacing-3 {
+  padding-bottom: 25px;
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-3 > .app:not(.active) {
@@ -2643,6 +2755,10 @@
   line-height: 785px;
 }
 
+.app-tray:not(.app-open).app-size-5.spacing-4 {
+  padding-bottom: 30px;
+}
+
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active) {
   width: 125px;
   height: 125px;
@@ -2718,6 +2834,10 @@
 
 .app-tray:not(.app-open).app-size-5.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 825px;
+}
+
+.app-tray:not(.app-open).app-size-5.spacing-5 {
+  padding-bottom: 35px;
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-5 > .app:not(.active) {
@@ -2861,6 +2981,10 @@
   line-height: 705px;
 }
 
+.app-tray:not(.app-open).app-size-6 {
+  padding-bottom: 14px;
+}
+
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) {
   width: 150px;
   height: 150px;
@@ -2903,6 +3027,10 @@
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 75px;
+}
+
+.app-tray:not(.app-open).app-size-6.spacing-1 {
+  padding-bottom: 17px;
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 > .app:not(.active) {
@@ -2982,6 +3110,10 @@
   line-height: 830px;
 }
 
+.app-tray:not(.app-open).app-size-6.spacing-2 {
+  padding-bottom: 22px;
+}
+
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active) {
   width: 150px;
   height: 150px;
@@ -3057,6 +3189,10 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 870px;
+}
+
+.app-tray:not(.app-open).app-size-6.spacing-3 {
+  padding-bottom: 27px;
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-3 > .app:not(.active) {
@@ -3136,6 +3272,10 @@
   line-height: 910px;
 }
 
+.app-tray:not(.app-open).app-size-6.spacing-4 {
+  padding-bottom: 32px;
+}
+
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active) {
   width: 150px;
   height: 150px;
@@ -3211,6 +3351,10 @@
 
 .app-tray:not(.app-open).app-size-6.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 950px;
+}
+
+.app-tray:not(.app-open).app-size-6.spacing-5 {
+  padding-bottom: 37px;
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-5 > .app:not(.active) {
@@ -3354,6 +3498,10 @@
   line-height: 830px;
 }
 
+.app-tray:not(.app-open).app-size-7 {
+  padding-bottom: 16px;
+}
+
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) {
   width: 175px;
   height: 175px;
@@ -3396,6 +3544,10 @@
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 87.5px;
+}
+
+.app-tray:not(.app-open).app-size-7.spacing-1 {
+  padding-bottom: 19px;
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 > .app:not(.active) {
@@ -3475,6 +3627,10 @@
   line-height: 955px;
 }
 
+.app-tray:not(.app-open).app-size-7.spacing-2 {
+  padding-bottom: 24px;
+}
+
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active) {
   width: 175px;
   height: 175px;
@@ -3550,6 +3706,10 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 995px;
+}
+
+.app-tray:not(.app-open).app-size-7.spacing-3 {
+  padding-bottom: 29px;
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-3 > .app:not(.active) {
@@ -3629,6 +3789,10 @@
   line-height: 1035px;
 }
 
+.app-tray:not(.app-open).app-size-7.spacing-4 {
+  padding-bottom: 34px;
+}
+
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active) {
   width: 175px;
   height: 175px;
@@ -3704,6 +3868,10 @@
 
 .app-tray:not(.app-open).app-size-7.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 1075px;
+}
+
+.app-tray:not(.app-open).app-size-7.spacing-5 {
+  padding-bottom: 39px;
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-5 > .app:not(.active) {
@@ -3847,6 +4015,10 @@
   line-height: 955px;
 }
 
+.app-tray:not(.app-open).app-size-8 {
+  padding-bottom: 18px;
+}
+
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) {
   width: 200px;
   height: 200px;
@@ -3889,6 +4061,10 @@
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
   font-size: 100px;
+}
+
+.app-tray:not(.app-open).app-size-8.spacing-1 {
+  padding-bottom: 21px;
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 > .app:not(.active) {
@@ -3968,6 +4144,10 @@
   line-height: 1080px;
 }
 
+.app-tray:not(.app-open).app-size-8.spacing-2 {
+  padding-bottom: 26px;
+}
+
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active) {
   width: 200px;
   height: 200px;
@@ -4043,6 +4223,10 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-2 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 1120px;
+}
+
+.app-tray:not(.app-open).app-size-8.spacing-3 {
+  padding-bottom: 31px;
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-3 > .app:not(.active) {
@@ -4122,6 +4306,10 @@
   line-height: 1160px;
 }
 
+.app-tray:not(.app-open).app-size-8.spacing-4 {
+  padding-bottom: 36px;
+}
+
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active) {
   width: 200px;
   height: 200px;
@@ -4197,6 +4385,10 @@
 
 .app-tray:not(.app-open).app-size-8.spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 1200px;
+}
+
+.app-tray:not(.app-open).app-size-8.spacing-5 {
+  padding-bottom: 41px;
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-5 > .app:not(.active) {
@@ -4858,7 +5050,7 @@
 
 .app-tray:not(.app-open) {
   padding: 5px;
-  padding-bottom: 16px;
+  padding-bottom: 7px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
