@@ -43,6 +43,14 @@
   overflow: auto;
 }
 
+.app-tray:not(.app-open):before {
+  margin-left: auto;
+}
+
+.app-tray:not(.app-open):after {
+  margin-right: auto;
+}
+
 .app-tray.app-open.blured > .app.active {
   position: relative;
 }
@@ -4819,7 +4827,7 @@
 }
 
 .app-tray:not(.app-open) {
-  padding: 10 -5px;
+  padding: 5px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
