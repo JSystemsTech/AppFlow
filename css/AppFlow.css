@@ -5093,7 +5093,7 @@
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
