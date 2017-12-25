@@ -4342,11 +4342,8 @@
 
 .app-tray.spacing-1:not(.app-open) {
   padding: 5px;
+  bottom-padding: 8px;
   font-size: 10px;
-}
-
-.app-tray.spacing-1:not(.app-open) {
-  padding: 5px;
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active) {
@@ -4434,11 +4431,8 @@
 
 .app-tray.spacing-2:not(.app-open) {
   padding: 10px;
+  bottom-padding: 16px;
   font-size: 11px;
-}
-
-.app-tray.spacing-2:not(.app-open) {
-  padding: 10px;
 }
 
 .app-tray:not(.app-open).spacing-2 > .app:not(.active) {
@@ -4526,11 +4520,8 @@
 
 .app-tray.spacing-3:not(.app-open) {
   padding: 15px;
+  bottom-padding: 24px;
   font-size: 12px;
-}
-
-.app-tray.spacing-3:not(.app-open) {
-  padding: 15px;
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active) {
@@ -4618,11 +4609,8 @@
 
 .app-tray.spacing-4:not(.app-open) {
   padding: 20px;
+  bottom-padding: 32px;
   font-size: 13px;
-}
-
-.app-tray.spacing-4:not(.app-open) {
-  padding: 20px;
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active) {
@@ -4710,11 +4698,8 @@
 
 .app-tray.spacing-5:not(.app-open) {
   padding: 25px;
+  bottom-padding: 40px;
   font-size: 14px;
-}
-
-.app-tray.spacing-5:not(.app-open) {
-  padding: 25px;
 }
 
 .app-tray:not(.app-open).spacing-5 > .app:not(.active) {
@@ -4878,6 +4863,7 @@
 
 .app-tray:not(.app-open) {
   padding: 5px;
+  bottom-padding: 8px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
