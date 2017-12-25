@@ -406,6 +406,10 @@
   border-radius: 6.25px;
 }
 
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-title {
+  font-size: 1.1em;
+}
+
 .app-tray:not(.app-open).app-size-1 > .app:not(.active):not(.app-square).glass:after {
   border-top-left-radius: 4.25px;
   border-top-right-radius: 4.25px;
@@ -893,6 +897,10 @@
   min-height: 50px;
   /*flex fix for smaller devices*/
   border-radius: 12.5px;
+}
+
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-title {
+  font-size: 1.2em;
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active):not(.app-square).glass:after {
@@ -1384,6 +1392,10 @@
   border-radius: 18.75px;
 }
 
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-title {
+  font-size: 1.3em;
+}
+
 .app-tray:not(.app-open).app-size-3 > .app:not(.active):not(.app-square).glass:after {
   border-top-left-radius: 16.75px;
   border-top-right-radius: 16.75px;
@@ -1871,6 +1883,10 @@
   min-height: 100px;
   /*flex fix for smaller devices*/
   border-radius: 25px;
+}
+
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-title {
+  font-size: 1.4em;
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active):not(.app-square).glass:after {
@@ -2362,6 +2378,10 @@
   border-radius: 31.25px;
 }
 
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-title {
+  font-size: 1.5em;
+}
+
 .app-tray:not(.app-open).app-size-5 > .app:not(.active):not(.app-square).glass:after {
   border-top-left-radius: 29.25px;
   border-top-right-radius: 29.25px;
@@ -2849,6 +2869,10 @@
   min-height: 150px;
   /*flex fix for smaller devices*/
   border-radius: 37.5px;
+}
+
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-title {
+  font-size: 1.6em;
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active):not(.app-square).glass:after {
@@ -3340,6 +3364,10 @@
   border-radius: 43.75px;
 }
 
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-title {
+  font-size: 1.7em;
+}
+
 .app-tray:not(.app-open).app-size-7 > .app:not(.active):not(.app-square).glass:after {
   border-top-left-radius: 41.75px;
   border-top-right-radius: 41.75px;
@@ -3829,6 +3857,10 @@
   border-radius: 50px;
 }
 
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-title {
+  font-size: 1.8em;
+}
+
 .app-tray:not(.app-open).app-size-8 > .app:not(.active):not(.app-square).glass:after {
   border-top-left-radius: 48px;
   border-top-right-radius: 48px;
@@ -4310,6 +4342,11 @@
 
 .app-tray.spacing-1:not(.app-open) {
   padding: 5px;
+  font-size: 10px;
+}
+
+.app-tray.spacing-1:not(.app-open) {
+  padding: 5px;
 }
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active) {
@@ -4393,6 +4430,11 @@
 
 .app-tray:not(.app-open).spacing-1 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 580px;
+}
+
+.app-tray.spacing-2:not(.app-open) {
+  padding: 10px;
+  font-size: 11px;
 }
 
 .app-tray.spacing-2:not(.app-open) {
@@ -4484,6 +4526,11 @@
 
 .app-tray.spacing-3:not(.app-open) {
   padding: 15px;
+  font-size: 12px;
+}
+
+.app-tray.spacing-3:not(.app-open) {
+  padding: 15px;
 }
 
 .app-tray:not(.app-open).spacing-3 > .app:not(.active) {
@@ -4571,6 +4618,11 @@
 
 .app-tray.spacing-4:not(.app-open) {
   padding: 20px;
+  font-size: 13px;
+}
+
+.app-tray.spacing-4:not(.app-open) {
+  padding: 20px;
 }
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active) {
@@ -4654,6 +4706,11 @@
 
 .app-tray:not(.app-open).spacing-4 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
   line-height: 700px;
+}
+
+.app-tray.spacing-5:not(.app-open) {
+  padding: 25px;
+  font-size: 14px;
 }
 
 .app-tray.spacing-5:not(.app-open) {
@@ -4850,6 +4907,14 @@
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon {
   line-height: 100px;
   font-size: 70px;
+}
+
+.app-tray:not(.app-open) {
+  font-size: 10px;
+}
+
+.app-tray:not(.app-open) > .app:not(.active) > .app-title {
+  font-size: 1.1px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
