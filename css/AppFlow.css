@@ -4910,11 +4910,11 @@
 }
 
 .app-tray:not(.app-open) {
-  font-size: 10em;
+  font-size: 10px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
-  font-size: 1.1px;
+  font-size: 1.1em;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
