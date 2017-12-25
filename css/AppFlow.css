@@ -136,6 +136,7 @@
   float: none;
 }
 
+.app-tray.app-open[class*="app-open-"].app-shadowed > .app.active,
 .app-tray.app-open[class*="app-open-"].blured.app-shadowed > .app.active {
   box-shadow: #333 0 3px 15px 0;
 }
