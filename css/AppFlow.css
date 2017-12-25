@@ -4534,6 +4534,7 @@
 
 .app-tray.spacing-1:not(.app-open) {
   padding: 5px;
+  padding-bottom: 7px;
   font-size: 10px;
 }
 
@@ -4622,6 +4623,7 @@
 
 .app-tray.spacing-2:not(.app-open) {
   padding: 10px;
+  padding-bottom: 7px;
   font-size: 11px;
 }
 
@@ -4710,6 +4712,7 @@
 
 .app-tray.spacing-3:not(.app-open) {
   padding: 15px;
+  padding-bottom: 7px;
   font-size: 12px;
 }
 
@@ -4798,6 +4801,7 @@
 
 .app-tray.spacing-4:not(.app-open) {
   padding: 20px;
+  padding-bottom: 7px;
   font-size: 13px;
 }
 
@@ -4886,6 +4890,7 @@
 
 .app-tray.spacing-5:not(.app-open) {
   padding: 25px;
+  padding-bottom: 7px;
   font-size: 14px;
 }
 
@@ -5054,6 +5059,7 @@
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
+  padding-top: 1px;
   margin-left: -10px;
   margin-right: -10px;
 }
