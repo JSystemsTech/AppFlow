@@ -21,24 +21,25 @@ $( document ).ready(function() {
     var changeElClass = function(el, type, added){
         el.removeClass(El_CLASSES[type]).addClass(added);
  }
+    var TRAY = $('#myAppTray');
 AppOpenSelect.bind('change',function(){
     changeElClass($('#myAppTray'), 'app-open', $('#appOpenSelect').val());
 });
     $('#MyAppTrayControls input[name="blured"]').bind('change',function(){
-    changeElClass($('#myAppTray'), 'blured', $('#MyAppTrayControls input[name="blured"]:checked').val());
+    changeElClass(TRAY, 'blured', $('#MyAppTrayControls input[name="blured"]:checked').val());
 });
 $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
-    changeElClass($('#myAppTray'), 'spacing', $('#MyAppTrayControls input[name="spacing"]:checked').val());
+    changeElClass(TRAY, 'spacing', $('#MyAppTrayControls input[name="spacing"]:checked').val());
 });
     $('#MyAppTrayControls input[name="app-size"]').bind('change',function(){
-    changeElClass($('#myAppTray'), 'app-size', $('#MyAppTrayControls input[name="app-size"]:checked').val());
+    changeElClass(TRAY, 'app-size', $('#MyAppTrayControls input[name="app-size"]:checked').val());
 });
      $('#MyAppTrayControls input[name="shadowed"]').bind('change',function(){
             var changeClass = '';
             if( $('#MyAppTrayControls input[name="shadowed"]').prop('checked')){
             changeClass = 'app-shadowed';
                }
-            changeElClass(app, 'shadowed', changeClass);
+            changeElClass(TRAY, 'shadowed', changeClass);
 });
     $('#myAppTray').find('> .app').each(function(){
           var app = $(this);
