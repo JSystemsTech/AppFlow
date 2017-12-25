@@ -9,7 +9,8 @@ $( document ).ready(function() {
         'glass': 'glass',
         'square': 'app-square',
         'app-open': '',
-        'blured': 'blured blured-dark'
+        'blured': 'blured blured-dark',
+        'shadowed': 'app-shadowed'
  };
     var AppOpenSelect = $('#appOpenSelect');
     for(var percent = 99; percent >= 50; percent --){
@@ -31,6 +32,13 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
 });
     $('#MyAppTrayControls input[name="app-size"]').bind('change',function(){
     changeElClass($('#myAppTray'), 'app-size', $('#MyAppTrayControls input[name="app-size"]:checked').val());
+});
+     $('#MyAppTrayControls input[name="shadowed"]').bind('change',function(){
+            var changeClass = '';
+            if( $('#MyAppTrayControls input[name="shadowed"]').prop('checked')){
+            changeClass = 'app-shadowed';
+               }
+            changeElClass(app, 'shadowed', changeClass);
 });
     $('#myAppTray').find('> .app').each(function(){
           var app = $(this);
