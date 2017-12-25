@@ -5456,6 +5456,58 @@
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 365px;
   }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 70px;
+    min-width: 70px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 70px;
+    min-height: 70px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 70px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 115px;
+    min-width: 115px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 115px;
+    min-height: 115px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 115px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 160px;
+    min-width: 160px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 160px;
+    min-height: 160px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 205px;
+    min-width: 205px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 205px;
+    min-height: 205px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 205px;
+  }
 }
 
 @media (min-width: 260px) {
@@ -5841,6 +5893,58 @@
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 490px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 120px;
+    min-width: 120px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 120px;
+    min-height: 120px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 190px;
+    min-width: 190px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 190px;
+    min-height: 190px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 190px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 260px;
+    min-width: 260px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 260px;
+    min-height: 260px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 260px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 330px;
+    min-width: 330px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 330px;
+    min-height: 330px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 330px;
   }
 }
 
@@ -6228,6 +6332,58 @@
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 615px;
   }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 170px;
+    min-width: 170px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 170px;
+    min-height: 170px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 170px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 265px;
+    min-width: 265px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 265px;
+    min-height: 265px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 265px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 360px;
+    min-width: 360px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 360px;
+    min-height: 360px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 360px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 455px;
+    min-width: 455px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 455px;
+    min-height: 455px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 455px;
+  }
 }
 
 @media (min-width: 410px) {
@@ -6613,6 +6769,58 @@
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 740px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 220px;
+    min-width: 220px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 220px;
+    min-height: 220px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 220px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 340px;
+    min-width: 340px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 340px;
+    min-height: 340px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 340px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 460px;
+    min-width: 460px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 460px;
+    min-height: 460px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 460px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 580px;
+    min-width: 580px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 580px;
+    min-height: 580px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 580px;
   }
 }
 
@@ -7000,6 +7208,58 @@
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 865px;
   }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 270px;
+    min-width: 270px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 270px;
+    min-height: 270px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 270px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 415px;
+    min-width: 415px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 415px;
+    min-height: 415px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 415px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 560px;
+    min-width: 560px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 560px;
+    min-height: 560px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 560px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 705px;
+    min-width: 705px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 705px;
+    min-height: 705px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 705px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -7385,6 +7645,58 @@
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 990px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 320px;
+    min-width: 320px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 320px;
+    min-height: 320px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 320px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 490px;
+    min-width: 490px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 490px;
+    min-height: 490px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 490px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 660px;
+    min-width: 660px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 660px;
+    min-height: 660px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 660px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 830px;
+    min-width: 830px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 830px;
+    min-height: 830px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 830px;
   }
 }
 
@@ -7772,6 +8084,58 @@
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 1115px;
   }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 370px;
+    min-width: 370px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 370px;
+    min-height: 370px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 370px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 565px;
+    min-width: 565px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 565px;
+    min-height: 565px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 565px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 760px;
+    min-width: 760px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 760px;
+    min-height: 760px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 760px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 955px;
+    min-width: 955px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 955px;
+    min-height: 955px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 955px;
+  }
 }
 
 @media (min-width: 1492px) {
@@ -8157,5 +8521,57 @@
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 1240px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-2 {
+    width: 420px;
+    min-width: 420px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 {
+    height: 420px;
+    min-height: 420px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-2 > .app-header.app-icon {
+    line-height: 420px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-3 {
+    width: 640px;
+    min-width: 640px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 {
+    height: 640px;
+    min-height: 640px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-3 > .app-header.app-icon {
+    line-height: 640px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-4 {
+    width: 860px;
+    min-width: 860px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 {
+    height: 860px;
+    min-height: 860px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-4 > .app-header.app-icon {
+    line-height: 860px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-span-5 {
+    width: 1080px;
+    min-width: 1080px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 {
+    height: 1080px;
+    min-height: 1080px;
+    /*flex fix for smaller devices*/
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active).app-height-span-5 > .app-header.app-icon {
+    line-height: 1080px;
   }
 }
