@@ -425,6 +425,9 @@
         <select class="form-control" id="appOpenSelect">
           <option value="">100</option>
         </select>
+        <div class="checkbox">
+        <label><input type="checkbox" name="shadowed">Shadowed Open App Container (only for open apps set at 50-99%)</label>
+      </div>
       </div>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-3">
