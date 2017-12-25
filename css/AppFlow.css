@@ -397,7 +397,7 @@
 }
 
 .app-tray:not(.app-open).app-size-1 {
-  padding-bottom: 4px;
+  padding-bottom: 7px;
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) {
@@ -914,7 +914,7 @@
 }
 
 .app-tray:not(.app-open).app-size-2 {
-  padding-bottom: 6px;
+  padding-bottom: 9px;
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) {
@@ -1431,7 +1431,7 @@
 }
 
 .app-tray:not(.app-open).app-size-3 {
-  padding-bottom: 8px;
+  padding-bottom: 11px;
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) {
@@ -1948,7 +1948,7 @@
 }
 
 .app-tray:not(.app-open).app-size-4 {
-  padding-bottom: 10px;
+  padding-bottom: 13px;
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) {
@@ -2465,7 +2465,7 @@
 }
 
 .app-tray:not(.app-open).app-size-5 {
-  padding-bottom: 12px;
+  padding-bottom: 15px;
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) {
@@ -2982,7 +2982,7 @@
 }
 
 .app-tray:not(.app-open).app-size-6 {
-  padding-bottom: 14px;
+  padding-bottom: 17px;
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) {
@@ -3499,7 +3499,7 @@
 }
 
 .app-tray:not(.app-open).app-size-7 {
-  padding-bottom: 16px;
+  padding-bottom: 19px;
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) {
@@ -4016,7 +4016,7 @@
 }
 
 .app-tray:not(.app-open).app-size-8 {
-  padding-bottom: 18px;
+  padding-bottom: 21px;
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) {
