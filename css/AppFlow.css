@@ -44,10 +44,12 @@
 }
 
 .app-tray:not(.app-open):before {
+  content: "";
   margin-left: auto;
 }
 
 .app-tray:not(.app-open):after {
+  content: "";
   margin-right: auto;
 }
 
