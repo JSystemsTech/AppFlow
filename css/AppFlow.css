@@ -4823,8 +4823,8 @@
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active).glass:after {
