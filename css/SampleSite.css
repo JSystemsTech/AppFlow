@@ -46,5 +46,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', end
   radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 
+.p-0{
+ padding: 0; 
+}
 
 
