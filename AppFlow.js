@@ -53,11 +53,8 @@ var bindAppEvents = function(apps, tray) {
             var targetApp = $(e.target).closest('.app');
             var isCloseButton = $(e.target).closest('.app-close').length > 0;
 
-            var isOpen = targetApp.hasClass(ACTIVE_CLASS);
             if (isCloseButton === true) {
                 closeApp(targetApp, tray);
-            } else if (!isOpen) {
-                openApp(targetApp, tray);
             }
         }
     };
