@@ -5326,6 +5326,12 @@
     /*flex fix for smaller devices*/
     border-radius: 6.25px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 7px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 25px;
   }
@@ -5347,6 +5353,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 7px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 25px;
@@ -5418,6 +5425,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 12px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 25px;
@@ -5489,6 +5497,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 17px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 25px;
@@ -5560,6 +5569,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 22px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 25px;
@@ -5631,6 +5641,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 27px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 25px;
@@ -5764,6 +5775,12 @@
     /*flex fix for smaller devices*/
     border-radius: 12.5px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 9px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.1em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
   }
@@ -5785,6 +5802,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 9px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 50px;
@@ -5856,6 +5874,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 14px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 50px;
@@ -5927,6 +5946,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 19px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 50px;
@@ -5998,6 +6018,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 24px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 50px;
@@ -6069,6 +6090,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 29px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 50px;
@@ -6202,6 +6224,12 @@
     /*flex fix for smaller devices*/
     border-radius: 18.75px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 11px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.2em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
   }
@@ -6223,6 +6251,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 11px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 75px;
@@ -6294,6 +6323,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 16px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 75px;
@@ -6365,6 +6395,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 21px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 75px;
@@ -6436,6 +6467,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 26px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 75px;
@@ -6507,6 +6539,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 31px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 75px;
@@ -6640,6 +6673,12 @@
     /*flex fix for smaller devices*/
     border-radius: 25px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 13px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.3em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
   }
@@ -6661,6 +6700,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 13px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 100px;
@@ -6732,6 +6772,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 18px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 100px;
@@ -6803,6 +6844,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 23px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 100px;
@@ -6874,6 +6916,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 28px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 100px;
@@ -6945,6 +6988,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 33px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 100px;
@@ -7078,6 +7122,12 @@
     /*flex fix for smaller devices*/
     border-radius: 31.25px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 15px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.4em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
   }
@@ -7099,6 +7149,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 15px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 125px;
@@ -7170,6 +7221,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 20px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 125px;
@@ -7241,6 +7293,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 25px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 125px;
@@ -7312,6 +7365,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 30px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 125px;
@@ -7383,6 +7437,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 35px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 125px;
@@ -7516,6 +7571,12 @@
     /*flex fix for smaller devices*/
     border-radius: 37.5px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 17px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.5em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
@@ -7537,6 +7598,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 17px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 150px;
@@ -7608,6 +7670,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 22px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 150px;
@@ -7679,6 +7742,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 27px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 150px;
@@ -7750,6 +7814,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 32px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 150px;
@@ -7821,6 +7886,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 37px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 150px;
@@ -7954,6 +8020,12 @@
     /*flex fix for smaller devices*/
     border-radius: 43.75px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 19px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.6em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
@@ -7975,6 +8047,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 19px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 175px;
@@ -8046,6 +8119,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 24px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 175px;
@@ -8117,6 +8191,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 29px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 175px;
@@ -8188,6 +8263,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 34px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 175px;
@@ -8259,6 +8335,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 39px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 175px;
@@ -8392,6 +8469,12 @@
     /*flex fix for smaller devices*/
     border-radius: 50px;
   }
+  .app-tray:not(.app-open).app-size-auto {
+    padding-bottom: 21px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
+    font-size: 1.7em;
+  }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
@@ -8413,6 +8496,7 @@
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
+    padding-bottom: 21px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-1 > .app:not(.active) {
     width: 200px;
@@ -8484,6 +8568,7 @@
   }
   .app-tray.spacing-2:not(.app-open).app-size-auto {
     padding: 10px;
+    padding-bottom: 26px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-2 > .app:not(.active) {
     width: 200px;
@@ -8555,6 +8640,7 @@
   }
   .app-tray.spacing-3:not(.app-open).app-size-auto {
     padding: 15px;
+    padding-bottom: 31px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-3 > .app:not(.active) {
     width: 200px;
@@ -8626,6 +8712,7 @@
   }
   .app-tray.spacing-4:not(.app-open).app-size-auto {
     padding: 20px;
+    padding-bottom: 36px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-4 > .app:not(.active) {
     width: 200px;
@@ -8697,6 +8784,7 @@
   }
   .app-tray.spacing-5:not(.app-open).app-size-auto {
     padding: 25px;
+    padding-bottom: 41px;
   }
   .app-tray:not(.app-open).app-size-auto.spacing-5 > .app:not(.active) {
     width: 200px;
