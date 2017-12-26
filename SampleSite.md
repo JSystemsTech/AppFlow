@@ -11,8 +11,8 @@
 <button class="close-all-apps btn bg-gold" data-target="#MainTray">Home</button>
 </div>
 
-<div class="app-tray app-size-auto bg-purple" id="MainTray">
-  <div class="app">
+<div class="app-tray app-size-auto w3-flat-peter-river" id="MainTray">
+  <div class="app w3-flat-emerald">
     <div class="app-header app-icon">
       <i class="fa fa-question-circle"></i>
     </div>
