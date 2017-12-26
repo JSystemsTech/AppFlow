@@ -7,17 +7,17 @@ var closeAllApps = function(tray, cb) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
     if (typeof cb === 'function') {
-        setTimeout(cb, 400);
+        cb();
     }
 };
 var openApp = function(app, tray) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
         closeApp($(currentlyOpenApp[0]), tray, function() {
-            console.log(app);
-            app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
-            tray.addClass(APP_OPEN_CLASS);
-            app.trigger('app-opened', app, tray);
+            setTimeout(function(){
+                openApp(app, tray);
+            }, 400);
+            
         });
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
