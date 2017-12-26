@@ -3,9 +3,12 @@ var ACTIVE_CLASS = 'active';
 var APP_OPEN_CLASS = 'app-open';
 
 $( document ).ready(function() {
-var closeAllApps = function(tray) {
+var closeAllApps = function(tray, cb) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
+    if (typeof cb === 'function') {
+        cb();
+    }
 };
 var openApp = function(app, tray) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
@@ -23,11 +26,8 @@ var openApp = function(app, tray) {
     }
 };
 var closeApp = function(app, tray, cb) {
-    closeAllApps(tray);
+    closeAllApps(tray, cb);
     app.trigger('app-closed', app, tray);
-    if (typeof cb === 'function') {
-        cb();
-    }
 };
 
 var bindAppEvents = function(apps, tray) {
