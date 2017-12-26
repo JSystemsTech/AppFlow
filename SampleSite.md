@@ -18,11 +18,11 @@
     </div>
     <div class="app-content">
       <div class="row">
-        <div class="app-close col-xs-1">
+        <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
-        <div class="col-xs-10"><strong>About</strong></div>
-        <div class="col-xs-1">
+        <div class="col-xs-10 p-0"><strong>About</strong></div>
+        <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
