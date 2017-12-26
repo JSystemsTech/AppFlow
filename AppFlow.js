@@ -43,7 +43,7 @@ var bindAppEvents = function(apps, tray) {
             openApp(targetApp, tray);
         },
         'app-close': function() {
-            var targetApp = var targetApp = $(e.target).closest('.app');
+            var targetApp = $(e.target).closest('.app');
             closeApp(targetApp, tray);
         },
         'click': function(e) {
