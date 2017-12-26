@@ -7,7 +7,7 @@
   <script type="text/javascript" src="{{ site.baseurl }}/AppFlow.js"></script>
   <!-- <script type="text/javascript" src="{{ site.baseurl }}/samplesite.js"></script> -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/AppFlow.css">
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/samplesite.css"> -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/SampleSite.css">
 
 <div>
 <button class="close-all-apps btn btn-info" data-target="#MainTray">Home</button>
