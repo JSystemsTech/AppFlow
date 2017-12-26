@@ -7,7 +7,7 @@ var closeAllApps = function(tray, cb) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
     if (typeof cb === 'function') {
-        cb();
+        setTimeout(cb, 400);
     }
 };
 var openApp = function(app, tray) {
