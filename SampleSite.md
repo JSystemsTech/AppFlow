@@ -7,8 +7,8 @@
 <div class="header bg-purple">
 <h2 class="bg-gold">AppFlow Sample Site</h2>
 </div>
-
-<div class="app-tray app-size-auto w3-flat-peter-river h-100" id="MainTray">
+<div class="h-100 w3-flat-peter-river">
+<div class="app-tray app-size-auto" id="MainTray">
   <div class="app w3-flat-emerald">
     <div class="app-header app-icon">
       <i class="fa fa-info-circle"></i>
@@ -103,4 +103,5 @@
   </div>
   
   
+</div>
 </div>
