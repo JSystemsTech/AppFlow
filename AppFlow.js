@@ -10,7 +10,7 @@ var closeAllApps = function(tray) {
 var openApp = function(app, tray) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
-        closeApp(currentlyOpenApp, tray, function() {
+        closeApp($(currentlyOpenApp[0]), tray, function() {
             openApp(app, tray);
         });
     } else {
