@@ -3,11 +3,15 @@
   <!-- <script type="text/javascript" src="{{ site.baseurl }}/samplesite.js"></script> -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/SampleSite.css">
 
+
 <div>
-<button class="close-all-apps btn btn-info" data-target="#MainTray">Home</button>
+<h2 class="bg-purple">AppFlow Sample Site</h2>
+</div>
+<div>
+<button class="close-all-apps btn bg-gold" data-target="#MainTray">Home</button>
 </div>
 
-<div class="app-tray" id="MainTray">
+<div class="app-tray bg-purple" id="MainTray">
   <div class="app">
     <div class="app-header app-icon">
       <i class="fa fa-question-circle"></i>
@@ -15,7 +19,7 @@
     <div class="app-content">
       <div class="row">
         <div class="pull-left">About</div>
-        <div class="app-close pull-right btn btn-danger">
+        <div class="app-close pull-right btn bg-gold">
           <i class="fa fa-close"></i>
         </div>
       </div>
