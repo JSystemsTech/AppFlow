@@ -29,7 +29,7 @@ var closeApp = function(app, tray, cb) {
 
 var bindAppEvents = function(apps, tray) {
     var appEvents = {
-        'app-toggle': function() {
+        'app-toggle': function(e) {
             var targetApp = $(e.target).closest('.app');
             var isOpen = targetApp.hasClass(ACTIVE_CLASS);
             if (isOpen) {
@@ -38,11 +38,11 @@ var bindAppEvents = function(apps, tray) {
                 openApp(targetApp, tray);
             }
         },
-        'app-open': function() {
+        'app-open': function(e) {
             var targetApp = $(e.target).closest('.app');
             openApp(targetApp, tray);
         },
-        'app-close': function() {
+        'app-close': function(e) {
             var targetApp = $(e.target).closest('.app');
             closeApp(targetApp, tray);
         },
