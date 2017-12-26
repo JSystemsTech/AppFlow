@@ -1,6 +1,6 @@
 
   
-  <!-- <script type="text/javascript" src="{{ site.baseurl }}/samplesite.js"></script> -->
+  <script type="text/javascript" src="{{ site.baseurl }}/SampleSite.js"></script>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/SampleSite.css">
 
 
