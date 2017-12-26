@@ -73,8 +73,8 @@
           <i class="fa fa-arrow-left"></i>
         </div>
         <div class="col-xs-8 p-0"><strong>Store</strong></div>
-        <div class="col-xs-1 p-0">
-          <i class="fa fa-shopping-cart open-cart"></i>
+        <div class="col-xs-1 p-0 open-cart">
+          <i class="fa fa-shopping-cart"></i>
         </div>
         <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
