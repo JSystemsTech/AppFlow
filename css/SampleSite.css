@@ -9,7 +9,7 @@ body,
     margin: 0;
     padding: 0;
 }
-.header > h2{
+.header > h2
   {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
