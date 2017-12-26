@@ -18,10 +18,11 @@
     </div>
     <div class="app-content">
       <div class="row">
-        <div class="pull-left">About</div>
-        <div class="app-close pull-right btn bg-gold">
-          <i class="fa fa-close"></i>
+        <div class="app-close btn bg-gold col-xs-1">
+          <i class="fa fa-arrow-left"></i>
         </div>
+        <div class="col-xs-10">About</div>
+        <div class="col-xs-1"></div>
       </div>
     </div>
     <div class="app-title">About</div>
