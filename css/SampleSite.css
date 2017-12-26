@@ -30,7 +30,9 @@ body,
     text-align: center;
     
 }
-
+.app-content-header-bar{
+ font-size: 20px;
+}
 .bg-purple{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a00ff+0,aa00ff+99 */
 background: #6a00ff; /* Old browsers */
