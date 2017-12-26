@@ -18,11 +18,13 @@
     </div>
     <div class="app-content">
       <div class="row">
-        <div class="app-close btn bg-gold col-xs-1">
+        <div class="app-close col-xs-1">
           <i class="fa fa-arrow-left"></i>
         </div>
         <div class="col-xs-10">About</div>
-        <div class="col-xs-1"></div>
+        <div class="col-xs-1">
+          <i class="fa fa-share-alt"></i>
+        </div>
       </div>
     </div>
     <div class="app-title">About</div>
