@@ -11,7 +11,9 @@ var openApp = function(app, tray) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
         closeApp($(currentlyOpenApp[0]), tray, function() {
-            openApp(app, tray);
+            app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
+            tray.addClass(APP_OPEN_CLASS);
+            app.trigger('app-opened', app, tray);
         });
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
