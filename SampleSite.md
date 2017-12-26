@@ -14,7 +14,7 @@
       <i class="fa fa-info-circle"></i>
     </div>
     <div class="app-content">
-      <div class="row">
+      <div class="row app-content-header-bar">
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
@@ -32,7 +32,7 @@
       <i class="fa fa-newspaper-o"></i>
     </div>
     <div class="app-content">
-      <div class="row">
+      <div class="row app-content-header-bar">
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
@@ -50,7 +50,7 @@
       <i class="fa fa-question-circle"></i>
     </div>
     <div class="app-content">
-      <div class="row">
+      <div class="row app-content-header-bar">
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
@@ -68,7 +68,7 @@
       <i class="fa fa-shopping-bag"></i>
     </div>
     <div class="app-content">
-      <div class="row">
+      <div class="row app-content-header-bar">
         <div class="app-close col-xs-2 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
@@ -91,7 +91,7 @@
       <i class="fa fa-shopping-cart"></i>
     </div>
     <div class="app-content">
-      <div class="row">
+      <div class="row app-content-header-bar">
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
@@ -112,7 +112,7 @@
       <i class="fa fa-phone"></i>
     </div>
     <div class="app-content">
-      <div class="row">
+      <div class="row app-content-header-bar">
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
