@@ -31,8 +31,7 @@ body,
     
 }
 
-.bg-purple,
-.app-tray > .app.active {
+.bg-purple{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a00ff+0,aa00ff+99 */
 background: #6a00ff; /* Old browsers */
 background: -moz-linear-gradient(-45deg, #6a00ff 0%, #aa00ff 99%); /* FF3.6-15 */
@@ -40,8 +39,7 @@ background: -webkit-linear-gradient(-45deg, #6a00ff 0%,#aa00ff 99%); /* Chrome10
 background: linear-gradient(135deg, #6a00ff 0%,#aa00ff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', endColorstr='#aa00ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-.bg-gold,
-.app-tray > .app:not(.active){
+.bg-gold{
    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
   radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
