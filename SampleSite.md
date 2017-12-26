@@ -8,7 +8,7 @@
 <h2 class="bg-gold">AppFlow Sample Site</h2>
 </div>
 
-<div class="app-tray app-size-auto w3-flat-peter-river" id="MainTray">
+<div class="app-tray app-size-auto w3-flat-peter-river h-100" id="MainTray">
   <div class="app w3-flat-emerald">
     <div class="app-header app-icon">
       <i class="fa fa-info-circle"></i>
@@ -76,6 +76,9 @@
         <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
         </div>
+      </div>
+      <div class="row h-100 bg-white">
+        <p>Welcome to the store</p>
       </div>
     </div>
     <div class="app-title">Store</div>
