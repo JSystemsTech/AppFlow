@@ -5,13 +5,13 @@
 
 
 <div>
-<h2 class="bg-purple">AppFlow Sample Site</h2>
+<h2 class="bg-purple color-gold">AppFlow Sample Site</h2>
 </div>
 <div>
 <button class="close-all-apps btn bg-gold" data-target="#MainTray">Home</button>
 </div>
 
-<div class="app-tray bg-purple" id="MainTray">
+<div class="app-tray app-size-auto bg-purple" id="MainTray">
   <div class="app">
     <div class="app-header app-icon">
       <i class="fa fa-question-circle"></i>
