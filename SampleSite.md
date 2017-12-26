@@ -36,7 +36,7 @@
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
-        <div class="col-xs-10 p-0"><strong>News</strong></div>
+        <div class="col-xs-10 p-0"><strong><i class="fa fa-newspaper-o"></i> News</strong></div>
         <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
         </div>
@@ -54,7 +54,7 @@
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
-        <div class="col-xs-10 p-0"><strong>FAQs</strong></div>
+        <div class="col-xs-10 p-0"><strong><i class="fa fa-question-circle"></i> FAQs</strong></div>
         <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
         </div>
@@ -72,7 +72,7 @@
         <div class="app-close col-xs-2 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
-        <div class="col-xs-8 p-0"><strong>Store</strong></div>
+        <div class="col-xs-8 p-0"><strong><i class="fa fa-shopping-bag"></i> Store</strong></div>
         <div class="col-xs-1 p-0 open-cart">
           <i class="fa fa-shopping-cart"></i>
         </div>
@@ -95,7 +95,7 @@
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
-        <div class="col-xs-10 p-0"><strong>My Cart</strong></div>
+        <div class="col-xs-10 p-0"><strong><i class="fa fa-shopping-cart"></i> My Cart</strong></div>
         <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
         </div>
@@ -116,7 +116,7 @@
         <div class="app-close col-xs-1 p-0">
           <i class="fa fa-arrow-left"></i>
         </div>
-        <div class="col-xs-10 p-0"><strong>Contact Us</strong></div>
+        <div class="col-xs-10 p-0"><strong><i class="fa fa-phone"></i> Contact Us</strong></div>
         <div class="col-xs-1 p-0">
           <i class="fa fa-share-alt"></i>
         </div>
