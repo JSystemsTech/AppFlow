@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/SampleSite.css">
 
 
-<div>
+<div class="header">
 <h2 class="bg-purple color-gold">AppFlow Sample Site</h2>
 </div>
 <div>
