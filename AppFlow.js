@@ -50,20 +50,10 @@ var bindAppEvents = function(apps, tray) {
             closeApp(targetApp, tray);
         },
         'click': function(e) {
-            console.log($(e.target));
             var targetApp = $(e.target).closest('.app');
-            
-            var isCloseButton = $(e.target).closest('.app-close').length > 0;
-            var isContentEl = $(e.target).closest('.app-content').length > 0 && $(e.target).closest('.app-content').closest('.app-tray').is(tray);
-            
-            var isHeaderEl = $(e.target).closest('.app-header').length > 0;
             var isActive = $(e.target).hasClass(ACTIVE_CLASS);
-            if (isCloseButton === true && $(e.target).closest('.app-tray').is(tray)) {
-                    closeApp(targetApp, tray);
-                }
-            else if(!isActive){
-                    openApp(targetApp, tray);
-               
+            if(!isActive){
+                 openApp(targetApp, tray);
             }
         }
     };
@@ -87,6 +77,10 @@ $('.close-all-apps').bind('click', function() {
             closeApp(currentlyOpenApp, tray);
         }
     }
+});
+$('.app-close').bind('click', function() {
+    var targetApp = $(e.target).closest('.app');
+    targetApp.trigger('app-close');
 });
 $('.app-tray').each(initAppTray);
 });
