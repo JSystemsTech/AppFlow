@@ -68,6 +68,7 @@ var bindAppEvents = function(apps, tray) {
 };
 var initAppTray = function() {
     var tray = $(this);
+    console.log(tray);
     var apps = tray.find('> .app');
     apps.attr('aria-expanded', 'false').attr('tab-index', '1');
     bindAppEvents(apps, tray);
