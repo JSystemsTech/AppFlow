@@ -4,8 +4,8 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/SampleSite.css">
 
 
-<div class="header bg-purple">
-<h2 class="bg-gold">AppFlow Sample Site</h2>
+<div class="header w3-flat-wisteria">
+<h2>AppFlow Sample Site</h2>
 </div>
 <div class="h-100 w3-flat-peter-river">
 <div class="app-tray app-size-auto" id="MainTray">
