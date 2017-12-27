@@ -83,9 +83,11 @@ $('.close-all-apps').bind('click', function() {
     }
 });
 $('.app-close').bind('click', function(e) {
+    e.preventDefault();
     var targetApp = $(e.target).closest('.app');
     var tray = targetApp.closest('app-tray');
     closeApp(targetApp, tray);
+    e.stopPropagation();
 });
 $('.app-tray').each(initAppTray);
 });
