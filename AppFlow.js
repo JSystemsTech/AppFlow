@@ -55,7 +55,8 @@ var bindAppEvents = function(apps, tray) {
         'click': function(e) {
             e.preventDefault();
             var targetApp = $(e.target).closest('.app');
-            var closingApp = $(e.target).closest('.app-close').closest('.app').is(targetApp);
+            var closingApp = $(e.target).closest('.app-close').closest('.app').is(targetApp) && 
+                             $(e.target).('[data-toggle-app]').closest('.app').is(targetApp);
             var isActive = $(e.target).hasClass(ACTIVE_CLASS);
             if(!isActive && !closingApp){
                  openApp(targetApp, tray);
@@ -87,5 +88,15 @@ $('.app-close').bind('click', function(e) {
     var tray = targetApp.closest('.app-tray');
     closeApp(targetApp, tray);
 });
+$('[data-toggle-app]').bind('click', function(e){
+    var targetApp = $(e.target).closest('.app');
+    var tray = targetApp.closest('.app-tray');
+            var isOpen = targetApp.hasClass(ACTIVE_CLASS);
+            if (isOpen) {
+                closeApp(targetApp, tray);
+            } else {
+                openApp(targetApp, tray);
+            }
+ });
 $('.app-tray').each(initAppTray);
 });
