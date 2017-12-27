@@ -86,7 +86,7 @@ $('.close-all-apps').bind('click', function() {
         }
     }
 });
-$('.app-close').bind('click', function() {
+$('.app-close').bind('click', function(e) {
     var targetApp = $(e.target).closest('.app');
     targetApp.trigger('app-close');
 });
