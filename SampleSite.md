@@ -1,5 +1,4 @@
 
-	<body> 
 		<script src="{{%20site.baseurl%20}}/SampleSite.js" type="text/javascript">
 		</script>
 		<link href="{{ site.baseurl }}/css/SampleSite.css" rel="stylesheet">
