@@ -89,7 +89,7 @@ $('.app-close').bind('click', function(e) {
     closeApp(targetApp, tray);
 });
 $('[data-toggle-app]').bind('click', function(e){
-    var targetApp = $(e.target).closest('.app');
+    var targetApp = $($(this).attr('data-toggle-app'));
     var tray = targetApp.closest('.app-tray');
             var isOpen = targetApp.hasClass(ACTIVE_CLASS);
             if (isOpen) {
