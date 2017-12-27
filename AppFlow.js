@@ -87,7 +87,6 @@ $('.app-close').bind('click', function(e) {
     var targetApp = $(e.target).closest('.app');
     var tray = targetApp.closest('app-tray');
     closeApp(targetApp, tray);
-    e.stopPropagation();
 });
 $('.app-tray').each(initAppTray);
 });
