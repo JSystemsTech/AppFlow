@@ -41,10 +41,10 @@
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
-      <div class="row h-100 bg-white">
+      <div class="row bg-white">
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="panel">
-            <div class="panel-heading w3-flat-alizarin">News Item #1</div>
+            <div class="panel-heading w3-flat-pomegranate">News Item #1</div>
             <div class="panel-body">News Story #1 content</div>
           </div>
         </div>
@@ -56,25 +56,25 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="panel">
-            <div class="panel-heading w3-flat-alizarin">News Item #3</div>
+            <div class="panel-heading w3-flat-pumpkin">News Item #3</div>
             <div class="panel-body">News Story #3 content</div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="panel">
-            <div class="panel-heading w3-flat-alizarin">News Item #4</div>
+            <div class="panel-heading w3-flat-carrot">News Item #4</div>
             <div class="panel-body">News Story #4 content</div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="panel">
-            <div class="panel-heading w3-flat-alizarin">News Item #5</div>
+            <div class="panel-heading w3-flat-orange">News Item #5</div>
             <div class="panel-body">News Story #5 content</div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="panel">
-            <div class="panel-heading w3-flat-alizarin">News Item #6</div>
+            <div class="panel-heading w3-flat-sun-flower">News Item #6</div>
             <div class="panel-body">News Story #6 content</div>
           </div>
         </div>
@@ -119,7 +119,7 @@
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
-      <div class="row h-100 bg-white">
+      <div class="row bg-white">
         <p>Welcome to the store</p>
       </div>
     </div>
@@ -139,7 +139,7 @@
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
-      <div class="row h-100 bg-white">
+      <div class="row bg-white">
         
       </div>
     </div>
