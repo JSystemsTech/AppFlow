@@ -17,7 +17,7 @@
 <div class="col-xs-10 p-0"><strong>About</strong></div>
 <div class="col-xs-1 p-0"><i class="fa fa-share-alt"></i></div>
 </div>
-<div class="row">
+<div class="row h-100">
 <div class="app-tray app-size-auto" id="AboutSubTray">
 <div class="app w3-flat-turquoise">
 <div class="app-header"></div>
