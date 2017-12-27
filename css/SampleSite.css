@@ -11,8 +11,8 @@ body,
 }
 .header > h2
   {
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     margin: 0;
 } 
