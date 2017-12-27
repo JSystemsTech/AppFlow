@@ -61,10 +61,9 @@ var bindAppEvents = function(apps, tray) {
             if (isCloseButton === true && $(e.target).closest('.app-tray').is(tray)) {
                     closeApp(targetApp, tray);
                 }
-            else if(isHeaderEl){
-                if((!isContentEl && !isActive)){
+            else if(!isActive){
                     openApp(targetApp, tray);
-                }
+               
             }
         }
     };
