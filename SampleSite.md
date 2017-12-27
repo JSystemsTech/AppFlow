@@ -102,7 +102,7 @@
 <div class="row app-content-header-bar">
 <div class="app-close col-xs-2 p-0"><i class="fa fa-arrow-left"></i></div>
 <div class="col-xs-8 p-0"><strong><i class="fa fa-shopping-bag"></i> Store</strong></div>
-<div class="col-xs-1 p-0 open-cart"><i class="fa fa-shopping-cart"></i></div>
+<div class="col-xs-1 p-0" data-toggle-app="#cart"><i class="fa fa-shopping-cart"></i></div>
 <div class="col-xs-1 p-0"><i class="fa fa-share-alt"></i></div>
 </div>
 <div class="row bg-white">
