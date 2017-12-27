@@ -58,7 +58,7 @@ var bindAppEvents = function(apps, tray) {
             
             var isHeaderEl = $(e.target).closest('.app-header').length > 0;
             var isActive = $(e.target).hasClass(ACTIVE_CLASS);
-            if (isCloseButton === true) {
+            if (isCloseButton === true && $(e.target).closest('.app-tray').is(tray)) {
                     closeApp(targetApp, tray);
                 }
             else if(isHeaderEl){
