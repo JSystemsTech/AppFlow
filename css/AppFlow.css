@@ -72,7 +72,7 @@
   display: none;
 }
 
-.app.active .app-content {
+.app.active >.app-content {
   width: 100%;
   height: 100%;
 }
@@ -107,11 +107,11 @@
   opacity: 1;
 }
 
-.app-tray.app-open .app {
+.app-tray.app-open >.app {
   margin: 0;
 }
 
-.app-tray.app-open .app:not(.active) {
+.app-tray.app-open >.app:not(.active) {
   display: none;
 }
 
