@@ -15,8 +15,8 @@
 <div class="col-xs-1 p-0"><i class="fa fa-share-alt"></i></div>
 </div>
 <div class="row h-100">
-<div class="app-tray app-size-auto" id="AboutSubTray">
-<div class="app w3-flat-turquoise">
+<div class="app-tray app-size-auto app-open-80 blured blured-dark app-shadowed" id="AboutSubTray">
+<div class="app w3-flat-turquoise app-square glass">
 <div class="app-header"></div>
 <div class="app-content">
 <div class="row app-content-header-bar">
