@@ -49,7 +49,6 @@
       <div class="app-title"><strong>Sub Section 2</strong>
      </div>
     </div>
-  </div>
   <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
     <div class="app-header">
     </div>
@@ -65,7 +64,6 @@
       <div class="app-title"><strong>Sub Section 3</strong>
      </div>
     </div>
-  </div>
   <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
     <div class="app-header">
     </div>
@@ -81,10 +79,10 @@
       <div class="app-title"><strong>Sub Section 4</strong>
      </div>
     </div>
-  </div>
+
+
 </div>
-
-
+</div>
 </div>
   <div class="app-title"><strong>About</strong></div>
 </div>
