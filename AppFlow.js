@@ -50,7 +50,7 @@ var bindAppEvents = function(apps, tray) {
             closeApp(targetApp, tray);
         },
         'click': function(e) {
-            console.log('click');
+            console.log($(e.target));
             var targetApp = $(e.target).closest('.app');
             
             var isCloseButton = $(e.target).closest('.app-close').length > 0;
