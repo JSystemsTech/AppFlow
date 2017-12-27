@@ -23,6 +23,25 @@
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
+      <div class="row">
+        <div class="app-tray app-size-auto" id="AboutSubTray">
+          <div class="app w3-flat-turquoise">
+            <div class="app-header">
+            
+            </div>
+            <div class="app-content">
+              <div class="row app-content-header-bar">
+                <div class="app-close btn col-xs-12"><strong>Back</div>
+                <div class="col-xs-12 p-0"><strong>Sub Section 1</div>
+              </div>
+              <div class="row bg-white-trans">
+                <p>Sub Section 1 Content</p>
+              </div>
+            </div>
+            <div class="app-title">Sub Section 1</div>
+          </div>   
+        </div>
+      </div>
     </div>
     <div class="app-title">About</div>
   </div>
