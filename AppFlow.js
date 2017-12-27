@@ -51,7 +51,7 @@ var bindAppEvents = function(apps, tray) {
         },
         'app-close': function(e) {
             e.preventDefault();
-            e.stopPropigation();
+            e.stopPropagation();
             var targetApp = $(e.target).closest('.app');
             closeApp(targetApp, tray);
         },
