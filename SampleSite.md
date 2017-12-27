@@ -41,6 +41,32 @@
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
+      <div class="row h-100 bg-white"> 
+        <div class="col-xs-12 col-md-6 col-lg-3 panel panel-default">
+          <div class="panel-heading w3-flat-alizarin">News Item #1</div>
+          <div class="panel-body">News Story #1 content</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 panel panel-default">
+          <div class="panel-heading w3-flat-alizarin">News Item #2</div>
+          <div class="panel-body">News Story #2 content</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 panel panel-default">
+          <div class="panel-heading w3-flat-alizarin">News Item #3</div>
+          <div class="panel-body">News Story #3 content</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 panel panel-default">
+          <div class="panel-heading w3-flat-alizarin">News Item #4</div>
+          <div class="panel-body">News Story #4 content</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 panel panel-default">
+          <div class="panel-heading w3-flat-alizarin">News Item #5</div>
+          <div class="panel-body">News Story #5 content</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 panel panel-default">
+          <div class="panel-heading w3-flat-alizarin">News Item #6</div>
+          <div class="panel-body">News Story #6 content</div>
+        </div>
+      </div>
     </div>
     <div class="app-title">News</div>
   </div>
