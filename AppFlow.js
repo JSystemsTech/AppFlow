@@ -52,15 +52,18 @@ var bindAppEvents = function(apps, tray) {
         'click': function(e) {
             console.log('click');
             var targetApp = $(e.target).closest('.app');
+            
             var isCloseButton = $(e.target).closest('.app-close').length > 0;
-            var isContentEl = $(e.target).closest('.app-content').length > 0;
+            var isContentEl = $(e.target).closest('.app-content').length > 0 && $(e.target).closest('.app-content').closest('.app-tray').is(tray);
+            
             var isHeaderEl = $(e.target).closest('.app-header').length > 0;
             var isActive = $(e.target).hasClass(ACTIVE_CLASS);
-
-            if (isCloseButton === true) {
-                closeApp(targetApp, tray);
-            }else if((!isContentEl && !isActive) || (isHeaderEl && !isActive)){
-                openApp(targetApp, tray);
+            if(isHeaderEl){
+                if (isCloseButton === true) {
+                    closeApp(targetApp, tray);
+                }else if((!isContentEl && !isActive)){
+                    openApp(targetApp, tray);
+                }
             }
         }
     };
