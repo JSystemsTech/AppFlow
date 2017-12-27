@@ -34,7 +34,6 @@ var bindAppEvents = function(apps, tray) {
     var appEvents = {
         'app-toggle': function(e) {
             e.preventDefault();
-            e.stopPropagation();
             var targetApp = $(e.target).closest('.app');
             var isOpen = targetApp.hasClass(ACTIVE_CLASS);
             if (isOpen) {
@@ -45,19 +44,16 @@ var bindAppEvents = function(apps, tray) {
         },
         'app-open': function(e) {
             e.preventDefault();
-            e.stopPropagation();
             var targetApp = $(e.target).closest('.app');
             openApp(targetApp, tray);
         },
         'app-close': function(e) {
             e.preventDefault();
-            e.stopPropagation();
             var targetApp = $(e.target).closest('.app');
             closeApp(targetApp, tray);
         },
         'click': function(e) {
             e.preventDefault();
-            e.stopPropagation();
             var targetApp = $(e.target).closest('.app');
             var isActive = $(e.target).hasClass(ACTIVE_CLASS);
             if(!isActive){
@@ -88,7 +84,8 @@ $('.close-all-apps').bind('click', function() {
 });
 $('.app-close').bind('click', function(e) {
     var targetApp = $(e.target).closest('.app');
-    targetApp.trigger('app-close', e);
+    var tray = targetApp.closest('app-tray');
+    closeApp(targetApp, tray);
 });
 $('.app-tray').each(initAppTray);
 });
