@@ -33,10 +33,6 @@
 
 .app-tray.app-open {
   height: 100%;
-  height: -moz-fill-available;
-  height: -webkit-fill-available;
-  height: -o-fill-available;
-  height: -ms-fill-available;
 }
 
 .app-tray:not(.app-open) {
@@ -79,11 +75,6 @@
 .app.active .app-content {
   width: 100%;
   height: 100%;
-  overflow: auto;
-  height: -moz-fill-available;
-  height: -webkit-fill-available;
-  height: -o-fill-available;
-  height: -ms-fill-available;
 }
 
 .app:not(.active):hover,
@@ -112,10 +103,6 @@
 .app.active {
   border-radius: 0 !important;
   height: 100%;
-  height: -moz-fill-available;
-  height: -webkit-fill-available;
-  height: -o-fill-available;
-  height: -ms-fill-available;
   width: 100%;
   opacity: 1;
 }
