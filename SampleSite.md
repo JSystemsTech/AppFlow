@@ -15,85 +15,83 @@
 <div class="col-xs-1 p-0"><i class="fa fa-share-alt"></i></div>
 </div>
 <div class="row h-100">
-  
-  
-<div class="app-tray app-size-auto app-open-80 blured blured-dark app-shadowed" id="AboutSubTray">
-  <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
-    <div class="app-header">
-    </div>
-    <div class="app-content">
-      <div class="row app-content-header-bar">
-        <div class="app-close btn col-xs-12"><strong>Back</strong></div>
-          <div class="col-xs-12 p-0"><strong>Sub Section 1</strong></div>
-        </div>
-        <div class="row bg-white-trans">
-            <p><strong>Sub Section 1 Content</strong></p>
-        </div>
-       </div>
-      <div class="app-title"><strong>Sub Section 1</strong>
-     </div>
-    </div>
-  </div>
-  <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
-    <div class="app-header">
-    </div>
-    <div class="app-content">
-      <div class="row app-content-header-bar">
-        <div class="app-close btn col-xs-12"><strong>Back</strong></div>
-          <div class="col-xs-12 p-0"><strong>Sub Section 2</strong></div>
-        </div>
-        <div class="row bg-white-trans">
-            <p><strong>Sub Section 2 Content</strong></p>
-        </div>
-       </div>
-      <div class="app-title"><strong>Sub Section 2</strong>
-     </div>
-    </div>
-  <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
-    <div class="app-header">
-    </div>
-    <div class="app-content">
-      <div class="row app-content-header-bar">
-        <div class="app-close btn col-xs-12"><strong>Back</strong></div>
-          <div class="col-xs-12 p-0"><strong>Sub Section 3</strong></div>
-        </div>
-        <div class="row bg-white-trans">
-            <p><strong>Sub Section 3 Content</strong></p>
-        </div>
-       </div>
-      <div class="app-title"><strong>Sub Section 3</strong>
-     </div>
-    </div>
-  <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
-    <div class="app-header">
-    </div>
-    <div class="app-content">
-      <div class="row app-content-header-bar">
-        <div class="app-close btn col-xs-12"><strong>Back</strong></div>
-          <div class="col-xs-12 p-0"><strong>Sub Section 4</strong></div>
-        </div>
-        <div class="row bg-white-trans">
-            <p><strong>Sub Section 4 Content</strong></p>
-        </div>
-       </div>
-      <div class="app-title"><strong>Sub Section 4</strong>
-     </div>
-    </div>
-
-
-</div>
-</div>
-</div>
+	<div class="app-tray app-size-auto app-open-80 blured blured-dark app-shadowed" id="AboutSubTray">
+  		<div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
+    		<div class="app-header">
+    		</div>
+    		<div class="app-content">
+      			<div class="row app-content-header-bar">
+        			<div class="app-close btn col-xs-12"><strong>Back</strong></div>
+          			<div class="col-xs-12 p-0"><strong>Sub Section 1</strong></div>
+        		</div>
+        		<div class="row bg-white-trans">
+            		<p><strong>Sub Section 1 Content</strong></p>
+        		</div>
+       		</div>
+      		<div class="app-title"><strong>Sub Section 1</strong>
+     		</div>
+    	</div>
+		
+		<div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
+    		<div class="app-header">
+    		</div>
+    		<div class="app-content">
+      			<div class="row app-content-header-bar">
+        			<div class="app-close btn col-xs-12"><strong>Back</strong></div>
+          			<div class="col-xs-12 p-0"><strong>Sub Section 2</strong></div>
+        		</div>
+        		<div class="row bg-white-trans">
+            		<p><strong>Sub Section 2 Content</strong></p>
+        		</div>
+       		</div>
+      		<div class="app-title"><strong>Sub Section 2</strong>
+     		</div>
+    	</div>
+		
+		<div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
+    		<div class="app-header">
+    		</div>
+    		<div class="app-content">
+      			<div class="row app-content-header-bar">
+        			<div class="app-close btn col-xs-12"><strong>Back</strong></div>
+          			<div class="col-xs-12 p-0"><strong>Sub Section 3</strong></div>
+        		</div>
+        		<div class="row bg-white-trans">
+            		<p><strong>Sub Section 3 Content</strong></p>
+        		</div>
+       		</div>
+      		<div class="app-title"><strong>Sub Section 3</strong>
+     		</div>
+    	</div>
+		
+		<div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
+    		<div class="app-header">
+    		</div>
+    		<div class="app-content">
+      			<div class="row app-content-header-bar">
+        			<div class="app-close btn col-xs-12"><strong>Back</strong></div>
+          			<div class="col-xs-12 p-0"><strong>Sub Section 4</strong></div>
+        		</div>
+        		<div class="row bg-white-trans">
+            		<p><strong>Sub Section 4 Content</strong></p>
+        		</div>
+       		</div>
+      		<div class="app-title"><strong>Sub Section 4</strong>
+     		</div>
+    	</div>
+	</div>
+	</div>
+	</div>
   <div class="app-title"><strong>About</strong></div>
 </div>
-<div class="app w3-flat-alizarin"><strong></strong>
+<div class="app w3-flat-alizarin">
 <div class="app-header app-icon"><strong><i class="fa fa-newspaper-o"></i></strong></div>
-<strong></strong>
-<div class="app-content"><strong></strong>
-<div class="row app-content-header-bar"><strong></strong>
+
+<div class="app-content">
+<div class="row app-content-header-bar">
 <div class="app-close col-xs-1 p-0"><strong><i class="fa fa-arrow-left"></i></strong></div>
-<strong></strong>
-<div class="col-xs-10 p-0"><strong><strong><i class="fa fa-newspaper-o"></i> News</strong></strong></div>
+
+<div class="col-xs-10 p-0"><strong><i class="fa fa-newspaper-o"></i> News</strong></div>
 <div class="col-xs-1 p-0"><i class="fa fa-share-alt"></i></div>
 </div>
 <div class="row bg-white-trans">
