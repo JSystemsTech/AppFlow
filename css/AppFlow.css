@@ -32,7 +32,7 @@
 }
 
 .app-tray.app-open {
-  height: 100%;
+  min-height: 100%;
 }
 
 .app-tray:not(.app-open) {
@@ -102,7 +102,6 @@
 
 .app.active {
   border-radius: 0 !important;
-  height: 100%;
   width: 100%;
   opacity: 1;
 }
