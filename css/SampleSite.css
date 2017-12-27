@@ -54,7 +54,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', end
     height: 100%;
 }
 .full-height-53{
-  min-height: calc(100% - 53px);
+      min-height: calc(100% - 53px);
+    height: calc(100% - 53px);
 }
 .bg-white{
   background-color: white;
