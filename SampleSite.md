@@ -41,7 +41,7 @@
           <i class="fa fa-share-alt"></i>
         </div>
       </div>
-      <div class="row bg-white">
+      <div class="row bg-white-trans">
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="panel">
             <div class="panel-heading w3-flat-pomegranate">News Item #1</div>
