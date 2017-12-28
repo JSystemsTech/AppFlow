@@ -88,8 +88,7 @@
   height: 100%;
 }
 
-.app:not(.active):hover,
-.app:not(.active):focus {
+.app:not(.active):hover {
   box-shadow: #ddd 0 0 3px 3px;
 }
 
