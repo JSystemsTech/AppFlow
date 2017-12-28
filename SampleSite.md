@@ -12,7 +12,7 @@
                 <i class="fa fa-info-circle"></i>
             </div>
             <div class="app-content">
-                <div class="row app-content-header-bar">
+                <div class="row app-content-header-bar row-30px">
                     <div class="app-close col-xs-1 p-0">
                         <i class="fa fa-arrow-left"></i>
                     </div>
@@ -23,7 +23,7 @@
                         <i class="fa fa-share-alt"></i>
                     </div>
                 </div>
-                <div class="row h-100">
+                <div class="row row-fill-remaining-30px">
                     <div class="app-tray app-size-auto app-open-80 blured blured-dark app-shadowed" id="AboutSubTray">
                         <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
                             <div class="app-header"></div>
@@ -113,7 +113,7 @@
                 <strong><i class="fa fa-newspaper-o"></i></strong>
             </div>
             <div class="app-content">
-                <div class="row app-content-header-bar">
+                <div class="row app-content-header-bar row-30px">
                     <div class="app-close col-xs-1 p-0">
                         <strong><i class="fa fa-arrow-left"></i></strong>
                     </div>
@@ -124,7 +124,7 @@
                         <i class="fa fa-share-alt"></i>
                     </div>
                 </div>
-                <div class="row bg-white-trans">
+                <div class="row bg-white-trans row-fill-remaining-30px">
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="panel">
                             <div class="panel-heading w3-flat-pomegranate">
@@ -196,7 +196,7 @@
                 <i class="fa fa-question-circle"></i>
             </div>
             <div class="app-content">
-                <div class="row app-content-header-bar">
+                <div class="row app-content-header-bar row-30px">
                     <div class="app-close col-xs-1 p-0">
                         <i class="fa fa-arrow-left"></i>
                     </div>
@@ -206,6 +206,9 @@
                     <div class="col-xs-1 p-0">
                         <i class="fa fa-share-alt"></i>
                     </div>
+                </div>
+                <div class="row row-fill-remaining-30px bg-white-trans">
+                 
                 </div>
             </div>
             <div class="app-title">
@@ -217,7 +220,7 @@
                 <i class="fa fa-shopping-bag"></i>
             </div>
             <div class="app-content">
-                <div class="row app-content-header-bar">
+                <div class="row app-content-header-bar row-30px">
                     <div class="app-close col-xs-2 p-0">
                         <i class="fa fa-arrow-left"></i>
                     </div>
@@ -231,7 +234,7 @@
                         <i class="fa fa-share-alt"></i>
                     </div>
                 </div>
-                <div class="row bg-white">
+                <div class="row bg-white row-fill-remaining-30px">
                     <p>Welcome to the store</p>
                 </div>
             </div>
@@ -244,7 +247,7 @@
                 <i class="fa fa-shopping-cart"></i>
             </div>
             <div class="app-content">
-                <div class="row app-content-header-bar">
+                <div class="row app-content-header-bar row-30px">
                     <div class="app-close col-xs-1 p-0">
                         <i class="fa fa-arrow-left"></i>
                     </div>
@@ -255,7 +258,7 @@
                         <i class="fa fa-share-alt"></i>
                     </div>
                 </div>
-                <div class="row bg-white"></div>
+                <div class="row bg-white row-fill-remaining-30px"></div>
             </div>
             <div class="app-title">
                 My Cart
@@ -266,7 +269,7 @@
                 <i class="fa fa-phone"></i>
             </div>
             <div class="app-content">
-                <div class="row app-content-header-bar">
+                <div class="row app-content-header-bar row-30px">
                     <div class="app-close col-xs-1 p-0">
                         <i class="fa fa-arrow-left"></i>
                     </div>
@@ -276,6 +279,9 @@
                     <div class="col-xs-1 p-0">
                         <i class="fa fa-share-alt"></i>
                     </div>
+                </div>
+                <div class="row row-fill-remaining-30px bg-white-trans">
+                 
                 </div>
             </div>
             <div class="app-title">
