@@ -5,7 +5,7 @@
 <div class="header w3-flat-wisteria">
     <h2>AppFlow Sample Site</h2>
 </div>
-<div class="full-height-53 w3-flat-peter-river">
+<div class="row-fill-remaining-53px w3-flat-peter-river">
     <div class="app-tray app-size-auto" id="MainTray">
         <div class="app w3-flat-emerald">
             <div class="app-header app-icon">
