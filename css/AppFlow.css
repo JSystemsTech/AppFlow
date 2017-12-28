@@ -112,6 +112,7 @@
 
 .app-tray.app-open >.app {
   margin: 0;
+  height:auto;
 }
 
 .app-tray.app-open >.app:not(.active) {
