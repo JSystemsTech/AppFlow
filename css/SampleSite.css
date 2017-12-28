@@ -55,8 +55,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a00ff', end
 }
 .h-fill {
   height: 100%;
-  height: -ms-fill-available;
-  height: -webkit-fill-available;
 }
 .full-height-53{
       min-height: calc(100% - 53px);
