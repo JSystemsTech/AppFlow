@@ -19,7 +19,7 @@
     border: 1px solid #ccc !important;
 }
 .app:not(.active).beveled {
-    border: 2px outset rgba(255 255 255 0.9) !important;
+    border: 2px outset rgba(255, 255, 255, 0.9) !important;
 }
 .app:not(.active).beveled > .app-title {
     padding-top: 2px !important;
