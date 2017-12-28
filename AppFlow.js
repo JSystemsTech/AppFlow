@@ -10,47 +10,47 @@ var closeAllApps = function(tray, cb) {
         cb();
     }
 };
-var openApp = function(app, tray) {
+var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
         closeApp($(currentlyOpenApp[0]), tray, function() {
             setTimeout(function(){
-                openApp(app, tray);
+                openApp(app, tray, options);
             }, 400);
             
         });
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
-        app.trigger('app-opened', app, tray);
+        app.trigger('app-opened', app, tray, options || {});
     }
 };
-var closeApp = function(app, tray, cb) {
+var closeApp = function(app, tray, cb, options) {
     closeAllApps(tray, cb);
-    app.trigger('app-closed', app, tray);
+    app.trigger('app-closed', app, tray, options || {});
 };
 
 var bindAppEvents = function(apps, tray) {
     var appEvents = {
-        'app-toggle': function(e) {
+        'app-toggle': function(e, options) {
             e.preventDefault();
             var targetApp = $(e.target).closest('.app');
             var isOpen = targetApp.hasClass(ACTIVE_CLASS);
             if (isOpen) {
-                closeApp(targetApp, tray);
+                closeApp(targetApp, tray, null, options);
             } else {
-                openApp(targetApp, tray);
+                openApp(targetApp, tray, options);
             }
         },
-        'app-open': function(e) {
+        'app-open': function(e, options) {
             e.preventDefault();
             var targetApp = $(e.target).closest('.app');
-            openApp(targetApp, tray);
+            openApp(targetApp, tray, options);
         },
-        'app-close': function(e) {
+        'app-close': function(e, options) {
             e.preventDefault();
             var targetApp = $(e.target).closest('.app');
-            closeApp(targetApp, tray);
+            closeApp(targetApp, tray, null, options);
         },
         'click': function(e) {
             e.preventDefault();
@@ -64,7 +64,7 @@ var bindAppEvents = function(apps, tray) {
         }
     };
     $.each(appEvents, function(eventName, cb) {
-        apps.bind(eventName, cb);
+        apps.on(eventName, cb);
     });
 };
 var initAppTray = function() {
@@ -74,7 +74,8 @@ var initAppTray = function() {
     bindAppEvents(apps, tray);
 };
 
-$('.close-all-apps').bind('click', function() {
+var initHelpers = function() {
+$('.close-all-apps').on('click', function() {
     var tray = $($(this).attr('data-target') + '.app-open');
     if (tray.length > 0) {
         var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
@@ -83,12 +84,12 @@ $('.close-all-apps').bind('click', function() {
         }
     }
 });
-$('.app-close').bind('click', function(e) {
+$('.app-close').on('click', function(e) {
     var targetApp = $(e.target).closest('.app');
     var tray = targetApp.closest('.app-tray');
     closeApp(targetApp, tray);
 });
-$('[data-toggle-app]').bind('click', function(e){
+$('[data-toggle-app]').on('click', function(e){
     var targetApp = $($(this).attr('data-toggle-app'));
     var tray = targetApp.closest('.app-tray');
             var isOpen = targetApp.hasClass(ACTIVE_CLASS);
@@ -98,5 +99,30 @@ $('[data-toggle-app]').bind('click', function(e){
                 openApp(targetApp, tray);
             }
  });
-$('.app-tray').each(initAppTray);
+};
+
+
+    
+var destroyAppTray = function() {
+    var tray = $(this);
+    var apps = tray.find('> .app');
+    $.each(['click','app-toggle','app-close','app-open','app-closed','app-opened'], function(index, event) {
+        apps.off(event);
+    });
+};
+var destroyHelpers = function(){
+    $.each([$('[data-toggle-app]'), $('.app-close'), $('.close-all-apps')], function(index, el) {
+        el.off('click');
+    });
+};
+var onBeforeDestroy = function(){
+    $('.app-tray').each(destroyAppTray);
+    destroyHelpers();
+}
+var initialize = function(){
+    $('.app-tray').each(initAppTray);
+}
+$( window ).unload(onBeforeDestroy);
+
+    initialize();
 });
