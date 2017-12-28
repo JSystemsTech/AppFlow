@@ -259,7 +259,7 @@
                     </div>
                 </div>
                 <div class="row bg-white row-fill-remaining-30px">
-                    <div class="btn w3-flat-turquoise col-xs-12" data-toggle-app="#storeApp"><i class="fa fa-shopping-bag">Continue Shopping</div>
+                    <div class="btn w3-flat-turquoise col-xs-12" data-toggle-app="#storeApp"><i class="fa fa-shopping-bag"></i> Continue Shopping</div>
                 </div>
             </div>
             <div class="app-title">
