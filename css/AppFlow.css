@@ -36,7 +36,7 @@
 }
 
 .app-tray.app-open {
-  min-height: -webkit-fill-available;;
+  height: 100%;
 }
 
 .app-tray:not(.app-open) {
@@ -112,7 +112,6 @@
 
 .app-tray.app-open >.app {
   margin: 0;
-  height:auto;
 }
 
 .app-tray.app-open >.app:not(.active) {
