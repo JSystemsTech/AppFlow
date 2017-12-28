@@ -36,7 +36,7 @@
 }
 
 .app-tray.app-open {
-  height: 100%;
+  min-height: 100%;
 }
 
 .app-tray:not(.app-open) {
