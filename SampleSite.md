@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="row row-fill-remaining-30px">
-                    <div class="app-tray app-size-auto app-open-80 blured blured-dark app-shadowed p-0" id="AboutSubTray">
+                    <div class="app-tray app-size-auto app-open-80 blured blured-dark app-shadowed" id="AboutSubTray">
                         <div class="app w3-flat-turquoise app-square glass app-span-2 app-height-span-2">
                             <div class="app-header"></div>
                             <div class="app-content">
