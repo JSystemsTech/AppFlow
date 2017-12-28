@@ -121,6 +121,7 @@ var onBeforeDestroy = function(){
 }
 var initialize = function(){
     $('.app-tray').each(initAppTray);
+    initHelpers();
 }
 $( window ).unload(onBeforeDestroy);
 
