@@ -7,7 +7,7 @@
 </div>
 <div class="h-fill w3-flat-peter-river">
     <div class="app-tray app-size-auto" id="MainTray">
-        <div class="app w3-flat-emerald">
+        <div class="app w3-win8-taupe">
             <div class="app-header app-icon">
                 <i class="fa fa-info-circle"></i>
             </div>
@@ -215,7 +215,7 @@
                 FAQs
             </div>
         </div>
-        <div class="app w3-flat-turquoise">
+        <div class="app w3-flat-turquoise" id="storeApp">
             <div class="app-header app-icon">
                 <i class="fa fa-shopping-bag"></i>
             </div>
@@ -258,7 +258,9 @@
                         <i class="fa fa-share-alt"></i>
                     </div>
                 </div>
-                <div class="row bg-white row-fill-remaining-30px"></div>
+                <div class="row bg-white row-fill-remaining-30px">
+                    <div class="btn col-xs-12" data-toggle-app="#storeApp">Continue Shopping</div>
+                </div>
             </div>
             <div class="app-title">
                 My Cart
