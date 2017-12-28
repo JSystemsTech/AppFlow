@@ -120,6 +120,7 @@
 
 .app-tray.app-open[class*="app-open-"] {
   height: 100%;
+  position: relative;
 }
 
 .app-tray.app-open[class*="app-open-"] > .app.active {
