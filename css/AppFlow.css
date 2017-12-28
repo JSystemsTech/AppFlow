@@ -11,12 +11,19 @@
 }
 
 .app {
-  border: 1px solid #ccc !important;
   display: block;
   vertical-align: top;
   float: left;
 }
-
+.app:not(.active) {
+    border: 1px solid #ccc !important;
+}
+.app:not(.active).beveled {
+    border: 2px outset rgba(255 255 255 0.9) !important;
+}
+.app:not(.active).beveled > .app-title {
+    padding-top: 2px !important;
+}
 .app:not(.active).app-square {
   border-radius: 0 !important;
 }
