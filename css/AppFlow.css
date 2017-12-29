@@ -6664,7 +6664,7 @@
   }
 }
 
-@media (min-width: 410px) {
+@media (min-width: 414px) {
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) {
     width: 100px;
     height: 100px;
