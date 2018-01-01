@@ -1,10 +1,10 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 <div class="title row-75px">App Flow</div>
-<div class="section row-45px">
-<div class="col-xs-4 btn btn-appflow">View On Github</div>
-<div class="col-xs-4 btn btn-appflow">AppFlow Sandbox</div>
-<div class="col-xs-4 btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
+<div class="section row-45px btn-group">
+<div class="btn btn-appflow">View On Github</div>
+<div class="btn btn-appflow">AppFlow Sandbox</div>
+<div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
 <div class="app-tray-wrapper row-fill-remaining-120px">
 <div class="section app-tray app-size-auto ">
