@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 <div class="title row-75px">App Flow</div>
-<div class="section row-45px btn-group">
+<div class="section row-45px btn-row-3">
 <div class="btn btn-appflow">View On Github</div>
 <div class="btn btn-appflow">AppFlow Sandbox</div>
 <div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
