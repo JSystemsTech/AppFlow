@@ -3,7 +3,24 @@
     font-size: 40px;
     font-family: Raleway;
 }
-
+.fr {
+  font-family: Raleway
+}
+.fs-xs {
+  font-size: 10px;
+}
+.fs-sm {
+  font-size: 12px;
+}
+.fs-md {
+  font-size: 14px;
+}
+.fs-lg {
+  font-size: 16px;
+}
+.fs-xl {
+  font-size: 20px;
+}
 html,
 body{
   height:100%;
