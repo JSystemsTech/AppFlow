@@ -4,7 +4,7 @@
 <div class="section">
 
 </div>
-<div class="section app-tray">
+<div class="section app-tray app-size-auto ">
   <div class="app">
     <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
     <div class="app-content">
@@ -13,6 +13,6 @@
     <div class="col-xs-2 col-sm-1"></div>
     <div class="col-xs-12"></div>
     </div>
-    <div class="app-title">Test</div>
+    <div class="app-title">Getting Started</div>
   <div>
 </div>
