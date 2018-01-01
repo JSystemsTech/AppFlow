@@ -4,7 +4,7 @@
 <div class="section">
 <div class="btn btn-appflow">View On Github</div>
 <div class="btn btn-appflow">AppFlow Sandbox</div>
-<div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Hme</span></i></div>
+<div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
 <div class=app-table-wrapper">
 <div class="section app-tray app-size-auto ">
