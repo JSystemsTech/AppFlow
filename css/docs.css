@@ -21,6 +21,9 @@
 .fs-xl {
   font-size: 20px;
 }
+.fs-xxl {
+  font-size: 30px;
+}
 html,
 body{
   height:100%;
