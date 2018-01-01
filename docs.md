@@ -7,7 +7,12 @@
 <div class="section app-tray">
   <div class="app">
     <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
-    <div class="app-content">Content</div>
+    <div class="app-content">
+    <div class="col-xs-1 app-close"><i class="fa fa-chevron-left"></i>Back</div>
+    <div class="col-xs-10">Getting Started</div>
+    <div class="col-xs-1"></div>
+    <div class="col-xs-12"></div>
+    </div>
     <div class="app-title">Test</div>
   <div>
 </div>
