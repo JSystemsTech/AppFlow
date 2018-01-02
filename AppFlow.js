@@ -121,11 +121,11 @@ var onBeforeDestroy = function(){
 }
 var setAutoResize = function(index, el){
     var height = $(window).height();
-    var trayHeight = el.find('> .tray').height();
+    var trayHeight = $(el).find('> .tray').height();
     if(trayHeight > height){
         height = trayHeight;
     }
-    el.height(height);
+    $(el).height(height);
                              
                              
 }
