@@ -1,3 +1,11 @@
+.tray-wrapper {
+    height: auto;
+    position: relative;
+}
+.tray-wrapper > .app-tray.app-open {
+    position: absolute;
+}
+
 .app-tray {
   display: flex;
   flex-wrap: wrap;
