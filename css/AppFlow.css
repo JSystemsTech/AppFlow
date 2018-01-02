@@ -1,6 +1,7 @@
 .tray-wrapper {
     height: auto;
     position: relative;
+    overflow-y: auto;
 }
 .tray-wrapper > .app-tray.app-open {
     position: absolute;
