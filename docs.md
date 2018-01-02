@@ -8,7 +8,7 @@
 <div class="btn btn-appflow">AppFlow Sandbox</div>
 <div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
-<div class="tray-wrapper"> 
+<div class="tray-wrapper auto-resize"> 
 <div class="section app-tray app-size-auto">
   <div class="app" id="GettingStarted">
     <div class="app-header app-icon"><i class="fa fa-book"></i></div>
