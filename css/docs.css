@@ -1,3 +1,6 @@
+.app-content >.footer{
+padding-bottom:100px;
+}
 pre {
     background-color: rgba(255,255,255,0.2);
     color: rgb(100, 207, 255);
@@ -136,6 +139,7 @@ body{
   min-height: 800px !important;
    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
     color: rgb(100, 207, 255);
+    margin-top: 10px;
 }
 .app:not(.active) {
     border: 1px solid  rgb(100, 207, 255) !important;
