@@ -115,7 +115,7 @@ body{
     color: rgb(100, 207, 255); 
 }
 .app-tray {
-  min-height: 400px !important;
+  min-height: 800px !important;
 }
 .app:not(.active) {
     border: 1px solid  rgb(100, 207, 255) !important;
