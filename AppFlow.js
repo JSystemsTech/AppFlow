@@ -124,8 +124,7 @@ var initialize = function(){
     initHelpers();
     $(window).resize(function() {
           var bodyheight = $(window).height();
-           console.log(bodyheight);
-          $(".tray-wraper.auto-height").height(bodyheight);
+          $(".tray-wrapper.auto-height").height(bodyheight);
        });
 }
 $( window ).unload(onBeforeDestroy);
