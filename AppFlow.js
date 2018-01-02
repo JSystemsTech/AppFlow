@@ -124,7 +124,9 @@ var onBeforeDestroy = function(){
 var resizeTray = function(tray){
     var wrapper = tray.parent();
     if(wrapper.hasClass('tray-wrapper auto-resize')){
-        setAutoResize(null, wrapper[0]);
+        setTimeout(function(){
+                setAutoResize(null, wrapper[0]);
+            }, 400);
     }
 }
 var setAutoResize = function(index, el){
