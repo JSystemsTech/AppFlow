@@ -4,6 +4,12 @@
     font-family: Raleway;
     text-align: center;
 }
+.fa-inverse-custom {
+    color: #313e4d;
+}
+.fa-stack-05{
+  icon-size: 0.5em
+}
 .fr {
   font-family: Raleway
 }
