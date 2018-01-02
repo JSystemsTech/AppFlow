@@ -3,6 +3,9 @@
     position: relative;
     overflow-y: auto;
 }
+.tray-wrapper.auto-resize {
+    overflow-y: none;
+}
 .tray-wrapper > .app-tray.app-open {
     position: absolute;
 }
