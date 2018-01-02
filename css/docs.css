@@ -109,7 +109,7 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 }
 
-.app-tray {
+.wrapper {
   min-height: 800px !important;
    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
     color: rgb(100, 207, 255);
