@@ -1,3 +1,9 @@
+pre {
+    background-color: rgba(255,255,255,0.4);
+    color: rgb(100, 207, 255);
+    border-color: rgb(100, 207, 255);
+    text-align: left;
+}
 .title{
   color: rgb(100, 207, 255);
     font-size: 40px;
