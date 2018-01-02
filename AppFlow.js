@@ -130,6 +130,7 @@ var resizeTray = function(tray){
 var setAutoResize = function(index, el){
     var height = $(window).height();
     var trayHeight = $(el).find('> .tray').height();
+    console.log(height + ' : ' + trayHeight);
     if(trayHeight > height){
         height = trayHeight;
     }
