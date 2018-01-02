@@ -16,27 +16,27 @@
     <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
     <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Getting Started</div>
     <div class="col-xs-2 col-sm-1"></div>
-    <div class="col-xs-12">
-      <p class="fr-lg">Tray</p>
-<p class="fr-md">The Tray is the outermost element that contains all the App elements. To begin a new tray simply add the following code to your HTML:</p>
+    <div class="col-xs-12 text-left">
+      <p class="fs-lg">Tray</p>
+<p class="fs-md">The Tray is the outermost element that contains all the App elements. To begin a new tray simply add the following code to your HTML:</p>
 <pre>
 <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
 <code>&lt;/div&gt;</code>
 </pre>
 <div class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">More about App Configuration</div>
 
-<p class="fr-lg">App</p>
-<p class="fr-md">The App is the component that toggles the content shown in the Tray. Clicking or tapping on an App element expands the App element and shows the desired content. The App element has three distinct child elements:</p>
-<ul class="fr-md">
+<p class="fs-lg">App</p>
+<p class="fs-md">The App is the component that toggles the content shown in the Tray. Clicking or tapping on an App element expands the App element and shows the desired content. The App element has three distinct child elements:</p>
+<ul class="fs-md">
   <li><strong>Header</strong>: The section visible when the app is collpsed/closed</li>
   <li><strong>Content</strong>: The section visible when the app is expanded/open</li>
   <li><strong>Title</strong>: The section visible when the app is collpsed/closed that shows text only</li>
 </ul>
 
-<p class="fr-md"><strong>Note</strong>: The App element layout and style is built around using these 3 child elements only. It is highly recommended that custom and complex layouts for the title be moved to the header element.</p>
+<p class="fs-md"><strong>Note</strong>: The App element layout and style is built around using these 3 child elements only. It is highly recommended that custom and complex layouts for the title be moved to the header element.</p>
 <div class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">More about App Configuration</div>
 
-<p class="fr-md">To begin a new app simply add an app element to you tray like the following:</p>
+<p class="fs-md">To begin a new app simply add an app element to you tray like the following:</p>
 <pre>
 <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
  <code> &lt;div class=&quot;app&quot;&gt;</code>
