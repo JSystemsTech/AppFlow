@@ -6,6 +6,7 @@ $( document ).ready(function() {
 var closeAllApps = function(tray, cb) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
+    resizeTray();
     if (typeof cb === 'function') {
         cb();
     }
@@ -22,6 +23,7 @@ var openApp = function(app, tray, options) {
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
+        resizeTray();
         app.trigger('app-opened', app, tray, options || {});
     }
 };
@@ -119,15 +121,19 @@ var onBeforeDestroy = function(){
     $('.app-tray').each(destroyAppTray);
     destroyHelpers();
 }
+var resizeTray = function(tray){
+    var wrapper = tray.closest('.tray-wrapper.auto-height');
+    if(wrapper.length > 0){
+        setAutoResize(null, wrapper[0]);
+    }
+}
 var setAutoResize = function(index, el){
     var height = $(window).height();
     var trayHeight = $(el).find('> .tray').height();
     if(trayHeight > height){
         height = trayHeight;
     }
-    $(el).height(height);
-                             
-                             
+    $(el).height(height);                      
 }
 var initWrapperAutoResize = function(){
     var wrappers = $(".tray-wrapper.auto-resize");
