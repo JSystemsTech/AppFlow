@@ -42,7 +42,7 @@
   </div>
   
   <div class="app">
-    <div class="app-header app-icon"><i class="icon-javascript"></i></div>
+    <div class="app-header app-icon"><i class="f-mfizz icon-javascript"></i></div>
     <div class="app-content">
     <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
     <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">JavaScript</div>
@@ -53,7 +53,7 @@
   </div>
   
   <div class="app">
-    <div class="app-header app-icon"><i class="icon-css3"></i></div>
+    <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
     <div class="app-content">
     <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
     <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Helpers</div>
