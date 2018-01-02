@@ -1,5 +1,5 @@
 pre {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.2);
     color: rgb(100, 207, 255);
     border-color: rgb(100, 207, 255);
     text-align: left;
@@ -7,6 +7,12 @@ pre {
 .title{
   color: rgb(100, 207, 255);
     font-size: 40px;
+    font-family: Raleway;
+    text-align: center;
+}
+.description{
+  color: rgb(100, 207, 255);
+    font-size: 20px;
     font-family: Raleway;
     text-align: center;
 }
