@@ -7,7 +7,7 @@
 <div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
 <div class="app-tray-wrapper row-fill-remaining-120px">
-<div class="section app-tray app-size-auto ">
+<div class="section app-tray app-size-auto spacing-2">
   <div class="app">
     <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
     <div class="app-content">
