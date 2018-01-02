@@ -23,7 +23,7 @@
 <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
 <code>&lt;/div&gt;</code>
 </pre>
-<div class="btn btn-appflow" data-toggle-app="#TrayConfigs">More about Tray Configuration</div>
+<div class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</div>
 
 <p class="fs-xl">App</p>
 <p class="fs-md">The App is the component that toggles the content shown in the Tray. Clicking or tapping on an App element expands the App element and shows the desired content. The App element has three distinct child elements:</p>
@@ -34,7 +34,7 @@
 </ul>
 
 <p class="fs-md"><strong>Note</strong>: The App element layout and style is built around using these 3 child elements only. It is highly recommended that custom and complex layouts for the title be moved to the header element.</p>
-<div class="btn btn-appflow" data-toggle-app="#AppConfigs">More about App Configuration</div>
+<div class="btn btn-appflow-alt" data-toggle-app="#AppConfigs">More about App Configuration</div>
 
 <p class="fs-md">To begin a new app simply add an app element to you tray like the following:</p>
 <pre>
