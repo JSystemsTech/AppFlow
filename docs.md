@@ -1,8 +1,10 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-<div class="title">App Flow</div>
+<div class="title">{{ site.title | default: site.github.repository_name }}</div>
+<div class="description">{{ site.description | default: site.github.project_tagline }}</div>
 <div class="section">
-<div class="btn btn-appflow">View On Github</div>
+
+  <a href="{{ site.github.repository_url }}" class="btn btn-appflow">View on GitHub</a>
 <div class="btn btn-appflow">AppFlow Sandbox</div>
 <div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
