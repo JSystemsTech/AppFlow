@@ -437,6 +437,7 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
     @media (min-width: $auto-size + px){
         
     $app-size: nth($app-size-list, $i);
+      $glass-border-radius : nth($glass-border-radius-list, $i);
     $app-border-radius : nth($app-border-radius-list, $i);
     $length-value : caluclateWidthHeight($app-size, null, null);
         .app-tray:not(.app-open).app-size-auto >.app:not(.active){
@@ -452,6 +453,10 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
     .app-tray:not(.app-open).app-size-auto >.app:not(.active) > .app-title {
             font-size: 0.8 + (($i - 1) / 10 ) + em;
          }
+      .app-tray:not(.app-open).app-size-auto >.app:not(.active):not(.app-square).glass:after {
+                    border-top-left-radius: $glass-border-radius + px;
+                    border-top-right-radius: $glass-border-radius + px;
+                }
 
         .app-tray:not(.app-open).app-size-auto >.app:not(.active){ 
     >.app-header.app-icon{
