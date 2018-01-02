@@ -75,7 +75,7 @@
   </div>
   
   <div class="app">
-    <div class="app-header app-icon"><i class="fa fa-help"></i></div>
+    <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
     <div class="app-content">
     <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
     <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Faqs</div>
