@@ -44,6 +44,7 @@
       <div class="col-xs-12">
         <div class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </div>
         <div class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </div>
+      </div>
     </div>
     <div class="app-title">Tray Configs</div>
   </div>
