@@ -412,7 +412,7 @@
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-title {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active):not(.app-square).glass:after {
@@ -929,7 +929,7 @@
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-title {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active):not(.app-square).glass:after {
@@ -1446,7 +1446,7 @@
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-title {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active):not(.app-square).glass:after {
@@ -1963,7 +1963,7 @@
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active):not(.app-square).glass:after {
@@ -2480,7 +2480,7 @@
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-title {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active):not(.app-square).glass:after {
@@ -2997,7 +2997,7 @@
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-title {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active):not(.app-square).glass:after {
@@ -3514,7 +3514,7 @@
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-title {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active):not(.app-square).glass:after {
@@ -4031,7 +4031,7 @@
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-title {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active):not(.app-square).glass:after {
@@ -5094,7 +5094,7 @@
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
@@ -5331,7 +5331,7 @@
     padding-bottom: 7px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 25px;
@@ -5780,7 +5780,7 @@
     padding-bottom: 9px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
@@ -6229,7 +6229,7 @@
     padding-bottom: 11px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
@@ -6678,7 +6678,7 @@
     padding-bottom: 13px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
@@ -7127,7 +7127,7 @@
     padding-bottom: 15px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -7576,7 +7576,7 @@
     padding-bottom: 17px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -8025,7 +8025,7 @@
     padding-bottom: 19px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -8474,7 +8474,7 @@
     padding-bottom: 21px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
