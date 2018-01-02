@@ -119,13 +119,23 @@ var onBeforeDestroy = function(){
     $('.app-tray').each(destroyAppTray);
     destroyHelpers();
 }
+var setAutoResize = function(index, el){
+    var height = $(window).height();
+    var trayHeight = el.find('> .tray).height();
+    if(trayHeight > height){
+        height = trayHeight;
+    }
+    el.height(height);
+                             
+                             
+}
 var initWrapperAutoResize = function(){
     var wrappers = $(".tray-wrapper.auto-resize");
     if(wrappers.length > 0) {
         $(window).resize(function() {
-          wrappers.height($(window).height());
+          wrappers.each(setAutoResize);
        });
-        wrappers.height($(window).height());
+        wrappers.each(setAutoResize);
     }
 }
 var initialize = function(){
