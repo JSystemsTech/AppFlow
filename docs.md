@@ -16,7 +16,17 @@
     <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
     <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Getting Started</div>
     <div class="col-xs-2 col-sm-1"></div>
-    <div class="col-xs-12"></div>
+    <div class="col-xs-12">
+      <pre>
+<code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+ <code> &lt;div class=&quot;app&quot;&gt;</code>
+    <code>&lt;div class=&quot;app-header&quot;&gt;&lt;/div&gt;</code>
+    <code>&lt;div class=&quot;app-content&quot;&gt;&lt;/div&gt;</code>
+    <code>&lt;div class=&quot;app-title&quot;&gt;&lt;/div&gt;</code>
+  <code>&lt;/div&gt;</code>
+<code>&lt;/div&gt;</code>
+</pre>  
+    </div>
     </div>
     <div class="app-title">Getting Started</div>
   </div>
