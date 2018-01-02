@@ -122,6 +122,10 @@ var onBeforeDestroy = function(){
 var initialize = function(){
     $('.app-tray').each(initAppTray);
     initHelpers();
+    $(window).resize(function() {
+          var bodyheight = $(window).height();
+          $(".tray-wraper.auto-height").height(bodyheight);
+       });
 }
 $( window ).unload(onBeforeDestroy);
 
