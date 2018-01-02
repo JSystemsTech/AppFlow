@@ -119,15 +119,20 @@ var onBeforeDestroy = function(){
     $('.app-tray').each(destroyAppTray);
     destroyHelpers();
 }
+var initWrapperAutoResize = function(){
+    var wrappers = $(".tray-wrapper.auto-resize");
+    if(wrappers.length > 0) {
+        $(window).resize(function() {
+          wrappers.height($(window).height());
+       });
+        wrappers.height($(window).height());
+    }
+}
 var initialize = function(){
     $('.app-tray').each(initAppTray);
     initHelpers();
-    $(window).resize(function() {
-          var bodyheight = $(window).height();
-          $(".tray-wrapper.auto-height").height(bodyheight);
-       });
+    initWrapperAutoResize();   
 }
 $( window ).unload(onBeforeDestroy);
-
     initialize();
 });
