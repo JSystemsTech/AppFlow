@@ -110,7 +110,7 @@ body{
 }
 
 .wrapper {
-  min-height: 800px !important;
+  height: 800px !important;
    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
     color: rgb(100, 207, 255);
 }
