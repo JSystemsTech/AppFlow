@@ -123,7 +123,7 @@ var onBeforeDestroy = function(){
 }
 var resizeTray = function(tray){
     var wrapper = tray.parent();
-    if(wrapper.hasClass('.tray-wrapper.auto-height')){
+    if(wrapper.hasClass('tray-wrapper auto-height')){
         setAutoResize(null, wrapper[0]);
     }
 }
