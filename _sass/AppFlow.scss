@@ -1,3 +1,14 @@
+.tray-wrapper {
+    height: auto;
+    position: relative;
+}
+.tray-wrapper:not(.auto-resize) {
+    overflow-y: auto;
+}
+.tray-wrapper > .app-tray.app-open {
+    position: absolute;
+}
+
 .app-tray {
   display: flex;
   flex-wrap: wrap;
@@ -5,9 +16,10 @@
   margin-right: auto;
   text-align: center;
 }
+
 .app-tray .app-tray {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .app {
@@ -15,15 +27,19 @@
   vertical-align: top;
   float: left;
 }
+
 .app:not(.active) {
-    border: 1px solid #ccc !important;
+  border: 1px solid #ccc !important;
 }
+
 .app:not(.active).beveled {
-    border: 2px outset rgba(255, 255, 255, 0.9) !important;
+  border: 2px outset rgba(255, 255, 255, 0.9) !important;
 }
+
 .app:not(.active).beveled > .app-title {
-    padding-top: 2px !important;
+  padding-top: 2px !important;
 }
+
 .app:not(.active).app-square {
   border-radius: 0 !important;
 }
@@ -83,13 +99,9 @@
   display: none;
 }
 
-.app.active >.app-content {
+.app.active > .app-content {
   width: 100%;
   height: 100%;
-}
-
-.app:not(.active):hover {
-  box-shadow: #ddd 0 0 3px 3px;
 }
 
 .app-tray,
@@ -116,11 +128,11 @@
   opacity: 1;
 }
 
-.app-tray.app-open >.app {
+.app-tray.app-open > .app {
   margin: 0;
 }
 
-.app-tray.app-open >.app:not(.active) {
+.app-tray.app-open > .app:not(.active) {
   display: none;
 }
 
@@ -200,8 +212,8 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
          .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active) { 
              width: $length-value + px;
              height: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
+             min-height: $length-value + px; 
              border-radius: $app-border-radius + px;
          }
          .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active) > .app-title {
@@ -243,8 +255,8 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
          .app-tray:not(.app-open).app-size-#{$a}.spacing-#{$s} >.app:not(.active) { 
              width: $length-value + px;
              height: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
+             min-height: $length-value + px; 
          }
          .app-tray:not(.app-open).app-size-#{$a}.spacing-#{$s} >.app:not(.active)> .app-header.app-icon { 
              line-height: $length-value + px;
@@ -256,11 +268,11 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
             $length-value : caluclateWidthHeight($app-size, $space-size, $app-span);
             .app-tray:not(.app-open).app-size-#{$a}.spacing-#{$s} >.app:not(.active).app-span-#{$app-span} { 
              width: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
             }
             .app-tray:not(.app-open).app-size-#{$a}.spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span} { 
              height: $length-value + px;
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-height: $length-value + px; 
             }
             .app-tray:not(.app-open).app-size-#{$a}.spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span}> .app-header.app-icon { 
              line-height: $length-value + px;
@@ -274,11 +286,11 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
             $length-value : caluclateWidthHeight($app-size, null, $app-span);
             .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active).app-span-#{$app-span} { 
              width: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
             }
             .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active).app-height-span-#{$app-span} { 
              height: $length-value + px; 
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-height: $length-value + px; 
             }
             .app-tray:not(.app-open).app-size-#{$a} >.app:not(.active).app-height-span-#{$app-span}> .app-header.app-icon { 
              line-height: $length-value + px;
@@ -301,8 +313,8 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
          .app-tray:not(.app-open).spacing-#{$s} >.app:not(.active) { 
              width: $length-value + px;
              height: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
+             min-height: $length-value + px; 
              margin: $space-size + px;
          }
          .app-tray:not(.app-open).spacing-#{$s} >.app:not(.active)>.app-title {
@@ -319,11 +331,11 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
             $length-value : caluclateWidthHeight(null, $space-size, $app-span);
             .app-tray:not(.app-open).spacing-#{$s} >.app:not(.active).app-span-#{$app-span} { 
              width: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
             }
             .app-tray:not(.app-open).spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span} { 
              height: $length-value + px;
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-height: $length-value + px; 
             }
             .app-tray:not(.app-open).spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span}> .app-header.app-icon { 
              line-height: $length-value + px;
@@ -338,12 +350,12 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
     $length-value : caluclateWidthHeight(null, null, $app-span);
     .app-tray:not(.app-open) >.app:not(.active).app-span-#{$app-span} { 
      width: $length-value + px;
-     min-width: $length-value + px; /*flex fix for smaller devices*/
+     min-width: $length-value + px; 
              
     }
     .app-tray:not(.app-open) >.app:not(.active).app-height-span-#{$app-span} { 
      height: $length-value + px;
-     min-height: $length-value + px; /*flex fix for smaller devices*/
+     min-height: $length-value + px; 
     }
     .app-tray:not(.app-open) >.app:not(.active).app-height-span-#{$app-span}>     .app-header.app-icon { 
      line-height: $length-value + px;
@@ -355,8 +367,8 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
     .app-tray:not(.app-open) >.app:not(.active) { 
      width: $length-value + px;
      height: $length-value + px;
-     min-width: $length-value + px; /*flex fix for smaller devices*/
-     min-height: $length-value + px; /*flex fix for smaller devices*/
+     min-width: $length-value + px; 
+     min-height: $length-value + px; 
      border-radius:$default-app-border-radius + px;
      position: relative;
      margin: $default-spacing + px;
@@ -428,37 +440,47 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
          }
      }
 
-
-
-
-
-@each $auto-size in $auto-sizes {
-    $i: index($auto-sizes, $auto-size);
-    @media (min-width: $auto-size + px){
+@for $min from 1 through 8{
+    $class-extention: "-" + #{$min};
+    @if($min == 1){
+       $class-extention: ""; 
+    }
+    $auto-sizes-sublist: ();
+    @for $next-value from $min through 8{
         
+        $auto-sizes-sublist: append($auto-sizes-sublist, nth($auto-sizes, $next-value));
+    }
+    @each $auto-size in $auto-sizes-sublist {
+    $min-val-index: index($auto-sizes-sublist, $auto-size);
+    $i: index($auto-sizes, $auto-size);
+    $media-min-width: $auto-size;
+    @if $min-val-index == 1 {
+    $media-min-width: 0
+    } 
+    @media (min-width: $media-min-width + px){
     $app-size: nth($app-size-list, $i);
       $glass-border-radius : nth($glass-border-radius-list, $i);
     $app-border-radius : nth($app-border-radius-list, $i);
     $length-value : caluclateWidthHeight($app-size, null, null);
-        .app-tray:not(.app-open).app-size-auto >.app:not(.active){
+        .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active){
   width: $length-value + px;
   height: $length-value + px;
-  min-width: $length-value + px; /*flex fix for smaller devices*/
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+  min-width: $length-value + px;
+             min-height: $length-value + px; 
              border-radius: $app-border-radius + px;
     }
-    .app-tray:not(.app-open).app-size-auto{
+    .app-tray:not(.app-open).app-size-auto#{$class-extention}{
             padding-bottom:  ($default-spacing - 5) + (2 * $i) + px;
         }
-    .app-tray:not(.app-open).app-size-auto >.app:not(.active) > .app-title {
+    .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active) > .app-title {
             font-size: 0.8 + (($i - 1) / 10 ) + em;
          }
-      .app-tray:not(.app-open).app-size-auto >.app:not(.active):not(.app-square).glass:after {
+      .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active):not(.app-square).glass:after {
                     border-top-left-radius: $glass-border-radius + px;
                     border-top-right-radius: $glass-border-radius + px;
                 }
 
-        .app-tray:not(.app-open).app-size-auto >.app:not(.active){ 
+        .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active){ 
     >.app-header.app-icon{
                 line-height: $app-size + px;
             }
@@ -487,24 +509,24 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
     
         @each $space-size in $app-spacing-list {
         $s: index($app-spacing-list, $space-size);
-        .app-tray.spacing-#{$s}:not(.app-open).app-size-auto{
+        .app-tray.spacing-#{$s}:not(.app-open).app-size-auto#{$class-extention}{
             padding: ($space-size - 5) + px;
             padding-bottom:  ($space-size - 5) + (2 * $i) + px;
         }
         //looped app-spacing, no app-span
         $length-value : caluclateWidthHeight($app-size, $space-size, null);
-         .app-tray:not(.app-open).app-size-auto.spacing-#{$s} >.app:not(.active) { 
+         .app-tray:not(.app-open).app-size-auto#{$class-extention}.spacing-#{$s} >.app:not(.active) { 
              width: $length-value + px;
              height: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
+             min-height: $length-value + px; 
              margin: $space-size + px;
          }
-         .app-tray:not(.app-open).app-size-auto.spacing-#{$s} >.app:not(.active)>.app-title {
+         .app-tray:not(.app-open).app-size-auto#{$class-extention}.spacing-#{$s} >.app:not(.active)>.app-title {
                 margin-left: -$space-size + px;
                 margin-right: -$space-size + px;
              }
-         .app-tray:not(.app-open).app-size-auto.spacing-#{$s} >.app:not(.active)>.app-header.app-icon { 
+         .app-tray:not(.app-open).app-size-auto#{$class-extention}.spacing-#{$s} >.app:not(.active)>.app-header.app-icon { 
                 line-height: $length-value + px;
             }
          
@@ -512,15 +534,15 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
          @each $app-span in $app-span-list{
              //looped app-spacing, looped app-span
             $length-value : caluclateWidthHeight($app-size, $space-size, $app-span);
-            .app-tray:not(.app-open).app-size-auto.spacing-#{$s} >.app:not(.active).app-span-#{$app-span} { 
+            .app-tray:not(.app-open).app-size-auto#{$class-extention}.spacing-#{$s} >.app:not(.active).app-span-#{$app-span} { 
              width: $length-value + px;
-             min-width: $length-value + px; /*flex fix for smaller devices*/
+             min-width: $length-value + px; 
             }
-            .app-tray:not(.app-open).app-size-auto.spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span} { 
+            .app-tray:not(.app-open).app-size-auto#{$class-extention}.spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span} { 
              height: $length-value + px;
-             min-height: $length-value + px; /*flex fix for smaller devices*/
+             min-height: $length-value + px; 
             }
-            .app-tray:not(.app-open).app-size-auto.spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span}> .app-header.app-icon { 
+            .app-tray:not(.app-open).app-size-auto#{$class-extention}.spacing-#{$s} >.app:not(.active).app-height-span-#{$app-span}> .app-header.app-icon { 
              line-height: $length-value + px;
             }
          }
@@ -530,19 +552,19 @@ $default-glass-border-radius : nth($glass-border-radius-list, 4);
 @each $app-span in $app-span-list{
      //looped app-span
     $length-value : caluclateWidthHeight($app-size, null, $app-span);
-    .app-tray:not(.app-open).app-size-auto >.app:not(.active).app-span-#{$app-span} { 
+    .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active).app-span-#{$app-span} { 
      width: $length-value + px;
-     min-width: $length-value + px; /*flex fix for smaller devices*/
+     min-width: $length-value + px; 
              
     }
-    .app-tray:not(.app-open).app-size-auto >.app:not(.active).app-height-span-#{$app-span} { 
+    .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active).app-height-span-#{$app-span} { 
      height: $length-value + px;
-     min-height: $length-value + px; /*flex fix for smaller devices*/
+     min-height: $length-value + px; 
     }
-    .app-tray:not(.app-open).app-size-auto >.app:not(.active).app-height-span-#{$app-span}>     .app-header.app-icon { 
+    .app-tray:not(.app-open).app-size-auto#{$class-extention} >.app:not(.active).app-height-span-#{$app-span}>     .app-header.app-icon { 
      line-height: $length-value + px;
     }
 }
     }
 }
- 
+}
