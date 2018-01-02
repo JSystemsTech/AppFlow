@@ -27,11 +27,14 @@
 <code>&lt;/div&gt;</code>
 </pre>  
     </div>
+      <div class="col-xs-12">
+        <div class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></div>
+      </div>
     </div>
     <div class="app-title">Getting Started</div>
   </div>
   
-  <div class="app">
+  <div class="app" id="TrayConfigs">
     <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
     <div class="app-content">
     <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
