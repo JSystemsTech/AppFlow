@@ -61,11 +61,11 @@
                <p class="fs-md text-color-light">To begin a new app simply add an app element to your tray like the following:</p>
                <pre>
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
-                  <code> &lt;div class=&quot;app&quot;&gt;</code>
-                  <code>&lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
-                  <code>&lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
-                  <code>&lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
-                  <code>&lt;/div&gt;</code>
+                  <code>   &lt;div class=&quot;app&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
                   <code>&lt;/div&gt;</code>
                </pre>
             </div>
