@@ -11,7 +11,7 @@
 <div class="col-xs-12 col-md-3"></div>
 
 
-<div class="section col-xs-12">
+<div class="section col-xs-12 btn-row">
 
   <a href="{{ site.github.repository_url }}" class="btn btn-appflow">View on GitHub</a>
 <div class="btn btn-appflow">AppFlow Sandbox</div>
