@@ -24,11 +24,11 @@
             <div class="col-xs-2 col-sm-1"></div>
             <div class="col-xs-12 text-left">
                <p class="fs-xl">Requirements</p>
-               <p class="fs-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" class="text-color-alt">Jquery 1.11.3<a> or above to run however the following libraries are recommened to really take advantage of AppFlows capabilities</p>
+               <p class="fs-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" target="_blank" class="text-color-alt">Jquery 1.11.3<a> or above to run however the following libraries are recommened to really take advantage of AppFlows capabilities</p>
 
                <ul class="fs-md">
-                  <li><a href="https://getbootstrap.com/" class="text-color-alt"><strong>Bootstrap</strong></a></li>
-                  <li><a href="http://fontawesome.io/" class="text-color-alt"><strong>FontAwesome</strong></a></li>
+                  <li><a href="https://getbootstrap.com/" target="_blank" class="text-color-alt"><strong>Bootstrap</strong></a></li>
+                  <li><a href="http://fontawesome.io/" target="_blank" class="text-color-alt"><strong>FontAwesome</strong></a></li>
                </ul>
 
                <p class="fs-xl">Lets Get Started</p>
