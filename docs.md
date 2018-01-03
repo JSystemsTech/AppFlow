@@ -1,7 +1,16 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-<div class="title">{{ site.title | default: site.github.repository_name }}</div>
-<div class="description">{{ site.description | default: site.github.project_tagline }}</div>
+<div class="col-xs-3">
+  <div class="col-xs-12 fr fs-xl">{{ site.title | default: site.github.repository_name }}</div>
+  <div class="col-xs-12 fr fs-sm">{{ site.description | default: site.github.project_tagline }}</div>
+</div>
+<div class="col-xs-3">
+  <div class="title">DOCTUMENTATION</div>
+  <div class="description">Guide for using this library</div>
+</div>
+<div class="col-xs-3"></div>
+
+
 <div class="section">
 
   <a href="{{ site.github.repository_url }}" class="btn btn-appflow">View on GitHub</a>
