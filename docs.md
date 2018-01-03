@@ -4,20 +4,20 @@
   <div class="col-xs-12 fr fs-xl">{{ site.title | default: site.github.repository_name }}</div>
   <div class="col-xs-12 fr fs-sm">{{ site.description | default: site.github.project_tagline }}</div>
 </div>
-<div class="col-xs-3">
+<div class="col-xs-6">
   <div class="title">DOCTUMENTATION</div>
   <div class="description">Guide for using this library</div>
 </div>
 <div class="col-xs-3"></div>
 
 
-<div class="section">
+<div class="section col-xs-12">
 
   <a href="{{ site.github.repository_url }}" class="btn btn-appflow">View on GitHub</a>
 <div class="btn btn-appflow">AppFlow Sandbox</div>
 <div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
-<div class="tray-wrapper auto-resize"> 
+<div class="tray-wrapper auto-resize col-xs-12 p-0"> 
 <div class="section app-tray app-size-auto">
   <div class="app" id="GettingStarted">
     <div class="app-header app-icon"><i class="fa fa-book"></i></div>
