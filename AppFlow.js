@@ -57,10 +57,17 @@ var bindAppEvents = function(apps, tray) {
         'click': function(e) {
             
             var targetApp = $(e.target).closest('.app');
-            var closingApp = $(e.target).closest('.app-close').closest('.app').is(targetApp) || 
+            /*var closingApp = $(e.target).closest('.app-close').closest('.app').is(targetApp) || 
                              $(e.target).closest('[data-toggle-app]').closest('.app').is(targetApp);
             var isActive = targetApp.hasClass(ACTIVE_CLASS);
             if(!isActive && !closingApp){
+                e.preventDefault();
+                 openApp(targetApp, tray);
+            }*/
+            var isActive = targetApp.hasClass(ACTIVE_CLASS);
+            var clickedInHeader = $(e.target).closest('.app-header').length > 0;
+            var clickedInTitle = $(e.target).closest('.app-title').length > 0;
+             if(!isActive && (clickedInHeader || clickedInTitle)){
                 e.preventDefault();
                  openApp(targetApp, tray);
             }
