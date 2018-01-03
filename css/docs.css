@@ -111,3 +111,6 @@ a.text-color-alt:hover,
 a.text-color-alt:focus{
     color: rgb(255, 233, 120);
 }
+.text-color-light{
+    color: rgb(186, 234, 255);
+}
