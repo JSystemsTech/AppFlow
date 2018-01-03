@@ -6,6 +6,7 @@ pre {
     color: rgb(100, 207, 255);
     border-color: rgb(100, 207, 255);
     text-align: left;
+    white-space: pre-line;
 }
 .title{
   color: rgb(100, 207, 255);
