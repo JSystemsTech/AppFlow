@@ -39,7 +39,7 @@
                   <li><a href="#GettingStartedApp"><strong>App</strong></a></li>
                </ul>
 
-               <a id="GettingStartedTray" name="GettingStartedTray"></a>
+               <div id="GettingStartedTray"></div>
                <p class="fs-xl">Tray</p>
                <p class="fs-md">The Tray is the container of all the App elements. To begin a new tray simply add the following code to your HTML:</p>
                <pre>
@@ -48,7 +48,7 @@
                </pre>
                <div class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</div>
 
-               <a id="GettingStartedApp" name="GettingStartedApp"></a>
+               <div id="GettingStartedApp"></div>
                <p class="fs-xl">App</p>
                <p class="fs-md">The App is the component that toggles the content shown in the Tray. Clicking or tapping on an App element expands the App element and shows the desired content. The App element has three distinct child elements:</p>
                <ul class="fs-md">
