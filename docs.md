@@ -35,8 +35,8 @@
                <p class="fs-md">To set up the basic layout you only need 2 main components</p>
                
                <ul class="fs-md">
-                  <li><a href="#GettingStartedTray"><strong>Tray</strong></a></li>
-                  <li><a href="#GettingStartedApp"><strong>App</strong></a></li>
+                  <li><a href="#GettingStartedTray" class="text-color-alt"><strong>Tray</strong></a></li>
+                  <li><a href="#GettingStartedApp" class="text-color-alt"><strong>App</strong></a></li>
                </ul>
 
                <div id="GettingStartedTray"></div>
