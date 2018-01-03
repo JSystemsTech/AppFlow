@@ -108,7 +108,6 @@ body{
 }
 .text-color-alt,
 a.text-color-alt:hover,
-a.text-color-alt:focus
-{
+a.text-color-alt:focus{
     color: rgb(255, 233, 120);
 }
