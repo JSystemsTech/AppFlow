@@ -66,64 +66,10 @@ pre {
 .p-0{
   padding: 0;
 }
-.btn-row-1 > .btn {
-  max-width: 100%;
-  margin: 0;
-}
-
-.btn-row-2 > .btn {
-  max-width: 50%;
-  margin: 0;
-}
-
-.btn-row-3 > .btn {
-  max-width: 33.33333%;
-  margin: 0;
-}
-
-.btn-row-4 > .btn {
-  max-width: 25%;
-  margin: 0;
-}
-
-.btn-row-5 > .btn {
-  max-width: 20%;
-  margin: 0;
-}
-
-.btn-row-6 > .btn {
-  max-width: 16.66667%;
-  margin: 0;
-}
-
-.btn-row-7 > .btn {
-  max-width: 14.28571%;
-  margin: 0;
-}
-
-.btn-row-8 > .btn {
-  max-width: 12.5%;
-  margin: 0;
-}
-
-.btn-row-9 > .btn {
-  max-width: 11.11111%;
-  margin: 0;
-}
-
-.btn-row-10 > .btn {
-  max-width: 10%;
-  margin: 0;
-}
-
-.btn-row-11 > .btn {
-  max-width: 9.09091%;
-  margin: 0;
-}
-
-.btn-row-12 > .btn {
-  max-width: 8.33333%;
-  margin: 0;
+.btn-row {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 html, body{
@@ -141,7 +87,6 @@ body{
   min-height: 800px !important;
    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
     color: rgb(100, 207, 255);
-    margin-top: 10px;
 }
 .app:not(.active) {
     border: 1px solid  rgb(100, 207, 255) !important;
