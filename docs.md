@@ -295,7 +295,7 @@
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Helpers</div>
             <div class="col-xs-2 col-sm-1"></div>
             <div class="col-xs-12 text-left">
-               <p class="fs-md text-color-light">JavaScript Methods and Events provide intricate means of of opening and closing an App element with additional opion sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
+               <p class="fs-md text-color-light">JavaScript Methods and Events provide intricate means of opening and closing an App element with additional options, but sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
                <div class="col-xs-12">
                   <h2 class="fs-lg">Closing the current App from within the Content</h2>
                   <p class="fs-md text-color-light">If you want to close the current open app with a button or other element in the App Content Element simply just add an "app-close" class to your button. AppFlow will listen for a click on the button and handle closing the App Element for you, no need to create a listener and fire a 'app-close'  event.</p>
