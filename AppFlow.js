@@ -3,10 +3,12 @@ var ACTIVE_CLASS = 'active';
 var APP_OPEN_CLASS = 'app-open';
 
 $( document ).ready(function() {
-var closeAllApps = function(tray, cb) {
+var closeApp = function(app, tray, cb, options) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
-    resizeTray(tray);
+    resizeTray(tray, function(){
+        app.trigger('app-closed', app, tray, options || {});
+    });
     if (typeof cb === 'function') {
         cb();
     }
@@ -23,13 +25,11 @@ var openApp = function(app, tray, options) {
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
-        resizeTray(tray);
+        resizeTray(tray, function(){
         app.trigger('app-opened', app, tray, options || {});
+    });
+        
     }
-};
-var closeApp = function(app, tray, cb, options) {
-    closeAllApps(tray, cb);
-    app.trigger('app-closed', app, tray, options || {});
 };
 
 var bindAppEvents = function(apps, tray) {
@@ -57,13 +57,6 @@ var bindAppEvents = function(apps, tray) {
         'click': function(e) {
             
             var targetApp = $(e.target).closest('.app');
-            /*var closingApp = $(e.target).closest('.app-close').closest('.app').is(targetApp) || 
-                             $(e.target).closest('[data-toggle-app]').closest('.app').is(targetApp);
-            var isActive = targetApp.hasClass(ACTIVE_CLASS);
-            if(!isActive && !closingApp){
-                e.preventDefault();
-                 openApp(targetApp, tray);
-            }*/
             var isActive = targetApp.hasClass(ACTIVE_CLASS);
             var clickedInHeader = $(e.target).closest('.app-header').length > 0;
             var clickedInTitle = $(e.target).closest('.app-title').length > 0;
@@ -129,18 +122,18 @@ var onBeforeDestroy = function(){
     $('.app-tray').each(destroyAppTray);
     destroyHelpers();
 }
-var resizeTray = function(tray){
+var resizeTray = function(tray, cb){
     var wrapper = tray.parent();
     if(wrapper.hasClass('tray-wrapper auto-resize')){
         setTimeout(function(){
                 setAutoResize(null, wrapper[0]);
+            cb();
             }, 400);
     }
 }
 var setAutoResize = function(index, el){
     var height = $(window).height();
     var trayHeight = $(el).find('> .app-tray').height();
-    console.log(height + ' : ' + trayHeight);
     if(trayHeight > height){
         height = trayHeight;
     }
