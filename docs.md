@@ -5,8 +5,8 @@
    <div class="col-xs-12 fr fs-auto-xs text-color-light">{{ site.description | default: site.github.project_tagline }}</div>
 </div>
 <div class="col-xs-12 col-md-6">
-   <div class="title">DOCUMENTATION</div>
-   <div class="description">Guide for using this library</div>
+   <div class="fr tc text-color-primary fs-auto-h2">DOCUMENTATION</div>
+   <div class="fr tc text-color-primary fs-auto-h5">Guide for using this library</div>
 </div>
 <div class="col-xs-12 col-md-3"></div>
 <div class="section col-xs-12 btn-row">
