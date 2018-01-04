@@ -78,8 +78,8 @@ var initAppTray = function() {
 };
 
 var initHelpers = function() {
-$('.close-all-apps').on('click', function() {
-    var tray = $($(this).attr('data-target') + '.app-open');
+$('[data-close-tray-apps]').on('click', function() {
+    var tray = $($(this).attr('data-close-tray-apps') + '.app-open');
     if (tray.length > 0) {
         var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
         if (currentlyOpenApp.length > 0) {
