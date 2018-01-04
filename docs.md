@@ -81,7 +81,13 @@
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Tray Configs</div>
             <div class="col-xs-2 col-sm-1"></div>
-            <div class="col-xs-12"></div>
+            <div class="col-xs-12">
+               <h2 class="fs-xl">App Size</h2>
+               <h2 class="fs-xl">App Spacing</h2>
+               <h2 class="fs-xl">Open App Container Size </h2>
+               <h2 class="fs-lg">Blured Background</h2>
+               <h2 class="fs-lg">Open App Container Shadow</h2>
+            </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </div>
                <div class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </div>
