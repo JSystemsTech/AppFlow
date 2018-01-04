@@ -23,7 +23,7 @@
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Getting Started</div>
             <div class="col-xs-2 col-sm-1"></div>
             <div class="col-xs-12 text-left">
-               <p class="fs-xl">Requirements</p>
+               <h2 class="fs-xl">Requirements</h2>
                <p class="fs-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" target="_blank" class="text-color-alt">Jquery 1.11.3</a> or above to run however the following libraries are recommened to really take advantage of AppFlows capabilities</p>
 
                <ul class="fs-md">
@@ -31,7 +31,7 @@
                   <li><a href="http://fontawesome.io/" target="_blank" class="text-color-alt"><strong>FontAwesome</strong></a></li>
                </ul>
 
-               <p class="fs-xl">Lets Get Started</p>
+               <h2 class="fs-xl">Let's Get Started</h2>
                <p class="fs-md text-color-light">To set up the basic layout you only need 2 main components</p>
                
                <ul class="fs-md">
@@ -40,7 +40,7 @@
                </ul>
 
                <div id="GettingStartedTray"></div>
-               <p class="fs-xl">Tray</p>
+               <h2 class="fs-xl">Tray</h2>
                <p class="fs-md text-color-light">The Tray is the container of all the App elements. To begin a new tray simply add the following code to your HTML:</p>
                <pre>
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
@@ -49,7 +49,7 @@
                <div class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</div>
 
                <div id="GettingStartedApp"></div>
-               <p class="fs-xl">App</p>
+               <h2 class="fs-xl">App</h2>
                <p class="fs-md text-color-light">The App is the component that toggles the content shown in the Tray. Clicking or tapping on an App element expands the App element and shows the desired content. The App element has three distinct child elements:</p>
                <ul class="fs-md">
                   <li><strong>Header</strong>: The section visible when the app is collpsed/closed</li>
