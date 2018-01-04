@@ -322,7 +322,7 @@
                   <code>   &lt;div id=&quot;MyAppElement&quot; class=&quot;app&quot;&gt;</code>
                   <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
                   <code>      &lt;div class=&quot;app-content&quot;&gt;</code>
-                  <code>         &lt;button data-toggle-app=&quot;#MyOtherAppElement&quot;&gt; &lt;/button&gt;</code>
+                  <code>         &lt;button data-toggle-app=&quot;#MyOtherAppElement&quot;&gt; Open My Other App &lt;/button&gt;</code>
                   <code>      &lt;/div&gt;</code>
                   <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
                   <code>   &lt;/div&gt;</code>
