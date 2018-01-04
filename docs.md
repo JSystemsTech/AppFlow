@@ -135,7 +135,7 @@
                         <li><strong>Dark Blur</strong>: add "blured blured-dark" <i>Useful when the tray has a light background</i></li>
                      </ul>
                      <h2 class="fs-lg">Open App Container Shadow</h2>
-                     <p class="fs-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to add a shadow effect to the expaned App element to make it "pop out" more.</p>
+                     <p class="fs-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to add a shadow effect to the expanded App element to make it "pop out" more. Simply add "app-shadowed" to the Tray element</p>
                </div>
             </div>
             <div class="col-xs-12 footer">
