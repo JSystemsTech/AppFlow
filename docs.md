@@ -201,7 +201,86 @@
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">JavaScript</div>
             <div class="col-xs-2 col-sm-1"></div>
-            <div class="col-xs-12"></div>
+            <div class="col-xs-12 text-left">
+            <p class="fs-md text-color-light">AppFlow does not have a function to call to initialize the component like most Jquery function extensions, however there are events fired and methods to call on App elements available.</p>
+               <h2 class="fs-xl">Events</h2>
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Open</h2>
+                  <p class="fs-md text-color-light">Fires once the App element is expanding</p>
+                  <pre>
+                     <code>$('#MyAppElement').on('app-open', function(targetElement, options){</code>
+                     <code>/* handle Event */</code>
+                     <code>/* 'options' variable passed only via manual trigger of 'app-open' method */</code>
+                     <code>});</code>
+                  </pre>
+               </div>
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Opened</h2>
+                  <p class="fs-md text-color-light">Fires once the App element is fully expanded</p>
+                  <pre>
+                     <code>$('#MyAppElement').on('app-opened', function(targetElement, openedAppElement, trayElement, options){</code>
+                     <code>/* handle Event */</code>
+                     <code>/* 'options' variable passed only via manual trigger of 'app-open' or 'app-toggle' method */</code>
+                     <code>});</code>
+                  </pre>
+               </div>
+
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Close</h2>
+                  <p class="fs-md text-color-light">Fires once the App element is collapsing</p>
+                  <pre>
+                     <code>$('#MyAppElement').on('app-close', function(targetElement, options){</code>
+                     <code>/* handle Event */</code>
+                     <code>/* 'options' variable passed only via manual trigger of 'app-close' method */</code>
+                     <code>});</code>
+                  </pre>
+               </div>
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Closed</h2>
+                  <p class="fs-md text-color-light">Fires once the App element is fully collapsed</p>
+                  <pre>
+                     <code>$('#MyAppElement').on('app-closed', function(targetElement, closedAppElement, trayElement, options){</code>
+                     <code>/* handle Event */</code>
+                     <code>/* 'options' variable passed only via manual trigger of 'app-close' or 'app-toggle' methods */</code>
+                     <code>});</code>
+                  </pre>
+               </div>
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Toggle</h2>
+                  <p class="fs-md text-color-light">Fires when the 'app-toggle' method is triggered.</p>
+                  <pre>
+                     <code>$('#MyAppElement').on('app-toggle', function(targetElement, toggledAppElement, trayElement, options){</code>
+                     <code>/* handle Event */</code>
+                     <code>});</code>
+                  </pre>
+               </div>
+
+
+               <h2 class="fs-xl">Methods</h2>
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Open</h2>
+                  <p class="fs-md text-color-light">Open an App element</p>
+                  <pre>
+                     <code>$('#MyAppElement').trigger('app-open', options);</code>
+                  </pre>
+               </div>
+               
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Close</h2>
+                  <p class="fs-md text-color-light">Close an App element</p>
+                  <pre>
+                     <code>$('#MyAppElement').trigger('app-close', options);</code>
+                  </pre>
+               </div>
+               
+               <div class="col-xs-12">
+                  <h2 class="fs-xl">App Toggle</h2>
+                  <p class="fs-md text-color-light">Toggle the open / close state of an App element</p>
+                  <pre>
+                     <code>$('#MyAppElement').trigger('app-toggle', options);</code>
+                  </pre>
+               </div>
+            </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </div>
                <div class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </div>
