@@ -294,7 +294,45 @@
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Helpers</div>
             <div class="col-xs-2 col-sm-1"></div>
-            <div class="col-xs-12"></div>
+            <div class="col-xs-12 text-left">
+               <p class="fs-md text-color-light">JavaScript Methods and Events provide intricate means of of opening and closing an App element with additional opion sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">Closing the current App from within the Content</h2>
+                  <p class="fs-md text-color-light">If you want to close the current open app with a button or other element in the App Content Element simply just add an "app-close" class to your button. AppFlow will listen for a click on the button and handle closing the App Element for you, no need to create a listener and fire a 'app-close'  event.</p>
+               </div>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">Closing Tray Apps Globally</h2>
+                  <p class="fs-md text-color-light">If you want to close the current open App element in a given tray from anywhere in the DOM then add a "data-close-tray-apps" attribute to a DOM element and set the value as the selector for the Tray element</p>
+
+                  <pre>
+                  <code>&lt;button data-close-tray-apps=&quot;#MyTray&quot;&gt; Close My Tray Apps &lt;/button&gt;</code>
+                  </pre>
+               </div>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">Toggling App Globally</h2>
+                  <p class="fs-md text-color-light">If you want to toggle an App element in a given tray from anywhere in the DOM then add a "data-toggle-app" attribute to a DOM element and set the value as the selector for the App element</p>
+
+                  <pre>
+                  <code>&lt;button data-toggle-app=&quot;#MyAppElement&quot;&gt; Toggle My App &lt;/button&gt;</code>
+                  </pre>
+                  <p class="fs-md text-color-light">This differs from using a "data-close-tray-apps" arribute in that this targets an App Element instead of a Tray Element and can open or close an app</p>
+                  <p class="fs-md text-color-light">If you wish to open an App in the same tray from within another App use this option as it will inherentlly close the open App and open the target App. <i>(See the example below)</i></p>
+
+                  <pre>
+                  <code>   &lt;div id=&quot;MyAppElement&quot; class=&quot;app&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;</code>
+                  <code>         &lt;button data-toggle-app=&quot;#MyOtherAppElement&quot;&gt; &lt;/button&gt;</code>
+                  <code>      &lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+               </pre>
+
+
+
+               </div>
+
+            </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </div>
                <div class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </div>
