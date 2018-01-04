@@ -83,10 +83,57 @@
             <div class="col-xs-2 col-sm-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-xl">App Size</h2>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">Options</h2>
+                  <p class="fs-md text-color-light">You can control the overall size of the App elements when they are collapsed in the tray by adding any one of the following classes to the Tray element: </p>
+                  <ul class="fs-md">
+                     <li><strong>App Size 1 (25px)</strong>: add "app-size-1"</li>
+                     <li><strong>App Size 2 (50px)</strong>: add "app-size-2"</li>
+                     <li><strong>App Size 3 (75px)</strong>: add "app-size-3"</li>
+                     <li><strong>App Size 4 (100px)</strong>: add "app-size-4" <i>This is the implied default value if an app size class is not applied to the tray</i></li>
+                     <li><strong>App Size 5 (125px)</strong>: add "app-size-5"</li>
+                     <li><strong>App Size 6 (150px)</strong>: add "app-size-6"</li>
+                     <li><strong>App Size 7 (175px)</strong>: add "app-size-7"</li>
+                     <li><strong>App Size 8 (200px)</strong>: add "app-size-8"</li>
+                  
+                  </ul>
+                  <h2 class="fs-lg">Auto resize Options</h2>
+                  <p class="fs-md text-color-light">This option is by far what really makes AppFlow really mobile friendly. Like the Bootstrap Grid System this option allows the mobile device or browser dictate the overall size of the App elements. Unlike the Bootstrap Grid System AppFlow accounts for smaller screen sizes better.</p>
+                  <p class="fs-md text-color-light">To use this option simply add the class "app-size-auto" to the Tray element.</p>
+                  <p class="fs-md text-color-light">So what if you want to keep the auto resize option but limit how small the App elements are? Not a problem. Replace "app-size-auto" with any one of the following classes to the Tray element:</p>
+                  <ul class="fs-md">
+                     <li><strong>App Size Auto 2 (min 50px)</strong>: add "app-size-auto-2"</li>
+                     <li><strong>App Size Auto 3 (min 75px)</strong>: add "app-size-auto-3"</li>
+                     <li><strong>App Size Auto 4 (min 100px)</strong>: add "app-size-auto-4"</li>
+                     <li><strong>App Size Auto 5 (min 125px)</strong>: add "app-size-auto-5"</li>
+                     <li><strong>App Size Auto 6 (min 150px)</strong>: add "app-size-auto-6"</li>
+                     <li><strong>App Size Auto 7 (min 175px)</strong>: add "app-size-auto-7"</li>
+                     <li><strong>App Size Auto 8 (min 200px)</strong>: add "app-size-auto-8"</li>
+                  </ul>
+               </div>
+               </div>
+               </div>
                <h2 class="fs-xl">App Spacing</h2>
-               <h2 class="fs-xl">Open App Container Size </h2>
-               <h2 class="fs-lg">Blured Background</h2>
-               <h2 class="fs-lg">Open App Container Shadow</h2>
+               <p class="fs-md text-color-light">By default the App elements when collapsed have a margin of 10px but should you need to increase that margin value here are some classes to add the the Tray element:</p>
+               <ul class="fs-md">
+                     <li><strong>Spacing 1 (margin 10px)</strong>: add "spacing-1" <i>This is the implied default value if a spacing class is not applied to the tray</i></li>
+                     <li><strong>Spacing 2 (margin 15px)</strong>: add "spacing-2"</li>
+                     <li><strong>Spacing 3 (margin 20px)</strong>: add "spacing-3"</li>
+                     <li><strong>Spacing 4 (margin 25px)</strong>: add "spacing-4"</li>
+                     <li><strong>Spacing 5 (margin 30px)</strong>: add "app-size-auto-5"</li>
+               <h2 class="fs-xl">Open App Container</h2>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">Container Size</h2>
+                  <p class="fs-md text-color-light">By default the App elements when expaned use 100% of the space available in the tray but should you want to only use a portion of the space you can add a "app-open-{percent size}" class to the tray where the percent size ranges from 50 to 99. The expanded App element is centered in the tray element. <i>For reference this is similar to a Bootstrap Modal only contained within the Tray element.</i></p>
+                  <h2 class="fs-lg">Blured Background</h2>
+                  <p class="fs-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to lighten or darken the Tray background behind the expanded App element by adding the following classes to the Tray element:</p>
+                  <ul class="fs-md">
+                     <li><strong>Light Blur</strong>: add "blured" <i>Useful when the tray has a dark background</i></li>
+                     <li><strong>Dark Blur</strong>: add "blured blured-dark" <i>Useful when the tray has a light background</i></li>
+                  </ul>
+                  <h2 class="fs-lg">Open App Container Shadow</h2>
+                  <p class="fs-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to add a shadow effect to the expaned App element to make it "pop out" more.</p>
+               </div>
             </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </div>
