@@ -16,7 +16,7 @@ var closeApp = function(app, tray, cb, options) {
 var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
-        closeApp($(currentlyOpenApp[0]), tray, function() {
+        closeApp($(currentlyOpenApp[0]), tray, null, function() {
             setTimeout(function(){
                 openApp(app, tray, options);
             }, 400);
@@ -103,9 +103,7 @@ $('[data-toggle-app]').on('click', function(e){
             }
  });
 };
-
-
-    
+   
 var destroyAppTray = function() {
     var tray = $(this);
     var apps = tray.find('> .app');
