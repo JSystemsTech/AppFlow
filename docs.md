@@ -296,20 +296,18 @@
             <div class="col-xs-2 col-sm-1"></div>
             <div class="col-xs-12 text-left">
                <p class="fs-md text-color-light">JavaScript Methods and Events provide intricate means of opening and closing an App element with additional options, but sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
-               <div class="col-xs-12">
-                  <h2 class="fs-lg">Closing the current App from within the Content</h2>
+               
+                  <h2 class="fs-xl">Closing the current App from within the Content</h2>
                   <p class="fs-md text-color-light">If you want to close the current open app with a button or other element in the App Content Element simply just add an "app-close" class to your button. AppFlow will listen for a click on the button and handle closing the App Element for you, no need to create a listener and fire a 'app-close'  event.</p>
-               </div>
-               <div class="col-xs-12">
-                  <h2 class="fs-lg">Closing Tray Apps Globally</h2>
+               
+                  <h2 class="fs-xl">Closing Tray Apps Globally</h2>
                   <p class="fs-md text-color-light">If you want to close the current open App element in a given tray from anywhere in the DOM then add a "data-close-tray-apps" attribute to a DOM element and set the value as the selector for the Tray element</p>
 
                   <pre>
                   <code>&lt;button data-close-tray-apps=&quot;#MyTray&quot;&gt; Close My Tray Apps &lt;/button&gt;</code>
                   </pre>
-               </div>
-               <div class="col-xs-12">
-                  <h2 class="fs-lg">Toggling App Globally</h2>
+               
+                  <h2 class="fs-xl">Toggling App Globally</h2>
                   <p class="fs-md text-color-light">If you want to toggle an App element in a given tray from anywhere in the DOM then add a "data-toggle-app" attribute to a DOM element and set the value as the selector for the App element</p>
 
                   <pre>
@@ -330,7 +328,6 @@
 
 
 
-               </div>
 
             </div>
             <div class="col-xs-12 footer">
@@ -346,7 +343,12 @@
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Advanced</div>
             <div class="col-xs-2 col-sm-1"></div>
-            <div class="col-xs-12"></div>
+            <div class="col-xs-12 text-left">
+               <h2 class="fs-xl">Nested Trays</h2>
+               <p class="fs-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
+               <p class="fs-md text-color-light">There are a few things to be aware of though. First 'app-close' class elements always search for the nearest tray to close App elements, so if you have a 'app-close' class element defined in the Sub Tray App it will only close the App element in the Sub Tray and not the Main Tray App</p>
+               <p class="fs-md text-color-light">Secondly if the Sub Tray has an open App element and the Main tray closes it's App elements, the Sub Tray App remains in a open state even though it is not displayed and will show again when The Main tray App is opened again. If you wish to make sure that the Sub Tray App Closes you can add an 'app-close', 'app-closed', or 'app-toggle' event listener on the Main Tray App and trigged an 'app-close' event on the Sub Tray App. Or if you have an 'app-close' class element on the Main Tray App you can add a "data-close-tray-apps" attribute that targets the Sub Tray</p>
+            </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </div>
                <div class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </div>
