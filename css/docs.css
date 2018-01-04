@@ -8,18 +8,14 @@ pre {
     text-align: left;
     white-space: pre-line;
 }
-.title{
-  color: rgb(100, 207, 255);
-    font-size: 40px;
-    font-family: Raleway;
-    text-align: center;
+
+.text-color-primary{
+color: rgb(100, 207, 255);
 }
-.description{
-  color: rgb(100, 207, 255);
-    font-size: 20px;
-    font-family: Raleway;
-    text-align: center;
+.tc{
+text-align: center;
 }
+
 .fa-inverse-custom {
     color: #313e4d;
 }
