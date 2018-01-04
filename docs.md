@@ -81,7 +81,7 @@
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Tray Configs</div>
             <div class="col-xs-2 col-sm-1"></div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 text-left">
                <h2 class="fs-xl">App Size</h2>
                <h2 class="fs-xl">App Spacing</h2>
                <h2 class="fs-xl">Open App Container Size </h2>
