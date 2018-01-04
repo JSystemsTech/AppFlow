@@ -155,7 +155,39 @@
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
             <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">App Configs</div>
             <div class="col-xs-2 col-sm-1"></div>
-            <div class="col-xs-12"></div>
+            <div class="col-xs-12 text-left">
+               <h2 class="fs-xl">Relative App Width And Hight</h2>
+               <p class="fs-md text-color-light">While the overall size of collapsed App elements are controlled by classes applied to the Tray element there may be the need to make individual App elements bigger than the default. That is where App Span  and App Height Span setting come into play</p>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">App Span</h2>
+                  <p class="fs-md text-color-light">This option controls the width of App element relative to the overall App Size and spacing options set in the Tray. Add any one of the following classes to an App element:</p>
+                  <ul>
+                        <li><strong>App Span 2 </strong>: add "app-span-2" (Collapsed app spans width of 2 App elements)</li>
+                        <li><strong>App Span 3 </strong>: add "app-span-3" (Collapsed app spans width of 3 App elements)</li>
+                        <li><strong>App Span 4 </strong>: add "app-span-4" (Collapsed app spans width of 4 App elements)</li>
+                        <li><strong>App Span 5 </strong>: add "app-span-5" (Collapsed app spans width of 5 App elements)</li>
+                     </ul>
+               </div>
+               <div class="col-xs-12">
+                  <h2 class="fs-lg">App Height Span</h2>
+                  <p class="fs-md text-color-light">This option controls the height of App element relative to the overall App Size and spacing options set in the Tray. Add any one of the following classes to an App element:</p>
+                  <ul>
+                        <li><strong>App Height Span 2 </strong>: add "app-height-span-2" (Collapsed app spans height of 2 App elements)</li>
+                        <li><strong>App Height Span 3 </strong>: add "app-height-span-3" (Collapsed app spans height of 3 App elements)</li>
+                        <li><strong>App Height Span 4 </strong>: add "app-height-span-4" (Collapsed app spans height of 4 App elements)</li>
+                        <li><strong>App Height Span 5 </strong>: add "app-height-span-5" (Collapsed app spans height of 5 App elements)</li>
+                     </ul>
+               </div>
+               <h2 class="fs-xl">Alternate Styling for Collapsed Apps</h2>
+               <p class="fs-md text-color-light">By default a collapsed App element is flat with rounded corners. AppFlows provides some alternate options for displaying collapsed apps. Add any of the following classes to an App element:</p>
+               <ul>
+                        <li><strong>Square Corners </strong>: add "app-square" </li>
+                        <li><strong>Glossy/Glass Effect </strong>: add "glass" </li>
+                        <li><strong>Beveled border Effect </strong>: add "beveled" </li>
+                     </ul>
+               <h2 class="fs-xl">Using Icons in the Header</h2>
+               <p class="fs-md text-color-light">If you are using a icon font libray such as FontAwesome and you are using icons in the Header element of an App element you can add an "app-icon" class to the Header element to let the the icon size to scale with the App Size Tray option</p>
+            </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </div>
                <div class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </div>
