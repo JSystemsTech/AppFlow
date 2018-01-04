@@ -205,7 +205,7 @@
             <p class="fs-md text-color-light">AppFlow does not have a function to call to initialize the component like most Jquery function extensions, however there are events fired and methods to call on App elements available.</p>
                <h2 class="fs-xl">Events</h2>
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Open</h2>
+                  <h2 class="fs-lg">App Open</h2>
                   <p class="fs-md text-color-light">Fires once the App element is expanding</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-open', function(targetElement, options){</code>
@@ -215,7 +215,7 @@
                   </pre>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Opened</h2>
+                  <h2 class="fs-lg">App Opened</h2>
                   <p class="fs-md text-color-light">Fires once the App element is fully expanded</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-opened', function(targetElement, openedAppElement, trayElement, options){</code>
@@ -226,7 +226,7 @@
                </div>
 
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Close</h2>
+                  <h2 class="fs-lg">App Close</h2>
                   <p class="fs-md text-color-light">Fires once the App element is collapsing</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-close', function(targetElement, options){</code>
@@ -236,7 +236,7 @@
                   </pre>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Closed</h2>
+                  <h2 class="fs-lg">App Closed</h2>
                   <p class="fs-md text-color-light">Fires once the App element is fully collapsed</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-closed', function(targetElement, closedAppElement, trayElement, options){</code>
@@ -246,7 +246,7 @@
                   </pre>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Toggle</h2>
+                  <h2 class="fs-lg">App Toggle</h2>
                   <p class="fs-md text-color-light">Fires when the 'app-toggle' method is triggered.</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-toggle', function(targetElement, toggledAppElement, trayElement, options){</code>
@@ -258,7 +258,7 @@
 
                <h2 class="fs-xl">Methods</h2>
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Open</h2>
+                  <h2 class="fs-lg">App Open</h2>
                   <p class="fs-md text-color-light">Open an App element</p>
                   <pre>
                      <code>$('#MyAppElement').trigger('app-open', options);</code>
@@ -266,7 +266,7 @@
                </div>
                
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Close</h2>
+                  <h2 class="fs-lg">App Close</h2>
                   <p class="fs-md text-color-light">Close an App element</p>
                   <pre>
                      <code>$('#MyAppElement').trigger('app-close', options);</code>
@@ -274,7 +274,7 @@
                </div>
                
                <div class="col-xs-12">
-                  <h2 class="fs-xl">App Toggle</h2>
+                  <h2 class="fs-lg">App Toggle</h2>
                   <p class="fs-md text-color-light">Toggle the open / close state of an App element</p>
                   <pre>
                      <code>$('#MyAppElement').trigger('app-toggle', options);</code>
