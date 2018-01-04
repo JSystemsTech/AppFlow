@@ -9,7 +9,8 @@ pre {
     white-space: pre-line;
 }
 
-.text-color-primary{
+.text-color-primary,
+ul>li>strong{
 color: rgb(100, 207, 255);
 }
 .tc{
@@ -107,6 +108,7 @@ a.text-color-alt:hover,
 a.text-color-alt:focus{
     color: rgb(255, 233, 120);
 }
-.text-color-light{
+.text-color-light,
+ul>li{
     color: rgb(186, 234, 255);
 }
