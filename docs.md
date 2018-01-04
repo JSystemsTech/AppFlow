@@ -346,8 +346,44 @@
             <div class="col-xs-12 text-left">
                <h2 class="fs-xl">Nested Trays</h2>
                <p class="fs-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
-               <p class="fs-md text-color-light">There are a few things to be aware of though. First 'app-close' class elements always search for the nearest tray to close App elements, so if you have a 'app-close' class element defined in the Sub Tray App it will only close the App element in the Sub Tray and not the Main Tray App</p>
+               <p class="fs-md text-color-light">There are a few things to be aware of though.</p>
+               <p class="fs-md text-color-light">First 'app-close' class elements always search for the nearest tray to close App elements, so if you have a 'app-close' class element defined in the Sub Tray App it will only close the App element in the Sub Tray and not the Main Tray App</p>
                <p class="fs-md text-color-light">Secondly if the Sub Tray has an open App element and the Main tray closes it's App elements, the Sub Tray App remains in a open state even though it is not displayed and will show again when The Main tray App is opened again. If you wish to make sure that the Sub Tray App Closes you can add an 'app-close', 'app-closed', or 'app-toggle' event listener on the Main Tray App and trigged an 'app-close' event on the Sub Tray App. Or if you have an 'app-close' class element on the Main Tray App you can add a "data-close-tray-apps" attribute that targets the Sub Tray</p>
+               <p class="fs-md text-color-light">In short be aware that eventing with nested trays can be complex so be sure to debug your code carefully. Also keep in mind that AppFlow is intended to be mobile friendly so best practice is to keep nested Trays to a minimum and it is not recommended to have more than one layer of nested Tray elements</p>
+
+               <h2 class="fs-xl">Full Height Trays</h2>
+               <p class="fs-md text-color-light">In many cases it is ofter desired to have the Tray span the remaining height of the DOM (like this page is doing). However because of the complex CSS styling of the Tray and App elements it is not a simple as adding a 100% height style to the tray. Luckily AppFlow privides a way to accomplish this. all you have to do is add a wrapper element around the Tray element with an 'auto-resize' class and let AppFlow take care of the rest. This is only needed for the outermost Tray element</p>
+               <pre>
+                  <code>&lt;div class=&quot;auto-resize&quot;&gt;</code>
+                  <code>   &lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app&quot;&gt;</code>
+                  <code>         &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>         &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>         &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>      &lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+                  <code>&lt;/div&gt;</code>
+               </pre>
+               <h2 class="fs-xl">Open vs Closed App Backgrounds</h2>
+               <p class="fs-md text-color-light">Need to have separate backgrounds for an App element's open/closed state? you might be tempted to add a separate class to an App Content element, which is a quick option. However to take advantage of a smoother transition between states it is recomended to create a class in your stylesheet like the following and apply it to the App element</p>
+               <pre>
+                  <code>.my-app-custom-background-class {</code>
+                  <code>   /*place closed App background CSS */</code>
+                  <code>}</code>
+                  <code>.my-app-custom-background-class.active {</code>
+                  <code>   /*place open App background CSS */</code>
+                  <code>}</code>
+               </pre>
+               <pre>
+                  <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+                  <code>   &lt;div class=&quot;app my-app-custom-background-class&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+                  <code>&lt;/div&gt;</code>
+               </pre>
+
             </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </div>
