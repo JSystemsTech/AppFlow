@@ -90,6 +90,34 @@
                     <label>
                         <input type="radio" value="app-size-auto" name="app-size">App Size Auto</label>
                 </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-2" name="app-size">App Size Auto (min size 2)</label>
+                </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-3" name="app-size">App Size Auto (min size 3)</label>
+                </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-4" name="app-size">App Size Auto (min size 4)</label>
+                </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-5" name="app-size">App Size Auto (min size 5)</label>
+                </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-6" name="app-size">App Size Auto (min size 6)</label>
+                </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-7" name="app-size">App Size Auto (min size 7)</label>
+                </div>
+                <div class="radio ">
+                    <label>
+                        <input type="radio" value="app-size-auto-8" name="app-size">App Size Auto (min size 8)</label>
+                </div>
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-3">
@@ -122,8 +150,7 @@
             </div>
 
         </div>
-    </form>
-    <form class="app-settings">
+    
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-3">
                             <p><strong>App Span Settings</strong>
@@ -214,6 +241,10 @@
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" name="square">Square Corners</label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="beveled">Beveled border</label>
                             </div>
                         </div>
                     </div>
