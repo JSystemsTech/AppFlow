@@ -19,7 +19,7 @@
       <div class="app" id="GettingStarted">
          <div class="app-header app-icon"><i class="fa fa-book"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Getting Started</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -79,7 +79,7 @@
       <div class="app" id="TrayConfigs">
          <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Tray Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -154,7 +154,7 @@
             </span>
          </div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -210,7 +210,7 @@
       <div class="app" id="JavaScript">
          <div class="app-header app-icon"><i class="f-mfizz icon-javascript"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">JavaScript</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -304,7 +304,7 @@
       <div class="app" id="Helpers">
          <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -354,7 +354,7 @@
       <div class="app" id="Advanced">
          <div class="app-header app-icon"><i class="fa fa-cogs"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -410,7 +410,7 @@
       <div class="app" id="FAQs">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl"><i class="fa fa-chevron-left" style="
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">FAQs</div>
             <div class="col-xs-2 col-lg-1"></div>
