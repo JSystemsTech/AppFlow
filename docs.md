@@ -187,7 +187,7 @@
                      </ul>
                <h2 class="fs-xl">Using Icons in the Header</h2>
                <p class="fs-md text-color-light">If you are using a icon font libray such as FontAwesome and you are using icons in the Header element of an App element you can add an "app-icon" class to the Header element to let the the icon size to scale with the App Size Tray option</p>
-               <p class="fs-md text-color-light">Also if you are using the "app-icon" class you can add an addition class for controlling the relative size of the icon by adding any one of the following classes to the App Header element:</p>
+               <p class="fs-md text-color-light">Also if you are using the "app-icon" class you can add an additional class for controlling the relative size of the icon by adding any one of the following classes to the App Header element:</p>
                <ul>
                         <li><strong>App Icon Extra Small </strong>: add "app-icon-xs" smallest icon</li>
                         <li><strong>App Icon Small </strong>: add "app-icon-sm" small icon</li>
