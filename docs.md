@@ -11,7 +11,7 @@
 <div class="col-xs-12 col-md-3"></div>
 <div class="section col-xs-12 btn-row">
    <a href="{{ site.github.repository_url }}" class="btn btn-appflow">View on GitHub</a>
-   <div class="btn btn-appflow">AppFlow Sandbox</div>
+   <a class="btn btn-appflow" href="{{ site.baseurl }}/playground">Playground</a>
    <div class="btn btn-appflow"><i class="fa fa-home"><span class="fr">Home</span></i></div>
 </div>
 <div class="tray-wrapper auto-resize col-xs-12 p-0">
