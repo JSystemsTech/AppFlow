@@ -267,5 +267,41 @@
          </div>
          <div class="app-title">App 1</div>
       </div>
+
+      <div class="app" id="App2">
+         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-content">
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App 2</div>
+            <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 fs-auto-h5"> Testing App Content</div>
+         </div>
+         <div class="app-title">App 2</div>
+      </div>
+
+      <div class="app" id="App3">
+         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-content">
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App 3</div>
+            <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 fs-auto-h5"> Testing App Content</div>
+         </div>
+         <div class="app-title">App 3</div>
+      </div>
+
+      <div class="app" id="App4">
+         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-content">
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App 4</div>
+            <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 fs-auto-h5"> Testing App Content</div>
+         </div>
+         <div class="app-title">App 4</div>
+      </div>
    </div>
 </div>
