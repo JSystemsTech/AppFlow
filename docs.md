@@ -19,9 +19,10 @@
       <div class="app" id="GettingStarted">
          <div class="app-header app-icon"><i class="fa fa-book"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Getting Started</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">Getting Started</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-xl">Requirements</h2>
                <p class="fs-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" target="_blank" class="text-color-alt">Jquery 1.11.3</a> or above to run however the following libraries are recommened to really take advantage of AppFlows capabilities</p>
@@ -78,9 +79,10 @@
       <div class="app" id="TrayConfigs">
          <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Tray Configs</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">Tray Configs</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-xl">App Size</h2>
                <div class="col-xs-12">
@@ -152,9 +154,10 @@
             </span>
          </div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">App Configs</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">App Configs</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-xl">Relative App Width And Hight</h2>
                <p class="fs-md text-color-light">While the overall size of collapsed App elements are controlled by classes applied to the Tray element there may be the need to make individual App elements bigger than the default. That is where App Span  and App Height Span setting come into play</p>
@@ -207,9 +210,10 @@
       <div class="app" id="JavaScript">
          <div class="app-header app-icon"><i class="f-mfizz icon-javascript"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">JavaScript</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">JavaScript</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
             <p class="fs-md text-color-light">AppFlow does not have a function to call to initialize the component like most Jquery function extensions, however there are events fired and methods to call on App elements available.</p>
                <h2 class="fs-xl">Events</h2>
@@ -300,9 +304,10 @@
       <div class="app" id="Helpers">
          <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Helpers</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">Helpers</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <p class="fs-md text-color-light">JavaScript Methods and Events provide intricate means of opening and closing an App element with additional options, but sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
                
@@ -349,9 +354,10 @@
       <div class="app" id="Advanced">
          <div class="app-header app-icon"><i class="fa fa-cogs"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Advanced</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">Advanced</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-xl">Nested Trays</h2>
                <p class="fs-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
@@ -404,9 +410,10 @@
       <div class="app" id="FAQs">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">FAQs</div>
-            <div class="col-xs-2 col-sm-1"></div>
+            <div class="col-xs-2 col-lg-1 app-close text-left fs-xl"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></div>
+            <div class="col-xs-8 col-lg-10 fr fs-xxl p-0">FAQs</div>
+            <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12"></div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </div>
