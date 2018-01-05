@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+<script type="text/javascript" src="{{ site.baseurl }}/example.js"></script>
 <div class="col-xs-12 col-md-3 p-0">
    <div class="col-xs-12 fr fs-auto-h6">{{ site.title | default: site.github.repository_name }}</div>
    <div class="col-xs-12 fr fs-auto-xs text-color-light">{{ site.description | default: site.github.project_tagline }}</div>
@@ -253,7 +254,7 @@
 
 
 <div class="tray-wrapper auto-resize col-xs-12 p-0">
-   <div class="section app-tray app-size-auto">
+   <div class="section app-tray app-size-auto" id="myAppTray">
       
       <div class="app" id="App1">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
