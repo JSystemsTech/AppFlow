@@ -41,9 +41,9 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
                }
             changeElClass(TRAY, 'shadowed', changeClass);
 });
-    $('#myAppTray').find('> .app').each(function(){
-          var app = $(this);
-          var appSettingsForm = app.find('> .app-content form.app-settings');
+    
+          var app = $('#myAppTray').find('> .app');
+          var appSettingsForm = $(#MyAppTrayControls);
         
           var glassCheckbox = appSettingsForm.find('input[name="glass"]');
           var squareCheckbox = appSettingsForm.find('input[name="square"]');
@@ -76,6 +76,3 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
         });
         
     });
-
-
- });
