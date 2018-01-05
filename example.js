@@ -15,6 +15,7 @@ $( document ).ready(function() {
         'shadowed': 'app-shadowed'
  };
     var AppOpenSelect = $('#appOpenSelect');
+    var AppSizeSelect = $('#appSizeSelect');
     for(var percent = 99; percent >= 50; percent --){
      El_CLASSES['app-open'] = El_CLASSES['app-open'] + 'app-open-' + percent + ' ';
        AppOpenSelect.append('<option value="app-open-' + percent+ '">'+percent+'</option>'); 
@@ -27,15 +28,16 @@ $( document ).ready(function() {
 AppOpenSelect.bind('change',function(){
     changeElClass($('#myAppTray'), 'app-open', $('#appOpenSelect').val());
 });
+    AppSizeSelect.bind('change',function(){
+    changeElClass($('#myAppTray'), 'app-open', $('#appSizeSelect').val());
+});
     $('#MyAppTrayControls input[name="blured"]').bind('change',function(){
     changeElClass(TRAY, 'blured', $('#MyAppTrayControls input[name="blured"]:checked').val());
 });
 $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
     changeElClass(TRAY, 'spacing', $('#MyAppTrayControls input[name="spacing"]:checked').val());
 });
-    $('#MyAppTrayControls input[name="app-size"]').bind('change',function(){
-    changeElClass(TRAY, 'app-size', $('#MyAppTrayControls input[name="app-size"]:checked').val());
-});
+    
      $('#MyAppTrayControls input[name="shadowed"]').bind('change',function(){
             var changeClass = '';
             if( $('#MyAppTrayControls input[name="shadowed"]').prop('checked')){
