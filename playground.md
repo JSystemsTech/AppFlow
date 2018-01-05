@@ -247,6 +247,10 @@
                                 <label>
                                     <input type="checkbox" name="beveled">Beveled border</label>
                             </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="bg-diff">Different Open App Background</label>
+                            </div>
                         </div>
                     </div>
                 </form>
