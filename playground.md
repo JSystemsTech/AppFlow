@@ -228,7 +228,10 @@
    <div class="section app-tray" id="myAppTray">
       
       <div class="app bg-app-force-default" id="App1">
-         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-header app-icon">
+            <i class="fa fa-square"></i>
+            <i class="fa-stack-0-5x fa-inverse-custom">1</i>
+         </div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
@@ -240,7 +243,10 @@
       </div>
 
       <div class="app bg-app-force-default" id="App2">
-         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-header app-icon">
+            <i class="fa fa-square"></i>
+            <i class="fa-stack-0-5x fa-inverse-custom">2</i>
+         </div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
@@ -252,7 +258,10 @@
       </div>
 
       <div class="app bg-app-force-default" id="App3">
-         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-header app-icon">
+            <i class="fa fa-square"></i>
+            <i class="fa-stack-0-5x fa-inverse-custom">3</i>
+         </div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
@@ -264,7 +273,10 @@
       </div>
 
       <div class="app bg-app-force-default" id="App4">
-         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-header app-icon">
+            <i class="fa fa-square"></i>
+            <i class="fa-stack-0-5x fa-inverse-custom">4</i>
+         </div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></div>
