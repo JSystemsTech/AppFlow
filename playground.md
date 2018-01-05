@@ -86,7 +86,6 @@
                 
                     <option value="app-size-auto-8" >App Size Auto (min size 8)</option>
                  </select>
-                </div>
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-3">
