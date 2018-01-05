@@ -187,6 +187,15 @@
                      </ul>
                <h2 class="fs-xl">Using Icons in the Header</h2>
                <p class="fs-md text-color-light">If you are using a icon font libray such as FontAwesome and you are using icons in the Header element of an App element you can add an "app-icon" class to the Header element to let the the icon size to scale with the App Size Tray option</p>
+               <p class="fs-md text-color-light">Also if you are using the "app-icon" class you can add an addition class for controlling the relative size of the icon by adding any one of the following classes to the App Header element:</p>
+               <ul>
+                        <li><strong>App Icon Extra Small </strong>: add "app-icon-xs" smallest icon</li>
+                        <li><strong>App Icon Small </strong>: add "app-icon-sm" small icon</li>
+                        <li><strong>App Icon Medium </strong>: add "app-icon-md" medium icon. <i>This is the implied default value if an app-icon-{size} class is not applied to the App Header element</i></li>
+                        <li><strong>App Icon Large </strong>: add "app-icon-lg" large icon</li>
+                        <li><strong>App Icon Extra large </strong>: add "app-icon-xl" largest icon</li>
+                        
+                     </ul>
             </div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </div>
@@ -396,14 +405,14 @@
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
             <div class="col-xs-2 col-sm-1 app-close p-0"><i class="fa fa-chevron-left"><span class="fr">Back</span></i></div>
-            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">Faqs</div>
+            <div class="col-xs-8 col-sm-10 fr fs-xxl p-0">FAQs</div>
             <div class="col-xs-2 col-sm-1"></div>
             <div class="col-xs-12"></div>
             <div class="col-xs-12 footer">
                <div class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </div>
             </div>
          </div>
-         <div class="app-title">Faqs</div>
+         <div class="app-title">FAQs</div>
       </div>
    </div>
 </div>
