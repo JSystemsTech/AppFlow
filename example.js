@@ -9,6 +9,7 @@ $( document ).ready(function() {
         'glass': 'glass',
         'square': 'app-square',
         'beveled': 'beveled',
+        'bg-diff':'bg-app-open-diff',
         'app-open': '',
         'blured': 'blured blured-dark',
         'shadowed': 'app-shadowed'
@@ -49,6 +50,7 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
           var glassCheckbox = appSettingsForm.find('input[name="glass"]');
           var squareCheckbox = appSettingsForm.find('input[name="square"]');
           var beveledCheckbox = appSettingsForm.find('input[name="beveled"]');
+          var bgDiff = appSettingsForm.find('input[name="bg-diff"]');
           var iconSizeRadio = appSettingsForm.find('input[name="icon-size"]');
           var appSpanRadio = appSettingsForm.find('input[name="app-span"]');
           var appHeightSpanRadio = appSettingsForm.find('input[name="app-height-span"]');
@@ -82,6 +84,13 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
             changeClass = 'beveled';
                }
             changeElClass(app, 'beveled', changeClass);
+        });
+    bgDiff.bind('change',function(){
+            var changeClass = '';
+            if(appSettingsForm.find('input[name="bg-diff"]').prop('checked')){
+            changeClass = 'bg-app-open-diff';
+               }
+            changeElClass(app, 'bg-diff', changeClass);
         });
         
     });
