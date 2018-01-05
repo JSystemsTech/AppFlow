@@ -29,7 +29,7 @@ AppOpenSelect.bind('change',function(){
     changeElClass($('#myAppTray'), 'app-open', $('#appOpenSelect').val());
 });
     AppSizeSelect.bind('change',function(){
-    changeElClass($('#myAppTray'), 'app-open', $('#appSizeSelect').val());
+    changeElClass($('#myAppTray'), 'app-size', $('#appSizeSelect').val());
 });
     $('#MyAppTrayControls input[name="blured"]').bind('change',function(){
     changeElClass(TRAY, 'blured', $('#MyAppTrayControls input[name="blured"]:checked').val());
