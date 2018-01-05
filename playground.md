@@ -51,73 +51,41 @@
             <div class="col-xs-6 col-sm-6 col-md-3">
                 <p><strong>App Size Settings</strong>
                 </p>
-                <div class="radio app-size-control">
-                    <label>
-                        <input type="radio" value="" name="app-size" checked>Default</label>
-                </div>
-                <div class="radio">
-                    <label>
-                        <input type="radio" value="app-size-1" name="app-size">App Size 1</label>
-                </div>
-                <div class="radio">
-                    <label>
-                        <input type="radio" value="app-size-2" name="app-size">App Size 2</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-3" name="app-size">App Size 3</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-4" name="app-size">App Size 4</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-5" name="app-size">App Size 5</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-6" name="app-size">App Size 6</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-7" name="app-size">App Size 7</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-8" name="app-size">App Size 8</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto" name="app-size">App Size Auto</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-2" name="app-size">App Size Auto (min size 2)</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-3" name="app-size">App Size Auto (min size 3)</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-4" name="app-size">App Size Auto (min size 4)</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-5" name="app-size">App Size Auto (min size 5)</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-6" name="app-size">App Size Auto (min size 6)</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-7" name="app-size">App Size Auto (min size 7)</label>
-                </div>
-                <div class="radio ">
-                    <label>
-                        <input type="radio" value="app-size-auto-8" name="app-size">App Size Auto (min size 8)</label>
+                <select class="form-control" id="appSizeSelect">
+                    <option value="" >Default</option>
+                
+                    <option value="app-size-1" >App Size 1</option>
+                
+                    <option value="app-size-2" >App Size 2</option>
+                
+                    <option value="app-size-3" >App Size 3</option>
+                
+                    <option value="app-size-4" >App Size 4</option>
+                
+                    <option value="app-size-5">App Size 5</option>
+                
+                    <option value="app-size-6" >App Size 6</option>
+                
+                    <option value="app-size-7" >App Size 7</option>
+                
+                    <option value="app-size-8" >App Size 8</option>
+               
+                    <option value="app-size-auto" >App Size Auto</option>
+                
+                    <option value="app-size-auto-2" >App Size Auto (min size 2)</option>
+                
+                    <option value="app-size-auto-3" >App Size Auto (min size 3)</option>
+               
+                    <option value="app-size-auto-4" >App Size Auto (min size 4)</option>
+                
+                    <option value="app-size-auto-5" >App Size Auto (min size 5)</option>
+                
+                    <option value="app-size-auto-6" >App Size Auto (min size 6)</option>
+                
+                    <option value="app-size-auto-7" >App Size Auto (min size 7)</option>
+                
+                    <option value="app-size-auto-8" >App Size Auto (min size 8)</option>
+                 </select>
                 </div>
             </div>
 
