@@ -254,7 +254,7 @@
 
 
 <div class="tray-wrapper auto-resize col-xs-12 p-0">
-   <div class="section app-tray app-size-auto" id="myAppTray">
+   <div class="section app-tray" id="myAppTray">
       
       <div class="app" id="App1">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
