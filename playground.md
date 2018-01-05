@@ -256,7 +256,7 @@
 <div class="tray-wrapper auto-resize col-xs-12 p-0">
    <div class="section app-tray" id="myAppTray">
       
-      <div class="app" id="App1">
+      <div class="app bg-app-force-default" id="App1">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
@@ -268,7 +268,7 @@
          <div class="app-title">App 1</div>
       </div>
 
-      <div class="app" id="App2">
+      <div class="app bg-app-force-default" id="App2">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
@@ -280,7 +280,7 @@
          <div class="app-title">App 2</div>
       </div>
 
-      <div class="app" id="App3">
+      <div class="app bg-app-force-default" id="App3">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
@@ -292,7 +292,7 @@
          <div class="app-title">App 3</div>
       </div>
 
-      <div class="app" id="App4">
+      <div class="app bg-app-force-default" id="App4">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
             <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
