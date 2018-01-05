@@ -8,7 +8,13 @@ pre {
     text-align: left;
     white-space: pre-line;
 }
-
+.bg-app-force-default,
+.bg-app-open-diff{
+    background-color: #2d3740;
+}
+.bg-app-open-diff.active {
+    background-color: #c7811a;
+}
 .text-color-primary,
 ul>li>strong{
 color: rgb(100, 207, 255);
