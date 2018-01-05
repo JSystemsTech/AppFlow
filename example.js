@@ -2,7 +2,7 @@
 $( document ).ready(function() {
     var El_CLASSES = {
   'spacing': 'spacing-1 spacing-2 spacing-3 spacing-4 spacing-5',
-  'app-size': 'app-size-1 app-size-2 app-size-3 app-size-4 app-size-5 app-size-6 app-size-7 app-size-8 app-size-auto',
+  'app-size': 'app-size-1 app-size-2 app-size-3 app-size-4 app-size-5 app-size-6 app-size-7 app-size-8 app-size-auto app-size-auto-2 app-size-auto-3 app-size-auto-4 app-size-auto-5 app-size-auto-6 app-size-auto-7 app-size-auto-8',
   'app-span': 'app-span-1 app-span-2 app-span-3 app-span-4 app-span-5',
   'app-height-span': 'app-height-span-2 app-height-span-3 app-height-span-4 app-height-span-5',
   'icon-size':'app-icon-xs app-icon-sm app-icon-md app-icon-lg app-icon-xl',
