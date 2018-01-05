@@ -43,7 +43,7 @@ $('#MyAppTrayControls input[name="spacing"]').bind('change',function(){
 });
     
           var app = $('#myAppTray').find('> .app');
-          var appSettingsForm = $(#MyAppTrayControls);
+          var appSettingsForm = $('#MyAppTrayControls');
         
           var glassCheckbox = appSettingsForm.find('input[name="glass"]');
           var squareCheckbox = appSettingsForm.find('input[name="square"]');
