@@ -32,7 +32,8 @@ text-align: center;
     left: 0;
     width: 100%;
     text-align: center;
-  line-height: inherit
+  line-height: inherit;
+    top: 0;
 }
 .fr {
   font-family: Raleway
