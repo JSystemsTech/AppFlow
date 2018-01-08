@@ -20,10 +20,10 @@
 <div class="tray-wrapper col-xs-12">
     <p class="fs-auto-lg text-color-light">Looking for an alternative approach to mobile web design? Want to have a layout similar to a mobile device home screen? Need a quick and easy solution for displaying a single page application? Then AppFlow is the solution you have been looking for.</p>
    
-   <p class="fs-auto-h6">What Is AppFlow</p>
+   <p class="fs-auto-h6">What Is AppFlow?</p>
    <p class="fs-auto-md text-color-light">AppFlow is an HTML webpage design framework for displaying toggleable content specifically designed to display information easily on mobile devices.</p>
    
-   <p class="fs-auto-h6">Why Use AppFlow</p>
+   <p class="fs-auto-h6">Why Use AppFlow?</p>
    <p class="fs-auto-md text-color-light">There are may solutions to handle web design on mobile devices but none are as streamlined and easy to use as AppFlow. AppFlow makes mobile single page web applications more feasible and user friendly. Appflow is also a lightweight framework</p>
    
    <p class="fs-auto-h6">What Makes AppFlow Different?</p>
