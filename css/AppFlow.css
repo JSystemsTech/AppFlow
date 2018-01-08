@@ -115,15 +115,6 @@
   transition: 400ms;
 }
 
-.app-tray.transition-0,
-.app-tray.transition-0:before,
-.app-tray.transition-0 > .app {
-  -webkit-transition: 0s;
-  -moz-transition: 0s;
-  -o-transition: 0s;
-  transition: 0s;
-}
-
 .app.active {
   border-radius: 0 !important;
   width: 100%;
@@ -432,24 +423,29 @@
   font-size: 17.5px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 22.5px;
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 25px;
+  font-size: 12.5px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 20px;
-}
-
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 17.5px;
-}
-
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 25px;
   font-size: 15px;
 }
 
-.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 12.5px;
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 25px;
+  font-size: 17.5px;
+}
+
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 25px;
+  font-size: 22.5px;
 }
 
 .app-tray:not(.app-open).app-size-1.spacing-1 {
@@ -889,24 +885,29 @@
   font-size: 35px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 45px;
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 50px;
+  font-size: 25px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 40px;
-}
-
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 35px;
-}
-
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 50px;
   font-size: 30px;
 }
 
-.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 25px;
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 50px;
+  font-size: 35px;
+}
+
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 50px;
+  font-size: 45px;
 }
 
 .app-tray:not(.app-open).app-size-2.spacing-1 {
@@ -1346,24 +1347,29 @@
   font-size: 52.5px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 67.5px;
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 75px;
+  font-size: 37.5px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 60px;
-}
-
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 52.5px;
-}
-
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 75px;
   font-size: 45px;
 }
 
-.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 37.5px;
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 75px;
+  font-size: 52.5px;
+}
+
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 75px;
+  font-size: 60px;
+}
+
+.app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 75px;
+  font-size: 67.5px;
 }
 
 .app-tray:not(.app-open).app-size-3.spacing-1 {
@@ -1803,24 +1809,29 @@
   font-size: 70px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 90px;
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 100px;
+  font-size: 50px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 80px;
-}
-
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 70px;
-}
-
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 100px;
   font-size: 60px;
 }
 
-.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 50px;
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 100px;
+  font-size: 70px;
+}
+
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 100px;
+  font-size: 80px;
+}
+
+.app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 100px;
+  font-size: 90px;
 }
 
 .app-tray:not(.app-open).app-size-4.spacing-1 {
@@ -2260,24 +2271,29 @@
   font-size: 87.5px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 112.5px;
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 125px;
+  font-size: 62.5px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 100px;
-}
-
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 87.5px;
-}
-
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 125px;
   font-size: 75px;
 }
 
-.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 62.5px;
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 125px;
+  font-size: 87.5px;
+}
+
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 125px;
+  font-size: 100px;
+}
+
+.app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 125px;
+  font-size: 112.5px;
 }
 
 .app-tray:not(.app-open).app-size-5.spacing-1 {
@@ -2717,24 +2733,29 @@
   font-size: 105px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 135px;
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 150px;
+  font-size: 75px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 120px;
-}
-
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 105px;
-}
-
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 150px;
   font-size: 90px;
 }
 
-.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 75px;
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 150px;
+  font-size: 105px;
+}
+
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 150px;
+  font-size: 120px;
+}
+
+.app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 150px;
+  font-size: 135px;
 }
 
 .app-tray:not(.app-open).app-size-6.spacing-1 {
@@ -3174,24 +3195,29 @@
   font-size: 122.5px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 157.5px;
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 175px;
+  font-size: 87.5px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 140px;
-}
-
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 122.5px;
-}
-
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 175px;
   font-size: 105px;
 }
 
-.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 87.5px;
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 175px;
+  font-size: 122.5px;
+}
+
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 175px;
+  font-size: 140px;
+}
+
+.app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 175px;
+  font-size: 157.5px;
 }
 
 .app-tray:not(.app-open).app-size-7.spacing-1 {
@@ -3631,24 +3657,29 @@
   font-size: 140px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 180px;
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon-xs {
+  line-height: 200px;
+  font-size: 100px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 160px;
-}
-
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 140px;
-}
-
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon-sm {
+  line-height: 200px;
   font-size: 120px;
 }
 
-.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-  font-size: 100px;
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon-md {
+  line-height: 200px;
+  font-size: 140px;
+}
+
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon-lg {
+  line-height: 200px;
+  font-size: 160px;
+}
+
+.app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon-xl {
+  line-height: 200px;
+  font-size: 180px;
 }
 
 .app-tray:not(.app-open).app-size-8.spacing-1 {
@@ -4566,224 +4597,29 @@
   font-size: 1.1em;
 }
 
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-  font-size: 90px;
-}
-
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-  font-size: 80px;
-}
-
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-md {
-  font-size: 70px;
-}
-
-.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-sm {
-  font-size: 60px;
-}
-
 .app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xs {
+  line-height: 100px;
   font-size: 50px;
 }
 
-.app-tray.transition-50,
-.app-tray.transition-50 > .app,
-.app-tray.transition-50 > .app > .app-header,
-.app-tray.transition-50 > .app > .app-content {
-  -webkit-transition: 50ms;
-  -moz-transition: 50ms;
-  -o-transition: 50ms;
-  transition: 50ms;
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  line-height: 100px;
+  font-size: 60px;
 }
 
-.app-tray.transition-100,
-.app-tray.transition-100 > .app,
-.app-tray.transition-100 > .app > .app-header,
-.app-tray.transition-100 > .app > .app-content {
-  -webkit-transition: 100ms;
-  -moz-transition: 100ms;
-  -o-transition: 100ms;
-  transition: 100ms;
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-md {
+  line-height: 100px;
+  font-size: 70px;
 }
 
-.app-tray.transition-150,
-.app-tray.transition-150 > .app,
-.app-tray.transition-150 > .app > .app-header,
-.app-tray.transition-150 > .app > .app-content {
-  -webkit-transition: 150ms;
-  -moz-transition: 150ms;
-  -o-transition: 150ms;
-  transition: 150ms;
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-lg {
+  line-height: 100px;
+  font-size: 80px;
 }
 
-.app-tray.transition-200,
-.app-tray.transition-200 > .app,
-.app-tray.transition-200 > .app > .app-header,
-.app-tray.transition-200 > .app > .app-content {
-  -webkit-transition: 200ms;
-  -moz-transition: 200ms;
-  -o-transition: 200ms;
-  transition: 200ms;
-}
-
-.app-tray.transition-250,
-.app-tray.transition-250 > .app,
-.app-tray.transition-250 > .app > .app-header,
-.app-tray.transition-250 > .app > .app-content {
-  -webkit-transition: 250ms;
-  -moz-transition: 250ms;
-  -o-transition: 250ms;
-  transition: 250ms;
-}
-
-.app-tray.transition-300,
-.app-tray.transition-300 > .app,
-.app-tray.transition-300 > .app > .app-header,
-.app-tray.transition-300 > .app > .app-content {
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -o-transition: 300ms;
-  transition: 300ms;
-}
-
-.app-tray.transition-350,
-.app-tray.transition-350 > .app,
-.app-tray.transition-350 > .app > .app-header,
-.app-tray.transition-350 > .app > .app-content {
-  -webkit-transition: 350ms;
-  -moz-transition: 350ms;
-  -o-transition: 350ms;
-  transition: 350ms;
-}
-
-.app-tray.transition-400,
-.app-tray.transition-400 > .app,
-.app-tray.transition-400 > .app > .app-header,
-.app-tray.transition-400 > .app > .app-content {
-  -webkit-transition: 400ms;
-  -moz-transition: 400ms;
-  -o-transition: 400ms;
-  transition: 400ms;
-}
-
-.app-tray.transition-450,
-.app-tray.transition-450 > .app,
-.app-tray.transition-450 > .app > .app-header,
-.app-tray.transition-450 > .app > .app-content {
-  -webkit-transition: 450ms;
-  -moz-transition: 450ms;
-  -o-transition: 450ms;
-  transition: 450ms;
-}
-
-.app-tray.transition-500,
-.app-tray.transition-500 > .app,
-.app-tray.transition-500 > .app > .app-header,
-.app-tray.transition-500 > .app > .app-content {
-  -webkit-transition: 500ms;
-  -moz-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-}
-
-.app-tray.transition-550,
-.app-tray.transition-550 > .app,
-.app-tray.transition-550 > .app > .app-header,
-.app-tray.transition-550 > .app > .app-content {
-  -webkit-transition: 550ms;
-  -moz-transition: 550ms;
-  -o-transition: 550ms;
-  transition: 550ms;
-}
-
-.app-tray.transition-600,
-.app-tray.transition-600 > .app,
-.app-tray.transition-600 > .app > .app-header,
-.app-tray.transition-600 > .app > .app-content {
-  -webkit-transition: 600ms;
-  -moz-transition: 600ms;
-  -o-transition: 600ms;
-  transition: 600ms;
-}
-
-.app-tray.transition-650,
-.app-tray.transition-650 > .app,
-.app-tray.transition-650 > .app > .app-header,
-.app-tray.transition-650 > .app > .app-content {
-  -webkit-transition: 650ms;
-  -moz-transition: 650ms;
-  -o-transition: 650ms;
-  transition: 650ms;
-}
-
-.app-tray.transition-700,
-.app-tray.transition-700 > .app,
-.app-tray.transition-700 > .app > .app-header,
-.app-tray.transition-700 > .app > .app-content {
-  -webkit-transition: 700ms;
-  -moz-transition: 700ms;
-  -o-transition: 700ms;
-  transition: 700ms;
-}
-
-.app-tray.transition-750,
-.app-tray.transition-750 > .app,
-.app-tray.transition-750 > .app > .app-header,
-.app-tray.transition-750 > .app > .app-content {
-  -webkit-transition: 750ms;
-  -moz-transition: 750ms;
-  -o-transition: 750ms;
-  transition: 750ms;
-}
-
-.app-tray.transition-800,
-.app-tray.transition-800 > .app,
-.app-tray.transition-800 > .app > .app-header,
-.app-tray.transition-800 > .app > .app-content {
-  -webkit-transition: 800ms;
-  -moz-transition: 800ms;
-  -o-transition: 800ms;
-  transition: 800ms;
-}
-
-.app-tray.transition-850,
-.app-tray.transition-850 > .app,
-.app-tray.transition-850 > .app > .app-header,
-.app-tray.transition-850 > .app > .app-content {
-  -webkit-transition: 850ms;
-  -moz-transition: 850ms;
-  -o-transition: 850ms;
-  transition: 850ms;
-}
-
-.app-tray.transition-900,
-.app-tray.transition-900 > .app,
-.app-tray.transition-900 > .app > .app-header,
-.app-tray.transition-900 > .app > .app-content {
-  -webkit-transition: 900ms;
-  -moz-transition: 900ms;
-  -o-transition: 900ms;
-  transition: 900ms;
-}
-
-.app-tray.transition-950,
-.app-tray.transition-950 > .app,
-.app-tray.transition-950 > .app > .app-header,
-.app-tray.transition-950 > .app > .app-content {
-  -webkit-transition: 950ms;
-  -moz-transition: 950ms;
-  -o-transition: 950ms;
-  transition: 950ms;
-}
-
-.app-tray.transition-1000,
-.app-tray.transition-1000 > .app,
-.app-tray.transition-1000 > .app > .app-header,
-.app-tray.transition-1000 > .app > .app-content {
-  -webkit-transition: 1000ms;
-  -moz-transition: 1000ms;
-  -o-transition: 1000ms;
-  transition: 1000ms;
+.app-tray:not(.app-open) > .app:not(.active) > .app-header.app-icon.app-icon-xl {
+  line-height: 100px;
+  font-size: 90px;
 }
 
 @media (min-width: 0px) {
@@ -4807,21 +4643,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 25px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 22.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 25px;
+    font-size: 12.5px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 20px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 17.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 25px;
     font-size: 15px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 12.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 25px;
+    font-size: 17.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 25px;
+    font-size: 20px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 25px;
+    font-size: 22.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -5200,21 +5040,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 45px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 50px;
+    font-size: 25px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 40px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 35px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 50px;
     font-size: 30px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 25px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 50px;
+    font-size: 35px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 50px;
+    font-size: 45px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -5593,21 +5437,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 67.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 75px;
+    font-size: 37.5px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 60px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 52.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 75px;
     font-size: 45px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 37.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 75px;
+    font-size: 52.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 75px;
+    font-size: 60px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 75px;
+    font-size: 67.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -5986,21 +5834,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 90px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 100px;
+    font-size: 50px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 80px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 70px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 100px;
     font-size: 60px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 50px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 100px;
+    font-size: 70px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 100px;
+    font-size: 80px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 100px;
+    font-size: 90px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -6379,21 +6231,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 112.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 125px;
+    font-size: 62.5px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 100px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 87.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 125px;
     font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 62.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 125px;
+    font-size: 87.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 125px;
+    font-size: 100px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 125px;
+    font-size: 112.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -6772,21 +6628,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 135px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 150px;
+    font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 120px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 105px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 150px;
     font-size: 90px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 75px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 150px;
+    font-size: 105px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 150px;
+    font-size: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 150px;
+    font-size: 135px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -7165,21 +7025,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -7558,21 +7422,25 @@
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto {
     padding: 5px;
@@ -7951,21 +7819,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 45px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 50px;
+    font-size: 25px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 40px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 35px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 50px;
     font-size: 30px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 25px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 50px;
+    font-size: 35px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 50px;
+    font-size: 45px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -8344,21 +8216,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 67.5px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 75px;
+    font-size: 37.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 60px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 52.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 75px;
     font-size: 45px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 37.5px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 75px;
+    font-size: 52.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 75px;
+    font-size: 60px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 75px;
+    font-size: 67.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -8737,21 +8613,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 90px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 100px;
+    font-size: 50px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 80px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 70px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 100px;
     font-size: 60px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 50px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 100px;
+    font-size: 70px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 100px;
+    font-size: 80px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 100px;
+    font-size: 90px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -9130,21 +9010,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 112.5px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 125px;
+    font-size: 62.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 100px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 87.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 125px;
     font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 62.5px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 125px;
+    font-size: 87.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 125px;
+    font-size: 100px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 125px;
+    font-size: 112.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -9523,21 +9407,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 135px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 150px;
+    font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 120px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 105px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 150px;
     font-size: 90px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 75px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 150px;
+    font-size: 105px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 150px;
+    font-size: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 150px;
+    font-size: 135px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -9916,21 +9804,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -10309,21 +10201,25 @@
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-2 {
     padding: 5px;
@@ -10702,21 +10598,25 @@
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 67.5px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 75px;
+    font-size: 37.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 60px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 52.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 75px;
     font-size: 45px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 37.5px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 75px;
+    font-size: 52.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 75px;
+    font-size: 60px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 75px;
+    font-size: 67.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-3 {
     padding: 5px;
@@ -11095,21 +10995,25 @@
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 90px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 100px;
+    font-size: 50px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 80px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 70px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 100px;
     font-size: 60px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 50px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 100px;
+    font-size: 70px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 100px;
+    font-size: 80px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 100px;
+    font-size: 90px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-3 {
     padding: 5px;
@@ -11488,21 +11392,25 @@
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 112.5px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 125px;
+    font-size: 62.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 100px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 87.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 125px;
     font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 62.5px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 125px;
+    font-size: 87.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 125px;
+    font-size: 100px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 125px;
+    font-size: 112.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-3 {
     padding: 5px;
@@ -11881,21 +11789,25 @@
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 135px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 150px;
+    font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 120px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 105px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 150px;
     font-size: 90px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 75px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 150px;
+    font-size: 105px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 150px;
+    font-size: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 150px;
+    font-size: 135px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-3 {
     padding: 5px;
@@ -12274,21 +12186,25 @@
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-3 {
     padding: 5px;
@@ -12667,21 +12583,25 @@
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-3 {
     padding: 5px;
@@ -13060,21 +12980,25 @@
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 90px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 100px;
+    font-size: 50px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 80px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 70px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 100px;
     font-size: 60px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 50px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 100px;
+    font-size: 70px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 100px;
+    font-size: 80px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 100px;
+    font-size: 90px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-4 {
     padding: 5px;
@@ -13453,21 +13377,25 @@
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 112.5px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 125px;
+    font-size: 62.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 100px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 87.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 125px;
     font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 62.5px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 125px;
+    font-size: 87.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 125px;
+    font-size: 100px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 125px;
+    font-size: 112.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-4 {
     padding: 5px;
@@ -13846,21 +13774,25 @@
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 135px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 150px;
+    font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 120px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 105px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 150px;
     font-size: 90px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 75px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 150px;
+    font-size: 105px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 150px;
+    font-size: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 150px;
+    font-size: 135px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-4 {
     padding: 5px;
@@ -14239,21 +14171,25 @@
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-4 {
     padding: 5px;
@@ -14632,21 +14568,25 @@
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-4 {
     padding: 5px;
@@ -15025,21 +14965,25 @@
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 112.5px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 125px;
+    font-size: 62.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 100px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 87.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 125px;
     font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 62.5px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 125px;
+    font-size: 87.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 125px;
+    font-size: 100px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 125px;
+    font-size: 112.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-5 {
     padding: 5px;
@@ -15418,21 +15362,25 @@
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 135px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 150px;
+    font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 120px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 105px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 150px;
     font-size: 90px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 75px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 150px;
+    font-size: 105px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 150px;
+    font-size: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 150px;
+    font-size: 135px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-5 {
     padding: 5px;
@@ -15811,21 +15759,25 @@
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-5 {
     padding: 5px;
@@ -16204,21 +16156,25 @@
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-5 {
     padding: 5px;
@@ -16597,21 +16553,25 @@
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 135px;
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 150px;
+    font-size: 75px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 120px;
-  }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 105px;
-  }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 150px;
     font-size: 90px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 75px;
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 150px;
+    font-size: 105px;
+  }
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 150px;
+    font-size: 120px;
+  }
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 150px;
+    font-size: 135px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-6 {
     padding: 5px;
@@ -16990,21 +16950,25 @@
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-6 {
     padding: 5px;
@@ -17383,21 +17347,25 @@
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-6 {
     padding: 5px;
@@ -17776,21 +17744,25 @@
   .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
   }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 157.5px;
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 175px;
+    font-size: 87.5px;
   }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 122.5px;
-  }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 175px;
     font-size: 105px;
   }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 87.5px;
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 175px;
+    font-size: 122.5px;
+  }
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 175px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 175px;
+    font-size: 157.5px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-7 {
     padding: 5px;
@@ -18169,21 +18141,25 @@
   .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-7 {
     padding: 5px;
@@ -18562,21 +18538,25 @@
   .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
   }
-  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon.app-icon-xl {
-    font-size: 180px;
+  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon-xs {
+    line-height: 200px;
+    font-size: 100px;
   }
-  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon.app-icon-lg {
-    font-size: 160px;
-  }
-  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon,
-  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon.app-icon-md {
-    font-size: 140px;
-  }
-  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon.app-icon-sm {
+  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon-sm {
+    line-height: 200px;
     font-size: 120px;
   }
-  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon.app-icon-xs {
-    font-size: 100px;
+  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon-md {
+    line-height: 200px;
+    font-size: 140px;
+  }
+  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon-lg {
+    line-height: 200px;
+    font-size: 160px;
+  }
+  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon-xl {
+    line-height: 200px;
+    font-size: 180px;
   }
   .app-tray.spacing-1:not(.app-open).app-size-auto-8 {
     padding: 5px;
@@ -18931,5 +18911,293 @@
   }
   .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active).app-height-span-5 > .app-header.app-icon {
     line-height: 1080px;
+  }
+}
+
+@media (min-width: 0px) {
+  .fs-auto-xs {
+    font-size: 5px;
+  }
+  .fs-auto-sm {
+    font-size: 6px;
+  }
+  .fs-auto-md {
+    font-size: 7px;
+  }
+  .fs-auto-lg {
+    font-size: 8px;
+  }
+  .fs-auto-xl {
+    font-size: 10px;
+  }
+  .fs-auto-h6 {
+    font-size: 15px;
+  }
+  .fs-auto-h5 {
+    font-size: 17.5px;
+  }
+  .fs-auto-h4 {
+    font-size: 20px;
+  }
+  .fs-auto-h3 {
+    font-size: 22.5px;
+  }
+  .fs-auto-h2 {
+    font-size: 25px;
+  }
+  .fs-auto-h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 260px) {
+  .fs-auto-xs {
+    font-size: 6px;
+  }
+  .fs-auto-sm {
+    font-size: 7.2px;
+  }
+  .fs-auto-md {
+    font-size: 8.4px;
+  }
+  .fs-auto-lg {
+    font-size: 9.6px;
+  }
+  .fs-auto-xl {
+    font-size: 12px;
+  }
+  .fs-auto-h6 {
+    font-size: 18px;
+  }
+  .fs-auto-h5 {
+    font-size: 21px;
+  }
+  .fs-auto-h4 {
+    font-size: 24px;
+  }
+  .fs-auto-h3 {
+    font-size: 27px;
+  }
+  .fs-auto-h2 {
+    font-size: 30px;
+  }
+  .fs-auto-h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 340px) {
+  .fs-auto-xs {
+    font-size: 7px;
+  }
+  .fs-auto-sm {
+    font-size: 8.4px;
+  }
+  .fs-auto-md {
+    font-size: 9.8px;
+  }
+  .fs-auto-lg {
+    font-size: 11.2px;
+  }
+  .fs-auto-xl {
+    font-size: 14px;
+  }
+  .fs-auto-h6 {
+    font-size: 21px;
+  }
+  .fs-auto-h5 {
+    font-size: 24.5px;
+  }
+  .fs-auto-h4 {
+    font-size: 28px;
+  }
+  .fs-auto-h3 {
+    font-size: 31.5px;
+  }
+  .fs-auto-h2 {
+    font-size: 35px;
+  }
+  .fs-auto-h1 {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 415px) {
+  .fs-auto-xs {
+    font-size: 8px;
+  }
+  .fs-auto-sm {
+    font-size: 9.6px;
+  }
+  .fs-auto-md {
+    font-size: 11.2px;
+  }
+  .fs-auto-lg {
+    font-size: 12.8px;
+  }
+  .fs-auto-xl {
+    font-size: 16px;
+  }
+  .fs-auto-h6 {
+    font-size: 24px;
+  }
+  .fs-auto-h5 {
+    font-size: 28px;
+  }
+  .fs-auto-h4 {
+    font-size: 32px;
+  }
+  .fs-auto-h3 {
+    font-size: 36px;
+  }
+  .fs-auto-h2 {
+    font-size: 40px;
+  }
+  .fs-auto-h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-auto-xs {
+    font-size: 9px;
+  }
+  .fs-auto-sm {
+    font-size: 10.8px;
+  }
+  .fs-auto-md {
+    font-size: 12.6px;
+  }
+  .fs-auto-lg {
+    font-size: 14.4px;
+  }
+  .fs-auto-xl {
+    font-size: 18px;
+  }
+  .fs-auto-h6 {
+    font-size: 27px;
+  }
+  .fs-auto-h5 {
+    font-size: 31.5px;
+  }
+  .fs-auto-h4 {
+    font-size: 36px;
+  }
+  .fs-auto-h3 {
+    font-size: 40.5px;
+  }
+  .fs-auto-h2 {
+    font-size: 45px;
+  }
+  .fs-auto-h1 {
+    font-size: 54px;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-auto-xs {
+    font-size: 10px;
+  }
+  .fs-auto-sm {
+    font-size: 12px;
+  }
+  .fs-auto-md {
+    font-size: 14px;
+  }
+  .fs-auto-lg {
+    font-size: 16px;
+  }
+  .fs-auto-xl {
+    font-size: 20px;
+  }
+  .fs-auto-h6 {
+    font-size: 30px;
+  }
+  .fs-auto-h5 {
+    font-size: 35px;
+  }
+  .fs-auto-h4 {
+    font-size: 40px;
+  }
+  .fs-auto-h3 {
+    font-size: 45px;
+  }
+  .fs-auto-h2 {
+    font-size: 50px;
+  }
+  .fs-auto-h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fs-auto-xs {
+    font-size: 11px;
+  }
+  .fs-auto-sm {
+    font-size: 13.2px;
+  }
+  .fs-auto-md {
+    font-size: 15.4px;
+  }
+  .fs-auto-lg {
+    font-size: 17.6px;
+  }
+  .fs-auto-xl {
+    font-size: 22px;
+  }
+  .fs-auto-h6 {
+    font-size: 33px;
+  }
+  .fs-auto-h5 {
+    font-size: 38.5px;
+  }
+  .fs-auto-h4 {
+    font-size: 44px;
+  }
+  .fs-auto-h3 {
+    font-size: 49.5px;
+  }
+  .fs-auto-h2 {
+    font-size: 55px;
+  }
+  .fs-auto-h1 {
+    font-size: 66px;
+  }
+}
+
+@media (min-width: 1492px) {
+  .fs-auto-xs {
+    font-size: 12px;
+  }
+  .fs-auto-sm {
+    font-size: 14.4px;
+  }
+  .fs-auto-md {
+    font-size: 16.8px;
+  }
+  .fs-auto-lg {
+    font-size: 19.2px;
+  }
+  .fs-auto-xl {
+    font-size: 24px;
+  }
+  .fs-auto-h6 {
+    font-size: 36px;
+  }
+  .fs-auto-h5 {
+    font-size: 42px;
+  }
+  .fs-auto-h4 {
+    font-size: 48px;
+  }
+  .fs-auto-h3 {
+    font-size: 54px;
+  }
+  .fs-auto-h2 {
+    font-size: 60px;
+  }
+  .fs-auto-h1 {
+    font-size: 72px;
   }
 }
