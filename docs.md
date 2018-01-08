@@ -343,18 +343,18 @@
                <h2 class="fs-xl">Auto Size Text</h2>
                   <p class="fs-md text-color-light">If you need to adjust the size of text based on the screen size AppFlow provides a styling option that will help you with that. Add any one of the following classes will automatically scale the text with the screen size <i>(Shown in order from smallest to largest)</i>:</p>
 
-                  <ul>
-                        <li><strong>Extra Small Text </strong>: add "text-auto-xs" </li>
-                        <li><strong>Small Text </strong>: add "text-auto-sm" </li>
-                        <li><strong>Medium Text </strong>: add "text-auto-md"  </li>
-                        <li><strong>Large Text </strong>: add "text-auto-lg" </li>
-                        <li><strong>Extra Large Text </strong>: add "text-auto-xl" </li>
-                        <li><strong>Header 6 Text </strong>: add "text-auto-h6" </li>
-                        <li><strong>Header 5 Text </strong>: add "text-auto-h5" </li>
-                        <li><strong>Header 4 Text </strong>: add "text-auto-h4" </li>
-                        <li><strong>Header 3 Text </strong>: add "text-auto-h3" </li>
-                        <li><strong>Header 2 Text </strong>: add "text-auto-h2" </li>
-                        <li><strong>Header 1 Text </strong>: add "text-auto-h1" </li>
+                     <ul>
+                        <li><strong>Extra Small Text </strong>: add "fs-auto-xs" </li>
+                        <li><strong>Small Text </strong>: add "fs-auto-sm" </li>
+                        <li><strong>Medium Text </strong>: add "fs-auto-md"  </li>
+                        <li><strong>Large Text </strong>: add "fs-auto-lg" </li>
+                        <li><strong>Extra Large Text </strong>: add "fs-auto-xl" </li>
+                        <li><strong>Header 6 Text </strong>: add "fs-auto-h6" </li>
+                        <li><strong>Header 5 Text </strong>: add "fs-auto-h5" </li>
+                        <li><strong>Header 4 Text </strong>: add "fs-auto-h4" </li>
+                        <li><strong>Header 3 Text </strong>: add "fs-auto-h3" </li>
+                        <li><strong>Header 2 Text </strong>: add "fs-auto-h2" </li>
+                        <li><strong>Header 1 Text </strong>: add "fs-auto-h1" </li>
                      </ul>
 
 
