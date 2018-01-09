@@ -68,7 +68,11 @@ var bindAppEvents = function(apps, tray) {
                 e.preventDefault();
                  openApp(targetApp, tray);
             }
-        }
+        },
+        'keypress': function(e) {
+            if (e.which === 32){
+                $(this).trigger('click');
+            }
     };
     $.each(appEvents, function(eventName, cb) {
         apps.on(eventName, cb);
