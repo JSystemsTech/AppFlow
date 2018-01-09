@@ -59,8 +59,8 @@ var bindAppEvents = function(apps, tray) {
             closeApp(targetApp, tray, null, options);
         },
         'click': function(e) {
-            console.log($(e.target));
             var targetApp = $(e.target).closest('.app');
+            console.log(targetApp);
             var isActive = targetApp.hasClass(ACTIVE_CLASS);
             var clickedInHeader = $(e.target).closest('.app-header').length > 0;
             var clickedInTitle = $(e.target).closest('.app-title').length > 0;
