@@ -23,6 +23,9 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Getting Started</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">Requirements</h2>
                <p class="fs-auto-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" target="_blank" class="text-color-alt">Jquery 1.11.3</a> or above to run however the following libraries are recommened to really take advantage of AppFlows capabilities</p>
@@ -83,6 +86,10 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Tray Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">App Size</h2>
                <div class="col-xs-12">
@@ -158,6 +165,10 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">Relative App Width And Hight</h2>
                <p class="fs-auto-md text-color-light">While the overall size of collapsed App elements are controlled by classes applied to the Tray element there may be the need to make individual App elements bigger than the default. That is where App Span  and App Height Span setting come into play</p>
@@ -214,6 +225,10 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">JavaScript</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
             <div class="col-xs-12 text-left">
             <p class="fs-auto-md text-color-light">AppFlow does not have a function to call to initialize the component like most Jquery function extensions, however there are events fired and methods to call on App elements available.</p>
                <h2 class="fs-auto-h6">Events</h2>
@@ -308,6 +323,10 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
             <div class="col-xs-12 text-left">
                <p class="fs-auto-md text-color-light">JavaScript Methods and Events provide intricate means of opening and closing an App element with additional options, but sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
                
@@ -374,6 +393,10 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">Nested Trays</h2>
                <p class="fs-auto-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
@@ -433,6 +456,9 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">FAQs</div>
             <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
+            </div>
             <div class="col-xs-12"></div>
             <div class="col-xs-12 footer">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
