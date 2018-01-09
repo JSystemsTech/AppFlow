@@ -29,7 +29,6 @@ var openApp = function(app, tray, options) {
         tray.addClass(APP_OPEN_CLASS);
         app.removeAttr('tabindex');
         resizeTray(tray, function(){
-            app.focus();
         app.trigger('app-opened', app, tray, options || {});
     });
         
@@ -71,9 +70,9 @@ var bindAppEvents = function(apps, tray) {
             }
         },
         'keypress': function(e) {
-            if (e.which === 32){
+            if (e.which === 32 && $(this).hasClass('app')){
                 e.preventDefault();
-                $(this).find('.app-header').trigger('click');
+                $(this).find('> .app-header').trigger('click');
                 
             }
         }
