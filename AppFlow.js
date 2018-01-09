@@ -60,10 +60,11 @@ var bindAppEvents = function(apps, tray) {
         },
         'click': function(e) {
             var targetApp = $(e.target).closest('.app');
-            console.log(targetApp);
+            
             var isActive = targetApp.hasClass(ACTIVE_CLASS);
             var clickedInHeader = $(e.target).closest('.app-header').length > 0;
             var clickedInTitle = $(e.target).closest('.app-title').length > 0;
+            
              if(!isActive && (clickedInHeader || clickedInTitle)){
                 e.preventDefault();
                  openApp(targetApp, tray);
@@ -72,8 +73,7 @@ var bindAppEvents = function(apps, tray) {
         'keypress': function(e) {
             if (e.which === 32){
                 e.preventDefault();
-                console.log($($(this)[0]));
-                $($(this)[0]).trigger('click');
+                $(this).find('.app-header').trigger('click');
                 
             }
         }
