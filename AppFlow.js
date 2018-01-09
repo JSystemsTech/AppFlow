@@ -30,7 +30,7 @@ var openApp = function(app, tray, options) {
         tray.addClass(APP_OPEN_CLASS);
         tray.focus();
         resizeTray(tray, function(){
-            app.focus();
+            //app.focus();
         app.attr('tabindex', '-1');
           
             
