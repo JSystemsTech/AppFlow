@@ -27,8 +27,8 @@ var openApp = function(app, tray, options) {
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
-        app.removeAttr('tabindex');
         resizeTray(tray, function(){
+        app.removeAttr('tabindex');
         app.trigger('app-opened', app, tray, options || {});
     });
         
