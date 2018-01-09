@@ -32,7 +32,7 @@ var openApp = function(app, tray, options) {
         resizeTray(tray, function(){
             $('html, body').animate({
         scrollTop: app.offset().top
-    }, 2000);
+    }, 400);
             app.focus();
             //app[0].scrollIntoView();
         app.attr('tabindex', '-1');
