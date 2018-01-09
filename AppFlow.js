@@ -73,6 +73,7 @@ var bindAppEvents = function(apps, tray) {
             if (e.which === 32){
                 $(this).trigger('click');
             }
+        }
     };
     $.each(appEvents, function(eventName, cb) {
         apps.on(eventName, cb);
