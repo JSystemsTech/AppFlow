@@ -86,7 +86,8 @@ var initAppTray = function() {
     var tray = $(this);
     var apps = tray.find('> .app');
     apps.attr('aria-expanded', 'false').attr('tabindex', '0');
-    $.each(apps, function(index, app) {
+    $.each(apps, function(index, el) {
+        var app= $(el);
         var id = app.attr('id') || 'app' + index;
         app.attr('id', id);
 
