@@ -19,8 +19,8 @@
       <div class="app" id="GettingStarted">
          <div class="app-header app-icon"><i class="fa fa-book"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Getting Started</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
@@ -47,7 +47,7 @@
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
                   <code>&lt;/div&gt;</code>
                </pre>
-               <div class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</div>
+               <a class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</a>
 
                <div id="GettingStartedApp"></div>
                <h2 class="fs-auto-h6">App</h2>
@@ -58,7 +58,7 @@
                   <li><strong>Title</strong>: The section visible when the app is collpsed/closed that shows text only</li>
                </ul>
                <p class="fs-auto-md text-color-light"><strong>Note</strong>: The App element layout and style is built around using these 3 child elements only. It is highly recommended that custom and complex layouts for the title be moved to the header element.</p>
-               <div class="btn btn-appflow-alt" data-toggle-app="#AppConfigs">More about App Configuration</div>
+               <a class="btn btn-appflow-alt" data-toggle-app="#AppConfigs">More about App Configuration</a>
                <p class="fs-auto-md text-color-light">To begin a new app simply add an app element to your tray like the following:</p>
                <pre>
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
@@ -71,7 +71,7 @@
                </pre>
             </div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></div>
+               <a class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="app-title">Getting Started</div>
@@ -79,14 +79,14 @@
       <div class="app" id="TrayConfigs">
          <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Tray Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">App Size</h2>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">Options</h2>
+                  <h2 class="fs-auto-xl">Options</h2>
                   <p class="fs-auto-md text-color-light">You can control the overall size of the App elements when they are collapsed in the tray by adding any one of the following classes to the Tray element: </p>
                   <ul class="fs-auto-md">
                      <li><strong>App Size 1 (25px)</strong>: add "app-size-1"</li>
@@ -101,7 +101,7 @@
                   </ul>
                </div>
                   <div class="col-xs-12">
-                     <h2 class="fs-lg">Auto resize Options</h2>
+                     <h2 class="fs-auto-xl">Auto resize Options</h2>
                      <p class="fs-auto-md text-color-light">This option is by far what really makes AppFlow really mobile friendly. Like the Bootstrap Grid System this option allows the mobile device or browser dictate the overall size of the App elements. Unlike the Bootstrap Grid System AppFlow accounts for smaller screen sizes better.</p>
                      <p class="fs-auto-md text-color-light">To use this option simply add the class "app-size-auto" to the Tray element.</p>
                      <p class="fs-auto-md text-color-light">So what if you want to keep the auto resize option but limit how small the App elements are? Not a problem. Replace "app-size-auto" with any one of the following classes to the Tray element:</p>
@@ -128,21 +128,21 @@
                   </div>
                   <h2 class="fs-auto-h6">Open App Container</h2>
                   <div class="col-xs-12">
-                     <h2 class="fs-lg">Container Size</h2>
+                     <h2 class="fs-auto-xl">Container Size</h2>
                      <p class="fs-auto-md text-color-light">By default the App elements when expaned use 100% of the space available in the tray but should you want to only use a portion of the space you can add a "app-open-{percent size}" class to the tray where the percent size ranges from 50 to 99. The expanded App element is centered in the tray element. <i>For reference this is similar to a Bootstrap Modal only contained within the Tray element.</i></p>
-                     <h2 class="fs-lg">Blured Background</h2>
+                     <h2 class="fs-auto-xl">Blured Background</h2>
                      <p class="fs-auto-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to lighten or darken the Tray background behind the expanded App element by adding the following classes to the Tray element:</p>
                      <ul class="fs-auto-md">
                         <li><strong>Light Blur</strong>: add "blured" <i>Useful when the tray has a dark background</i></li>
                         <li><strong>Dark Blur</strong>: add "blured blured-dark" <i>Useful when the tray has a light background</i></li>
                      </ul>
-                     <h2 class="fs-lg">Open App Container Shadow</h2>
+                     <h2 class="fs-auto-xl">Open App Container Shadow</h2>
                      <p class="fs-auto-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to add a shadow effect to the expanded App element to make it "pop out" more. Simply add "app-shadowed" to the Tray element</p>
                </div>
             </div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </div>
-               <div class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </div>
+               <a class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </a>
+               <a class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">Tray Configs</div>
@@ -154,15 +154,15 @@
             </span>
          </div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">Relative App Width And Hight</h2>
                <p class="fs-auto-md text-color-light">While the overall size of collapsed App elements are controlled by classes applied to the Tray element there may be the need to make individual App elements bigger than the default. That is where App Span  and App Height Span setting come into play</p>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Span</h2>
+                  <h2 class="fs-auto-xl">App Span</h2>
                   <p class="fs-auto-md text-color-light">This option controls the width of App element relative to the overall App Size and spacing options set in the Tray. Add any one of the following classes to an App element:</p>
                   <ul>
                         <li><strong>App Span 2 </strong>: add "app-span-2" (Collapsed app spans width of 2 App elements)</li>
@@ -172,7 +172,7 @@
                      </ul>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Height Span</h2>
+                  <h2 class="fs-auto-xl">App Height Span</h2>
                   <p class="fs-auto-md text-color-light">This option controls the height of App element relative to the overall App Size and spacing options set in the Tray. Add any one of the following classes to an App element:</p>
                   <ul>
                         <li><strong>App Height Span 2 </strong>: add "app-height-span-2" (Collapsed app spans height of 2 App elements)</li>
@@ -201,8 +201,8 @@
                      </ul>
             </div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </div>
-               <div class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </div>
+               <a class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </a>
+               <a class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">App Configs</div>
@@ -210,15 +210,15 @@
       <div class="app" id="JavaScript">
          <div class="app-header app-icon"><i class="f-mfizz icon-javascript"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">JavaScript</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
             <p class="fs-auto-md text-color-light">AppFlow does not have a function to call to initialize the component like most Jquery function extensions, however there are events fired and methods to call on App elements available.</p>
                <h2 class="fs-auto-h6">Events</h2>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Open</h2>
+                  <h2 class="fs-auto-xl">App Open</h2>
                   <p class="fs-auto-md text-color-light">Fires once the App element is expanding</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-open', function(targetElement, options){</code>
@@ -228,7 +228,7 @@
                   </pre>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Opened</h2>
+                  <h2 class="fs-auto-xl">App Opened</h2>
                   <p class="fs-auto-md text-color-light">Fires once the App element is fully expanded</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-opened', function(targetElement, openedAppElement, trayElement, options){</code>
@@ -239,7 +239,7 @@
                </div>
 
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Close</h2>
+                  <h2 class="fs-auto-xl">App Close</h2>
                   <p class="fs-auto-md text-color-light">Fires once the App element is collapsing</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-close', function(targetElement, options){</code>
@@ -249,7 +249,7 @@
                   </pre>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Closed</h2>
+                  <h2 class="fs-auto-xl">App Closed</h2>
                   <p class="fs-auto-md text-color-light">Fires once the App element is fully collapsed</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-closed', function(targetElement, closedAppElement, trayElement, options){</code>
@@ -259,7 +259,7 @@
                   </pre>
                </div>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Toggle</h2>
+                  <h2 class="fs-auto-xl">App Toggle</h2>
                   <p class="fs-auto-md text-color-light">Fires when the 'app-toggle' method is triggered.</p>
                   <pre>
                      <code>$('#MyAppElement').on('app-toggle', function(targetElement, toggledAppElement, trayElement, options){</code>
@@ -271,7 +271,7 @@
 
                <h2 class="fs-auto-h6">Methods</h2>
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Open</h2>
+                  <h2 class="fs-auto-xl">App Open</h2>
                   <p class="fs-auto-md text-color-light">Open an App element</p>
                   <pre>
                      <code>$('#MyAppElement').trigger('app-open', options);</code>
@@ -279,7 +279,7 @@
                </div>
                
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Close</h2>
+                  <h2 class="fs-auto-xl">App Close</h2>
                   <p class="fs-auto-md text-color-light">Close an App element</p>
                   <pre>
                      <code>$('#MyAppElement').trigger('app-close', options);</code>
@@ -287,7 +287,7 @@
                </div>
                
                <div class="col-xs-12">
-                  <h2 class="fs-lg">App Toggle</h2>
+                  <h2 class="fs-auto-xl">App Toggle</h2>
                   <p class="fs-auto-md text-color-light">Toggle the open / close state of an App element</p>
                   <pre>
                      <code>$('#MyAppElement').trigger('app-toggle', options);</code>
@@ -295,8 +295,8 @@
                </div>
             </div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </div>
-               <div class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </div>
+               <a class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </a>
+               <a class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">JavaScript</div>
@@ -304,8 +304,8 @@
       <div class="app" id="Helpers">
          <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
@@ -361,8 +361,8 @@
 
             </div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </div>
-               <div class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </div>
+               <a class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
+               <a class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">Helpers</div>
@@ -370,8 +370,8 @@
       <div class="app" id="Advanced">
          <div class="app-header app-icon"><i class="fa fa-cogs"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12 text-left">
@@ -420,8 +420,8 @@
 
             </div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </div>
-               <div class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </div>
+               <a class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
+               <a class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">Advanced</div>
@@ -429,13 +429,13 @@
       <div class="app" id="FAQs">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
-            <div class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></div>
+            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">FAQs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12"></div>
             <div class="col-xs-12 footer">
-               <div class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </div>
+               <a class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
             </div>
          </div>
          <div class="app-title">FAQs</div>
