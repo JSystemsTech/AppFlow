@@ -71,9 +71,10 @@ var bindAppEvents = function(apps, tray) {
         },
         'keypress': function(e) {
             if (e.which === 32){
-                console.log($(this));
-                $($(this)[0]).trigger('click');
                 e.preventDefault();
+                console.log($($(this)[0]));
+                $($(this)[0]).trigger('click');
+                
             }
         }
     };
