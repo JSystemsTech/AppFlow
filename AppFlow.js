@@ -31,7 +31,7 @@ var openApp = function(app, tray, options) {
         tray.focus();
         resizeTray(tray, function(){
             app.focus();
-            app.scrollIntoView();
+            app[0].scrollIntoView();
         app.attr('tabindex', '-1');
           
             
