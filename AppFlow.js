@@ -6,8 +6,8 @@ $( document ).ready(function() {
 var closeApp = function(app, tray, cb, options) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
-    app.attr('tabindex', '0');
     resizeTray(tray, function(){
+        app.attr('tabindex', '0');
         app.focus();
         app.trigger('app-closed', app, tray, options || {});
     });
@@ -28,7 +28,8 @@ var openApp = function(app, tray, options) {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
         resizeTray(tray, function(){
-        app.removeAttr('tabindex');
+        //app.removeAttr('tabindex');
+            app.attr('tabindex', '-1');
         app.trigger('app-opened', app, tray, options || {});
     });
         
