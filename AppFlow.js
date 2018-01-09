@@ -7,7 +7,7 @@ var closeApp = function(app, tray, cb, options) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
     app.attr('tabindex', '0');
-    app.attr('aria-labelledby', app.attr('aria-labelledby-cache'));;
+    app.attr('aria-labelledby', app.attr('aria-labelledby-cache'));
     app.removeAttr('aria-labelledby-cache');
     app.removeAttr('aria-label');
     app.focus();
