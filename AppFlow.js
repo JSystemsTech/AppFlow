@@ -28,6 +28,7 @@ var openApp = function(app, tray, options) {
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
+        tray.focus();
         resizeTray(tray, function(){
             app.focus();
         app.attr('tabindex', '-1');
