@@ -30,8 +30,11 @@ var openApp = function(app, tray, options) {
         tray.addClass(APP_OPEN_CLASS);
         tray.focus();
         resizeTray(tray, function(){
+            $('html, body').animate({
+        scrollTop: app.offset().top
+    }, 2000);
             app.focus();
-            app[0].scrollIntoView();
+            //app[0].scrollIntoView();
         app.attr('tabindex', '-1');
           
             
