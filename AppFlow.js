@@ -81,10 +81,20 @@ var bindAppEvents = function(apps, tray) {
         apps.on(eventName, cb);
     });
 };
+
 var initAppTray = function() {
     var tray = $(this);
     var apps = tray.find('> .app');
     apps.attr('aria-expanded', 'false').attr('tabindex', '0');
+    $.each(apps, function(index, app) {
+        var id = app.attr('id') || 'app' + index;
+        app.attr('id', id);
+
+        var titleIdDefault = id + 'Title';
+        var titleId = app.find('> .app-title').attr('id') || titleIdDefault;
+        app.find('> .app-title').attr('id', titleId);
+        app.attr('aria-labelledby', titleId);
+    });
     bindAppEvents(apps, tray);
 };
 
