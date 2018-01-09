@@ -6,7 +6,9 @@ $( document ).ready(function() {
 var closeApp = function(app, tray, cb, options) {
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
+    app.attr('tabindex', '0');
     resizeTray(tray, function(){
+        app.focus();
         app.trigger('app-closed', app, tray, options || {});
     });
     if (typeof cb === 'function') {
@@ -25,7 +27,9 @@ var openApp = function(app, tray, options) {
     } else {
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
+        app.removeAttr('tabindex');
         resizeTray(tray, function(){
+            app.focus();
         app.trigger('app-opened', app, tray, options || {});
     });
         
@@ -73,7 +77,7 @@ var bindAppEvents = function(apps, tray) {
 var initAppTray = function() {
     var tray = $(this);
     var apps = tray.find('> .app');
-    apps.attr('aria-expanded', 'false').attr('tabindex', '0');
+    apps.attr('aria-expanded', 'false').attr('tabindex', '-1');
     bindAppEvents(apps, tray);
 };
 
