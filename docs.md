@@ -23,7 +23,7 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Getting Started</div>
             <div class="col-xs-2 col-lg-1"></div>
-            <div class="col-xs-12 footer">
+            <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></a>
             </div>
             <div class="col-xs-12 text-left">
@@ -86,7 +86,7 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Tray Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
-            <div class="col-xs-12 footer">
+            <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </a>
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
@@ -165,7 +165,7 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
-            <div class="col-xs-12 footer">
+            <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </a>
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
@@ -225,7 +225,7 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">JavaScript</div>
             <div class="col-xs-2 col-lg-1"></div>
-            <div class="col-xs-12 footer">
+            <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </a>
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
@@ -323,7 +323,7 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
             <div class="col-xs-2 col-lg-1"></div>
-            <div class="col-xs-12 footer">
+            <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
@@ -393,7 +393,7 @@
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
             <div class="col-xs-2 col-lg-1"></div>
-            <div class="col-xs-12 footer">
+            <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
