@@ -8,7 +8,7 @@ var closeApp = function(app, tray, cb, options) {
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
     app.attr('tabindex', '0');
     
-    app.focus();
+    //app.focus();
     resizeTray(tray, function(){
         app.trigger('app-closed', app, tray, options || {});
     });
