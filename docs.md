@@ -19,7 +19,7 @@
       <div class="app" id="GettingStarted">
          <div class="app-header app-icon"><i class="fa fa-book"></i></div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Getting Started</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -47,7 +47,7 @@
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
                   <code>&lt;/div&gt;</code>
                </pre>
-               <a class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</a>
+               <a href="#" class="btn btn-appflow-alt" data-toggle-app="#TrayConfigs">More about Tray Configuration</a>
 
                <div id="GettingStartedApp"></div>
                <h2 class="fs-auto-h6">App</h2>
@@ -58,7 +58,7 @@
                   <li><strong>Title</strong>: The section visible when the app is collpsed/closed that shows text only</li>
                </ul>
                <p class="fs-auto-md text-color-light"><strong>Note</strong>: The App element layout and style is built around using these 3 child elements only. It is highly recommended that custom and complex layouts for the title be moved to the header element.</p>
-               <a class="btn btn-appflow-alt" data-toggle-app="#AppConfigs">More about App Configuration</a>
+               <a href="#" class="btn btn-appflow-alt" data-toggle-app="#AppConfigs">More about App Configuration</a>
                <p class="fs-auto-md text-color-light">To begin a new app simply add an app element to your tray like the following:</p>
                <pre>
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
@@ -71,7 +71,7 @@
                </pre>
             </div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#TrayConfigs">Tray Configs <i class="fa fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="app-title">Getting Started</div>
@@ -79,7 +79,7 @@
       <div class="app" id="TrayConfigs">
          <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Tray Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -141,8 +141,8 @@
                </div>
             </div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </a>
-               <a class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </a>
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#GettingStarted"><i class="fa fa-arrow-circle-left"></i> Getting Started              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#AppConfigs">App Configs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">Tray Configs</div>
@@ -154,7 +154,7 @@
             </span>
          </div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -201,8 +201,8 @@
                      </ul>
             </div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </a>
-               <a class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </a>
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#TrayConfigs"><i class="fa fa-arrow-circle-left"></i> Tray Configs              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#JavaScript">JavaScript <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">App Configs</div>
@@ -210,7 +210,7 @@
       <div class="app" id="JavaScript">
          <div class="app-header app-icon"><i class="f-mfizz icon-javascript"></i></div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">JavaScript</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -295,8 +295,8 @@
                </div>
             </div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </a>
-               <a class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </a>
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#AppConfigs"><i class="fa fa-arrow-circle-left"></i> App Configs              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Helpers">Helpers <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">JavaScript</div>
@@ -304,7 +304,7 @@
       <div class="app" id="Helpers">
          <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -361,8 +361,8 @@
 
             </div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
-               <a class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">Helpers</div>
@@ -370,7 +370,7 @@
       <div class="app" id="Advanced">
          <div class="app-header app-icon"><i class="fa fa-cogs"></i></div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
             <div class="col-xs-2 col-lg-1"></div>
@@ -420,8 +420,8 @@
 
             </div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
-               <a class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">Advanced</div>
@@ -429,13 +429,13 @@
       <div class="app" id="FAQs">
          <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
          <div class="app-content">
-            <a class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">FAQs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12"></div>
             <div class="col-xs-12 footer">
-               <a class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
             </div>
          </div>
          <div class="app-title">FAQs</div>
