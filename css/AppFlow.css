@@ -108,15 +108,21 @@
 
 .app-tray,
 .app-tray:before,
-.app-tray > .app,
-.app-tray > .app > [class^="app-alert"],
-.app-tray > .app > .app-header,
-.app-tray > .app > .app-content,
-.app-tray > .app > .app-title {
+.app-tray > .app {
   -webkit-transition: 400ms;
   -moz-transition: 400ms;
   -o-transition: 400ms;
   transition: 400ms;
+}
+
+.app-tray > .app > [class^="app-alert"],
+.app-tray > .app > .app-header,
+.app-tray > .app > .app-content,
+.app-tray > .app > .app-title {
+  -webkit-transition: 0s;
+  -moz-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 
 .app.active {
