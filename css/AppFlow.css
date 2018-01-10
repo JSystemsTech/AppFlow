@@ -114,14 +114,6 @@
   -o-transition: 400ms;
   transition: 400ms;
 }
-.app-tray.app-open,
-.app-tray.app-open:before,
-.app-tray.app-open > .app.active {
-  -webkit-transition: 600ms;
-  -moz-transition: 600ms;
-  -o-transition: 600ms;
-  transition: 600ms;
-}
 
 .app-tray > .app > [class^="app-alert"],
 .app-tray > .app > .app-header,
