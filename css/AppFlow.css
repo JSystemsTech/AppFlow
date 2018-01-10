@@ -4685,7 +4685,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 7px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 0.8em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -5080,7 +5080,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 9px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 0.9em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -5475,7 +5475,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 11px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 1em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -5870,7 +5870,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 13px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 1.1em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -6265,7 +6265,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 15px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 1.2em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -6660,7 +6660,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 17px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -7055,7 +7055,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -7450,7 +7450,7 @@
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active):not(.app-square).glass:after {
@@ -7845,7 +7845,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 9px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 0.9em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -8240,7 +8240,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 11px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 1em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -8635,7 +8635,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 13px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 1.1em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -9030,7 +9030,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 15px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 1.2em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -9425,7 +9425,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 17px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -9820,7 +9820,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -10215,7 +10215,7 @@
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-2 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active):not(.app-square).glass:after {
@@ -10610,7 +10610,7 @@
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 11px;
   }
-  .app-tray.app-size-auto-3 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-title {
     font-size: 1em;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active):not(.app-square).glass:after {
@@ -11005,7 +11005,7 @@
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 13px;
   }
-  .app-tray.app-size-auto-3 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-title {
     font-size: 1.1em;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active):not(.app-square).glass:after {
@@ -11400,7 +11400,7 @@
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 15px;
   }
-  .app-tray.app-size-auto-3 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-title {
     font-size: 1.2em;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active):not(.app-square).glass:after {
@@ -11795,7 +11795,7 @@
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 17px;
   }
-  .app-tray.app-size-auto-3 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-title {
     font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active):not(.app-square).glass:after {
@@ -12190,7 +12190,7 @@
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto-3 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active):not(.app-square).glass:after {
@@ -12585,7 +12585,7 @@
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-3 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active):not(.app-square).glass:after {
@@ -12980,7 +12980,7 @@
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 13px;
   }
-  .app-tray.app-size-auto-4 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-title {
     font-size: 1.1em;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active):not(.app-square).glass:after {
@@ -13375,7 +13375,7 @@
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 15px;
   }
-  .app-tray.app-size-auto-4 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-title {
     font-size: 1.2em;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active):not(.app-square).glass:after {
@@ -13770,7 +13770,7 @@
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 17px;
   }
-  .app-tray.app-size-auto-4 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-title {
     font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active):not(.app-square).glass:after {
@@ -14165,7 +14165,7 @@
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto-4 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active):not(.app-square).glass:after {
@@ -14560,7 +14560,7 @@
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-4 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active):not(.app-square).glass:after {
@@ -14955,7 +14955,7 @@
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 15px;
   }
-  .app-tray.app-size-auto-5 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-title {
     font-size: 1.2em;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active):not(.app-square).glass:after {
@@ -15350,7 +15350,7 @@
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 17px;
   }
-  .app-tray.app-size-auto-5 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-title {
     font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active):not(.app-square).glass:after {
@@ -15745,7 +15745,7 @@
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto-5 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active):not(.app-square).glass:after {
@@ -16140,7 +16140,7 @@
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-5 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active):not(.app-square).glass:after {
@@ -16535,7 +16535,7 @@
   .app-tray:not(.app-open).app-size-auto-6 {
     padding-bottom: 17px;
   }
-  .app-tray.app-size-auto-6 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-title {
     font-size: 1.3em;
   }
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active):not(.app-square).glass:after {
@@ -16930,7 +16930,7 @@
   .app-tray:not(.app-open).app-size-auto-6 {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto-6 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active):not(.app-square).glass:after {
@@ -17325,7 +17325,7 @@
   .app-tray:not(.app-open).app-size-auto-6 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-6 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active):not(.app-square).glass:after {
@@ -17720,7 +17720,7 @@
   .app-tray:not(.app-open).app-size-auto-7 {
     padding-bottom: 19px;
   }
-  .app-tray.app-size-auto-7 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-title {
     font-size: 1.4em;
   }
   .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active):not(.app-square).glass:after {
@@ -18115,7 +18115,7 @@
   .app-tray:not(.app-open).app-size-auto-7 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-7 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active):not(.app-square).glass:after {
@@ -18510,7 +18510,7 @@
   .app-tray:not(.app-open).app-size-auto-8 {
     padding-bottom: 21px;
   }
-  .app-tray.app-size-auto-8 > .app > .app-title {
+  .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-title {
     font-size: 1.5em;
   }
   .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active):not(.app-square).glass:after {
