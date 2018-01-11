@@ -486,7 +486,7 @@
                <div class="app-tray">
                   <div  id="IconCarousel" class="app bg-animated carousel slide" data-ride="carousel">
                      <div class="app-header app-icon">
-                        <div  data-ride="carousel">
+                        <div  class="carousel-inner">
                               <div class="item active">
                                  <i class="fa fa-cog"></i>
                               </div>
