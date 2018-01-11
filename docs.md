@@ -481,7 +481,7 @@
             <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#FAQs"><i class="fa fa-arrow-circle-left"></i> FAQs              </a>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 h-400">
                
                <div class="app-tray app-size-auto">
                   <div  id="FancyApp1" class="app bg-animated">
