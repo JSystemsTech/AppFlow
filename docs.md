@@ -473,9 +473,6 @@
       <div class="app" id="More">
          <div class="app-header app-icon">
             <i class="fa fa-plus"></i>
-            
-      
-</div>
          </div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left"></i><span class="fr">Back</span></a>
