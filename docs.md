@@ -484,8 +484,9 @@
             <div class="col-xs-12">
                
                <div class="app-tray">
-                  <div  id="IconCarousel" class="app bg-animated carousel slide" data-ride="carousel">
+                  <div  id="FancyApp1" class="app bg-animated">
                      <div class="app-header app-icon">
+                        <div id="IconCarousel" class="carousel slide" data-ride="carousel">
                         <div  class="carousel-inner">
                               <div class="item active">
                                  <i class="fa fa-cog"></i>
@@ -499,16 +500,13 @@
                                  <i class="fa fa-phone"></i>
                               </div>
                            </div>
+                        </div>
                      </div>
                      <div class="app-content">
                         <div class="btn btn-appflow app-close">Close App</div>
                      </div>
                      <div class="app-title">
-                        <span class="carousel-indicators">
-                           <span data-target="#IconCarousel" data-slide-to="0" class="active">Multiple</span>
-                           <span data-target="#IconCarousel" data-slide-to="1">Text &amp; Icon</span>
-                           <span data-target="#IconCarousel" data-slide-to="2">Slide App</span>
-                        </span>
+                        Sliding Icons
                      </div>
                   </div>
                </div>
