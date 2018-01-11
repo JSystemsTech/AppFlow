@@ -61,7 +61,7 @@
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
-.app-tray.bg-animated {
+.bg-animated-alt {
     color: #fff;
     background: linear-gradient(-45deg, #9d5d00, #ffd800, #ffad00, #ffe73b);
     background-size: 400% 400%;
