@@ -450,7 +450,26 @@
          <div class="app-title">Advanced</div>
       </div>
       <div class="app" id="FAQs">
-         <div class="app-header app-icon"><i class="fa fa-question-circle"></i></div>
+         <div class="app-header app-icon">
+            <!--<i class="fa fa-question-circle"></i>-->
+            
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <i class="fa fa-cog"></i>
+    </div>
+
+    <div class="item">
+      <i class="fa fa-home"></i>
+    </div>
+
+    <div class="item">
+      <i class="fa fa-phone"></i>
+    </div>
+  </div>
+</div>
+         </div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
 "></i><span class="fr">Back</span></a>
