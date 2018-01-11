@@ -509,7 +509,7 @@
                         Sliding Icons
                      </div>
                   </div>
-                  <div  id="FancyApp2" class="app ">
+                  <div  id="FancyApp2" class="app bg-white">
                      <div class="app-header app-icon">
                         <i class="fa fa-cog fa-spin color-animated"></i>
                      </div>
