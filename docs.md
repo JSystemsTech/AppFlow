@@ -506,11 +506,11 @@
                         <div class="btn btn-appflow app-close">Close App</div>
                      </div>
                      <div class="app-title">
-                        <span class="carousel-indicators">
-                           <span data-target="#IconCarousel" data-slide-to="0" class="active">Multiple</span>
-                           <span data-target="#IconCarousel" data-slide-to="1">Text &amp; Icon</span>
-                           <span data-target="#IconCarousel" data-slide-to="2">Slide App</span>
-                        </span>
+                        <ol class="carousel-indicators">
+                           <li data-target="#IconCarousel" data-slide-to="0" class="active">Multiple</li>
+                           <li data-target="#IconCarousel" data-slide-to="1">Text &amp; Icon</li>
+                           <li data-target="#IconCarousel" data-slide-to="2">Slide App</li>
+                        </ol>
                      </div>
                   </div>
                </div>
