@@ -168,7 +168,9 @@
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
-
+.carousel-indicators.slide> span.active {
+    display:block;
+}
 .carousel-indicators.slide> span{
     position: relative;
     display: none;
