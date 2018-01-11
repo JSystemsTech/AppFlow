@@ -520,6 +520,18 @@
                         Loading...
                      </div>
                   </div>
+                  <div  id="FancyApp3" class="app bg-white">
+                     <div class="app-alert"><span class="badge bg-animated">2</span></div>
+                     <div class="app-header app-icon">
+                        <i class="fa fa-exclamation-triangle color-animated"></i>
+                     </div>
+                     <div class="app-content">
+                        <div class="btn btn-appflow app-close">Close App</div>
+                     </div>
+                     <div class="app-title">
+                        App &amp; Alert
+                     </div>
+                  </div>
                </div>
 
 
