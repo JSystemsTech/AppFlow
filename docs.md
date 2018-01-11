@@ -484,10 +484,9 @@
             <div class="col-xs-12">
                
                <div class="app-tray">
-                  <div class="app bg-animated">
+                  <div  id="IconCarousel" class="app bg-animated carousel slide" data-ride="carousel">
                      <div class="app-header app-icon">
-                        <div id="IconCarousel" class="carousel slide" data-ride="carousel">
-                           <div class="carousel-inner">
+                        <div  data-ride="carousel">
                               <div class="item active">
                                  <i class="fa fa-cog"></i>
                               </div>
@@ -500,7 +499,6 @@
                                  <i class="fa fa-phone"></i>
                               </div>
                            </div>
-                        </div>
                      </div>
                      <div class="app-content">
                         <div class="btn btn-appflow app-close">Close App</div>
