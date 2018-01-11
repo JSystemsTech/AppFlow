@@ -485,7 +485,7 @@
                
                <div class="app-tray">
                   <div class="app bg-animated">
-                     <div class="app-header">
+                     <div class="app-header app-icon">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                            <div class="carousel-inner">
                               <div class="item active">
