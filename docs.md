@@ -451,24 +451,7 @@
       </div>
       <div class="app" id="FAQs">
          <div class="app-header app-icon">
-            <!--<i class="fa fa-question-circle"></i>-->
-            
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <i class="fa fa-cog"></i>
-    </div>
-
-    <div class="item">
-      <i class="fa fa-home"></i>
-    </div>
-
-    <div class="item">
-      <i class="fa fa-phone"></i>
-    </div>
-  </div>
-</div>
+            <i class="fa fa-question-circle"></i>
          </div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
@@ -484,6 +467,74 @@
             </div>
          </div>
          <div class="app-title">FAQs</div>
+      </div>
+
+
+      <div class="app" id="More">
+         <div class="app-header app-icon">
+            <i class="fa fa-plus"></i>
+            
+      
+</div>
+         </div>
+         <div class="app-content">
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Back</span></a>
+            <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">More</div>
+            <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#FAQs"><i class="fa fa-arrow-circle-left"></i> FAQs              </a>
+            </div>
+            <div class="col-xs-12">
+               
+               <div class="app-tray">
+                  <div class="app bg-animated">
+                     <div class="app-header">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+                        <div class="carousel-inner">
+                           <div class="item active">
+                              <i class="fa fa-cog"></i>
+                           </div>
+
+                           <div class="item">
+                              <i class="fa fa-home"></i>
+                           </div>
+
+                           <div class="item">
+                              <i class="fa fa-phone"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="app-content"><div class="btn btn-appflow app-close">Close App</div></div>
+                     <div class="app-title">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+                        <div class="carousel-inner">
+                           <div class="item active">
+                              Multiple
+                           </div>
+
+                           <div class="item">
+                              Text &amp; Icon
+                           </div>
+
+                           <div class="item">
+                              Slide App
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#FAQs"><i class="fa fa-arrow-circle-left"></i> FAQs              </a>
+            </div>
+         </div>
+         <div class="app-title">More</div>
       </div>
    </div>
 </div>
