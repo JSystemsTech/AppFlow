@@ -487,18 +487,18 @@
                   <div class="app bg-animated">
                      <div class="app-header">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  
-                        <div class="carousel-inner">
-                           <div class="item active">
-                              <i class="fa fa-cog"></i>
-                           </div>
+                           <div class="carousel-inner">
+                              <div class="item active">
+                                 <i class="fa fa-cog"></i>
+                              </div>
 
-                           <div class="item">
-                              <i class="fa fa-home"></i>
-                           </div>
+                              <div class="item">
+                                 <i class="fa fa-home"></i>
+                              </div>
 
-                           <div class="item">
-                              <i class="fa fa-phone"></i>
+                              <div class="item">
+                                 <i class="fa fa-phone"></i>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -508,7 +508,7 @@
                      <div class="app-title">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
   
-                        <div class="carousel-inner">
+                           <div class="carousel-inner">
                            <div class="item active">
                               Multiple
                            </div>
