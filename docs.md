@@ -507,7 +507,7 @@
                      </div>
                      <div class="app-title">
                         <span class="carousel-indicators">
-                           <span data-target="#IconCarousel" data-slide-to="0">Multiple</span>
+                           <span data-target="#IconCarousel" data-slide-to="0" class="active">Multiple</span>
                            <span data-target="#IconCarousel" data-slide-to="1">Text &amp; Icon</span>
                            <span data-target="#IconCarousel" data-slide-to="2">Slide App</span>
                         </span>
