@@ -151,30 +151,3 @@
   }
 }
 
-.carousel-indicators.slide {
-     position: inherit; 
-     bottom: inherit 
-     left: inherit; 
-     z-index: inherit; 
-     width: inherit; 
-     padding-left: inherit; 
-     margin-left: inherit; 
-     text-align: inherit; 
-     list-style: inherit; 
-}
-
-.carousel-indicators.slide> span {
-    left: 0;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-.carousel-indicators.slide> span.active {
-    display:block;
-}
-.carousel-indicators.slide> span{
-    position: relative;
-    display: none;
-    -webkit-transition: .6s ease-in-out left;
-    -o-transition: .6s ease-in-out left;
-    transition: .6s ease-in-out left;
-}
