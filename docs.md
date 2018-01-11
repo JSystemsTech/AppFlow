@@ -506,22 +506,9 @@
                         <div class="btn btn-appflow app-close">Close App</div>
                      </div>
                      <div class="app-title">
-                        <div id="TitleCarousel" class="carousel slide" data-ride="carousel">
-  
-                           <div class="carousel-inner">
-                              <div class="item active">
-                              Multiple
-                              </div>
-
-                              <div class="item">
-                              Text &amp; Icon
-                              </div>
-
-                              <div class="item">
-                              Slide App
-                              </div>
-                           </div>
-                        </div>
+                        <span data-target="#IconCarousel" data-slide-to="1">Multiple</span>
+                        <span data-target="#IconCarousel" data-slide-to="2">Text &amp; Icon</span>
+                        <span data-target="#IconCarousel" data-slide-to="0">Slide App</span>
                      </div>
                   </div>
                </div>
