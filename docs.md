@@ -509,16 +509,17 @@
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
   
                            <div class="carousel-inner">
-                           <div class="item active">
+                              <div class="item active">
                               Multiple
-                           </div>
+                              </div>
 
-                           <div class="item">
+                              <div class="item">
                               Text &amp; Icon
-                           </div>
+                              </div>
 
-                           <div class="item">
+                              <div class="item">
                               Slide App
+                              </div>
                            </div>
                         </div>
                      </div>
