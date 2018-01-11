@@ -511,7 +511,7 @@
                   </div>
                   <div  id="FancyApp2" class="app bg-white">
                      <div class="app-header app-icon">
-                        <i class="fa fa-cog fa-spin color-animated"></i>
+                        <i class="fa fa-spinner fa-spin color-animated"></i>
                      </div>
                      <div class="app-content">
                         <div class="btn btn-appflow app-close">Close App</div>
