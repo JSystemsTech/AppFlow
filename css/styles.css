@@ -61,6 +61,14 @@
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
+.app-tray.bg-animated {
+    color: #fff;
+    background: linear-gradient(-45deg, #9d5d00, #ffd800, #ffad00, #ffe73b);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
 .color-animated {
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	color:transparent;
