@@ -483,7 +483,7 @@
             </div>
             <div class="col-xs-12">
                
-               <div class="app-tray">
+               <div class="app-tray app-size-auto">
                   <div  id="FancyApp1" class="app bg-animated">
                      <div class="app-header app-icon">
                         <div id="IconCarousel" class="carousel slide" data-ride="carousel">
@@ -521,7 +521,7 @@
                      </div>
                   </div>
                   <div  id="FancyApp3" class="app bg-white">
-                     <div class="app-alert"><span class="badge bg-animated">2</span></div>
+                     <div class="app-alert"><span class="badge bg-animated fs-auto-lg">2</span></div>
                      <div class="app-header app-icon">
                         <i class="fa fa-exclamation-triangle color-animated"></i>
                      </div>
