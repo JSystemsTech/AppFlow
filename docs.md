@@ -486,7 +486,7 @@
                <div class="app-tray">
                   <div class="app bg-animated">
                      <div class="app-header app-icon">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div id="IconCarousel" class="carousel slide" data-ride="carousel">
                            <div class="carousel-inner">
                               <div class="item active">
                                  <i class="fa fa-cog"></i>
@@ -506,7 +506,7 @@
                         <div class="btn btn-appflow app-close">Close App</div>
                      </div>
                      <div class="app-title">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div id="TitleCarousel" class="carousel slide" data-ride="carousel">
   
                            <div class="carousel-inner">
                               <div class="item active">
