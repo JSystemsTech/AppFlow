@@ -509,9 +509,9 @@
                         Sliding Icons
                      </div>
                   </div>
-                  <div  id="FancyApp2" class="app color-animated">
+                  <div  id="FancyApp2" class="app ">
                      <div class="app-header app-icon">
-                        <i class="fa fa-load fa-spin"></i>
+                        <i class="fa fa-cog fa-spin color-animated"></i>
                      </div>
                      <div class="app-content">
                         <div class="btn btn-appflow app-close">Close App</div>
