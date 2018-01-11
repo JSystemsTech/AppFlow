@@ -480,11 +480,11 @@
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#FAQs"><i class="fa fa-arrow-circle-left"></i> FAQs              </a>
-            </div>
-            <div class="col-xs-12 h-400">
+            </div> 
+            <div class="col-xs-12 h-400 bg-animated-alt">
                
                <div class="app-tray app-size-auto">
-                  <div  id="FancyApp1" class="app bg-animated">
+                  <div  id="FancyApp1" class="app bg-animated-alt">
                      <div class="app-header app-icon">
                         <div id="IconCarousel" class="carousel slide" data-ride="carousel">
                         <div  class="carousel-inner">
