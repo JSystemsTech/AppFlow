@@ -59,6 +59,9 @@
 	height: 100%;
 	overflow: hidden;
 }
+.pos-static{
+	position: static;
+}
 .app:not(.active) > .app-header {
 	position:relative;
 }
