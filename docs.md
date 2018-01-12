@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+<script type="text/javascript" src="{{ site.baseurl }}/docs.js"></script>
 <div class="col-xs-12 col-md-3 p-0">
    <div class="col-xs-12 fr fs-auto-h6">{{ site.title | default: site.github.repository_name }}</div>
    <div class="col-xs-12 fr fs-auto-xs text-color-light">{{ site.description | default: site.github.project_tagline }}</div>
@@ -524,6 +525,27 @@
                      <div class="app-alert"><span class="badge bg-animated fs-auto-lg">2</span></div>
                      <div class="app-header app-icon">
                         <i class="fa fa-exclamation-triangle color-animated"></i>
+                     </div>
+                     <div class="app-content">
+                        <div class="btn btn-appflow app-close">Close App</div>
+                     </div>
+                     <div class="app-title">
+                        App &amp; Alert
+                     </div>
+                  </div>
+                  <div  id="FancyApp4" class="app">
+                     <div class="app-header ">
+                        <article class="clock">
+                           <div class="hours-container">
+                              <div class="hours"></div>
+                           </div>
+                           <div class="minutes-container">
+                              <div class="minutes"></div>
+                           </div>
+                           <div class="seconds-container">
+                              <div class="seconds"></div>
+                           </div>
+                        </article>
                      </div>
                      <div class="app-content">
                         <div class="btn btn-appflow app-close">Close App</div>
