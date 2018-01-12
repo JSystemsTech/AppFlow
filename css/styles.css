@@ -55,6 +55,9 @@
 	height: 100%;
 	overflow: hidden;
 }
+.carousel.slide-show.{
+z-index: 1000;
+}
 .carousel.slide-show, 
 .carousel.slide-show > .carousel-inner{
 	border-radius: inherit;
