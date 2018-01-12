@@ -482,8 +482,8 @@
             <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#FAQs"><i class="fa fa-arrow-circle-left"></i> FAQs              </a>
             </div> 
-            <div class="col-xs-12 h-400 bg-animated-alt">
-               
+            <div class="col-xs-12">
+               <div class="h-400 bg-animated-alt">
                <div class="app-tray app-size-auto">
                   <div  id="FancyApp1" class="app bg-animated">
                      <div class="app-header app-icon">
@@ -554,6 +554,7 @@
                         Clock
                      </div>
                   </div>
+               </div>
                </div>
 
 
