@@ -95,7 +95,6 @@ function moveSecondHands() {
 }
 
 $( document ).ready(function() {
-  initInternationalClocks();
     initLocalClocks();
     moveSecondHands();
     setUpMinuteHands();
