@@ -53,6 +53,7 @@
 .carousel.slide-show > .carousel-inner, 
 .carousel.slide-show > .carousel-inner >.item {
 	height: 100%;
+	overflow: hidden;
 }
 .bg-lion{
     background-image: url(https://images.pexels.com/photos/40756/lion-safari-afika-landscape-40756.jpeg);
