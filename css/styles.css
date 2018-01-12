@@ -49,6 +49,24 @@
     font-size: 14.4px;
   }
 }
+.bg-lion{
+    background-image: url(https://images.pexels.com/photos/40756/lion-safari-afika-landscape-40756.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.bg-penguin{
+    background-image: url(https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.bg-puppy{
+    background-image: url(https://images.pexels.com/photos/434090/pexels-photo-434090.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+}
 .bg-white {
 	background-color: white;
 }
