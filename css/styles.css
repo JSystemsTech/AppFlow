@@ -51,10 +51,10 @@
 }
 .carousel.slide-show, 
 .carousel.slide-show > .carousel-inner,
-.carousel.slide-show > .carousel-inner >.item,
-.carousel.slide-show > .carousel-inner > .item >div{
+.carousel.slide-show > .carousel-inner >.item{
 	height: 100%;
 	overflow: hidden;
+	border-radius: inherit;
 }
 
 .bg-lion{
