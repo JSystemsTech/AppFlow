@@ -49,6 +49,10 @@
     font-size: 14.4px;
   }
 }
+.carousel.slide-show, .carousel.slide-show > .carousel-inner, .carousel.slide-show > .carousel-inner >.item{
+	height 100%;
+	border-radius: inherit;
+}
 .bg-lion{
     background-image: url(https://images.pexels.com/photos/40756/lion-safari-afika-landscape-40756.jpeg);
     background-repeat: no-repeat;
