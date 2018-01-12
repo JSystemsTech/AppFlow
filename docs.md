@@ -399,6 +399,30 @@
                <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
             <div class="col-xs-12 text-left">
+               <h2 class="fs-auto-h6">Alerts</h2>
+               <p class="fs-auto-md text-color-light">Need to show a quick app specific alert like you see on mobile devices? AppFlow can help you with that. Set up your code like the following to achieve this:</p>
+
+               <pre>
+                  <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+                  <code>   &lt;div class=&quot;app&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-alert&quot;&gt;</code>
+                  <code>         &lt;div class=&quot;inner-element-with-your-custom-styling&quot;&gt;{Your Alert content}&lt;/div&gt;</code>
+                  <code>      &lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+                  <code>&lt;/div&gt;</code>
+               </pre>
+               <p class="fs-auto-md text-color-light">By default the alert displays in the top right corner of the App element you can position it in different locations by replacinf the "app-alert" class with any of the following classes: </p>
+               <ul>
+                        <li><strong>Top Left Corner </strong>: replace with "app-alert-tl" </li>
+                        <li><strong>Top Right Corner </strong>: replace with "app-alert-tr" </li>
+                        <li><strong>Bottom Left Corner </strong>: replace with "app-alert-bl" </li>
+                        <li><strong>Bottom Right Corner </strong>: replace with "app-alert-br" </li>      
+               </ul>
+               <p class="fs-auto-md text-color-light">For best results keep the alert content short like using numbers. If you are using Bootstrap the most effective way to show an alert is to use the "badge" class on the App Alert inner div.</p>
+
                <h2 class="fs-auto-h6">Nested Trays</h2>
                <p class="fs-auto-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
                <p class="fs-auto-md text-color-light">There are a few things to be aware of though.</p>
