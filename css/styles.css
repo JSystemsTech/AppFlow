@@ -50,8 +50,12 @@
   }
 }
 .carousel.slide-show, 
-.carousel.slide-show > .carousel-inner, 
-.carousel.slide-show > .carousel-inner >.item {
+.carousel.slide-show > .carousel-inner,
+.carousel.slide-show > div,
+.carousel.slide-show > .carousel-inner >.item,
+.carousel.slide-show > .carousel-inner > div,
+.carousel.slide-show > div >.item,
+.carousel.slide-show > div > div{
 	height: 100%;
 	overflow: hidden;
 }
