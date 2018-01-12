@@ -30,7 +30,6 @@
 
 .app:not(.active) {
   border: 1px solid #ccc !important;
-  overflow: hidden;
 }
 
 .app:not(.active).beveled {
@@ -49,7 +48,9 @@
 .app.active .app-close {
   cursor: pointer;
 }
-
+.app:not(.active) > .app-header {
+  overflow: hidden;
+}
 .app:not(.active) > .app-header.app-icon {
   text-align: center;
   vertical-align: bottom;
