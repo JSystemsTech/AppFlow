@@ -533,7 +533,7 @@
                         App &amp; Alert
                      </div>
                   </div>
-                  <div  id="FancyApp4" class="app">
+                  <div  id="FancyApp4" class="app bg-white">
                      <div class="app-header ">
                         <article class="clock">
                            <div class="hours-container">
