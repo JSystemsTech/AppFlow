@@ -448,7 +448,7 @@
                </pre>
                <h2 class="fs-auto-h6">Open vs Closed App Backgrounds</h2>
                <p class="fs-auto-md text-color-light">Need to have separate backgrounds for an App element's open/closed state? you might be tempted to add a separate class to an App Content element, which is a quick option. However to take advantage of a smoother transition between states it is recomended to create a class in your stylesheet like the following and apply it to the App element</p>
-               <h2 class="fs-auto-hlg">CSS</h2>
+               <h2 class="fs-auto-lg">CSS</h2>
                <pre>
                   <code>.my-app-custom-background-class {</code>
                   <code>   /*place closed App background CSS */</code>
@@ -457,7 +457,7 @@
                   <code>   /*place open App background CSS */</code>
                   <code>}</code>
                </pre>
-               <h2 class="fs-auto-hlg">HTML</h2>
+               <h2 class="fs-auto-lg">HTML</h2>
                <pre>
                   <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
                   <code>   &lt;div class=&quot;app my-app-custom-background-class&quot;&gt;</code>
