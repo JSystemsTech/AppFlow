@@ -98,4 +98,4 @@ $( document ).ready(function() {
     initLocalClocks();
     moveSecondHands();
     setUpMinuteHands();
-}
+});
