@@ -583,7 +583,6 @@
                   <div  id="FancyApp5" class="app">
                      
                      <div class="app-header bg-lion">
-                        <i class="fa fa-exclamation-triangle color-animated"></i>
                      </div>
                      <div class="app-content">
                         <div class="btn btn-appflow app-close">Close App</div>
