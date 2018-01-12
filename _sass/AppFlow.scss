@@ -49,6 +49,9 @@
   cursor: pointer;
 }
 
+.app:not(.active) > .app-header {
+  border-radius: inherit;
+}
 .app:not(.active) > .app-header.app-icon {
   text-align: center;
   vertical-align: bottom;
