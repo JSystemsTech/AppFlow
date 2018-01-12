@@ -58,6 +58,9 @@
 .carousel.slide-show, 
 .carousel.slide-show > .carousel-inner{
 	border-radius: inherit;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	-o-border-radius: inherit;
 }
 
 .bg-lion{
