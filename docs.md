@@ -581,7 +581,7 @@
                      </div>
                   </div>
                   <div  id="FancyApp5" class="app">
-                     <div class="app-alert"><span class="badge bg-animated fs-auto-lg">2</span></div>
+                     
                      <div class="app-header bg-lion">
                         <i class="fa fa-exclamation-triangle color-animated"></i>
                      </div>
@@ -594,7 +594,7 @@
                   </div>
                   <div  id="FancyApp6" class="app">
                      <div class="app-header">
-                        <div id="IconCarousel" class="carousel slide" data-ride="carousel">
+                        <div id="IconCarousel" class="carousel slide-show" data-ride="carousel">
                         <div  class="carousel-inner">
                               <div class="item active bg-lion">
                               </div>
