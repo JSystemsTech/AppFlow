@@ -594,7 +594,7 @@
                   <div  id="FancyApp6" class="app">
                      <div class="app-header">
                         <div id="IconCarousel" class="carousel slide-show slide" data-ride="carousel">
-                        <div  class="carousel-inner">
+                        <div  class="">
                               <div class="item active bg-lion">
                               </div>
 
