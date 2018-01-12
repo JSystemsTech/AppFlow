@@ -596,15 +596,15 @@
                         <div id="IconCarousel" class="carousel slide-show slide pos-static" data-ride="carousel">
                         <div  class="carousel-inner">
                               <div class="item active">
-                                 <img src="https://images.pexels.com/photos/40756/lion-safari-afika-landscape-40756.jpeg"></img>
+                                 <img src="https://images.pexels.com/photos/40756/lion-safari-afika-landscape-40756.jpeg"/>
                               </div>
 
                               <div class="item">
-                                 <img src="https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></img>
+                                 <img src="https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></img>
                               </div>
 
                               <div class="item">
-                                 <img src="https://images.pexels.com/photos/434090/pexels-photo-434090.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></img>
+                                 <img src="https://images.pexels.com/photos/434090/pexels-photo-434090.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
                               </div>
                            </div>
                         </div>
