@@ -55,8 +55,8 @@
 	height: 100%;
 	overflow: hidden;
 }
-.app:not(.active){
-	overflow: hidden;
+.app:not(.active) > .app-header {
+	position:relative;
 }
 .bg-lion{
     /*background-image: url(https://images.pexels.com/photos/40756/lion-safari-afika-landscape-40756.jpeg);*/
