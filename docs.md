@@ -485,7 +485,7 @@
             <div class="col-xs-12 h-400 bg-animated-alt">
                
                <div class="app-tray app-size-auto">
-                  <div  id="FancyApp1" class="app bg-animated-alt">
+                  <div  id="FancyApp1" class="app bg-animated">
                      <div class="app-header app-icon">
                         <div id="IconCarousel" class="carousel slide" data-ride="carousel">
                         <div  class="carousel-inner">
@@ -551,7 +551,7 @@
                         <div class="btn btn-appflow app-close">Close App</div>
                      </div>
                      <div class="app-title">
-                        App &amp; Alert
+                        Clock
                      </div>
                   </div>
                </div>
