@@ -30,6 +30,7 @@
 
 .app:not(.active) {
   border: 1px solid #ccc !important;
+  overflow: hidden;
 }
 
 .app:not(.active).beveled {
@@ -49,9 +50,6 @@
   cursor: pointer;
 }
 
-.app:not(.active) > .app-header {
-  border-radius: inherit;
-}
 .app:not(.active) > .app-header.app-icon {
   text-align: center;
   vertical-align: bottom;
