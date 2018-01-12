@@ -186,14 +186,11 @@ height:400px;
 height:500px;
 }
 
-.clock {
-  border-radius: 50%;
-  background: #fff url(https://cssanimation.rocks/images/posts/clocks/ios_clock.svg) no-repeat center;
-  background-size: 88%;
-  height: 20em;
-  padding-bottom: 31%;
-  position: relative;
-  width: 20em;
+.clock{
+    background: url(https://cssanimation.rocks/images/posts/clocks/ios_clock.svg) no-repeat center;
+    background-size: 80%;
+    height: 100%;
+    position: relative;
 }
 
 .clock.simple:after {
