@@ -49,7 +49,9 @@
     font-size: 14.4px;
   }
 }
-.carousel.slide-show, .carousel.slide-show > .carousel-inner, .carousel.slide-show > .carousel-inner >.item{
+.carousel.slide-show, 
+.carousel.slide-show > .carousel-inner, 
+.carousel.slide-show > .carousel-inner >.item {
 	height 100%;
 }
 .bg-lion{
