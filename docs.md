@@ -595,13 +595,16 @@
                      <div class="app-header">
                         <div id="IconCarousel" class="carousel slide-show slide pos-static" data-ride="carousel">
                         <div  class="carousel-inner">
-                              <div class="item active bg-lion">
+                              <div class="item active">
+                                 <div class="bg-lion"></div>
                               </div>
 
-                              <div class="item bg-penguin">
+                              <div class="item">
+                                 <div class="bg-penguin"></div>
                               </div>
 
-                              <div class="item bg-puppy">
+                              <div class="item">
+                                 <div class="bg-puppy"></div>
                               </div>
                            </div>
                         </div>
