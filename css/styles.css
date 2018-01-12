@@ -54,6 +54,9 @@
 .carousel.slide-show > .carousel-inner >.item{
 	height: 100%;
 	overflow: hidden;
+}
+.carousel.slide-show, 
+.carousel.slide-show > .carousel-inner{
 	border-radius: inherit;
 }
 
