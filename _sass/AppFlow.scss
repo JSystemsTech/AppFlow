@@ -50,6 +50,7 @@
 }
 .app:not(.active) > .app-header {
   overflow: hidden;
+  border-radius: inherit;
 }
 .app:not(.active) > .app-header.app-icon {
   text-align: center;
