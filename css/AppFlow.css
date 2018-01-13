@@ -1,28 +1,54 @@
-@-webkit-keyframes slide-left {
+@-webkit-keyframes slide-in-left {
     100% { left: 0; }
 }
 
-@keyframes slide-left {
+@keyframes slide-in-left {
     100% { left: 0; }
 }
-@-webkit-keyframes slide-right {
+@-webkit-keyframes slide-out-left {
+    100% { left: -100%; }
+}
+
+@keyframes slide-out-left {
+    100% { left: -100%; }
+}
+@-webkit-keyframes slide-in-right {
+    100% { left: 0; }
+}
+
+@keyframes slide-in-right {
+    100% { left: 0%; }
+}
+@-webkit-keyframes slide-out-right {
     100% { left: 100%; }
 }
 
-@keyframes slide-right {
+@keyframes slide-out-right {
     100% { left: 100%; }
 }
-.slide-left{
+.slide-in-left{
     left: -100%;
+    position: absolute;
+    -webkit-animation: slide-in-left 400ms forwards;
+    animation: slide-in-left 400ms forwards;
+}
+.slide-out-left{
+    left: 0;
     position: absolute;
     -webkit-animation: slide-left 400ms forwards;
     animation: slide-left 400ms forwards;
 }
-.slide-right{
+.slide-in-right{
+    left: 100%;
+    position: absolute;
+    -webkit-animation: slide-in-right 400ms forwards;
+    -webkit-animation: slide-in-right 400ms forwards;
+}
+.slide-out-right{
     left: 0;
     position: absolute;
-    -webkit-animation: slide-right 400ms forwards;
-    -webkit-animation: slide-right 400ms forwards;
+    -webkit-animation: slide-out-right 400ms forwards;
+    -webkit-animation: slide-out-right 400ms forwards;
 }
 .tray-wrapper {
   height: auto;
