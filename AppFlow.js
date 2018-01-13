@@ -28,11 +28,13 @@ var openApp = function(app, tray, options) {
             
         });
     } else {
+        onAppCssTransitionDone(app, function(){
+            tray.addClass(HIDDEN_CLASS);
+        });
         app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
         tray.focus();
         resizeTray(tray, function(){
-            tray.addClass(HIDDEN_CLASS);
             $('html, body').animate({
         scrollTop: app.offset().top
     }, 400);
@@ -46,7 +48,9 @@ var openApp = function(app, tray, options) {
         
     }
 };
-
+onAppCssTransitionDone = function(app, cb){
+    app.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", cb);
+};
 var bindAppEvents = function(apps, tray) {
     var appEvents = {
         'app-toggle': function(e, options) {
