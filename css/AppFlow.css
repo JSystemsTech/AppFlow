@@ -145,8 +145,8 @@
 
 .app-tray.app-open > .app:not(.active) {
   /*display: none;*/
-    animation: hiding 400ms ease-in-out;
-    -webkit-animation: hiding 400ms ease-in-out;
+    animation: zoomout 400ms ease-in-out;
+    -webkit-animation: zoomout 400ms ease-in-out;
    
 }
 @keyframes hiding {
@@ -161,6 +161,8 @@
        opacity: 0;
     }
 }
+@keyframes zoomin{from{transform:scale(0)} to{transform:scale(1)}}
+@keyframes zoomout{from{transform:scale(1);} to{transform:scale(0)}}
 
 .app-tray.app-open.hide-inactive > .app:not(.active) {
     display: none;
