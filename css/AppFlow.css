@@ -112,13 +112,11 @@
   /*display: none;*/
     animation: zoomout 400ms ease-in-out;
     -webkit-animation: zoomout 400ms ease-in-out;
+  width: 0;
+  height: 0;
 }
 
-app-tray.app-open.hide-inative > .app.active > .app-header,
-app-tray.app-open.hide-inative > .app.active > .app-title,
-app-tray.app-open.hide-inative > .app:not(.active) > .app-content {
-  display: none;
-}
+
 
 .app.active > .app-content {
   width: 100%;
