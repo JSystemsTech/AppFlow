@@ -145,10 +145,9 @@
 
 .app-tray.app-open > .app:not(.active) {
   /*display: none;*/
-    animation: hiding 400ms ease-in-out infinite alternate;
-    -webkit-animation: hiding 400ms ease-in-out infinite alternate;
+    animation: hiding 400ms ease-in-out;
+    -webkit-animation: hiding 400ms ease-in-out;
    
-    opacity: 0;
 }
 @keyframes hiding {
     0% {
