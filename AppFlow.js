@@ -7,6 +7,7 @@ var CLOSED_CLASS = 'app-closed';
 $( document ).ready(function() {
 var closeApp = function(app, tray, cb, options) {
     onAppCssTransitionDone(app, function(){
+            app.removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
             app.addClass(CLOSED_CLASS);
             app.attr('tabindex', '0');
             app.focus();
@@ -16,9 +17,7 @@ var closeApp = function(app, tray, cb, options) {
                 cb();
             }
         });
-    tray.removeClass(HIDDEN_CLASS);
-    tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
-    tray.removeClass(APP_OPEN_CLASS);
+    tray.removeClass(HIDDEN_CLASS + " " + APP_OPEN_CLASS);
 };
 var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
