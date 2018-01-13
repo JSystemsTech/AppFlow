@@ -48,7 +48,7 @@ var openApp = function(app, tray, options) {
         
     }
 };
-onAppCssTransitionDone = function(app, cb){
+var onAppCssTransitionDone = function(app, cb){
     app.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", cb);
 };
 var bindAppEvents = function(apps, tray) {
