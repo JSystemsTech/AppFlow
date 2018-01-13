@@ -74,9 +74,9 @@ var openApp = function(app, tray, options) {
             tray.addClass(HIDDEN_CLASS);
             tray.focus();
             resizeTray(tray);
-            $('html, body').animate({
+            /*$('html, body').animate({
                 scrollTop: app.offset().top
-             }, 400);
+             }, 400);*/
             app.focus();
             app.attr('tabindex', '-1');
             app.trigger('app-opened', app, tray, options || {});
