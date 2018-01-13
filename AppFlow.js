@@ -11,45 +11,35 @@ var closeApp = function(app, tray, cb, options) {
             app.attr('tabindex', '0');
             app.focus();
             app.trigger('app-closed', app, tray, options || {});
+            resizeTray(tray);
+            if (typeof cb === 'function') {
+                cb();
+            }
         });
     tray.removeClass(HIDDEN_CLASS);
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
-    
-    resizeTray(tray, function(){
-    });
-    if (typeof cb === 'function') {
-        cb();
-    }
 };
 var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
         closeApp($(currentlyOpenApp[0]), tray, function() {
-            setTimeout(function(){
-                openApp(app, tray, options);
-            }, 400);
-            
+            openApp(app, tray, options);
         });
     } else {
         onAppCssTransitionDone(app, function(){
             tray.addClass(HIDDEN_CLASS);
+            tray.focus();
+            resizeTray(tray);
+            $('html, body').animate({
+                scrollTop: app.offset().top
+             }, 400);
+            app.focus();
+            app.attr('tabindex', '-1');
+            app.trigger('app-opened', app, tray, options || {});
         });
         app.removeClass(CLOSED_CLASS).addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
-        tray.focus();
-        resizeTray(tray, function(){
-            $('html, body').animate({
-        scrollTop: app.offset().top
-    }, 400);
-            app.focus();
-            //app[0].scrollIntoView();
-        app.attr('tabindex', '-1');
-          
-            
-        app.trigger('app-opened', app, tray, options || {});
-    });
-        
     }
 };
 var onAppCssTransitionDone = function(app, cb){
@@ -163,13 +153,10 @@ var onBeforeDestroy = function(){
     $('.app-tray').each(destroyAppTray);
     destroyHelpers();
 }
-var resizeTray = function(tray, cb){
+var resizeTray = function(tray){
     var wrapper = tray.parent();
     if(wrapper.hasClass('tray-wrapper auto-resize')){
-        setTimeout(function(){
-                setAutoResize(null, wrapper[0]);
-            cb();
-            }, 400);
+        setAutoResize(null, wrapper[0]);
     }
 }
 var setAutoResize = function(index, el){
