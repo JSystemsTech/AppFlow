@@ -27,6 +27,7 @@ var openApp = function(app, tray, options) {
     if (currentlyOpenApp.length > 0) {
         var isInSameTray = currentlyOpenApp.attr('tray-parent-index') === app.attr('tray-parent-index');
         if(isInSameTray){
+            app.removeClass(CLOSED_CLASS);
             var currentlyOpenAppIndex = getAppIndex(currentlyOpenApp);
             var appIndex = getAppIndex(app);
             if(appIndex < currentlyOpenAppIndex){
@@ -38,6 +39,7 @@ var openApp = function(app, tray, options) {
             }
             setTimeout(function(){
                 currentlyOpenApp.removeClass(ACTIVE_CLASS + " slide-in-left slide-out-right slide-out-left slide-in-right");
+                currentlyOpenApp.addClass(CLOSED_CLASS);
                 app.removeClass(" slide-in-left slide-out-right slide-out-left slide-in-right");
                 app.trigger('app-closed', currentlyOpenApp, tray, {});
                 app.trigger('app-opened', app, tray, options || {});
