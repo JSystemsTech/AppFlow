@@ -1,3 +1,29 @@
+@-webkit-keyframes slide-left {
+    100% { left: 0; }
+}
+
+@keyframes slide-left {
+    100% { left: 0; }
+}
+@-webkit-keyframes slide-right {
+    100% { left: 100%; }
+}
+
+@keyframes slide-right {
+    100% { left: 100%; }
+}
+.slide-left{
+    left: -100%;
+    position: absolute;
+    -webkit-animation: slide-left 400ms forwards;
+    animation: slide-left 400ms forwards;
+}
+.slide-right{
+    left: 0;
+    position: absolute;
+    -webkit-animation: slide-right 400ms forwards;
+    -webkit-animation: slide-right 400ms forwards;
+}
 .tray-wrapper {
   height: auto;
   position: relative;
