@@ -17,8 +17,8 @@ var closeApp = function(app, tray, cb, options) {
             }
         });
     tray.removeClass(HIDDEN_CLASS);
-    tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
+    tray.removeClass(APP_OPEN_CLASS);
 };
 var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
