@@ -1,9 +1,11 @@
 "use strict";
 var ACTIVE_CLASS = 'active';
+var HIDDEN_CLASS = 'hide-inactive';
 var APP_OPEN_CLASS = 'app-open';
 
 $( document ).ready(function() {
 var closeApp = function(app, tray, cb, options) {
+    tray.removeClass(HIDDEN_CLASS);
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
     app.attr('tabindex', '0');
@@ -30,6 +32,7 @@ var openApp = function(app, tray, options) {
         tray.addClass(APP_OPEN_CLASS);
         tray.focus();
         resizeTray(tray, function(){
+            tray.addClass(HIDDEN_CLASS);
             $('html, body').animate({
         scrollTop: app.offset().top
     }, 400);
