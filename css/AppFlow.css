@@ -35,8 +35,8 @@
 .slide-out-left{
     left: 0;
     position: absolute;
-    -webkit-animation: slide-left 400ms forwards;
-    animation: slide-left 400ms forwards;
+    -webkit-animation: slide-out-left 400ms forwards;
+    animation: slide-out-left 400ms forwards;
 }
 .slide-in-right{
     left: 100%;
