@@ -109,12 +109,12 @@
 .app.active > .app-header,
 .app.active > .app-title,
 .app:not(.active) > .app-content 
-.app:not(.active) > .app-content  *{
+.app:not(.active) > .app-content *{
   /*display: none;*/
     animation: zoomout 400ms ease-in-out;
     -webkit-animation: zoomout 400ms ease-in-out;
-  width: 0;
-  height: 0;
+    width: 0;
+    height: 0;
 }
 
 
