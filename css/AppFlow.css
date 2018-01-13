@@ -150,7 +150,7 @@
     visibility: hidden;
     opacity: 0;
 }
-.app-tray.app-open > .app:not(.active).hide-inactive {
+.app-tray.app-open.hide-inactive > .app:not(.active) {
     display: none;
 }
 
