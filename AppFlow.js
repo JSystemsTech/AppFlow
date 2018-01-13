@@ -2,17 +2,21 @@
 var ACTIVE_CLASS = 'active';
 var HIDDEN_CLASS = 'hide-inactive';
 var APP_OPEN_CLASS = 'app-open';
+var CLOSED_CLASS = 'app-closed';
 
 $( document ).ready(function() {
 var closeApp = function(app, tray, cb, options) {
+    onAppCssTransitionDone(app, function(){
+            app.addClass(CLOSED_CLASS);
+            app.attr('tabindex', '0');
+            app.focus();
+            app.trigger('app-closed', app, tray, options || {});
+        });
     tray.removeClass(HIDDEN_CLASS);
     tray.removeClass(APP_OPEN_CLASS);
     tray.find('> .app').removeClass(ACTIVE_CLASS).attr('aria-expanded', 'false');
-    app.attr('tabindex', '0');
     
-    app.focus();
     resizeTray(tray, function(){
-        app.trigger('app-closed', app, tray, options || {});
     });
     if (typeof cb === 'function') {
         cb();
@@ -31,7 +35,7 @@ var openApp = function(app, tray, options) {
         onAppCssTransitionDone(app, function(){
             tray.addClass(HIDDEN_CLASS);
         });
-        app.addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
+        app.removeClass(CLOSED_CLASS).addClass(ACTIVE_CLASS).attr('aria-expanded', 'true');
         tray.addClass(APP_OPEN_CLASS);
         tray.focus();
         resizeTray(tray, function(){
