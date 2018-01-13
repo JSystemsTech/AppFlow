@@ -145,8 +145,8 @@
 
 .app-tray.app-open > .app:not(.active) {
   /*display: none;*/
-    animation: leaves 400ms ease-in-out infinite alternate;
-    -webkit-animation: leaves 400ms ease-in-out infinite alternate;
+    animation: hiding 400ms ease-in-out infinite alternate;
+    -webkit-animation: hiding 400ms ease-in-out infinite alternate;
    
     opacity: 0;
 }
