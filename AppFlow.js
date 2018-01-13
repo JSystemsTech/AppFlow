@@ -37,7 +37,8 @@ var openApp = function(app, tray, options) {
                 currentlyOpenApp.addClass("slide-left");
             }
             setTimeout(function(){
-                currentlyOpenApp.removeClass(ACTIVE_CLASS);
+                currentlyOpenApp.removeClass(ACTIVE_CLASS + " slide-left slide-right");
+                app.removeClass("slide-left slide-right");
                 app.trigger('app-closed', currentlyOpenApp, tray, {});
                 app.trigger('app-opened', app, tray, options || {});
             }, 400);
