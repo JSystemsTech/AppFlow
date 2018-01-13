@@ -3,6 +3,23 @@ var ACTIVE_CLASS = 'active';
 var HIDDEN_CLASS = 'hide-inactive';
 var APP_OPEN_CLASS = 'app-open';
 var CLOSED_CLASS = 'app-closed';
+var SLIDE_CLASSES = 'slide-in-left slide-out-right slide-out-left slide-in-right';
+
+var SLIDE_IN_RIGHT = 'slide-in-right';
+var SLIDE_OUT_RIGHT = 'slide-out-right';
+var SLIDE_IN_LEFT = 'slide-in-left';
+var SLIDE_OUT_LEFT = 'slide-out-left';
+var SLIDE_DIRECTION = {LEFT: 
+                         {
+                             IN: ACTIVE_CLASS + " " + SLIDE_IN_LEFT, 
+                             OUT: SLIDE_OUT_RIGHT
+                         },
+                         RIGHT: 
+                         {
+                             IN: ACTIVE_CLASS + " " + SLIDE_IN_RIGHT, 
+                             OUT: SLIDE_OUT_LEFT
+                         }
+                        };
 
 $( document ).ready(function() {
 var closeApp = function(app, tray, cb, options) {
@@ -19,6 +36,25 @@ var closeApp = function(app, tray, cb, options) {
         });
     tray.removeClass(HIDDEN_CLASS + " " + APP_OPEN_CLASS);
 };
+var slideInOut = function (currentlyOpenApp, app, tray, options){
+    app.removeClass(CLOSED_CLASS);
+            onAppCssAnimationDone(app, function(){
+                currentlyOpenApp.removeClass(ACTIVE_CLASS + ' ' + SLIDE_CLASSES);
+                currentlyOpenApp.addClass(CLOSED_CLASS);
+                app.removeClass(SLIDE_CLASSES);
+                currentlyOpenApp.trigger('app-closed', currentlyOpenApp, tray, {});
+                app.trigger('app-opened', app, tray, options || {});
+            });
+            var currentlyOpenAppIndex = getAppIndex(currentlyOpenApp);
+            var appIndex = getAppIndex(app);
+            
+            var DIRECTION = SLIDE_DIRECTION.RIGHT;
+            if(appIndex < currentlyOpenAppIndex){
+                DIRECTION = SLIDE_DIRECTION.LEFT;
+            }
+            app.addClass(DIRECTION.IN);
+            currentlyOpenApp.addClass(DIRECTION.OUT);
+};
 var getAppIndex = function(app){
     return parseInt(app.attr('app-index'));
 };
@@ -27,23 +63,7 @@ var openApp = function(app, tray, options) {
     if (currentlyOpenApp.length > 0) {
         var isInSameTray = currentlyOpenApp.attr('tray-parent-index') === app.attr('tray-parent-index');
         if(isInSameTray){
-            app.removeClass(CLOSED_CLASS);
-            var currentlyOpenAppIndex = getAppIndex(currentlyOpenApp);
-            var appIndex = getAppIndex(app);
-            if(appIndex < currentlyOpenAppIndex){
-                app.addClass(ACTIVE_CLASS + " slide-in-left");
-                currentlyOpenApp.addClass("slide-out-right");
-            }else{
-                app.addClass(ACTIVE_CLASS + " slide-in-right");
-                currentlyOpenApp.addClass("slide-out-left");
-            }
-            setTimeout(function(){
-                currentlyOpenApp.removeClass(ACTIVE_CLASS + " slide-in-left slide-out-right slide-out-left slide-in-right");
-                currentlyOpenApp.addClass(CLOSED_CLASS);
-                app.removeClass(" slide-in-left slide-out-right slide-out-left slide-in-right");
-                app.trigger('app-closed', currentlyOpenApp, tray, {});
-                app.trigger('app-opened', app, tray, options || {});
-            }, 400);
+            slideInOut(currentlyOpenApp, app, tray, options);
         }else{
             closeApp($(currentlyOpenApp[0]), tray, function() {
                 openApp(app, tray, options);
@@ -68,6 +88,10 @@ var openApp = function(app, tray, options) {
 var onAppCssTransitionDone = function(app, cb){
     app.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", cb);
 };
+var onAppCssAnimationDone = function(app, cb){
+    app.one("webkitAnimationEnd oanimationend MSAnimationEnd", cb);
+};
+
 var bindAppEvents = function(apps, tray) {
     var appEvents = {
         'app-toggle': function(e, options) {
