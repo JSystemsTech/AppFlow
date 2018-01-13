@@ -19,12 +19,33 @@ var closeApp = function(app, tray, cb, options) {
         });
     tray.removeClass(HIDDEN_CLASS + " " + APP_OPEN_CLASS);
 };
+var getAppIndex = function(app){
+    return parseInt(app.attr('app-index'));
+};
 var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
-        closeApp($(currentlyOpenApp[0]), tray, function() {
-            openApp(app, tray, options);
-        });
+        var isInSameTray = currentlyOpenApp.attr('tray-parent-index') === app.attr('tray-parent-index');
+        if(isInSameTray){
+            var currentlyOpenAppIndex = getAppIndex(currentlyOpenApp);
+            var appIndex = getAppIndex(app);
+            if(appIndex < currentlyOpenAppIndex){
+                app.addClass(ACTIVE_CLASS + " slide-left");
+                currentlyOpenApp.addClass("slide-right");
+            }else{
+                app.addClass(ACTIVE_CLASS + " slide-right");
+                currentlyOpenApp.addClass("slide-left");
+            }
+            setTimeout(function(){
+                currentlyOpenApp.removeClass(ACTIVE_CLASS);
+                app.trigger('app-closed', currentlyOpenApp, tray, {});
+                app.trigger('app-opened', app, tray, options || {});
+            }, 400);
+        }else{
+            closeApp($(currentlyOpenApp[0]), tray, function() {
+                openApp(app, tray, options);
+            });
+        }
     } else {
         onAppCssTransitionDone(app, function(){
             tray.addClass(HIDDEN_CLASS);
@@ -91,7 +112,7 @@ var bindAppEvents = function(apps, tray) {
     });
 };
 
-var initAppTray = function() {
+var initAppTray = function(trayIndex) {
     var tray = $(this);
     var apps = tray.find('> .app');
     apps.attr('aria-expanded', 'false').attr('tabindex', '0');
@@ -100,7 +121,8 @@ var initAppTray = function() {
         var app= $(el);
         var id = app.attr('id') || 'app' + index;
         app.attr('id', id);
-
+        app.attr('tray-parent-index', trayIndex);
+        app.attr('app-index', index);
         var titleIdDefault = id + 'Title';
         var titleId = app.find('> .app-title').attr('id') || titleIdDefault;
         app.find('> .app-title').attr('id', titleId);
