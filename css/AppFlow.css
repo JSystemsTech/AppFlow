@@ -144,7 +144,14 @@
 }
 
 .app-tray.app-open > .app:not(.active) {
-  display: none;
+  /*display: none;*/
+   width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.app-tray.app-open.hide-inactive > .app:not(.active) {
+    display: none;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > [class^="app-alert"] {
