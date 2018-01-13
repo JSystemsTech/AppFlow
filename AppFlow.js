@@ -30,15 +30,15 @@ var openApp = function(app, tray, options) {
             var currentlyOpenAppIndex = getAppIndex(currentlyOpenApp);
             var appIndex = getAppIndex(app);
             if(appIndex < currentlyOpenAppIndex){
-                app.addClass(ACTIVE_CLASS + " slide-left");
-                currentlyOpenApp.addClass("slide-right");
+                app.addClass(ACTIVE_CLASS + " slide-in-left");
+                currentlyOpenApp.addClass("slide-out-right");
             }else{
-                app.addClass(ACTIVE_CLASS + " slide-right");
-                currentlyOpenApp.addClass("slide-left");
+                app.addClass(ACTIVE_CLASS + " slide-in-right");
+                currentlyOpenApp.addClass("slide-out-left");
             }
             setTimeout(function(){
-                currentlyOpenApp.removeClass(ACTIVE_CLASS + " slide-left slide-right");
-                app.removeClass("slide-left slide-right");
+                currentlyOpenApp.removeClass(ACTIVE_CLASS + " slide-in-left slide-out-right slide-out-left slide-in-right");
+                app.removeClass(" slide-in-left slide-out-right slide-out-left slide-in-right");
                 app.trigger('app-closed', currentlyOpenApp, tray, {});
                 app.trigger('app-opened', app, tray, options || {});
             }, 400);
