@@ -141,7 +141,7 @@ var bindAppEvents = function(apps, tray) {
 
 var initAppTray = function(trayIndex) {
     var tray = $(this);
-    var trayId = tray.attr('id') || 'Tray' + index;
+    var trayId = tray.attr('id') || 'Tray' + trayIndex;
     tray.attr('id', trayId);
   
     var apps = tray.find('> .app');
