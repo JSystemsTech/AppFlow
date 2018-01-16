@@ -98,5 +98,5 @@ $( document ).ready(function() {
     initLocalClocks();
     moveSecondHands();
     setUpMinuteHands();
-    $('p').attr('spellcheck', true');
+    $('p').attr('spellcheck', 'true');
 });
