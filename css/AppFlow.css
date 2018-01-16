@@ -1,52 +1,52 @@
 @-webkit-keyframes slide-in-left {
-    100% { left: 0; }
+    100% { margin-left: 0; }
 }
 
 @keyframes slide-in-left {
-    100% { left: 0; }
+    100% { margin-left: 0; }
 }
 @-webkit-keyframes slide-out-left {
-    100% { left: -100%; }
+    100% { margin-left: -100%; }
 }
 
 @keyframes slide-out-left {
-    100% { left: -100%; }
+    100% { margin-left: -100%; }
 }
 @-webkit-keyframes slide-in-right {
-    100% { left: 0; }
+    100% { margin-left: 0; }
 }
 
 @keyframes slide-in-right {
-    100% { left: 0%; }
+    100% { margin-left: 0%; }
 }
 @-webkit-keyframes slide-out-right {
-    100% { left: 100%; }
+    100% { margin-left: 100%; }
 }
 
 @keyframes slide-out-right {
-    100% { left: 100%; }
+    100% { margin-left: 100%; }
 }
 .slide-in-left{
-    left: -100%;
-    position: absolute;
+    margin-left: -100%;
+    /*position: absolute;*/
     -webkit-animation: slide-in-left 400ms forwards;
     animation: slide-in-left 400ms forwards;
 }
 .slide-out-left{
-    left: 0;
-    position: absolute;
+    margin-left: 0;
+    /*position: absolute;*/
     -webkit-animation: slide-out-left 400ms forwards;
     animation: slide-out-left 400ms forwards;
 }
 .slide-in-right{
-    left: 100%;
-    position: absolute;
+    margin-left: 100%;
+    /*position: absolute;*/
     -webkit-animation: slide-in-right 400ms forwards;
     -webkit-animation: slide-in-right 400ms forwards;
 }
 .slide-out-right{
-    left: 0;
-    position: absolute;
+    margin-left: 0;
+    /*position: absolute;*/
     -webkit-animation: slide-out-right 400ms forwards;
     -webkit-animation: slide-out-right 400ms forwards;
 }
@@ -61,6 +61,7 @@
 
 .tray-wrapper > .app-tray.app-open {
   position: absolute;
+    
 }
 
 .app-tray {
@@ -125,6 +126,7 @@
 
 .app-tray.app-open {
   min-height: 100%;
+    flex-wrap: nowrap;
 }
 
 .app-tray:not(.app-open) {
