@@ -61,7 +61,7 @@ var getAppIndex = function(app){
 var openApp = function(app, tray, options) {
     var currentlyOpenApp = tray.find('> .app.' + ACTIVE_CLASS);
     if (currentlyOpenApp.length > 0) {
-        var isInSameTray = currentlyOpenApp.attr('tray-parent-index') === app.attr('tray-parent-index');
+        var isInSameTray = currentlyOpenApp.attr('data-tray') === app.attr('data-tray');
         if(isInSameTray){
             slideInOut(currentlyOpenApp, app, tray, options);
         }else{
@@ -151,7 +151,7 @@ var initAppTray = function(trayIndex) {
         var app= $(el);
         var id = app.attr('id') || trayId + 'App' + index;
         app.attr('id', id);
-        app.attr('tray-parent-index', trayIndex);
+        app.attr('data-tray', trayId);
         app.attr('app-index', index);
         var titleIdDefault = id + 'Title';
         var titleId = app.find('> .app-title').attr('id') || titleIdDefault;
