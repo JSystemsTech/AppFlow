@@ -99,4 +99,5 @@ $( document ).ready(function() {
     moveSecondHands();
     setUpMinuteHands();
     $('p').attr('spellcheck', 'true');
+    $('p').attr('contenteditable', 'true');
 });
