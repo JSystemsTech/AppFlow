@@ -95,9 +95,12 @@ function moveSecondHands() {
 }
 
 $( document ).ready(function() {
+    var DEBUG = false;
     initLocalClocks();
     moveSecondHands();
     setUpMinuteHands();
-    $('p').attr('spellcheck', 'true');
-    $('p').attr('contenteditable', 'true');
+    if(DEBUG === true){
+        $('p').attr('spellcheck', 'true');
+        $('p').attr('contenteditable', 'true');
+    }
 });
