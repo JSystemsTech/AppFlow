@@ -29,7 +29,7 @@
             </div>
             <div class="col-xs-12 text-left">
                <h2 class="fs-auto-h6">Requirements</h2>
-               <p class="fs-auto-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" target="_blank" class="text-color-alt">Jquery 1.11.3</a> or above to run however the following libraries are recommened to really take advantage of AppFlows capabilities</p>
+               <p class="fs-auto-md text-color-light">AppFlow only requires <a href="http://jquery.com/download/" target="_blank" class="text-color-alt">Jquery 1.11.3</a> or above to run however the following libraries are recommended to really take advantage of AppFlow's capabilities</p>
 
                <ul class="fs-auto-md">
                   <li><a href="https://getbootstrap.com/" target="_blank" class="text-color-alt"><strong>Bootstrap</strong></a></li>
@@ -137,7 +137,7 @@
                   <h2 class="fs-auto-h6">Open App Container</h2>
                   <div class="col-xs-12">
                      <h2 class="fs-auto-xl">Container Size</h2>
-                     <p class="fs-auto-md text-color-light">By default the App elements when expaned use 100% of the space available in the tray but should you want to only use a portion of the space you can add a "app-open-{percent size}" class to the tray where the percent size ranges from 50 to 99. The expanded App element is centered in the tray element. <i>For reference this is similar to a Bootstrap Modal only contained within the Tray element.</i></p>
+                     <p class="fs-auto-md text-color-light">By default the App elements when expanded use 100% of the space available in the tray but should you want to only use a portion of the space you can add a "app-open-{percent size}" class to the tray where the percent size ranges from 50 to 99. The expanded App element is centered in the tray element. <i>For reference this is similar to a Bootstrap Modal only contained within the Tray element.</i></p>
                      <h2 class="fs-auto-xl">Blured Background</h2>
                      <p class="fs-auto-md text-color-light">Assuming "app-open-{percent size}" is applied to the Tray Element, you can also choose to lighten or darken the Tray background behind the expanded App element by adding the following classes to the Tray element:</p>
                      <ul class="fs-auto-md">
@@ -194,14 +194,14 @@
                      </ul>
                </div>
                <h2 class="fs-auto-h6">Alternate Styling for Collapsed Apps</h2>
-               <p class="fs-auto-md text-color-light">By default a collapsed App element is flat with rounded corners. AppFlows provides some alternate options for displaying collapsed apps. Add any of the following classes to an App element:</p>
+               <p class="fs-auto-md text-color-light">By default a collapsed App element is flat with rounded corners. AppFlow's provides some alternate options for displaying collapsed apps. Add any of the following classes to an App element:</p>
                <ul>
                         <li><strong>Square Corners </strong>: add "app-square" </li>
                         <li><strong>Glossy/Glass Effect </strong>: add "glass" </li>
                         <li><strong>Beveled border Effect </strong>: add "beveled" </li>
                      </ul>
                <h2 class="fs-auto-h6">Using Icons in the Header</h2>
-               <p class="fs-auto-md text-color-light">If you are using a icon font libray such as FontAwesome and you are using icons in the Header element of an App element you can add an "app-icon" class to the Header element to let the the icon size to scale with the App Size Tray option</p>
+               <p class="fs-auto-md text-color-light">If you are using a icon font library such as FontAwesome and you are using icons in the Header element of an App element you can add an "app-icon" class to the Header element to let the the icon size to scale with the App Size Tray option</p>
                <p class="fs-auto-md text-color-light">Also if you are using the "app-icon" class you can add an additional class for controlling the relative size of the icon by adding any one of the following classes to the App Header element:</p>
                <ul>
                         <li><strong>App Icon Extra Small </strong>: add "app-icon-xs" smallest icon</li>
@@ -347,7 +347,7 @@
                   <pre>
                   <code>&lt;button data-toggle-app=&quot;#MyAppElement&quot;&gt; Toggle My App &lt;/button&gt;</code>
                   </pre>
-                  <p class="fs-auto-md text-color-light">This differs from using a "data-close-tray-apps" arribute in that this targets an App Element instead of a Tray Element and can open or close an app</p>
+                  <p class="fs-auto-md text-color-light">This differs from using a "data-close-tray-apps" attribute in that this targets an App Element instead of a Tray Element and can open or close an app</p>
                   <p class="fs-auto-md text-color-light">If you wish to open an App in the same tray from within another App use this option as it will inherentlly close the open App and open the target App. <i>(See the example below)</i></p>
 
                   <pre>
@@ -414,7 +414,7 @@
                   <code>   &lt;/div&gt;</code>
                   <code>&lt;/div&gt;</code>
                </pre>
-               <p class="fs-auto-md text-color-light">By default the alert displays in the top right corner of the App element you can position it in different locations by replacinf the "app-alert" class with any of the following classes: </p>
+               <p class="fs-auto-md text-color-light">By default the alert displays in the top right corner of the App element you can position it in different locations by replacing the "app-alert" class with any of the following classes: </p>
                <ul>
                         <li><strong>Top Left Corner </strong>: replace with "app-alert-tl" </li>
                         <li><strong>Top Right Corner </strong>: replace with "app-alert-tr" </li>
@@ -427,14 +427,14 @@
                <p class="fs-auto-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
                <p class="fs-auto-md text-color-light">There are a few things to be aware of though.</p>
                <p class="fs-auto-md text-color-light">First 'app-close' class elements always search for the nearest tray to close App elements, so if you have a 'app-close' class element defined in the Sub Tray App it will only close the App element in the Sub Tray and not the Main Tray App</p>
-               <p class="fs-auto-md text-color-light">Secondly if the Sub Tray has an open App element and the Main tray closes it's App elements, the Sub Tray App remains in a open state even though it is not displayed and will show again when The Main tray App is opened again. If you wish to make sure that the Sub Tray App Closes you can add an 'app-close', 'app-closed', or 'app-toggle' event listener on the Main Tray App and trigged an 'app-close' event on the Sub Tray App. Or if you have an 'app-close' class element on the Main Tray App you can add a "data-close-tray-apps" attribute that targets the Sub Tray</p>
+               <p class="fs-auto-md text-color-light">Secondly if the Sub Tray has an open App element and the Main tray closes it's App elements, the Sub Tray App remains in a open state even though it is not displayed and will show again when The Main tray App is opened again. If you wish to make sure that the Sub Tray App Closes you can add an 'app-close', 'app-closed', or 'app-toggle' event listener on the Main Tray App and trigger an 'app-close' event on the Sub Tray App. Or if you have an 'app-close' class element on the Main Tray App you can add a "data-close-tray-apps" attribute that targets the Sub Tray</p>
                <p class="fs-auto-md text-color-light">In short be aware that eventing with nested trays can be complex so be sure to debug your code carefully. Also keep in mind that AppFlow is intended to be mobile friendly so best practice is to keep nested Trays to a minimum and it is not recommended to have more than one layer of nested Tray elements</p>
 
                <h2 class="fs-auto-h6">Fixed Height Trays</h2>
-               <p class="fs-auto-md text-color-light">If you need to make the Tray a fixed height you will have to do this ba adding an outer &lt;div&gt; wrapper and append the height seeting to that element. Also if you have a background for the tray move those styling settings to the wrapper &lt;div&gt;. This is to prevent a display issue with the App elements inside the tray.</p>
+               <p class="fs-auto-md text-color-light">If you need to make the Tray a fixed height you will have to do this by adding an outer &lt;div&gt; wrapper and append the height setting to that element. Also if you have a background for the tray move those styling settings to the wrapper &lt;div&gt;. This is to prevent a display issue with the App elements inside the tray.</p>
 
                <h2 class="fs-auto-h6">Full Height Trays</h2>
-               <p class="fs-auto-md text-color-light">In many cases it is ofter desired to have the Tray span the remaining height of the DOM (like this page is doing). However because of the complex CSS styling of the Tray and App elements it is not a simple as adding a 100% height style to the tray. Luckily AppFlow privides a way to accomplish this. all you have to do is add a wrapper element around the Tray element with an 'auto-resize' class and let AppFlow take care of the rest. This is only needed for the outermost Tray element</p>
+               <p class="fs-auto-md text-color-light">In many cases it is often desired to have the Tray span the remaining height of the DOM (like this page is doing). However because of the complex CSS styling of the Tray and App elements it is not a simple as adding a 100% height style to the tray. Luckily AppFlow provides a way to accomplish this. All you have to do is add a wrapper element around the Tray element with an 'auto-resize' class and let AppFlow take care of the rest. This is only needed for the outermost Tray element</p>
                <pre>
                   <code>&lt;div class=&quot;auto-resize&quot;&gt;</code>
                   <code>   &lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
@@ -447,7 +447,7 @@
                   <code>&lt;/div&gt;</code>
                </pre>
                <h2 class="fs-auto-h6">Open vs Closed App Backgrounds</h2>
-               <p class="fs-auto-md text-color-light">Need to have separate backgrounds for an App element's open/closed state? you might be tempted to add a separate class to an App Content element, which is a quick option. However to take advantage of a smoother transition between states it is recomended to create a class in your stylesheet like the following and apply it to the App element</p>
+               <p class="fs-auto-md text-color-light">Need to have separate backgrounds for an App element's open/closed state? you might be tempted to add a separate class to an App Content element, which is a quick option. However to take advantage of a smoother transition between states it is recommended to create a class in your stylesheet like the following and apply it to the App element</p>
                <h2 class="fs-auto-lg">CSS</h2>
                <pre>
                   <code>.my-app-custom-background-class {</code>
