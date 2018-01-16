@@ -29,24 +29,28 @@
 .slide-in-left{
     left: -100%;
     position: absolute;
+    height: 100%;
     -webkit-animation: slide-in-left 400ms forwards;
     animation: slide-in-left 400ms forwards;
 }
 .slide-out-left{
     left: 0;
     position: absolute;
+    height: 100%;
     -webkit-animation: slide-out-left 400ms forwards;
     animation: slide-out-left 400ms forwards;
 }
 .slide-in-right{
     left: 100%;
     position: absolute;
+    height: 100%;
     -webkit-animation: slide-in-right 400ms forwards;
     -webkit-animation: slide-in-right 400ms forwards;
 }
 .slide-out-right{
     left: 0;
     position: absolute;
+    height: 100%;
     -webkit-animation: slide-out-right 400ms forwards;
     -webkit-animation: slide-out-right 400ms forwards;
 }
