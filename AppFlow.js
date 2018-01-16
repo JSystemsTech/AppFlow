@@ -141,12 +141,15 @@ var bindAppEvents = function(apps, tray) {
 
 var initAppTray = function(trayIndex) {
     var tray = $(this);
+    var trayId = tray.attr('id') || 'Tray' + index;
+    tray.attr('id', trayId);
+  
     var apps = tray.find('> .app');
     apps.attr('aria-expanded', 'false').attr('tabindex', '0');
     apps.addClass(CLOSED_CLASS);
     $.each(apps, function(index, el) {
         var app= $(el);
-        var id = app.attr('id') || 'app' + index;
+        var id = app.attr('id') || trayId + 'App' + index;
         app.attr('id', id);
         app.attr('tray-parent-index', trayIndex);
         app.attr('app-index', index);
