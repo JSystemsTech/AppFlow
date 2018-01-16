@@ -151,7 +151,7 @@ var initAppTray = function(trayIndex) {
         var app= $(el);
         var id = app.attr('id') || trayId + 'App' + index;
         app.attr('id', id);
-        app.attr('data-tray', trayId);
+        app.attr('data-tray', '#' + trayId);
         app.attr('app-index', index);
         var titleIdDefault = id + 'Title';
         var titleId = app.find('> .app-title').attr('id') || titleIdDefault;
