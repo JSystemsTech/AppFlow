@@ -21,7 +21,7 @@
          <div class="app-header app-icon"><i class="fa fa-book"></i></div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Getting Started</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
@@ -84,7 +84,7 @@
          <div class="app-header app-icon"><i class="fa fa-cog"></i></div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Tray Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
@@ -163,7 +163,7 @@
          </div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">App Configs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
@@ -223,7 +223,7 @@
          <div class="app-header app-icon"><i class="f-mfizz icon-javascript"></i></div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">JavaScript</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
@@ -321,7 +321,7 @@
          <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
@@ -391,7 +391,7 @@
          <div class="app-header app-icon"><i class="fa fa-cogs"></i></div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
@@ -482,15 +482,17 @@
          </div>
          <div class="app-content">
             <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
-"></i><span class="fr">Back</span></a>
+"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">FAQs</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#More">More <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
             <div class="col-xs-12"></div>
             <div class="col-xs-12 footer">
                <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Advanced"><i class="fa fa-arrow-circle-left"></i> Advanced              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#More">More <i class="fa fa-arrow-circle-right"></i>             </a>
             </div>
          </div>
          <div class="app-title">FAQs</div>
@@ -502,7 +504,7 @@
             <i class="fa fa-plus"></i>
          </div>
          <div class="app-content">
-            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left"></i><span class="fr">Back</span></a>
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left"></i><span class="fr">Close</span></a>
             <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">More</div>
             <div class="col-xs-2 col-lg-1"></div>
             <div class="col-xs-12">
