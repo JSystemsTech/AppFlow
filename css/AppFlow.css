@@ -1,59 +1,167 @@
-@-webkit-keyframes slide-in-left {
-    100% { left: 0; }
+@keyframes slide-in-left {
+  100% {
+    left: 0;
+  }
 }
 
-@keyframes slide-in-left {
-    100% { left: 0; }
+@-webkit-keyframes slide-in-left {
+  100% {
+    left: 0;
+  }
 }
-@-webkit-keyframes slide-out-left {
-    100% {left: -100%; }
+
+@-moz-keyframes slide-in-left {
+  100% {
+    left: 0;
+  }
+}
+
+@-o-keyframes slide-in-left {
+  100% {
+    left: 0;
+  }
+}
+
+@-ms-keyframes slide-in-left {
+  100% {
+    left: 0;
+  }
 }
 
 @keyframes slide-out-left {
-    100% { left: -100%; }
+  100% {
+    left: -100%;
+  }
 }
-@-webkit-keyframes slide-in-right {
-    100% { left: 0; }
+
+@-webkit-keyframes slide-out-left {
+  100% {
+    left: -100%;
+  }
+}
+
+@-moz-keyframes slide-out-left {
+  100% {
+    left: -100%;
+  }
+}
+
+@-o-keyframes slide-out-left {
+  100% {
+    left: -100%;
+  }
+}
+
+@-ms-keyframes slide-out-left {
+  100% {
+    left: -100%;
+  }
 }
 
 @keyframes slide-in-right {
-    100% { left: 0%; }
+  100% {
+    left: 0;
+  }
 }
-@-webkit-keyframes slide-out-right {
-    100% { left: 100%; }
+
+@-webkit-keyframes slide-in-right {
+  100% {
+    left: 0;
+  }
+}
+
+@-moz-keyframes slide-in-right {
+  100% {
+    left: 0;
+  }
+}
+
+@-o-keyframes slide-in-right {
+  100% {
+    left: 0;
+  }
+}
+
+@-ms-keyframes slide-in-right {
+  100% {
+    left: 0;
+  }
 }
 
 @keyframes slide-out-right {
-    100% { left: 100%; }
-}
-.slide-in-left{
-    left: -100%;
-    position: absolute;
-    height: 100%;
-    -webkit-animation: slide-in-left 400ms forwards;
-    animation: slide-in-left 400ms forwards;
-}
-.slide-out-left{
-    left: 0;
-    position: absolute;
-    height: 100%;
-    -webkit-animation: slide-out-left 400ms forwards;
-    animation: slide-out-left 400ms forwards;
-}
-.slide-in-right{
+  100% {
     left: 100%;
-    position: absolute;
-    height: 100%;
-    -webkit-animation: slide-in-right 400ms forwards;
-    -webkit-animation: slide-in-right 400ms forwards;
+  }
 }
-.slide-out-right{
-    left: 0;
-    position: absolute;
-    height: 100%;
-    -webkit-animation: slide-out-right 400ms forwards;
-    -webkit-animation: slide-out-right 400ms forwards;
+
+@-webkit-keyframes slide-out-right {
+  100% {
+    left: 100%;
+  }
 }
+
+@-moz-keyframes slide-out-right {
+  100% {
+    left: 100%;
+  }
+}
+
+@-o-keyframes slide-out-right {
+  100% {
+    left: 100%;
+  }
+}
+
+@-ms-keyframes slide-out-right {
+  100% {
+    left: 100%;
+  }
+}
+
+.slide-in-left {
+  left: -100%;
+  position: absolute;
+  height: 100%;
+  -webkit-animation: slide-in-left 400ms forwards;
+  -moz-animation: slide-in-left 400ms forwards;
+  -o-animation: slide-in-left 400ms forwards;
+  -ms-animation: slide-in-left 400ms forwards;
+  animation: slide-in-left 400ms forwards;
+}
+
+.slide-out-left {
+  left: 0;
+  position: absolute;
+  height: 100%;
+  -webkit-animation: slide-out-left 400ms forwards;
+  -moz-animation: slide-out-left 400ms forwards;
+  -o-animation: slide-out-left 400ms forwards;
+  -ms-animation: slide-out-left 400ms forwards;
+  animation: slide-out-left 400ms forwards;
+}
+
+.slide-in-right {
+  left: 100%;
+  position: absolute;
+  height: 100%;
+  -webkit-animation: slide-in-right 400ms forwards;
+  -moz-animation: slide-in-right 400ms forwards;
+  -o-animation: slide-in-right 400ms forwards;
+  -ms-animation: slide-in-right 400ms forwards;
+  animation: slide-in-right 400ms forwards;
+}
+
+.slide-out-right {
+  left: 0;
+  position: absolute;
+  height: 100%;
+  -webkit-animation: slide-out-right 400ms forwards;
+  -moz-animation: slide-out-right 400ms forwards;
+  -o-animation: slide-out-right 400ms forwards;
+  -ms-animation: slide-out-right 400ms forwards;
+  animation: slide-out-right 400ms forwards;
+}
+
 .tray-wrapper {
   height: auto;
   position: relative;
@@ -65,7 +173,6 @@
 
 .tray-wrapper > .app-tray.app-open {
   position: absolute;
-    
 }
 
 .app-tray {
@@ -104,6 +211,7 @@
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -o-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
 }
 
 .app:not(.active),
@@ -117,6 +225,7 @@
   -webkit-border-radius: inherit;
   -moz-border-radius: inherit;
   -o-border-radius: inherit;
+  -ms-border-radius: inherit;
 }
 
 .app:not(.active) > .app-header.app-icon {
@@ -130,7 +239,7 @@
 
 .app-tray.app-open {
   min-height: 100%;
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .app-tray:not(.app-open) {
@@ -166,20 +275,19 @@
 
 .app.active > .app-header,
 .app.active > .app-title,
-.app:not(.active) > .app-content, 
-.app:not(.active) > .app-content *{
-    opacity: 0;
-    width: 0;
-    height: 0;
+.app:not(.active) > .app-content,
+.app:not(.active) > .app-content * {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
+
 .app.active > .app-header,
 .app.active > .app-title,
-.app:not(.active).app-closed > .app-content, 
-.app:not(.active).app-closed > .app-content *{
+.app:not(.active).app-closed > .app-content,
+.app:not(.active).app-closed > .app-content * {
   display: none;
 }
-
-
 
 .app.active > .app-content {
   width: 100%;
@@ -196,6 +304,7 @@
   -webkit-transition: 400ms;
   -moz-transition: 400ms;
   -o-transition: 400ms;
+  -ms-transition: 400ms;
   transition: 400ms;
 }
 
@@ -204,6 +313,7 @@
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -o-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
   width: 100%;
   opacity: 1;
 }
@@ -213,13 +323,13 @@
 }
 
 .app-tray.app-open > .app:not(.active) {
-    height: 0;
-    width: 0;
-    opacity: 0; 
+  height: 0;
+  width: 0;
+  opacity: 0;
 }
 
 .app-tray.app-open.hide-inactive > .app:not(.active) {
-    display: none;
+  display: none;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > [class^="app-alert"] {
@@ -551,6 +661,7 @@
   -webkit-border-radius: 6.25px;
   -moz-border-radius: 6.25px;
   -o-border-radius: 6.25px;
+  -ms-border-radius: 6.25px;
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-title {
@@ -566,6 +677,8 @@
   -moz-border-top-right-radius: 4.25px;
   -o-border-top-left-radius: 4.25px;
   -o-border-top-right-radius: 4.25px;
+  -ms-border-top-left-radius: 4.25px;
+  -ms-border-top-right-radius: 4.25px;
 }
 
 .app-tray:not(.app-open).app-size-1 > .app:not(.active) > .app-header.app-icon {
@@ -1022,6 +1135,7 @@
   -webkit-border-radius: 12.5px;
   -moz-border-radius: 12.5px;
   -o-border-radius: 12.5px;
+  -ms-border-radius: 12.5px;
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-title {
@@ -1037,6 +1151,8 @@
   -moz-border-top-right-radius: 10.5px;
   -o-border-top-left-radius: 10.5px;
   -o-border-top-right-radius: 10.5px;
+  -ms-border-top-left-radius: 10.5px;
+  -ms-border-top-right-radius: 10.5px;
 }
 
 .app-tray:not(.app-open).app-size-2 > .app:not(.active) > .app-header.app-icon {
@@ -1493,6 +1609,7 @@
   -webkit-border-radius: 18.75px;
   -moz-border-radius: 18.75px;
   -o-border-radius: 18.75px;
+  -ms-border-radius: 18.75px;
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-title {
@@ -1508,6 +1625,8 @@
   -moz-border-top-right-radius: 16.75px;
   -o-border-top-left-radius: 16.75px;
   -o-border-top-right-radius: 16.75px;
+  -ms-border-top-left-radius: 16.75px;
+  -ms-border-top-right-radius: 16.75px;
 }
 
 .app-tray:not(.app-open).app-size-3 > .app:not(.active) > .app-header.app-icon {
@@ -1964,6 +2083,7 @@
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -o-border-radius: 25px;
+  -ms-border-radius: 25px;
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-title {
@@ -1979,6 +2099,8 @@
   -moz-border-top-right-radius: 23px;
   -o-border-top-left-radius: 23px;
   -o-border-top-right-radius: 23px;
+  -ms-border-top-left-radius: 23px;
+  -ms-border-top-right-radius: 23px;
 }
 
 .app-tray:not(.app-open).app-size-4 > .app:not(.active) > .app-header.app-icon {
@@ -2435,6 +2557,7 @@
   -webkit-border-radius: 31.25px;
   -moz-border-radius: 31.25px;
   -o-border-radius: 31.25px;
+  -ms-border-radius: 31.25px;
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-title {
@@ -2450,6 +2573,8 @@
   -moz-border-top-right-radius: 29.25px;
   -o-border-top-left-radius: 29.25px;
   -o-border-top-right-radius: 29.25px;
+  -ms-border-top-left-radius: 29.25px;
+  -ms-border-top-right-radius: 29.25px;
 }
 
 .app-tray:not(.app-open).app-size-5 > .app:not(.active) > .app-header.app-icon {
@@ -2906,6 +3031,7 @@
   -webkit-border-radius: 37.5px;
   -moz-border-radius: 37.5px;
   -o-border-radius: 37.5px;
+  -ms-border-radius: 37.5px;
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-title {
@@ -2921,6 +3047,8 @@
   -moz-border-top-right-radius: 35.5px;
   -o-border-top-left-radius: 35.5px;
   -o-border-top-right-radius: 35.5px;
+  -ms-border-top-left-radius: 35.5px;
+  -ms-border-top-right-radius: 35.5px;
 }
 
 .app-tray:not(.app-open).app-size-6 > .app:not(.active) > .app-header.app-icon {
@@ -3377,6 +3505,7 @@
   -webkit-border-radius: 43.75px;
   -moz-border-radius: 43.75px;
   -o-border-radius: 43.75px;
+  -ms-border-radius: 43.75px;
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-title {
@@ -3392,6 +3521,8 @@
   -moz-border-top-right-radius: 41.75px;
   -o-border-top-left-radius: 41.75px;
   -o-border-top-right-radius: 41.75px;
+  -ms-border-top-left-radius: 41.75px;
+  -ms-border-top-right-radius: 41.75px;
 }
 
 .app-tray:not(.app-open).app-size-7 > .app:not(.active) > .app-header.app-icon {
@@ -3848,6 +3979,7 @@
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -o-border-radius: 50px;
+  -ms-border-radius: 50px;
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-title {
@@ -3863,6 +3995,8 @@
   -moz-border-top-right-radius: 48px;
   -o-border-top-left-radius: 48px;
   -o-border-top-right-radius: 48px;
+  -ms-border-top-left-radius: 48px;
+  -ms-border-top-right-radius: 48px;
 }
 
 .app-tray:not(.app-open).app-size-8 > .app:not(.active) > .app-header.app-icon {
@@ -4766,6 +4900,7 @@
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -o-border-radius: 25px;
+  -ms-border-radius: 25px;
   position: relative;
   margin: 10px;
 }
@@ -4797,9 +4932,11 @@
   -webkit-border-top-left-radius: 23px;
   -webkit-border-top-right-radius: 23px;
   -moz-border-top-left-radius: 23px;
-  -moz-border-top-right-radius: 48px;
+  -moz-border-top-right-radius: 23px;
   -o-border-top-left-radius: 23px;
   -o-border-top-right-radius: 23px;
+  -ms-border-top-left-radius: 23px;
+  -ms-border-top-right-radius: 23px;
 }
 
 .app-tray:not(.app-open) > .app:not(.active) > .app-header {
@@ -4854,6 +4991,7 @@
     -webkit-border-radius: 6.25px;
     -moz-border-radius: 6.25px;
     -o-border-radius: 6.25px;
+    -ms-border-radius: 6.25px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 7px;
@@ -4870,6 +5008,8 @@
     -moz-border-top-right-radius: 4.25px;
     -o-border-top-left-radius: 4.25px;
     -o-border-top-right-radius: 4.25px;
+    -ms-border-top-left-radius: 4.25px;
+    -ms-border-top-right-radius: 4.25px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 25px;
@@ -5258,6 +5398,7 @@
     -webkit-border-radius: 12.5px;
     -moz-border-radius: 12.5px;
     -o-border-radius: 12.5px;
+    -ms-border-radius: 12.5px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 9px;
@@ -5274,6 +5415,8 @@
     -moz-border-top-right-radius: 10.5px;
     -o-border-top-left-radius: 10.5px;
     -o-border-top-right-radius: 10.5px;
+    -ms-border-top-left-radius: 10.5px;
+    -ms-border-top-right-radius: 10.5px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
@@ -5662,6 +5805,7 @@
     -webkit-border-radius: 18.75px;
     -moz-border-radius: 18.75px;
     -o-border-radius: 18.75px;
+    -ms-border-radius: 18.75px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 11px;
@@ -5678,6 +5822,8 @@
     -moz-border-top-right-radius: 16.75px;
     -o-border-top-left-radius: 16.75px;
     -o-border-top-right-radius: 16.75px;
+    -ms-border-top-left-radius: 16.75px;
+    -ms-border-top-right-radius: 16.75px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
@@ -6066,6 +6212,7 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -o-border-radius: 25px;
+    -ms-border-radius: 25px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 13px;
@@ -6082,6 +6229,8 @@
     -moz-border-top-right-radius: 23px;
     -o-border-top-left-radius: 23px;
     -o-border-top-right-radius: 23px;
+    -ms-border-top-left-radius: 23px;
+    -ms-border-top-right-radius: 23px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
@@ -6470,6 +6619,7 @@
     -webkit-border-radius: 31.25px;
     -moz-border-radius: 31.25px;
     -o-border-radius: 31.25px;
+    -ms-border-radius: 31.25px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 15px;
@@ -6486,6 +6636,8 @@
     -moz-border-top-right-radius: 29.25px;
     -o-border-top-left-radius: 29.25px;
     -o-border-top-right-radius: 29.25px;
+    -ms-border-top-left-radius: 29.25px;
+    -ms-border-top-right-radius: 29.25px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -6874,6 +7026,7 @@
     -webkit-border-radius: 37.5px;
     -moz-border-radius: 37.5px;
     -o-border-radius: 37.5px;
+    -ms-border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 17px;
@@ -6890,6 +7043,8 @@
     -moz-border-top-right-radius: 35.5px;
     -o-border-top-left-radius: 35.5px;
     -o-border-top-right-radius: 35.5px;
+    -ms-border-top-left-radius: 35.5px;
+    -ms-border-top-right-radius: 35.5px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -7278,6 +7433,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 19px;
@@ -7294,6 +7450,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -7682,6 +7840,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto {
     padding-bottom: 21px;
@@ -7698,6 +7857,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -8086,6 +8247,7 @@
     -webkit-border-radius: 12.5px;
     -moz-border-radius: 12.5px;
     -o-border-radius: 12.5px;
+    -ms-border-radius: 12.5px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 9px;
@@ -8102,6 +8264,8 @@
     -moz-border-top-right-radius: 10.5px;
     -o-border-top-left-radius: 10.5px;
     -o-border-top-right-radius: 10.5px;
+    -ms-border-top-left-radius: 10.5px;
+    -ms-border-top-right-radius: 10.5px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 50px;
@@ -8490,6 +8654,7 @@
     -webkit-border-radius: 18.75px;
     -moz-border-radius: 18.75px;
     -o-border-radius: 18.75px;
+    -ms-border-radius: 18.75px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 11px;
@@ -8506,6 +8671,8 @@
     -moz-border-top-right-radius: 16.75px;
     -o-border-top-left-radius: 16.75px;
     -o-border-top-right-radius: 16.75px;
+    -ms-border-top-left-radius: 16.75px;
+    -ms-border-top-right-radius: 16.75px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
@@ -8894,6 +9061,7 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -o-border-radius: 25px;
+    -ms-border-radius: 25px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 13px;
@@ -8910,6 +9078,8 @@
     -moz-border-top-right-radius: 23px;
     -o-border-top-left-radius: 23px;
     -o-border-top-right-radius: 23px;
+    -ms-border-top-left-radius: 23px;
+    -ms-border-top-right-radius: 23px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
@@ -9298,6 +9468,7 @@
     -webkit-border-radius: 31.25px;
     -moz-border-radius: 31.25px;
     -o-border-radius: 31.25px;
+    -ms-border-radius: 31.25px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 15px;
@@ -9314,6 +9485,8 @@
     -moz-border-top-right-radius: 29.25px;
     -o-border-top-left-radius: 29.25px;
     -o-border-top-right-radius: 29.25px;
+    -ms-border-top-left-radius: 29.25px;
+    -ms-border-top-right-radius: 29.25px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -9702,6 +9875,7 @@
     -webkit-border-radius: 37.5px;
     -moz-border-radius: 37.5px;
     -o-border-radius: 37.5px;
+    -ms-border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 17px;
@@ -9718,6 +9892,8 @@
     -moz-border-top-right-radius: 35.5px;
     -o-border-top-left-radius: 35.5px;
     -o-border-top-right-radius: 35.5px;
+    -ms-border-top-left-radius: 35.5px;
+    -ms-border-top-right-radius: 35.5px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -10106,6 +10282,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 19px;
@@ -10122,6 +10299,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -10510,6 +10689,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-2 {
     padding-bottom: 21px;
@@ -10526,6 +10706,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-2 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -10914,6 +11096,7 @@
     -webkit-border-radius: 18.75px;
     -moz-border-radius: 18.75px;
     -o-border-radius: 18.75px;
+    -ms-border-radius: 18.75px;
   }
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 11px;
@@ -10930,6 +11113,8 @@
     -moz-border-top-right-radius: 16.75px;
     -o-border-top-left-radius: 16.75px;
     -o-border-top-right-radius: 16.75px;
+    -ms-border-top-left-radius: 16.75px;
+    -ms-border-top-right-radius: 16.75px;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 75px;
@@ -11318,6 +11503,7 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -o-border-radius: 25px;
+    -ms-border-radius: 25px;
   }
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 13px;
@@ -11334,6 +11520,8 @@
     -moz-border-top-right-radius: 23px;
     -o-border-top-left-radius: 23px;
     -o-border-top-right-radius: 23px;
+    -ms-border-top-left-radius: 23px;
+    -ms-border-top-right-radius: 23px;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
@@ -11722,6 +11910,7 @@
     -webkit-border-radius: 31.25px;
     -moz-border-radius: 31.25px;
     -o-border-radius: 31.25px;
+    -ms-border-radius: 31.25px;
   }
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 15px;
@@ -11738,6 +11927,8 @@
     -moz-border-top-right-radius: 29.25px;
     -o-border-top-left-radius: 29.25px;
     -o-border-top-right-radius: 29.25px;
+    -ms-border-top-left-radius: 29.25px;
+    -ms-border-top-right-radius: 29.25px;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -12126,6 +12317,7 @@
     -webkit-border-radius: 37.5px;
     -moz-border-radius: 37.5px;
     -o-border-radius: 37.5px;
+    -ms-border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 17px;
@@ -12142,6 +12334,8 @@
     -moz-border-top-right-radius: 35.5px;
     -o-border-top-left-radius: 35.5px;
     -o-border-top-right-radius: 35.5px;
+    -ms-border-top-left-radius: 35.5px;
+    -ms-border-top-right-radius: 35.5px;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -12530,6 +12724,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 19px;
@@ -12546,6 +12741,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -12934,6 +13131,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-3 {
     padding-bottom: 21px;
@@ -12950,6 +13148,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-3 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -13338,6 +13538,7 @@
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -o-border-radius: 25px;
+    -ms-border-radius: 25px;
   }
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 13px;
@@ -13354,6 +13555,8 @@
     -moz-border-top-right-radius: 23px;
     -o-border-top-left-radius: 23px;
     -o-border-top-right-radius: 23px;
+    -ms-border-top-left-radius: 23px;
+    -ms-border-top-right-radius: 23px;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 100px;
@@ -13742,6 +13945,7 @@
     -webkit-border-radius: 31.25px;
     -moz-border-radius: 31.25px;
     -o-border-radius: 31.25px;
+    -ms-border-radius: 31.25px;
   }
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 15px;
@@ -13758,6 +13962,8 @@
     -moz-border-top-right-radius: 29.25px;
     -o-border-top-left-radius: 29.25px;
     -o-border-top-right-radius: 29.25px;
+    -ms-border-top-left-radius: 29.25px;
+    -ms-border-top-right-radius: 29.25px;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -14146,6 +14352,7 @@
     -webkit-border-radius: 37.5px;
     -moz-border-radius: 37.5px;
     -o-border-radius: 37.5px;
+    -ms-border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 17px;
@@ -14162,6 +14369,8 @@
     -moz-border-top-right-radius: 35.5px;
     -o-border-top-left-radius: 35.5px;
     -o-border-top-right-radius: 35.5px;
+    -ms-border-top-left-radius: 35.5px;
+    -ms-border-top-right-radius: 35.5px;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -14550,6 +14759,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 19px;
@@ -14566,6 +14776,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -14954,6 +15166,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-4 {
     padding-bottom: 21px;
@@ -14970,6 +15183,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-4 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -15358,6 +15573,7 @@
     -webkit-border-radius: 31.25px;
     -moz-border-radius: 31.25px;
     -o-border-radius: 31.25px;
+    -ms-border-radius: 31.25px;
   }
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 15px;
@@ -15374,6 +15590,8 @@
     -moz-border-top-right-radius: 29.25px;
     -o-border-top-left-radius: 29.25px;
     -o-border-top-right-radius: 29.25px;
+    -ms-border-top-left-radius: 29.25px;
+    -ms-border-top-right-radius: 29.25px;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 125px;
@@ -15762,6 +15980,7 @@
     -webkit-border-radius: 37.5px;
     -moz-border-radius: 37.5px;
     -o-border-radius: 37.5px;
+    -ms-border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 17px;
@@ -15778,6 +15997,8 @@
     -moz-border-top-right-radius: 35.5px;
     -o-border-top-left-radius: 35.5px;
     -o-border-top-right-radius: 35.5px;
+    -ms-border-top-left-radius: 35.5px;
+    -ms-border-top-right-radius: 35.5px;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -16166,6 +16387,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 19px;
@@ -16182,6 +16404,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -16570,6 +16794,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-5 {
     padding-bottom: 21px;
@@ -16586,6 +16811,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-5 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -16974,6 +17201,7 @@
     -webkit-border-radius: 37.5px;
     -moz-border-radius: 37.5px;
     -o-border-radius: 37.5px;
+    -ms-border-radius: 37.5px;
   }
   .app-tray:not(.app-open).app-size-auto-6 {
     padding-bottom: 17px;
@@ -16990,6 +17218,8 @@
     -moz-border-top-right-radius: 35.5px;
     -o-border-top-left-radius: 35.5px;
     -o-border-top-right-radius: 35.5px;
+    -ms-border-top-left-radius: 35.5px;
+    -ms-border-top-right-radius: 35.5px;
   }
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon {
     line-height: 150px;
@@ -17378,6 +17608,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto-6 {
     padding-bottom: 19px;
@@ -17394,6 +17625,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -17782,6 +18015,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-6 {
     padding-bottom: 21px;
@@ -17798,6 +18032,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-6 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -18186,6 +18422,7 @@
     -webkit-border-radius: 43.75px;
     -moz-border-radius: 43.75px;
     -o-border-radius: 43.75px;
+    -ms-border-radius: 43.75px;
   }
   .app-tray:not(.app-open).app-size-auto-7 {
     padding-bottom: 19px;
@@ -18202,6 +18439,8 @@
     -moz-border-top-right-radius: 41.75px;
     -o-border-top-left-radius: 41.75px;
     -o-border-top-right-radius: 41.75px;
+    -ms-border-top-left-radius: 41.75px;
+    -ms-border-top-right-radius: 41.75px;
   }
   .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon {
     line-height: 175px;
@@ -18590,6 +18829,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-7 {
     padding-bottom: 21px;
@@ -18606,6 +18846,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-7 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
@@ -18994,6 +19236,7 @@
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -o-border-radius: 50px;
+    -ms-border-radius: 50px;
   }
   .app-tray:not(.app-open).app-size-auto-8 {
     padding-bottom: 21px;
@@ -19010,6 +19253,8 @@
     -moz-border-top-right-radius: 48px;
     -o-border-top-left-radius: 48px;
     -o-border-top-right-radius: 48px;
+    -ms-border-top-left-radius: 48px;
+    -ms-border-top-right-radius: 48px;
   }
   .app-tray:not(.app-open).app-size-auto-8 > .app:not(.active) > .app-header.app-icon {
     line-height: 200px;
