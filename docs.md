@@ -17,13 +17,13 @@
 </div>
 <div class="tray-wrapper auto-resize col-xs-12 p-0">
    <div class="section app-tray app-size-auto">
-   {% include docsApp1 %}
-   {% include docsApp2 %}
-   {% include docsApp3 %}
-   {% include docsApp4 %}
-   {% include docsApp5 %}
-   {% include docsApp6 %}
-   {% include docsApp7 %}
-   {% include docsApp8 %}     
+   {% include docsApp1.html %}
+   {% include docsApp2.html %}
+   {% include docsApp3.html %}
+   {% include docsApp4.html %}
+   {% include docsApp5.html %}
+   {% include docsApp6.html %}
+   {% include docsApp7.html %}
+   {% include docsApp8.html %}     
    </div>
 </div>
