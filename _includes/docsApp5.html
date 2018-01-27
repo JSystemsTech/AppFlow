@@ -1,0 +1,70 @@
+<div class="app" id="Helpers">
+         <div class="app-header app-icon"><i class="f-mfizz icon-css3"></i></div>
+         <div class="app-content">
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Close</span></a>
+            <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Helpers</div>
+            <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
+            <div class="col-xs-12 text-left">
+               <p class="fs-auto-md text-color-light">JavaScript Methods and Events provide intricate means of opening and closing an App element with additional options, but sometimes all that needs to be done is a simply open or close an App. AppFlow provides built-in helpers that handle just that.</p>
+               
+                  <h2 class="fs-auto-h6">Closing the current App from within the Content</h2>
+                  <p class="fs-auto-md text-color-light">If you want to close the current open app with a button or other element in the App Content Element simply just add an "app-close" class to your button. AppFlow will listen for a click on the button and handle closing the App Element for you, no need to create a listener and fire a 'app-close'  event.</p>
+               
+                  <h2 class="fs-auto-h6">Closing Tray Apps Globally</h2>
+                  <p class="fs-auto-md text-color-light">If you want to close the current open App element in a given tray from anywhere in the DOM then add a "data-close-tray-apps" attribute to a DOM element and set the value as the selector for the Tray element</p>
+
+                  <pre>
+                  <code>&lt;button data-close-tray-apps=&quot;#MyTray&quot;&gt; Close My Tray Apps &lt;/button&gt;</code>
+                  </pre>
+               
+                  <h2 class="fs-auto-h6">Toggling App Globally</h2>
+                  <p class="fs-auto-md text-color-light">If you want to toggle an App element in a given tray from anywhere in the DOM then add a "data-toggle-app" attribute to a DOM element and set the value as the selector for the App element</p>
+
+                  <pre>
+                  <code>&lt;button data-toggle-app=&quot;#MyAppElement&quot;&gt; Toggle My App &lt;/button&gt;</code>
+                  </pre>
+                  <p class="fs-auto-md text-color-light">This differs from using a "data-close-tray-apps" attribute in that this targets an App Element instead of a Tray Element and can open or close an app</p>
+                  <p class="fs-auto-md text-color-light">If you wish to open an App in the same tray from within another App use this option as it will inherentlly close the open App and open the target App. <i>(See the example below)</i></p>
+
+                  <pre>
+                  <code>   &lt;div id=&quot;MyAppElement&quot; class=&quot;app&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;</code>
+                  <code>         &lt;button data-toggle-app=&quot;#MyOtherAppElement&quot;&gt; Open My Other App &lt;/button&gt;</code>
+                  <code>      &lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+               </pre>
+
+               <h2 class="fs-auto-h6">Auto Size Text</h2>
+                  <p class="fs-auto-md text-color-light">If you need to adjust the size of text based on the screen size AppFlow provides a styling option that will help you with that. Add any one of the following classes will automatically scale the text with the screen size <i>(Shown in order from smallest to largest)</i>:</p>
+
+                     <ul>
+                        <li><strong>Extra Small Text </strong>: add "fs-auto-xs" </li>
+                        <li><strong>Small Text </strong>: add "fs-auto-sm" </li>
+                        <li><strong>Medium Text </strong>: add "fs-auto-md"  </li>
+                        <li><strong>Large Text </strong>: add "fs-auto-lg" </li>
+                        <li><strong>Extra Large Text </strong>: add "fs-auto-xl" </li>
+                        <li><strong>Header 6 Text </strong>: add "fs-auto-h6" </li>
+                        <li><strong>Header 5 Text </strong>: add "fs-auto-h5" </li>
+                        <li><strong>Header 4 Text </strong>: add "fs-auto-h4" </li>
+                        <li><strong>Header 3 Text </strong>: add "fs-auto-h3" </li>
+                        <li><strong>Header 2 Text </strong>: add "fs-auto-h2" </li>
+                        <li><strong>Header 1 Text </strong>: add "fs-auto-h1" </li>
+                     </ul>
+
+
+
+            </div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#JavaScript"><i class="fa fa-arrow-circle-left"></i> JavaScript              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#Advanced">Advanced <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
+         </div>
+         <div class="app-title">Helpers</div>
+      </div>
