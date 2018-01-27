@@ -1,0 +1,89 @@
+<div class="app" id="Advanced">
+         <div class="app-header app-icon"><i class="fa fa-cogs"></i></div>
+         <div class="app-content">
+            <a href="#" class="col-xs-2 col-lg-1 app-close text-left fs-auto-xl pr-0 text-color-primary"><i class="fa fa-chevron-left" style="
+"></i><span class="fr">Close</span></a>
+            <div class="col-xs-8 col-lg-10 fr fs-auto-h3 p-0">Advanced</div>
+            <div class="col-xs-2 col-lg-1"></div>
+            <div class="col-xs-12">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
+            <div class="col-xs-12 text-left">
+               <h2 class="fs-auto-h6">Alerts</h2>
+               <p class="fs-auto-md text-color-light">Need to show a quick app specific alert like you see on mobile devices? AppFlow can help you with that. Set up your code like the following to achieve this:</p>
+
+               <pre>
+                  <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+                  <code>   &lt;div class=&quot;app&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-alert&quot;&gt;</code>
+                  <code>         &lt;div class=&quot;inner-element-with-your-custom-styling&quot;&gt;{Your Alert content}&lt;/div&gt;</code>
+                  <code>      &lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+                  <code>&lt;/div&gt;</code>
+               </pre>
+               <p class="fs-auto-md text-color-light">By default the alert displays in the top right corner of the App element you can position it in different locations by replacing the "app-alert" class with any of the following classes: </p>
+               <ul>
+                        <li><strong>Top Left Corner </strong>: replace with "app-alert-tl" </li>
+                        <li><strong>Top Right Corner </strong>: replace with "app-alert-tr" </li>
+                        <li><strong>Bottom Left Corner </strong>: replace with "app-alert-bl" </li>
+                        <li><strong>Bottom Right Corner </strong>: replace with "app-alert-br" </li>      
+               </ul>
+               <p class="fs-auto-md text-color-light">For best results keep the alert content short like using numbers. If you are using Bootstrap the most effective way to show an alert is to use the "badge" class on the App Alert inner div.</p>
+
+               <h2 class="fs-auto-h6">Nested Trays</h2>
+               <p class="fs-auto-md text-color-light">If you want to group App elements together you can do so by creating a new Tray Element inside an App Content element and populate the Tray with other App elements.</p>
+               <p class="fs-auto-md text-color-light">There are a few things to be aware of though.</p>
+               <p class="fs-auto-md text-color-light">First 'app-close' class elements always search for the nearest tray to close App elements, so if you have a 'app-close' class element defined in the Sub Tray App it will only close the App element in the Sub Tray and not the Main Tray App</p>
+               <p class="fs-auto-md text-color-light">Secondly if the Sub Tray has an open App element and the Main tray closes it's App elements, the Sub Tray App remains in a open state even though it is not displayed and will show again when The Main tray App is opened again. If you wish to make sure that the Sub Tray App Closes you can add an 'app-close', 'app-closed', or 'app-toggle' event listener on the Main Tray App and trigger an 'app-close' event on the Sub Tray App. Or if you have an 'app-close' class element on the Main Tray App you can add a "data-close-tray-apps" attribute that targets the Sub Tray</p>
+               <p class="fs-auto-md text-color-light">In short be aware that eventing with nested trays can be complex so be sure to debug your code carefully. Also keep in mind that AppFlow is intended to be mobile friendly so best practice is to keep nested Trays to a minimum and it is not recommended to have more than one layer of nested Tray elements</p>
+
+               <h2 class="fs-auto-h6">Fixed Height Trays</h2>
+               <p class="fs-auto-md text-color-light">If you need to make the Tray a fixed height you will have to do this by adding an outer &lt;div&gt; wrapper and append the height setting to that element. Also if you have a background for the tray move those styling settings to the wrapper &lt;div&gt;. This is to prevent a display issue with the App elements inside the tray.</p>
+
+               <h2 class="fs-auto-h6">Full Height Trays</h2>
+               <p class="fs-auto-md text-color-light">In many cases it is often desired to have the Tray span the remaining height of the DOM (like this page is doing). However because of the complex CSS styling of the Tray and App elements it is not a simple as adding a 100% height style to the tray. Luckily AppFlow provides a way to accomplish this. All you have to do is add a wrapper element around the Tray element with an 'auto-resize' class and let AppFlow take care of the rest. This is only needed for the outermost Tray element</p>
+               <pre>
+                  <code>&lt;div class=&quot;auto-resize&quot;&gt;</code>
+                  <code>   &lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app&quot;&gt;</code>
+                  <code>         &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>         &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>         &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>      &lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+                  <code>&lt;/div&gt;</code>
+               </pre>
+               <h2 class="fs-auto-h6">Open vs Closed App Backgrounds</h2>
+               <p class="fs-auto-md text-color-light">Need to have separate backgrounds for an App element's open/closed state? you might be tempted to add a separate class to an App Content element, which is a quick option. However to take advantage of a smoother transition between states it is recommended to create a class in your stylesheet like the following and apply it to the App element</p>
+               <h2 class="fs-auto-lg">CSS</h2>
+               <pre>
+                  <code>.my-app-custom-background-class {</code>
+                  <code>   /*place closed App background CSS */</code>
+                  <code>}</code>
+                  <code>.my-app-custom-background-class.active {</code>
+                  <code>   /*place open App background CSS */</code>
+                  <code>}</code>
+               </pre>
+               <h2 class="fs-auto-lg">HTML</h2>
+               <pre>
+                  <code>&lt;div class=&quot;app-tray&quot; id=&quot;MyTray&quot;&gt;</code>
+                  <code>   &lt;div class=&quot;app my-app-custom-background-class&quot;&gt;</code>
+                  <code>      &lt;div class=&quot;app-header&quot;&gt;Your header content&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-content&quot;&gt;Your app content goes here&lt;/div&gt;</code>
+                  <code>      &lt;div class=&quot;app-title&quot;&gt;Your App Title Text&lt;/div&gt;</code>
+                  <code>   &lt;/div&gt;</code>
+                  <code>&lt;/div&gt;</code>
+               </pre>
+
+            </div>
+            <div class="col-xs-12 footer">
+               <a href="#" class="btn btn-appflow pull-left" data-toggle-app="#Helpers"><i class="fa fa-arrow-circle-left"></i> Helpers              </a>
+               <a href="#" class="btn btn-appflow pull-right" data-toggle-app="#FAQs">FAQs <i class="fa fa-arrow-circle-right"></i>             </a>
+            </div>
+         </div>
+         <div class="app-title">Advanced</div>
+      </div>
